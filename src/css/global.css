@@ -2,3 +2,27 @@
     border: none;
     font-family: 'lato', sans-serif;
 }
+
+.white {
+    color: #fbfbfb;
+}
+
+.black {
+    color: #252122;
+}
+
+.yellow {
+    color: #F1B428;
+}
+
+.white-bg {
+    background-color: #fbfbfb;
+}
+
+.black-bg {
+    background-color: #252122;
+}
+
+.yellow-bg {
+    background-color: #F1B428;
+}

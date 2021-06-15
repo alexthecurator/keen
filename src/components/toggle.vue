@@ -1,14 +1,11 @@
-<template>
+<template> 
     <div class="toggle">
-        <div class="toogle-brd">
-            <div class="toogle-stick">
-
-            </div>
-        </div>
+        <b-button class="toogle-brd" id="getBtn">
+        </b-button>
     </div>
 </template>
 
-<script>
+<script type="javascript">
 
 </script>
 
@@ -16,21 +13,16 @@
     .toggle {
         position: absolute;
         z-index: 999999;
+        bottom: 22px;
+        right: 20px;
+        padding: 20px;
     }   
     .toogle-brd {
-        padding: 40px;
-        border-radius: 50%;
-        background-color: #F1B428;
-        width: 74px;
-        height: 74px;
-        position: relative;
-    }
-    .toogle-stick {
-        padding: 20px;
         border-radius: 50%;
         background-color: #252122;
-        width: 74px;
-        height: 74px;
         position: relative;
+        width: 82px;
+        height: 82px;
+        border: 17px solid #F1B428;
     }
 </style>
