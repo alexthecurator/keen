@@ -1,63 +1,61 @@
 <template>
-  <div class="hero">
-    <div class="overlay"></div>
-      <headerMob></headerMob>
-      <div class="maincomp px-5">
-        <div class="centercomp">
-          <getstarted></getstarted>
-        </div>
-      </div>
-      <toogle></toogle>
-  </div>
+<div>
+    <navigation></navigation>
 
+    <div class="hero">
+      <div class="overlay"></div>
+    </div>
+    
+    <div class="maincomp px-5">
+      <div class="centercomp">
+        <getstarted subcaption="we innovate" maincaption="For smarter Tanzania" submaincaption="and a better Africa" btntext="Get started"></getstarted>
+      </div>
+    </div>
+
+    <div class="toogle">
+       <toogle></toogle>
+    </div>
+  
+    <div class="ourservices">
+      <div class="container">
+        <subtitle subtitle="Our Services"></subtitle>
+      </div>
+      <b-container>
+        <div class="cards">
+          <card cardTitle="Network" cardDetails="Installation, Upgrade and Maintainance"></card>
+          <card cardTitle="Hardware and software" cardDetails="Installation, Upgrade and Troubleshooting"></card>
+          <card cardTitle="Development" cardDetails="Web based and Native Softwares with Support"></card>
+        </div>
+        
+      </b-container>
+    </div>
+
+</div>
 </template>
 
 <script>
-import headerMob from '../components/headerMob.vue'
-import getstarted from '../components/getstarted.vue'
-import toogle from '../components/toggle.vue'
+import navigation from '../components/navigation/navigation.vue'
+import getstarted from '../components/landing/getstarted.vue'
+import toogle from '../components/navigation/toggleMob.vue'
+import card from '../components/cards/portraitcards.vue'
+import subtitle from '../components/typography/subtitle.vue'
 
 export default {
   name: 'home',
   components: {
-    headerMob,
+    navigation,
     getstarted,
     toogle,
+    card,
+    subtitle,
     
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 .hero {
-    background-image: url('./assets/bg.webp');
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 2;
-}
-.overlay {
-    background-color: rgba(0,0,0,0.6);
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    max-width: 100%;
-    max-height: 100%;
-    position: absolute;
-    z-index: 3;
+    background-image: url('../assets/backdrop/home.webp');
 }
 .maincomp {
     position: relative;
@@ -67,5 +65,12 @@ export default {
     transform: translateY(36vh);
     width: 100%;
     height: 100%;
+}
+.ourservices {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 99;
+  background-color: #fbfbfb;
 }
 </style>
