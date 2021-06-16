@@ -45,7 +45,7 @@ export default {
     }
     .card-title h5 {
         font-weight: 700;
-        font-size: 18px;
+        font-size: 17px;
     }
     .card-details p {
         font-weight: 300;

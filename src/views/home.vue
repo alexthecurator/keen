@@ -15,7 +15,7 @@
     </div>
 
     <div class="section white-bg">
-      <div class="">
+      <div class="pt-3">
         <b4-container>
           <subtitle subtitle="Our Services"></subtitle>
         </b4-container>
@@ -37,7 +37,7 @@
     </div>
 
     <div class="section white-bg">
-      <div class="">
+      <div class="pt-3">
         <b4-container>
           <subtitle subtitle="Our Values"></subtitle>
         </b4-container>
@@ -48,7 +48,7 @@
       </div>
 
       <b-container>
-        <detailing class="py-3 px-4" detailing="We know that to add great value to clients,
+        <detailing class="py-3 px-4 text-justify" detailing="We know that to add great value to clients,
         we have to work together. We provide the
         best people and bring them together in
         teams to deliver our services. Our teams are
@@ -71,21 +71,79 @@
       </b-container>
       
       <b-container>
-        <detailing class="px-4 py-0 my-0" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
+        <detailing class="px-4 py-0 my-0 text-justify" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
         </detailing>
       </b-container>
 
     </div>
 
     <div class="section black-bg">
-      <div class="">
+      <div class="pt-3">
         <b4-container>
-          <subtitle class="white" subtitle="Our Values"></subtitle>
+          <subtitle class="white" subtitle="Meet our friends"></subtitle>
         </b4-container>
       </div>
+
+      <div class="d-flex justify-content-center">
+        <separator></separator>
+      </div>
+
+      <b-container>
+        <detailing class="py-3 px-4 text-center white" detailing="Join us on the long journey to Innovate Tanzania and develop Africa">
+        </detailing>
+      </b-container>
+
+      <b-container>
+        <div class="row">
+          <div class="col-4">
+            <roundedimg></roundedimg>
+          </div>
+          <div class="col-4">
+            <roundedimg></roundedimg>
+          </div>
+          <div class="col-4">
+            <roundedimg></roundedimg>
+          </div>
+        </div>
+        <div class="row py-4 d-flex justify-content-center">
+          <div class="col-4">
+            <roundedimg></roundedimg>
+          </div>
+          <div class="col-4">
+            <roundedimg></roundedimg>
+          </div>
+        </div>
+      </b-container>
+
+      <b-container>
+        <detailing class="py-3 px-4 text-center white" detailing="For more information about our clients, tap the logos above to visit their page">
+        </detailing>
+      </b-container>
+
+      <b-container fluid>
+        <b-container>
+          <joinus thequestion="Do you want to join us?" thebtntext="Tap here"></joinus>
+        </b-container>
+      </b-container>
     </div>
 
     <div class="section">
+      <div class="pt-3">
+        <b4-container>
+          <subtitle class="black" subtitle="Lets hear what our friends say.."></subtitle>
+        </b4-container>
+      </div>
+
+      <div class="d-flex justify-content-center py-2">
+        <separator></separator>
+      </div>
+
+      <b-container>
+        <b-row>
+          <b-col><horcards></horcards></b-col>
+        </b-row>
+      </b-container>
+
 
     </div>
 
@@ -109,6 +167,9 @@ import subtitle from '../components/typography/subtitle.vue'
 import detailing from '../components/typography/detailing.vue'
 import separator from '../components/typography/separator.vue'
 import tupleimg from '../components/images/tupleimg.vue'
+import roundedimg from '../components/images/roundimg.vue'
+import joinus from '../components/landing/joinus.vue'
+import horcards from '../components/cards/horizontalcards.vue'
 
 export default {
   name: 'home',
@@ -121,6 +182,9 @@ export default {
     detailing,
     separator,
     tupleimg,
+    roundedimg,
+    joinus,
+    horcards, 
   }
 }
 </script>
@@ -133,11 +197,5 @@ export default {
     transform: translateY(36vh);
     width: 100%;
     height: 100%;
-}
-.section {
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-  z-index: 99;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div class="detailing">
-        <p class="text-justify black"> {{ detailing }} </p>
+        <p> {{ detailing }} </p>
     </div>
 </template>
 
