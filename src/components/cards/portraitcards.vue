@@ -1,7 +1,7 @@
 <template>
-    <div class="container">
+    <div class="d-flex justify-content-center container">
         <div class="card">
-            <div class="card-icon pt-4">
+            <div class="card-icon pt-3">
                 <div class="icon yellow-bg">
                     <img src="" alt="">
                 </div>
@@ -27,24 +27,28 @@ export default {
 
 <style scoped>
     .card {
-        padding: 20px;
-        margin: 20px;
+        margin: 8px;
         box-shadow: 0px 12px 16px rgba(0,0,0,0.1);
         border-radius: 12px;
+        width: 220px;
+        height: 200px;
+        position: relative;
     }
     .card-icon {
         display: flex;
         justify-content: center;
     }
     .icon {
-        width: 71.2px;
-        height: 71.2px;
+        width: 70px;
+        height: 70px;
         border-radius: 12px;
     }
     .card-title h5 {
         font-weight: 700;
+        font-size: 18px;
     }
     .card-details p {
         font-weight: 300;
+        line-height: 18px;
     }
 </style>

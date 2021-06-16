@@ -11,7 +11,7 @@
 
 <style scoped>
     .toggle {
-        position: absolute;
+        position: fixed;
         z-index: 999999;
         bottom: 22px;
         right: 20px;

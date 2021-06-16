@@ -2,7 +2,7 @@
     <center class="container-fluid">
         <div class="container">
             <div class="p-2 m-2">
-                <h3 class="subtitle black">{{ subtitle }}</h3>
+                <h3 class="subtitle">{{ subtitle }}</h3>
             </div>
         </div>
     </center> 

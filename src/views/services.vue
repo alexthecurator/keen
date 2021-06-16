@@ -43,7 +43,7 @@ export default {
 
 <style>
 .hero {
-    background-image: url('../assets/backdrop/support.webp');
+    background-image: url('../assets/images/support.webp');
 }
 .our-services {
     position: relative;
