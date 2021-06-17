@@ -1,5 +1,5 @@
 <template>
-    <div class="tupleimg d-flex">
+    <div class="tupleimg">
         <div class="tupleimg-one">
             <img src="../../assets/images/tuple1.webp" alt="">
         </div>
@@ -19,6 +19,7 @@ export default {
     .tupleimg {
         margin: 0 20px;
         position: relative;
+        display: flex;
     }
     .tupleimg-one img, .tupleimg-two img{
         border-radius: 12px;

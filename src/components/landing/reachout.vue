@@ -1,13 +1,13 @@
 <template>
     <div class="getstarted">
-        <div class="obj-center">
+        <div class="p-2">
 
-            <div class="main-caption mb-2">
-                <h5>{{ thequestion }}</h5>
+            <div class="main-caption mb-2 mx-5 px-5">
+                <h4>{{ thequestionaire }}</h4>
             </div>
             
             <div class="start-btn py-2" id="startBtn">
-                <b-button class="yellow-bg"><small class="btntext black">{{ thebtntext }}</small></b-button>
+                <b-button class="yellow-bg"><small class="btntext black">{{ thebtntexxt }}</small></b-button>
             </div>
         </div>      
     </div>
@@ -16,7 +16,7 @@
 <script>
 export default {
     name: "joinus",
-    props: ['thequestion','thebtntext']
+    props: ['thequestionaire','thebtntexxt']
 }
 </script>
 
@@ -27,11 +27,10 @@ export default {
     }
     .main-caption {
         font-size: 24px;
-        font-weight: 300;
+        font-weight: bold;
     }
     .btntext {
         font-size: 18px;
-        font-weight: bold;
         font-family: 'Roboto', sans-serif;
 }
 </style>

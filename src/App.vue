@@ -29,5 +29,6 @@ export default {
   top: 0;
   left: 0;
   overflow-y: scroll;
+  overflow: none;
 }
 </style>

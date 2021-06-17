@@ -6,10 +6,10 @@
             </div>  
             <div class="horcard-text">
                 <div class="horcard-title">
-                    <h4>Card title</h4>
+                    <h5>{{ cardTitle }}</h5>
                 </div>
                 <div class="horcard-details">
-                    <p>Very quick and easy! Great service, thanks!</p>
+                    <p>{{ cardDetails }}</p>
                 </div>
             </div>
 
@@ -19,15 +19,30 @@
 
 <script>
 export default {
-    name:"horizontalcards"
+    name:"horizontalcards",
+    props: ['cardTitle','cardDetails']
 }
 </script>
 
 <style scoped>
     .horcard {
-        box-shadow: 0px 12px 12px rgba(0,0,0,0.08);
-        padding: 10px;
+        box-shadow: 0px 12px 12px rgba(0,0,0,0.04);
+        padding: 0px;
+        margin: 12px 0;
         border-radius: 12px;
+        display: flex;
+        align-content: center;
+    }
+    .horcard-text {
+        text-align: left;
+        margin: 0px 16px;
+    }
+    .horcard-title h5{
+        font-weight: 700;
+    }
+    .horcard-details p {
+        font-weight: 300;
+        line-height: 20px;
     }
     .horcard-img img {
         width: 100px;

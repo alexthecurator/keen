@@ -10,6 +10,6 @@ export default {
 <style scoped>
     .separator-line {
         width: 120px;
-        height: 2px;
+        height: 3px;
     }
 </style>

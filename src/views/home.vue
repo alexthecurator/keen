@@ -122,33 +122,91 @@
 
       <b-container fluid>
         <b-container>
-          <joinus thequestion="Do you want to join us?" thebtntext="Tap here"></joinus>
+          <joinus class="white" thequestion="Do you want to join us?" thebtntext="Tap here"></joinus>
         </b-container>
       </b-container>
     </div>
 
-    <div class="section">
+    <div class="section white-bg">
       <div class="pt-3">
-        <b4-container>
-          <subtitle class="black" subtitle="Lets hear what our friends say.."></subtitle>
-        </b4-container>
+        <b-container>
+          <div class="mx-4">
+            <subtitle class="black" subtitle="Lets hear what our friends say.."></subtitle>
+          </div>
+        </b-container>
       </div>
 
-      <div class="d-flex justify-content-center py-2">
+      <div class="d-flex justify-content-center pt-1 pb-2">
         <separator></separator>
       </div>
 
       <b-container>
-        <b-row>
-          <b-col><horcards></horcards></b-col>
-        </b-row>
+        <detailing class="pt-2 px-4 mx-4 text-center black" detailing="We value your feedback as much as we value your satisfaction">
+        </detailing>
       </b-container>
 
-
+      <b-container>
+        <div class="mx-4">
+          <b-row class="d-flex justify-content-center py-1">
+            <b-col>
+              <horcards cardTitle="Carlos, John" cardDetails="Very quick and easy! Great serivce thanks!"></horcards>
+            </b-col>
+            <b-col>
+              <horcards cardTitle="Nguyane, Shane" cardDetails="Very quick and easy! Great serivce thanks!"></horcards>
+            </b-col>
+            <b-col>
+              <horcards cardTitle="Miles, Esther" cardDetails="Very quick and easy! Great serivce thanks!"></horcards>
+            </b-col>
+            <b-col>
+              <horcards cardTitle="Flores, Juanita" cardDetails="Very quick and easy! Great serivce thanks!"></horcards>
+            </b-col>
+          </b-row>
+        </div>
+      </b-container>
     </div>
 
-    <footer class="section">
+    <footer class="section black-bg">
+        <div class="white-bg-circle">
+          <b-container fluid>
+            <b-container>
+              <reachout class="black pb-5 mb-5" thequestionaire="Ready to get started?" thebtntexxt="Tap here"></reachout>
+            </b-container>
+          </b-container>
+        </div>
 
+        <b-container>
+          <div class="p-0 m-0">
+            <div class="row d-flex justify-content-center">
+              <div class="col-12">
+                <ul class="footer-menu">
+                  <li><a class="footer-link" href="#">Home</a></li>
+
+                  <div class="d-flex justify-content-center pt-1 pb-2">
+                    <separator></separator>
+                  </div>
+
+                  <li><a class="footer-link" href="">Services</a></li>
+
+                  <div class="d-flex justify-content-center pt-1 pb-2">
+                    <separator></separator>
+                  </div>
+
+                  <li><a class="footer-link" href="">Projects</a></li>
+
+                  <div class="d-flex justify-content-center pt-1 pb-2">
+                    <separator></separator>
+                  </div>
+
+                  <li><a class="footer-link" href="">About Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </b-container>
+
+        <div class="btm-footer">
+
+        </div>
     </footer>
 
     <div class="theToggle">
@@ -170,6 +228,7 @@ import tupleimg from '../components/images/tupleimg.vue'
 import roundedimg from '../components/images/roundimg.vue'
 import joinus from '../components/landing/joinus.vue'
 import horcards from '../components/cards/horizontalcards.vue'
+import reachout from '../components/landing/reachout.vue'
 
 export default {
   name: 'home',
@@ -185,6 +244,7 @@ export default {
     roundedimg,
     joinus,
     horcards, 
+    reachout,
   }
 }
 </script>
