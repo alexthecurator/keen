@@ -33,9 +33,9 @@ export default {
     .tupleimg-two, .tupleimg-two img {
         width: 200px;
         height: 140px;
-        position: relative;
+        position: absolute;
         z-index: 101;
         top: 50px;
-        left: -50px;
+        left: 68px;
     }
 </style>

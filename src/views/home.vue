@@ -1,13 +1,14 @@
 <template>
 <div>
-    <div class="fixed-top">
-      <headerMob></headerMob>
-    </div>
-  
+    
     <div class="hero">
       <div class="overlay"></div>
     </div>
     
+    <div class="fixed-top">
+      <headerMob></headerMob>
+    </div>
+  
     <div class="section">
       <div class="centercomp">
         <getstarted subcaption="we innovate" maincaption="For smarter Tanzania" submaincaption="and a better Africa" btntext="Get started"></getstarted>
@@ -16,12 +17,12 @@
 
     <div class="section white-bg">
       <div class="pt-3">
-        <b4-container>
+        <b-container>
           <subtitle subtitle="Our Services"></subtitle>
-        </b4-container>
+        </b-container>
       </div>
         
-      <b4-container>
+      <b-container>
         <div class="row">
           <div class="col-12">
             <card cardTitle="Network" cardDetails="Installation, Upgrade and Maintainance"></card>
@@ -33,14 +34,14 @@
             <card cardTitle="Development" cardDetails="Web based and Native Softwares with Support"></card>
           </div>
         </div>
-      </b4-container>
+      </b-container>
     </div>
 
     <div class="section white-bg">
       <div class="pt-3">
-        <b4-container>
+        <b-container>
           <subtitle subtitle="Our Values"></subtitle>
-        </b4-container>
+        </b-container>
       </div>
 
       <div class="d-flex justify-content-center">
@@ -79,9 +80,9 @@
 
     <div class="section black-bg">
       <div class="pt-3">
-        <b4-container>
+        <b-container>
           <subtitle class="white" subtitle="Meet our friends"></subtitle>
-        </b4-container>
+        </b-container>
       </div>
 
       <div class="d-flex justify-content-center">
@@ -94,23 +95,25 @@
       </b-container>
 
       <b-container>
-        <div class="row">
-          <div class="col-4">
-            <roundedimg></roundedimg>
+        <div class="container py-md-2 ml-md-5">
+          <div class="row mx-auto d-flex justify-content-center">
+            <div class="col-4">
+              <roundedimg></roundedimg>
+            </div>
+            <div class="col-4">
+              <roundedimg></roundedimg>
+            </div>
+            <div class="col-4">
+              <roundedimg></roundedimg>
+            </div>
           </div>
-          <div class="col-4">
-            <roundedimg></roundedimg>
-          </div>
-          <div class="col-4">
-            <roundedimg></roundedimg>
-          </div>
-        </div>
-        <div class="row py-4 d-flex justify-content-center">
-          <div class="col-4">
-            <roundedimg></roundedimg>
-          </div>
-          <div class="col-4">
-            <roundedimg></roundedimg>
+          <div class="row mx-auto py-4 d-flex justify-content-center">
+            <div class="col-4">
+              <roundedimg></roundedimg>
+            </div>
+            <div class="col-4">
+              <roundedimg></roundedimg>
+            </div>
           </div>
         </div>
       </b-container>
@@ -146,21 +149,21 @@
       </b-container>
 
       <b-container>
-        <div class="mx-4">
-          <b-row class="d-flex justify-content-center py-1">
-            <b-col>
+        <div class="mx-md-0 mx-4">
+          <div class="row d-flex justify-content-center py-1">
+            <div class="col-md-6 col-12">
               <horcards cardTitle="Carlos, John" cardDetails="Very quick and easy! Great serivce thanks!"></horcards>
-            </b-col>
-            <b-col>
+            </div>
+            <div class="col-md-6 col-12">
               <horcards cardTitle="Nguyane, Shane" cardDetails="Very quick and easy! Great serivce thanks!"></horcards>
-            </b-col>
-            <b-col>
+            </div>
+            <div class="col-md-6 col-12">
               <horcards cardTitle="Miles, Esther" cardDetails="Very quick and easy! Great serivce thanks!"></horcards>
-            </b-col>
-            <b-col>
+            </div>
+            <div class="col-md-6 col-12">
               <horcards cardTitle="Flores, Juanita" cardDetails="Very quick and easy! Great serivce thanks!"></horcards>
-            </b-col>
-          </b-row>
+            </div>
+          </div>
         </div>
       </b-container>
     </div>
@@ -175,37 +178,40 @@
         </div>
 
         <b-container>
-          <div class="p-0 m-0">
-            <div class="row d-flex justify-content-center">
+          <div class="p-0 mr-4">
+            <div class="row">
               <div class="col-12">
                 <ul class="footer-menu">
-                  <li><a class="footer-link" href="#">Home</a></li>
+                  <li class="footer-item"><a class="footer-link" href="#">Home</a></li>
 
-                  <div class="d-flex justify-content-center pt-1 pb-2">
-                    <separator></separator>
+                  <div class="d-flex justify-content-center py-3">
+                    <grayseparator></grayseparator>
                   </div>
 
-                  <li><a class="footer-link" href="">Services</a></li>
+                  <li class="footer-item" ><a class="footer-link" href="">Services</a></li>
 
-                  <div class="d-flex justify-content-center pt-1 pb-2">
-                    <separator></separator>
+                  <div class="d-flex justify-content-center pt-1 py-3">
+                    <grayseparator></grayseparator>
                   </div>
 
-                  <li><a class="footer-link" href="">Projects</a></li>
+                  <li class="footer-item"><a class="footer-link" href="">Projects</a></li>
 
-                  <div class="d-flex justify-content-center pt-1 pb-2">
-                    <separator></separator>
+                  <div class="d-flex justify-content-center pt-1 py-3">
+                    <grayseparator></grayseparator>
                   </div>
 
-                  <li><a class="footer-link" href="">About Us</a></li>
+                  <li class="footer-item"><a class="footer-link" href="">About Us</a></li>
                 </ul>
               </div>
             </div>
           </div>
         </b-container>
 
-        <div class="btm-footer">
-
+        <div class="btm-footer pt-5">
+          <!-- change this later ^^ -->
+            <div class="footer-cont yellow-bg py-2">
+              <small>Copyright &amp; 2020: keencommunications.com</small>
+            </div>
         </div>
     </footer>
 
@@ -229,6 +235,7 @@ import roundedimg from '../components/images/roundimg.vue'
 import joinus from '../components/landing/joinus.vue'
 import horcards from '../components/cards/horizontalcards.vue'
 import reachout from '../components/landing/reachout.vue'
+import grayseparator from '../components/typography/grayseparator.vue'
 
 export default {
   name: 'home',
@@ -245,17 +252,37 @@ export default {
     joinus,
     horcards, 
     reachout,
+    grayseparator,
   }
 }
 </script>
 
 <style>
+/* hero */
 .hero {
     background-image: url('../assets/images/home.webp');
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    z-index: 3;
 }
 .centercomp {
     transform: translateY(36vh);
-    width: 100%;
-    height: 100%;
 }
 </style>
