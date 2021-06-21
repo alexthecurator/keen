@@ -2,7 +2,7 @@
     <center class="container-fluid">
         <div class="container">
             <div class="p-2">
-                <h3 class="title">{{ title }}</h3>
+                <h3 class="title">{{ thetitle }}</h3>
             </div>
         </div>
     </center> 
@@ -10,8 +10,8 @@
 
 <script>
 export default {
-    name: 'title',
-    props: ['title']
+    name: 'thetitle',
+    props: ['thetitle']
 }
 </script>
 

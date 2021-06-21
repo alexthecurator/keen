@@ -1,7 +1,6 @@
 <template>
     <div class="getstarted">
-        <div class="obj-center">
-
+        <div class="">
             <div class="main-caption mb-2">
                 <h5>{{ thequestion }}</h5>
             </div>

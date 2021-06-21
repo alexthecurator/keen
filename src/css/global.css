@@ -6,6 +6,10 @@
 
 /* link definitions */
 
+ul {
+    list-style: none;
+}
+
 ul li a {
     text-decoration: none;
     color: #fbfbfb;
@@ -21,8 +25,12 @@ ul li a:hover {
 
 /* icon sizes */
 
-i {
+.nav-icon {
     font-size: 1.3em;
+}
+
+.card-icon {
+    font-size: 1.8em;
 }
 
 
@@ -61,6 +69,13 @@ i {
 }
 
 
+/* shadow */
+
+.theshadow {
+    box-shadow: 0 6px 14px rgba(0, 0, 0, .06);
+}
+
+
 /* Body layout */
 
 .section {
@@ -77,6 +92,15 @@ i {
 
 .white-bg-circle {
     background-image: url('../assets/svg/reachout.svg');
+    background-position: center;
+    background-size: cover;
+    padding: 90px 0;
+    z-index: 1200;
+    position: relative;
+}
+
+.black-bg-circle {
+    background-image: url('../assets/svg/reachout-black.svg');
     background-position: center;
     background-size: cover;
     padding: 90px 0;
