@@ -28,7 +28,6 @@ export default {
   margin: 0;
   top: 0;
   left: 0;
-  overflow-y: scroll;
-  overflow-x: none;
+  overflow: none;
 }
 </style>

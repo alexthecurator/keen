@@ -7,71 +7,34 @@
   
     <div class="section">
       <div class="centercomp">
-        <getstarted subcaption="we innovate" maincaption="For smarter Tanzania" submaincaption="and a better Africa" btntext="Get started"></getstarted>
+        <getstarted subcaption="Are you stuck and cant find a solution?" maincaption="We are here for you" submaincaption="Problem Solving is our prime" btntext="Get started"></getstarted>
       </div>
     </div>
 
     <div class="section white-bg">
       <div class="pt-3">
         <b-container>
-          <subtitle subtitle="Our Services"></subtitle>
-        </b-container>
-      </div>
-        
-      <b-container>
-        <div class="row">
-          <div class="col-12">
-            <card cardTitle="Network" cardDetails="Installation, Upgrade and Maintainance"></card>
-          </div>
-          <div class="col-12">
-            <card cardTitle="Hardware and software" cardDetails="Installation, Upgrade and Troubleshooting"></card>
-          </div>
-          <div class="col-12">
-            <card cardTitle="Development" cardDetails="Web based and Native Softwares with Support"></card>
-          </div>
-        </div>
-      </b-container>
-    </div>
-
-    <div class="section white-bg">
-      <div class="pt-3">
-        <b-container>
-          <subtitle subtitle="Our Values"></subtitle>
+          <subtitle subtitle="Network"></subtitle>
         </b-container>
       </div>
 
       <div class="d-flex justify-content-center">
-        <separator></separator>
+        <separatormedium></separatormedium>
       </div>
 
       <b-container>
-        <detailing class="py-3 px-4 text-justify" detailing="We know that to add great value to clients,
-        we have to work together. We provide the
-        best people and bring them together in
-        teams to deliver our services. Our teams are
-        diverse in their disciplines, ideas,
-        perspectives and cultures. When necessary
-        we extend our capability by partnering with
-        organizations with similar values to our own
-        but with complementary skills and abilities.">
+        <detailing class="pt-3 px-4 text-center" detailing="We strive to achieve the best network architecture for quality communication, that drive the morden economy.">
         </detailing>
       </b-container>
-      
+    
+      <div class="d-flex justify-content-center pb-3">
+        <separatorsmall></separatorsmall>
+      </div>
+
       <b-container>
         <tupleimg></tupleimg>
       </b-container>
       
-      <b-container>
-        <div class="mt-5">
-          <subtitle subtitle="Why?"></subtitle>
-        </div>
-      </b-container>
-      
-      <b-container>
-        <detailing class="px-4 py-0 my-0 text-justify" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
-        </detailing>
-      </b-container>
-
     </div>
 
     <div class="section black-bg">
@@ -239,10 +202,10 @@ import hero from '../components/landing/hero.vue'
 import headerMob from '../components/navigation/headerMob.vue'
 import getstarted from '../components/landing/getstarted.vue'
 import toogle from '../components/navigation/toggleMob.vue'
-import card from '../components/cards/portraitcards.vue'
 import subtitle from '../components/typography/subtitle.vue'
 import detailing from '../components/typography/detailing.vue'
-import separator from '../components/typography/separator.vue'
+import separatormedium from '../components/typography/separatormedium.vue'
+import separatorsmall from '../components/typography/separatorsmall.vue'
 import tupleimg from '../components/images/tupleimg.vue'
 import roundedimg from '../components/images/roundimg.vue'
 import joinus from '../components/landing/joinus.vue'
@@ -257,10 +220,10 @@ export default {
     headerMob,
     getstarted,
     toogle,
-    card,
     subtitle,
     detailing,
-    separator,
+    separatormedium,
+    separatorsmall,
     tupleimg,
     roundedimg,
     joinus,
@@ -272,6 +235,32 @@ export default {
 </script>
 
 <style>
+/* hero */
+.hero {
+    background-image: url('../assets/images/support.webp');
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 3;
+}
 .centercomp {
     transform: translateY(36vh);
 }

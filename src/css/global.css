@@ -3,6 +3,9 @@
     font-family: 'lato', sans-serif;
 }
 
+
+/* link definitions */
+
 ul li a {
     text-decoration: none;
     color: #fbfbfb;
@@ -16,7 +19,14 @@ ul li a:hover {
 }
 
 
-/* color definitions */
+/* icon sizes */
+
+i {
+    font-size: 1.3em;
+}
+
+
+/* Color definitions */
 
 .white {
     color: #fbfbfb;
