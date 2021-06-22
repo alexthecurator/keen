@@ -54,7 +54,7 @@
           </div>
         </b-container>
 
-        <div class="btm-footer pt-5">
+        <div class="btm-footer">
           <!-- change this later ^^ -->
             <div class="footer-cont yellow-bg py-2">
               <small>Copyright &amp; 2020: keencommunications.com</small>
@@ -77,5 +77,8 @@ export default {
 </script>
 
 <style scoped>
-
+.btm-footer {
+  top: 14%;
+  position: relative;
+}
 </style>

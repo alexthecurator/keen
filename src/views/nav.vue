@@ -5,7 +5,7 @@
         <b-container>
             <b-container>
                 <div class="nav-link">
-                   <a href="/#">
+                   <a href="/#/home">
                         <div class="nav-item">
                             <div class="d-flex flex-row">
                                 <div class="px-2">
@@ -19,7 +19,7 @@
                     </a> 
                 </div>
                 <div class="nav-link">
-                   <a href="/#/Services">
+                   <a href="/#/services">
                         <div class="nav-item">
                             <div class="d-flex flex-row">
                                 <div class="px-2">
@@ -33,7 +33,7 @@
                     </a> 
                 </div>
                 <div class="nav-link">
-                   <a href="/#/Accomplishments">
+                   <a href="/#/accomplishments">
                         <div class="nav-item">
                             <div class="d-flex flex-row">
                                 <div class="px-2">
@@ -47,7 +47,7 @@
                     </a> 
                 </div>
                 <div class="nav-link">
-                   <a href="/#/About Us">
+                   <a href="/#/aboutus">
                         <div class="nav-item">
                             <div class="d-flex flex-row">
                                 <div class="px-2">
@@ -61,7 +61,7 @@
                     </a> 
                 </div>
                 <div class="nav-link">
-                   <a href="/#/Settings">
+                   <a href="/#/settings">
                         <div class="nav-item">
                             <div class="d-flex flex-row">
                                 <div class="px-2">

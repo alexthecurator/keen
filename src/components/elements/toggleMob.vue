@@ -1,12 +1,19 @@
 <template> 
     <div class="toggle">
-        <b-button class="toogle-brd" id="getBtn">
+        <b-button @click="getNav()" class="toogle-brd" id="getBtn">
         </b-button>
     </div>
 </template>
 
 <script type="javascript">
-
+export default {
+    name: 'toogleMob',
+    methods: {
+        getNav() {
+            this.$router.push('/nav');
+        }
+    }
+}
 </script>
 
 <style scoped>
