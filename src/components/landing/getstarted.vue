@@ -1,6 +1,6 @@
 <template>
-    <div class="getstarted">
-        <div class="obj-center">
+    <div class="getstarted px-4 mx-4">
+        <div class="obj-center text-left">
             <div class="sub-caption white mb-2">
                 <small>{{ subcaption }}</small>
             </div>

@@ -1,11 +1,11 @@
 <template>
     <div class="section black-bg">
         <headerMob class="position-relative"></headerMob>
-        <theTitle class="white" title="Keen Communications"></theTitle>
+        <theTitle class="white" thetitle="Keen Communications"></theTitle>
         <b-container>
             <b-container>
                 <div class="nav-link">
-                   <a href="/">
+                   <a href="/#">
                         <div class="nav-item">
                             <div class="d-flex flex-row">
                                 <div class="px-2">
@@ -33,7 +33,7 @@
                     </a> 
                 </div>
                 <div class="nav-link">
-                   <a href="/Accomplishments">
+                   <a href="/#/Accomplishments">
                         <div class="nav-item">
                             <div class="d-flex flex-row">
                                 <div class="px-2">
@@ -47,7 +47,7 @@
                     </a> 
                 </div>
                 <div class="nav-link">
-                   <a href="/About Us">
+                   <a href="/#/About Us">
                         <div class="nav-item">
                             <div class="d-flex flex-row">
                                 <div class="px-2">
@@ -61,7 +61,7 @@
                     </a> 
                 </div>
                 <div class="nav-link">
-                   <a href="/Settings">
+                   <a href="/#/Settings">
                         <div class="nav-item">
                             <div class="d-flex flex-row">
                                 <div class="px-2">
@@ -88,9 +88,9 @@
 </template>
 
 <script>
-import headerMob from '../components/navigation/headerMob.vue'
+import headerMob from '../components/elements/headerMob.vue'
 import theTitle from '../components/typography/title.vue'
-import toogle from '../components/navigation/toggleMob.vue'
+import toogle from '../components/elements/toggleMob.vue'
 
 export default {
     name: 'nav',

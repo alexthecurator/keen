@@ -69,6 +69,13 @@ ul li a:hover {
 }
 
 
+/* text properties */
+
+.bold {
+    font-weight: 800;
+}
+
+
 /* shadow */
 
 .theshadow {

@@ -270,68 +270,66 @@
       
     </div>
 
-    <footer class="section white-bg">
-        <div class="black-bg-circle">
-          <b-container fluid>
-            <b-container>
-              <reachout class="white pb-5 mb-5" thequestionaire="Ready to get started?" thebtntexxt="Tap here"></reachout>
-            </b-container>
-          </b-container>
-        </div>
-
+    <div class="section black-bg">
+      <div class="pt-3">
         <b-container>
-          <div class="p-0 mr-4">
-            <div class="row">
-              <div class="col-12">
-                <ul class="footer-menu">
-                  <li class="footer-item"><a class="footer-link black" href="/#">Home</a></li>
-
-                  <div class="d-flex justify-content-center py-3">
-                    <grayseparator></grayseparator>
-                  </div>
-
-                  <li class="footer-item" ><a class="footer-link black" href="./services">Services</a></li>
-
-                  <div class="d-flex justify-content-center pt-1 py-3">
-                    <grayseparator></grayseparator>
-                  </div>
-
-                  <li class="footer-item"><a class="footer-link black" href="./projects">Projects</a></li>
-
-                  <div class="d-flex justify-content-center pt-1 py-3">
-                    <grayseparator></grayseparator>
-                  </div>
-
-                  <li class="footer-item"><a class="footer-link black" href="./aboutus">About Us</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          <subtitle class="white" subtitle="Why do we innovate?"></subtitle>
         </b-container>
+      </div>  
 
-        <b-container>
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-4">
-                <i class="fi-rr-add white"></i>
-              </div>
-              <div class="col-4">
-                <i class="fi-rr-add white"></i>
-              </div>
-              <div class="col-4">
-                <i class="fi-rr-add white"></i>
-              </div>
-            </div>
+      <div class="d-flex justify-content-center py-3">
+        <separatormedium></separatormedium>
+      </div>
+
+      <b-container>
+        <div class="d-flex flex-row px-2">
+          <div class="px-2">
+            <roundboximg></roundboximg>
           </div>
-        </b-container>
-
-        <div class="btm-footer pt-5">
-          <!-- change this later ^^ -->
-            <div class="footer-cont yellow-bg py-2">
-              <small>Copyright &amp; 2020: keencommunications.com</small>
-            </div>
+          <div class="px-2">
+            <detailing class="white text-left" detailing="They guide our decision making, our interactions with the morden economy and our relationships with each other. People adopt, own and apply our values in their work."></detailing>
+          </div>
         </div>
-    </footer>
+      </b-container>
+
+      <b-container>
+        <detailing class="pt-2 px-4 text-center white bold" detailing="They guide our decision making, our interactions with the morden economy and our relationships with each other. People adopt, own and apply our values in their work.">
+        </detailing>
+      </b-container>
+
+      <b-container>
+        <div class="d-flex flex-row px-2">
+          <div class="px-2">
+            <detailing class="white text-left" detailing="They guide our decision making, our interactions with the morden economy and our relationships with each other. People adopt, own and apply our values in their work."></detailing>
+          </div>
+          <div class="px-2">
+            <roundboximg></roundboximg>
+          </div>
+        </div>
+      </b-container>
+
+      <div class="pt-2">
+        <b-container>
+          <subtitle class="white" subtitle="Highlights"></subtitle>
+        </b-container>
+      </div>
+
+      <b-container>
+        <div class="d-flex flex-row justify-content-center py-2">
+          <div class="px-2">
+            <roundboximg></roundboximg>
+          </div>
+          <div class="px-2">
+            <roundboximg></roundboximg>
+          </div>
+          <div class="px-2">
+            <roundboximg></roundboximg>
+          </div>
+        </div>
+      </b-container>
+    </div>
+
+    <thefooter></thefooter>
 
     <div class="theToggle">
        <toogle></toogle>
@@ -342,21 +340,20 @@
 
 <script>
 import hero from '../components/landing/hero.vue'
-import headerMob from '../components/navigation/headerMob.vue'
+import headerMob from '../components/elements/headerMob.vue'
 import getstarted from '../components/landing/getstarted.vue'
-import reachout from '../components/landing/reachout.vue'
 import joinus from '../components/landing/joinus.vue'
-import toogle from '../components/navigation/toggleMob.vue'
+import toogle from '../components/elements/toggleMob.vue'
 import thetitle from '../components/typography/title.vue'
 import subtitle from '../components/typography/subtitle.vue'
 import detailing from '../components/typography/detailing.vue'
 import separatormedium from '../components/typography/separatormedium.vue'
 import separatorsmall from '../components/typography/separatorsmall.vue'
-// import tupleimg from '../components/images/tupleimg.vue'
 import tupleimgsmall from '../components/images/tupleimgsmall.vue'
-import grayseparator from '../components/typography/grayseparator.vue'
+import roundboximg from '../components/images/roundboximg.vue'
 import cardtitle from '../components/typography/cardtitle.vue'
 import cardetails from '../components/typography/cardetails.vue'
+import thefooter from '../components/elements/footer-dark.vue'
 
 export default {
   name: 'home',
@@ -364,7 +361,6 @@ export default {
     hero,
     headerMob,
     getstarted,
-    reachout,
     joinus,
     toogle,
     thetitle,
@@ -372,11 +368,11 @@ export default {
     detailing,
     separatormedium,
     separatorsmall,
-    // tupleimg,
     tupleimgsmall,
-    grayseparator,
+    roundboximg,
     cardtitle,
     cardetails,
+    thefooter,
   }
 }
 </script>
