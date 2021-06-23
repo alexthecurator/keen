@@ -5,7 +5,7 @@
         <b-container>
             <b-container>
                 <div class="nav-link">
-                   <a href="/#/home">
+                   <a href="/#/">
                         <div class="nav-item">
                             <div class="d-flex flex-row">
                                 <div class="px-2">

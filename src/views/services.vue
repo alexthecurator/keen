@@ -93,7 +93,6 @@
               <joinus thequestion="Call us today" thebtntext="Tap here"></joinus>
             </div>  
           </div>
-          
       </b-container>
       
     </div>
@@ -110,47 +109,47 @@
       </div>
 
       <b-container class="pt-3 pb-2">
-          <div class="row">
-              <div class="col-4 p-0">
-                  <center>
-                      <div class="card-icon-circle yellow-bg">
-                          <div style="padding: 12px 0 0 0;">
-                             <i class="card-icon fi-rr-download black"></i> 
-                          </div>
-                      </div>
-                      <div class="card-title">
-                          <cardtitle class="white" cardtitle="Installation"></cardtitle>
-                      </div>
-                      <cardetails class="white" carddetails="We provide from the ground up, Network platform installation with the best quality devices."></cardetails>
-                  </center>
-              </div>
-              <div class="col-4 p-0">
-                  <center>
-                      <div class="card-icon-circle yellow-bg theshadow">
-                          <div style="padding: 12px 0 0 0;">
-                             <i class="card-icon fi-rr-rocket black"></i> 
-                          </div>
-                      </div>
-                      <div class="card-title">
-                          <cardtitle class="white" cardtitle="Upgrading"></cardtitle>
-                      </div>
-                      <cardetails class="white" carddetails="To the latest tools and network architecture which provide efficient performance"></cardetails>
-                  </center>
-              </div>
-              <div class="col-4 p-0">
-                  <center>
-                      <div class="card-icon-circle yellow-bg">
-                          <div style="padding: 12px 0 0 0;">
-                             <i class="card-icon fi-rr-broom black"></i> 
-                          </div>
-                      </div>
-                      <div class="card-title">
-                          <cardtitle class="white" cardtitle="Troublesooting"></cardtitle>
-                      </div>
-                      <cardetails class="white" carddetails="Of your network infrastructure and operational nodes with full support"></cardetails>
-                  </center>
-              </div>
+        <div class="row">
+          <div class="col-4 p-0">
+            <center>
+                <div class="card-icon-circle yellow-bg">
+                    <div style="padding: 12px 0 0 0;">
+                        <i class="card-icon fi-rr-download black"></i> 
+                    </div>
+                </div>
+                <div class="card-title">
+                    <cardtitle class="white" cardtitle="Installation"></cardtitle>
+                </div>
+                <cardetails class="white" carddetails="We provide from the ground up, Network platform installation with the best quality devices."></cardetails>
+            </center>
           </div>
+          <div class="col-4 p-0">
+            <center>
+                <div class="card-icon-circle yellow-bg theshadow">
+                    <div style="padding: 12px 0 0 0;">
+                        <i class="card-icon fi-rr-rocket black"></i> 
+                    </div>
+                </div>
+                <div class="card-title">
+                    <cardtitle class="white" cardtitle="Upgrading"></cardtitle>
+                </div>
+                <cardetails class="white" carddetails="To the latest tools and network architecture which provide efficient performance"></cardetails>
+            </center>
+          </div>
+          <div class="col-4 p-0">
+            <center>
+                <div class="card-icon-circle yellow-bg">
+                    <div style="padding: 12px 0 0 0;">
+                        <i class="card-icon fi-rr-broom black"></i> 
+                    </div>
+                </div>
+                <div class="card-title">
+                    <cardtitle class="white" cardtitle="Troublesooting"></cardtitle>
+                </div>
+                <cardetails class="white" carddetails="Of your network infrastructure and operational nodes with full support"></cardetails>
+            </center>
+          </div>
+        </div>
       </b-container>
     
       <div class="d-flex justify-content-center pb-3">

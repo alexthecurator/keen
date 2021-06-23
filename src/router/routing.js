@@ -9,7 +9,7 @@ import aboutus from '../views/aboutus';
 Vue.use(VueRouter);
 const router = new VueRouter({
     routes: [{
-            path: '/home',
+            path: '/',
             component: home,
         },
         {

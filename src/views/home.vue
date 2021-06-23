@@ -1,7 +1,10 @@
 <template>
 <div>
     <hero></hero>
-    <div class="fixed-top">
+    <div class="d-none d-lg-block">
+      
+    </div>
+    <div class="d-block d-lg-none fixed-top">
       <headerMob></headerMob>
     </div>
   

@@ -1,5 +1,5 @@
 var getstartedBtn = document.getElementById("getBtn");
 
-getstartedBtn.setAttribute('onclick', function() {
+document.addEventListner('onclick', function() {
     alert("clicked");
 });
