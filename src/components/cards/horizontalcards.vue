@@ -49,4 +49,20 @@ export default {
         height: 100px;
         border-radius: 12px;
     }
+    @media screen and (max-width: 320px){
+        .horcard {
+            margin: 8px 0;
+        }
+        .horcard-img img {
+            width: 70px;
+            height: 70px;
+        }
+        .horcard-title h5{
+            font-size: 16px;
+        }
+        .horcard-details p {
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
 </style>

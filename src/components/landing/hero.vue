@@ -14,7 +14,7 @@ export default {
 /* hero */
 .hero {
     background-image: url('../../assets/images/home.webp');
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     width: 100vw;
@@ -23,18 +23,18 @@ export default {
     left: 0;
     padding: 0;
     margin: 0;
-    position: absolute;
+    position: fixed;
     z-index: 2;
 }
 
 .overlay {
     background-color: rgba(0, 0, 0, 0.6);
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     width: 100vw;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     z-index: 3;
 }
 </style>

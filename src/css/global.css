@@ -33,6 +33,11 @@ ul li a:hover {
     font-size: 1.8em;
 }
 
+.btn-secondary {
+    border: none;
+    border-color: transparent;
+}
+
 
 /* Color definitions */
 
@@ -85,7 +90,8 @@ ul li a:hover {
 
 /* Body layout */
 
-.section {
+.section,
+.section-v {
     padding: 0;
     margin: 0;
     width: 100vw;

@@ -3,7 +3,7 @@
         <div class="col-12 p-0 m-0">
             <b-navbar variant="faded" type="light">
                 <b-navbar-brand href="#/home">
-                    <img id="kc-logo" src="" class="d-inline-block align-top" alt="keen communication logo" />
+                    <img src="../../assets/logos/kc-full-dark.png" class="d-inline-block align-top" alt="keen communication logo" />
                 </b-navbar-brand>
             </b-navbar>  
         </div>
@@ -12,30 +12,30 @@
 
 <script>
 // var logoID = document.getElementById('kc-logo');
-function resizeLogo(logoID, width, height){
-    document.getElementById('kc-logo').style.width = width;
-    document.getElementById('kc-logo').style.height = height;
-}
+// function resizeLogo(logoID, width, height){
+//     document.getElementById('kc-logo').style.width = width;
+//     document.getElementById('kc-logo').style.height = height;
+// }
 
-function swapLogo(url){
-    document.getElementById('kc-logo').src = url;
-}
+// function swapLogo(url){
+//     document.getElementById('kc-logo').src = url;
+// }
 
-document.addEventListener('scroll', function(){
-    if(window.scrollY >= 700){
-        var newW = '53.23px';
-        var newH =  '32px';
-        var path = '../../assets/logos/kc-light.png';
-        resizeLogo(newW, newH);
-        swapLogo(path);
-    } else {
-        newW = '75.35px';
-        newH = '55px';
-        var orgPath = '../../assets/logos/kc-full-dark.png';
-        resizeLogo(newW, newH);
-        swapLogo(orgPath);
-    }
-});
+// document.addEventListener('scroll', function(){
+//     if(window.scrollY >= 700){
+//         var newW = '53.23px';
+//         var newH =  '32px';
+//         var path = '../../assets/logos/kc-light.png';
+//         resizeLogo(newW, newH);
+//         swapLogo(path);
+//     } else {
+//         newW = '75.35px';
+//         newH = '55px';
+//         var orgPath = '../../assets/logos/kc-full-dark.png';
+//         resizeLogo(newW, newH);
+//         swapLogo(orgPath);
+//     }
+// });
 </script>
 
 <style scoped>

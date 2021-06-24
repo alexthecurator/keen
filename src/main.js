@@ -3,6 +3,7 @@ import 'mutationobserver-shim'
 import Vue from 'vue'
 import './plugins/bootstrap-vue'
 import './css/global.css'
+import './css/responsive.css'
 import App from './App.vue'
 import router from './router/routing.js'
 

@@ -32,4 +32,10 @@ export default {
         height: 82px;
         border: 17px solid #F1B428;
     }
+    @media screen and (max-width: 320px){
+        .toogle-brd {
+            width: 62px;
+            height: 62px;
+        }
+    }
 </style>

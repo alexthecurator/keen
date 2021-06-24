@@ -20,4 +20,10 @@ export default {
         background-color: aliceblue;
         border-radius: 12px;
     }
+    @media screen and (max-width: 320px){
+        .roundedbox {
+            width: 60px;
+            height: 60px;
+        }
+    }
 </style>

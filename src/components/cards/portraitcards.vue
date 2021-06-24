@@ -7,7 +7,7 @@
                 </div>
             </div>
             <div class="card-body">
-                <div class="card-title">
+                <div class="card-title m-0">
                     <center><h5>{{ cardTitle }}</h5></center>
                 </div>
                 <div class="card-details">
@@ -50,5 +50,24 @@ export default {
     .card-details p {
         font-weight: 300;
         line-height: 18px;
+    }
+    @media screen and (max-width: 320px){
+        .card {
+            width: 186px;
+            height: 146px;
+        }
+        .icon {
+            width: 30px;
+            height: 30px;
+        }
+        .card-title h5 {
+            font-weight: 700;
+            font-size: 16px;
+        }
+        .card-details p {
+            font-weight: 300;
+            line-height: 16px;
+            font-size: 14px;
+        }
     }
 </style>

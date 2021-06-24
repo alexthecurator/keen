@@ -17,4 +17,10 @@ export default {
         font-size: 17px;
         line-height: 20px;
     }
+    @media screen and (max-width: 320px){
+        .detailing {
+            font-size: 15px;
+            line-height: 16px;
+        }
+    }
 </style>

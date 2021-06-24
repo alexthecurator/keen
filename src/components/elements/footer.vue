@@ -1,5 +1,5 @@
 <template>
-    <footer class="section black-bg">
+    <footer class="black-bg">
         <div class="white-bg-circle">
           <b-container fluid>
             <b-container>
@@ -38,17 +38,17 @@
           </div>
         </b-container>
 
-        <b-container>
-          <div class="container-fluid">
+        <b-container class="py-2 my-2">
+          <div class="p-0">
             <div class="row">
               <div class="col-4">
-                <i class="fi-rr-add"></i>
+                <img width="80px" src="../../assets/logos/kc-full-dark.png" alt="">
               </div>
               <div class="col-4">
-                <i class="fi-rr-add"></i>
+                <div class="p-2"></div>
               </div>
               <div class="col-4">
-                <i class="fi-rr-add"></i>
+                <div class="p-2"></div>
               </div>
             </div>
           </div>
@@ -56,7 +56,7 @@
 
         <div class="btm-footer">
           <!-- change this later ^^ -->
-            <div class="footer-cont yellow-bg py-2">
+            <div class="footer-cont yellow-bg py-3">
               <small>Copyright &amp; 2020: keencommunications.com</small>
             </div>
         </div>
@@ -78,7 +78,13 @@ export default {
 
 <style scoped>
 .btm-footer {
-  top: 14%;
+  bottom: .001%;
+  position: relative;
+  width: 100vw;
+  height: 100%;
+}
+.btm-footer .footer-cont {
+  top: 5.6vh;
   position: relative;
 }
 </style>

@@ -2,7 +2,7 @@
     <div class="getstarted">
         <div class="p-2">
 
-            <div class="main-caption mb-2 mx-5 px-5">
+            <div class="main-caption mb-2 mx-4 px-4">
                 <h4>{{ thequestionaire }}</h4>
             </div>
             
@@ -32,5 +32,5 @@ export default {
     .btntext {
         font-size: 18px;
         font-family: 'Roboto', sans-serif;
-}
+    }
 </style>

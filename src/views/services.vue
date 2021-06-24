@@ -1,11 +1,12 @@
 <template>
 <div>
+    
     <hero></hero>
     <div class="fixed-top">
       <headerMob></headerMob>
     </div>
   
-    <div class="section">
+    <div class="section-v">
       <div class="centercomp">
         <getstarted subcaption="Are you stuck and cant find a solution?" maincaption="We are here for you" submaincaption="Problem Solving is our prime" btntext="Get started"></getstarted>
       </div>
@@ -32,6 +33,7 @@
       </div>
 
       <b-container class="py-2">
+        <div class="container">
           <div class="row">
               <div class="col-4 p-0">
                   <center>
@@ -73,6 +75,8 @@
                   </center>
               </div>
           </div>
+        </div>
+          
       </b-container>
 
       <b-container class="py-3">
@@ -327,8 +331,11 @@
         </div>
       </b-container>
     </div>
-
-    <thefooter></thefooter>
+    
+    <div class="section white-bg">
+      <thefooter></thefooter>
+    </div>
+    
 
     <div class="theToggle">
        <toogle></toogle>

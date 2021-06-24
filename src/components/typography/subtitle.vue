@@ -18,4 +18,9 @@ export default {
     .subtitle {
         font-weight: 500;
     }
+    @media screen and (max-width: 320px){
+        .subtitle {
+            font-size: 20px;
+        }
+    }
 </style>

@@ -5,7 +5,7 @@
       <headerMob></headerMob>
     </div>
   
-    <div class="section">
+    <div class="section-v">
       <div class="centercomp">
         <getstarted subcaption="So far these are" maincaption="Our Achievements" submaincaption="with five years of experience" btntext="Get started"></getstarted>
       </div>
@@ -90,13 +90,14 @@
       </b-container>
       
       <b-container>
-        <div class="mt-5">
-          <subtitle subtitle="Why?"></subtitle>
-        </div>
+        
       </b-container>
        
       <b-container>
-        <detailing class="px-4 py-0 my-0 text-left" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
+        <div class="mt-5">
+          <subtitle subtitle="Why?"></subtitle>
+        </div>
+        <detailing class="px-4 pb-2 m-0 text-left" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
         </detailing>
       </b-container>
     </div>
@@ -122,7 +123,9 @@
       </b-container>
     </div>
 
-    <thefooter></thefooter>
+    <div class="section">
+      <thefooter></thefooter>
+    </div>
 
     <div class="theToggle">
        <toogle></toogle>

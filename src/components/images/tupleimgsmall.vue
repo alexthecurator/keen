@@ -38,4 +38,20 @@ export default {
         top: 38px;
         left: 32px;
     }
+    @media screen and (max-width: 320px) {
+        .tupleimg-one img {
+            width: 140px;
+            height: 120px;
+            position: relative;
+            z-index: 100;
+        }
+    .tupleimg-two, .tupleimg-two img {
+            width: 90px;
+            height: 70px;
+            position: absolute;
+            z-index: 101;
+            top: 40px;
+            left: 40px;
+        }
+    }
 </style>

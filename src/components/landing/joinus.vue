@@ -5,8 +5,8 @@
                 <h5>{{ thequestion }}</h5>
             </div>
             
-            <div class="start-btn py-2" id="startBtn">
-                <b-button class="yellow-bg"><small class="btntext black">{{ thebtntext }}</small></b-button>
+            <div class="start-btn py-2" >
+                <b-button id="startBtn" class="yellow-bg"><small class="btntext black">{{ thebtntext }}</small></b-button>
             </div>
         </div>      
     </div>
@@ -32,5 +32,9 @@ export default {
         font-size: 18px;
         font-weight: bold;
         font-family: 'Roboto', sans-serif;
-}
+    }
+    .btn-secondary {
+        border: none;
+        border-color: transparent;
+    }
 </style>

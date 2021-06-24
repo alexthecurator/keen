@@ -1,14 +1,11 @@
 <template>
 <div>
     <hero></hero>
-    <div class="d-none d-lg-block">
-      
-    </div>
     <div class="d-block d-lg-none fixed-top">
       <headerMob></headerMob>
     </div>
   
-    <div class="section">
+    <div class="section-v">
       <div class="centercomp">
         <getstarted subcaption="we innovate" maincaption="For smarter Tanzania" submaincaption="and a better Africa" btntext="Get started"></getstarted>
       </div>
@@ -48,7 +45,7 @@
       </div>
 
       <b-container>
-        <detailing class="py-3 px-4 text-justify" detailing="We know that to add great value to clients,
+        <detailing class="py-3 px-4 text-left" detailing="We know that to add great value to clients,
         we have to work together. We provide the
         best people and bring them together in
         teams to deliver our services. Our teams are
@@ -71,13 +68,13 @@
       </b-container>
       
       <b-container>
-        <detailing class="px-4 py-0 my-0 text-justify" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
+        <detailing class="px-4 py-0 my-0 text-left" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
         </detailing>
       </b-container>
 
     </div>
 
-    <div class="section black-bg">
+    <div class="section-v black-bg">
       <div class="pt-3">
         <b-container>
           <subtitle class="white" subtitle="Meet our friends"></subtitle>
@@ -95,7 +92,7 @@
 
       <b-container>
         <div class="container py-md-2 ml-md-5">
-          <div class="row mx-auto d-flex justify-content-center">
+          <div class="row d-flex justify-content-center">
             <div class="col-4">
               <roundedimg></roundedimg>
             </div>
@@ -106,7 +103,7 @@
               <roundedimg></roundedimg>
             </div>
           </div>
-          <div class="row mx-auto py-4 d-flex justify-content-center">
+          <div class="row py-4 d-flex justify-content-center">
             <div class="col-4">
               <roundedimg></roundedimg>
             </div>
@@ -170,8 +167,10 @@
     <div class="theToggle">
        <toogle></toogle>
     </div>
-
-    <thefooter></thefooter>
+    <div class="section">
+      <thefooter></thefooter>
+    </div>
+    
 
 </div>
 </template>

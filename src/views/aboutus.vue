@@ -5,7 +5,7 @@
       <headerMob></headerMob>
     </div>
   
-    <div class="section">
+    <div class="section-v">
       <div class="centercomp">
         <getstarted subcaption="Learn more, Connect and" maincaption="Meet the Team behind" submaincaption="the scenes" btntext="Get started"></getstarted>
       </div>
@@ -88,7 +88,9 @@
        <toogle></toogle>
     </div>
 
-    <thefooter></thefooter>
+    <div class="section">
+      <thefooter></thefooter>
+    </div>
 
 </div>
 </template>
