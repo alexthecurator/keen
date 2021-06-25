@@ -1,5 +1,5 @@
 <template>
-    <div class="detailing">
+    <div class="carddetails">
         <p> {{ carddetails }} </p>
     </div>
 </template>
@@ -12,9 +12,25 @@ export default {
 </script>
 
 <style scoped>
-    .detailing {
+    .carddetails {
         font-weight: 300;
         font-size: 13px;
-        line-height: 14px;
+    }
+    @media screen and (max-width: 780px){
+        .carddetails {
+            font-size: 20px;
+            line-height: 25px;
+        }
+    }
+    @media screen and (max-width: 480px){
+        .carddetails {
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+    @media screen and (max-width: 320px){
+        .carddetails {
+            font-size: 11px;
+        }
     }
 </style>

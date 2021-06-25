@@ -6,7 +6,7 @@
             </div>
             
             <div class="start-btn py-2" >
-                <b-button id="startBtn" class="yellow-bg"><small class="btntext black">{{ thebtntext }}</small></b-button>
+                <b-button id="startBtn" class="px-md-4 py-md-2 yellow-bg"><small class="btntext black">{{ thebtntext }}</small></b-button>
             </div>
         </div>      
     </div>
@@ -30,11 +30,15 @@ export default {
     }
     .btntext {
         font-size: 18px;
-        font-weight: bold;
+        
         font-family: 'Roboto', sans-serif;
     }
-    .btn-secondary {
-        border: none;
-        border-color: transparent;
+    @media screen and (max-width: 780px){
+        .main-caption h5 {
+            font-size: 4.6vw;
+        }
+        .btntext {
+            font-size: 3.6vw;
+        }
     }
 </style>

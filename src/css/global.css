@@ -22,6 +22,11 @@ ul li a:hover {
     transition: .2s all ease-in-out;
 }
 
+p {
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+
 
 /* icon sizes */
 
@@ -90,14 +95,17 @@ ul li a:hover {
 
 /* Body layout */
 
-.section,
-.section-v {
+.section {
     padding: 0;
     margin: 0;
     width: 100vw;
     height: 100vh;
     position: relative;
     z-index: 99;
+}
+
+.centercomp {
+    transform: translateY(36vh);
 }
 
 

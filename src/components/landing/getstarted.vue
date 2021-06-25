@@ -9,7 +9,7 @@
                 <h3>{{ maincaption }}</h3>
             </div>
 
-            <div class="sub-caption white">
+            <div class="submaincaption white">
                 <h5>{{ submaincaption }}</h5>
             </div>
             
@@ -34,6 +34,10 @@ export default {
     .sub-caption {
         font-size: 14px;
     }
+    .submaincaption h5{
+        font-size: 18px;
+        font-weight: lighter;
+    }
     .main-caption {
         font-size: 42px;
         font-weight: 700;
@@ -42,5 +46,50 @@ export default {
         font-size: 18px;
         font-weight: bold;
         font-family: 'Roboto', sans-serif;
-}
+    }
+    @media screen and (max-width:1024px) {
+        .sub-caption small {
+            font-size: 2vw;
+        }
+        .submaincaption h5 {
+            font-size: 3vw;
+        }
+        .main-caption h3{
+            font-size: 4vw;
+        }
+    }
+
+    @media screen and (max-width:780px) {
+        .sub-caption small {
+            font-size: 3vw;
+        }
+        .submaincaption h5 {
+            font-size: 4vw;
+        }
+        .main-caption h3{
+            font-size: 5vw;
+        }
+    }
+
+    @media screen and (max-width:480px) {
+        .sub-caption small {
+            font-size: 4vw;
+        }
+        .submaincaption h5 {
+            font-size: 5vw;
+        }
+        .main-caption h3{
+            font-size: 7vw;
+        }
+    }
+
+    @media screen and (max-width:420px) {}
+
+    @media screen and (max-width:380px) {
+
+    }
+
+    @media screen and (max-width:320px) {
+
+    }
 </style>

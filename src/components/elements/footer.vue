@@ -80,7 +80,7 @@ export default {
 .btm-footer {
   bottom: .001%;
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 100%;
 }
 .btm-footer .footer-cont {

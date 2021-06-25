@@ -1,9 +1,9 @@
 <template>
-    <div class="section-v black-bg">
+    <div class="section black-bg">
         <headerMob class="position-relative"></headerMob>
         <theTitle class="white" thetitle="Keen Communications"></theTitle>
         <b-container>
-            <b-container>
+            <div>
                 <div class="nav-link">
                    <a href="/#/">
                         <div class="nav-item">
@@ -60,7 +60,7 @@
                         </div>
                     </a> 
                 </div>
-                <div class="nav-link">
+                <!-- <div class="nav-link">
                    <a href="/#/settings">
                         <div class="nav-item">
                             <div class="d-flex flex-row">
@@ -73,8 +73,8 @@
                             </div>
                         </div>
                     </a> 
-                </div>
-            </b-container>
+                </div> -->
+            </div>
         </b-container>
 
         <b-container>
@@ -104,7 +104,7 @@ export default {
 
 <style scoped>
     .nav-link {
-        padding: 20px;
+        padding: 18px;
     }
     .nav-link a:hover {
         background-color: rgba(0, 0, 0, .3);

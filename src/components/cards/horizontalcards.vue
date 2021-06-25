@@ -35,10 +35,10 @@ export default {
     }
     .horcard-text {
         text-align: left;
-        margin: 0px 16px;
+        margin: auto 16px;
     }
     .horcard-title h5{
-        font-weight: 700;
+        font-weight: 400;
     }
     .horcard-details p {
         font-weight: 300;
@@ -48,6 +48,65 @@ export default {
         width: 100px;
         height: 100px;
         border-radius: 12px;
+    }
+    @media screen and (max-width: 780px){
+        .horcard {
+            margin: 16px 0;
+        }
+        .horcard-text {
+            text-align: left;
+            margin: auto 26px;
+        }
+        .horcard-title h5{
+            font-size: 3.8vw;
+        }
+        .horcard-details p {
+            font-weight: 300;
+            line-height: 28px;
+            font-size: 3vw;
+        }
+        .horcard-img img {
+            width: 150px;
+            height: 150px;
+            border-radius: 22px;
+        }
+    }
+    @media screen and (max-width: 480px){
+        .horcard {
+            margin: 8px 0;
+        }
+        .horcard-text {
+            text-align: left;
+            margin: 12px 0 0 18px;
+        }
+        .horcard-img img {
+            width: 100px;
+            height: 100px;
+        }
+        .horcard-title h5{
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .horcard-details p {
+            font-size: 16px;
+            line-height: 18px;
+        }
+    }
+    @media screen and (max-width: 380px){
+        .horcard {
+            margin: 8px 0;
+        }
+        .horcard-img img {
+            width: 70px;
+            height: 70px;
+        }
+        .horcard-title h5{
+            font-size: 16px;
+        }
+        .horcard-details p {
+            font-size: 14px;
+            line-height: 18px;
+        }
     }
     @media screen and (max-width: 320px){
         .horcard {

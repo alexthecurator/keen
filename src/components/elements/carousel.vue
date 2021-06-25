@@ -21,7 +21,7 @@
         <!-- <carousel-3d> -->
             <!-- <slide v-for="(slide, i) in slides" :index="i" :key="i"> -->
                 <div class="carousel-img pb-3">
-                    <img src="https://via.placeholder.com/300x200" alt="project highlights">
+                    <img src="https://via.placeholder.com/200x200" alt="project highlights">
                 </div>
                 <div class="carousel-title">
                     <subtitle class="yellow" subtitle="GPSA Networking installation"></subtitle>

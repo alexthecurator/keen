@@ -125,21 +125,19 @@ export default {
 }
 </script>
 
-<style>
-.centercomp {
-    transform: translateY(36vh);
-}
+<style scoped>
 .scroll-cards {
+    max-height: 572px;
     height: 100%;
+    width: 100%s;
     overflow-y: scroll;
-    position: absolute;
-    padding-right: 15px;
+    z-index: 999999;
 }
 .white-fade {
-    background-image: linear-gradient(360deg, #fbfbfb, rgba(251,251,251, .9), rgba(251,251,251, .8), transparent);
-    height: 40%;
+  background-image: linear-gradient(360deg, #fbfbfb, rgba(251,251,251, .9), rgba(251,251,251, .8), transparent);
     width: 100%;
-    z-index: 999;
-    position: sticky;
+    z-index: 9999999;
 }
+
+
 </style>

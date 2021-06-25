@@ -17,9 +17,39 @@ export default {
         font-size: 17px;
         line-height: 20px;
     }
+    @media screen and (max-width: 1024px){
+        .detailing {
+            font-size: 2.6vw;
+            line-height: 3.6vw;
+        }
+    }
+    @media screen and (max-width: 780px){
+        .detailing {
+            font-size: 3.4vw;
+            line-height: 4.2vw;
+        }
+    }
+    @media screen and (max-width: 480px) and (max-height: 823px){
+        .detailing {
+            font-size: 4.2vw;
+            line-height: 5.8vw;
+        }
+    }
+    @media screen and (max-width: 480px) and (max-height: 731px){
+        .detailing {
+            font-size: 4.2vw;
+            line-height: 5vw;
+        }
+    }
+    @media screen and (max-width: 380px){
+        .detailing {
+            font-size: 4.6vw;
+            line-height: 6vw;
+        }
+    }
     @media screen and (max-width: 320px){
         .detailing {
-            font-size: 15px;
+            font-size: 12px;
             line-height: 16px;
         }
     }

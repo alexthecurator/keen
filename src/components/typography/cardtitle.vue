@@ -20,4 +20,19 @@ export default {
         font-size: 17px;
         font-weight: 500;
     }
+    @media screen and (max-width: 780px){
+        .cardtitle {
+            font-size: 26px;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .cardtitle {
+            font-size: 17px;
+        }
+    }
+    @media screen and (max-width: 320px){
+        .cardtitle {
+            font-size: 14px;
+        }
+    }
 </style>

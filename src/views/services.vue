@@ -6,7 +6,7 @@
       <headerMob></headerMob>
     </div>
   
-    <div class="section-v">
+    <div class="section">
       <div class="centercomp">
         <getstarted subcaption="Are you stuck and cant find a solution?" maincaption="We are here for you" submaincaption="Problem Solving is our prime" btntext="Get started"></getstarted>
       </div>
@@ -79,14 +79,14 @@
           
       </b-container>
 
-      <b-container class="py-3">
+      <b-container class="p-md-0">
         <div class="row">
-            <div class="col-7">
+            <div class="col-md-7 col-7">
                <tupleimgsmall></tupleimgsmall> 
             </div>
-            <div class="col-5">
+            <div class="col-md-5 col-5">
                 <thetitle thetitle="24/7"></thetitle>
-                <detailing detailing="Support from our specialized technicians"></detailing>
+                <detailing class="px-4" detailing="Support from our specialized technicians"></detailing>
             </div>
         </div>
       </b-container>
@@ -148,7 +148,7 @@
                     </div>
                 </div>
                 <div class="card-title">
-                    <cardtitle class="white" cardtitle="Troublesooting"></cardtitle>
+                    <cardtitle class="white" cardtitle="Troubleshooting"></cardtitle>
                 </div>
                 <cardetails class="white" carddetails="Of your network infrastructure and operational nodes with full support"></cardetails>
             </center>
@@ -165,7 +165,7 @@
         </detailing>
       </b-container>
 
-      <b-container class="py-3">
+      <b-container class="py-md-3 py-0">
         <div class="row">
             <div class="col-4">
                 <thetitle class="white" thetitle="24/7"></thetitle>
@@ -176,13 +176,13 @@
             </div>
         </div>
       </b-container>
-      
-      <b-container class="py-4" fluid>
+
+      <b-container class="py-md-0 py-5" fluid>
           <div class="container">
             <div class="text-left">
-              <joinus class="white" thequestion="Let's solve your problem" thebtntext="Tap here"></joinus>
-            </div>
-          </div> 
+              <joinus class="white" thequestion="Call us today" thebtntext="Tap here"></joinus>
+            </div>  
+          </div>
       </b-container>
       
     </div>
@@ -274,7 +274,7 @@
     </div>
 
     <div class="section black-bg">
-      <div class="pt-3">
+      <div class="pt-md-4 pt-3">
         <b-container>
           <subtitle class="white" subtitle="Why do we innovate?"></subtitle>
         </b-container>
@@ -286,10 +286,10 @@
 
       <b-container>
         <div class="d-flex flex-row px-2">
-          <div class="px-2">
+          <div class="mx-md-3 px-2">
             <roundboximg></roundboximg>
           </div>
-          <div class="px-2">
+          <div class="mx-md-3 px-2">
             <detailing class="white text-left" detailing="They guide our decision making, our interactions with the morden economy and our relationships with each other. People adopt, own and apply our values in their work."></detailing>
           </div>
         </div>
@@ -302,16 +302,16 @@
 
       <b-container>
         <div class="d-flex flex-row px-2">
-          <div class="px-2">
+          <div class="mx-md-3 px-2">
             <detailing class="white text-left" detailing="They guide our decision making, our interactions with the morden economy and our relationships with each other. People adopt, own and apply our values in their work."></detailing>
           </div>
-          <div class="px-2">
+          <div class="mx-md-3 px-2">
             <roundboximg></roundboximg>
           </div>
         </div>
       </b-container>
 
-      <div class="pt-2">
+      <div class="my-md-3 pt-2">
         <b-container>
           <subtitle class="white" subtitle="Highlights"></subtitle>
         </b-container>
@@ -319,13 +319,13 @@
 
       <b-container>
         <div class="d-flex flex-row justify-content-center py-2">
-          <div class="px-2">
+          <div class="mx-md-3 mx-2">
             <roundboximg></roundboximg>
           </div>
-          <div class="px-2">
+          <div class="mx-md-3 mx-2">
             <roundboximg></roundboximg>
           </div>
-          <div class="px-2">
+          <div class="mx-md-3 mx-2">
             <roundboximg></roundboximg>
           </div>
         </div>
@@ -383,15 +383,18 @@ export default {
 }
 </script>
 
-<style>
-.centercomp {
-    transform: translateY(36vh);
-}
-
+<style scoped>
 .card-icon-circle {
     width: 60px;
     height: 60px;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 320px){
+  .card-icon-circle {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 </style>
