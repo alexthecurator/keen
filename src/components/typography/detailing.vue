@@ -14,13 +14,13 @@ export default {
 <style scoped>
     .detailing {
         font-weight: 300;
-        font-size: 17px;
-        line-height: 20px;
+        font-size: 21px;
+        line-height: 26px;
     }
     @media screen and (max-width: 1024px){
         .detailing {
-            font-size: 2.6vw;
-            line-height: 3.6vw;
+            font-size: 3.6vw;
+            line-height: 4vw;
         }
     }
     @media screen and (max-width: 780px){

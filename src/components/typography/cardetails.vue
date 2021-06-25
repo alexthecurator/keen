@@ -16,6 +16,12 @@ export default {
         font-weight: 300;
         font-size: 13px;
     }
+    @media screen and (max-width: 1024px){
+        .carddetails {
+            font-size: 32px;
+            line-height: 36px;
+        }
+    }
     @media screen and (max-width: 780px){
         .carddetails {
             font-size: 20px;

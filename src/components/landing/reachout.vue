@@ -34,7 +34,7 @@ export default {
     }
     @media screen and (max-width: 1024px){
         .main-caption h4 {
-            font-size: 4.6vw;
+            font-size: 5.6vw;
         }
         .btntext {
             font-size: 3.6vw;

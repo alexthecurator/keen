@@ -5,7 +5,7 @@
       <headerMob></headerMob>
     </div>
   
-    <div class="section">
+    <div class="section-v">
       <div class="centercomp">
         <getstarted subcaption="we innovate" maincaption="For smarter Tanzania" submaincaption="and a better Africa" btntext="Get started"></getstarted>
       </div>
@@ -17,23 +17,17 @@
           <subtitle subtitle="Our Services"></subtitle>
         </b-container>
       </div>
-      
-      <div class="d-flex justify-content-center p-md-2">
-        <separator></separator>
-      </div>
 
       <b-container>
         <div class="row p-md-4">
-          <div class="col-lg-4 col-md-12 col-12">
+          <div class="col-xl-4 col-lg-12 col-md-12 col-12">
             <card cardTitle="Network" cardDetails="Installation, Upgrade and Maintainance"></card>
           </div>
-          
-          <div class="col-lg-4 col-md-12 col-12">
-            <card cardTitle="Development" cardDetails="Web based and Native Softwares with Support"></card>
-          </div>
-
-          <div class="col-lg-4 col-md-12 col-12">
+          <div class="col-xl-4 col-lg-12 col-md-12 col-12">
             <card cardTitle="Hardware & Software" cardDetails="Installation, Upgrade and Troubleshooting"></card>
+          </div>
+          <div class="col-xl-4 col-lg-12 col-md-12 col-12">
+            <card cardTitle="Development" cardDetails="Web based and Native Softwares with Support"></card>
           </div>
         </div>
       </b-container>
@@ -50,34 +44,35 @@
         <div class="d-flex justify-content-center">
           <separator></separator>
         </div>
-
+    
         <b-container>
-          <detailing class="pt-3 px-4 text-left" detailing="We know that to add great value to clients,
-          we have to work together. We provide the
-          best people and bring them together in
-          teams to deliver our services. Our teams are
-          diverse in their disciplines, ideas,
-          perspectives and cultures. When necessary
-          we extend our capability by partnering with
-          organizations with similar values to our own
-          but with complementary skills and abilities.">
+          <detailing class="m-lg-2 px-md-0 pt-3 px-4 text-lg-justify text-left" detailing="We know that to add great value to clients, we have to work together. We provide the
+          best people and bring them together in teams to deliver our services. Our teams are diverse in their disciplines, ideas, perspectives and cultures. When necessary
+          we extend our capability by partnering with organizations with similar values to our own but with complementary skills and abilities.">
           </detailing>
         </b-container>
         
         <b-container>
-          <tupleimg></tupleimg>
-        </b-container>
-        
-        <b-container>
-          <div class="mt-5">
-            <subtitle subtitle="Why?"></subtitle>
+          <div class="row d-flex justify-content-center mb-lg-5 pb-lg-5">
+            <div class="col-xl-8 col-lg-12 col-md-12 col-12 p-0 m-0">
+              <tupleimg></tupleimg>
+            </div>
+            <div class="col-xl-4 col-lg-12 col-md-12 col-12">
+              <b-container>
+                <div class="mt-5">
+                  <subtitle subtitle="Why?"></subtitle>
+                </div>
+              </b-container>
+              
+              <b-container>
+                <detailing class="px-4 py-0 my-0 text-left" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
+                </detailing>
+              </b-container>
+            </div>
           </div>
         </b-container>
         
-        <b-container>
-          <detailing class="px-4 py-0 my-0 text-left" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
-          </detailing>
-        </b-container>
+        
       </b-container>
     </div>
 
@@ -98,23 +93,23 @@
       </b-container>
 
       <b-container>
-        <div class="container py-md-2 ml-md-5">
+        <div class="container py-md-2 ml-xl-5 pl-xl-5">
           <div class="row d-flex justify-content-center">
-            <div class="col-md-4 col-4">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-4">
               <roundedimg></roundedimg>
             </div>
-            <div class="col-md-4 col-4">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-4">
               <roundedimg></roundedimg>
             </div>
-            <div class="col-md-4 col-4">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-4">
               <roundedimg></roundedimg>
             </div>
           </div>
           <div class="row py-4 d-flex justify-content-center">
-            <div class="col-md-4 col-4">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-4">
               <roundedimg></roundedimg>
             </div>
-            <div class="col-md-4 col-4">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-4">
               <roundedimg></roundedimg>
             </div>
           </div>

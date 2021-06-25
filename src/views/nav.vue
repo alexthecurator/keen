@@ -1,5 +1,5 @@
 <template>
-    <div class="section black-bg">
+    <div class="section-v black-bg">
         <headerMob class="position-relative"></headerMob>
         <theTitle class="white" thetitle="Keen Communications"></theTitle>
         <b-container>

@@ -17,10 +17,11 @@ export default {
 <style scoped>
     .subtitle {
         font-weight: 500;
+        font-size: 2.4vw;
     }
     @media screen and (max-width: 1024px){
         .subtitle {
-            font-size: 4vw
+            font-size: 6vw
         }
     }
     @media screen and (max-width: 780px){

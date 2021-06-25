@@ -86,4 +86,14 @@ export default {
   top: 5.6vh;
   position: relative;
 }
+@media screen and (max-width: 780px) and (max-width: 1024px){
+  .footer-menu > .footer-item > .footer-link {
+    font-size: 5.6vw;
+  }
+}
+@media screen and (max-width: 320px) and (max-width: 380px) and (max-width: 480px){
+  .footer-menu > .footer-item > .footer-link {
+    font-size: 5vw;
+  }
+}
 </style>

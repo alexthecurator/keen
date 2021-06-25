@@ -62,4 +62,28 @@ export default {
         border-radius: 50%;
         border: 2px solid yellow;
     }
+    @media screen and (max-width: 1024px){
+        .team-title h5{
+            font-size: 40px;
+        }
+        .team-name h6 {
+            font-size: 32px;
+        }
+        .team-details p{
+            font-size: 30px;
+            line-height: 36px;
+        }
+    }
+    @media screen and (max-width: 780px){
+        .team-title h5{
+            font-size: 30px;
+        }
+        .team-name h6 {
+            font-size: 22px;
+        }
+        .team-details p{
+            font-size: 20px;
+            line-height: 26px;
+        }
+    }
 </style>

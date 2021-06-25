@@ -9,7 +9,7 @@
                 <h3>{{ maincaption }}</h3>
             </div>
 
-            <div class="submaincaption white">
+            <div class="sub-maincaption white">
                 <h5>{{ submaincaption }}</h5>
             </div>
             
@@ -31,16 +31,15 @@ export default {
         position: relative;
         z-index: 8;
     }
-    .sub-caption {
-        font-size: 14px;
+    .sub-caption small{
+        font-size: 24px;
     }
-    .submaincaption h5{
-        font-size: 18px;
+    .sub-maincaption h5{
+        font-size: 32px;
         font-weight: lighter;
     }
-    .main-caption {
-        font-size: 42px;
-        font-weight: 700;
+    .main-caption h3{
+        font-size: 58px;
     }
     .btntext {
         font-size: 18px;
@@ -49,13 +48,13 @@ export default {
     }
     @media screen and (max-width:1024px) {
         .sub-caption small {
-            font-size: 2vw;
-        }
-        .submaincaption h5 {
             font-size: 3vw;
         }
+        .submaincaption h5 {
+            font-size: 5vw;
+        }
         .main-caption h3{
-            font-size: 4vw;
+            font-size: 6vw;
         }
     }
 

@@ -49,6 +49,28 @@ export default {
         height: 100px;
         border-radius: 12px;
     }
+    @media screen and (max-width: 1024px){
+        .horcard {
+            margin: 16px 0;
+        }
+        .horcard-text {
+            text-align: left;
+            margin: auto 26px;
+        }
+        .horcard-title h5{
+            font-size: 3.8vw;
+        }
+        .horcard-details p {
+            font-weight: 300;
+            line-height: 28px;
+            font-size: 3vw;
+        }
+        .horcard-img img {
+            width: 150px;
+            height: 150px;
+            border-radius: 22px;
+        }
+    }
     @media screen and (max-width: 780px){
         .horcard {
             margin: 16px 0;

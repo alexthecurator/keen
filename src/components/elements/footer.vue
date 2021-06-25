@@ -11,7 +11,7 @@
         <b-container>
           <div class="p-0 mr-4">
             <div class="row">
-              <div class="col-12">
+              <div class="col-xl-12 col-lg-12 col-md-12 col-12">
                 <ul class="footer-menu">
                   <li class="footer-item"><a class="footer-link" href="#">Home</a></li>
 
@@ -86,5 +86,15 @@ export default {
 .btm-footer .footer-cont {
   top: 5.6vh;
   position: relative;
+}
+@media screen and (max-width: 780px) and (max-width: 1024px){
+  .footer-menu > .footer-item > .footer-link {
+    font-size: 5.6vw;
+  }
+}
+@media screen and (max-width: 320px) and (max-width: 380px) and (max-width: 480px){
+  .footer-menu > .footer-item > .footer-link {
+    font-size: 5vw;
+  }
 }
 </style>

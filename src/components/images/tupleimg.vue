@@ -18,6 +18,7 @@ export default {
 <style scoped>
     .tupleimg {
         margin: 0 20px;
+        padding: 20px 0;
         position: relative;
         display: flex;
     }
@@ -25,18 +26,37 @@ export default {
         border-radius: 12px;
     }
     .tupleimg-one img {
-        width: 240px;
-        height: 200px;
+        width: 480px;
+        height: 400px;
         position: relative;
         z-index: 100;
     }
     .tupleimg-two, .tupleimg-two img {
-        width: 200px;
-        height: 140px;
+        width: 300px;
+        height: 220px;
         position: absolute;
         z-index: 101;
-        top: 50px;
-        left: 68px;
+        top: 140px;
+        left: 150px;
+    }
+    @media screen and (max-width: 1024px){
+        .tupleimg-one img, .tupleimg-two img{
+            border-radius: 22px;
+        }
+        .tupleimg-one img {
+            width: 560px;
+            height: 460px;
+            position: relative;
+            z-index: 100;
+        }
+        .tupleimg-two, .tupleimg-two img {
+            width: 380px;
+            height: 280px;
+            position: absolute;
+            z-index: 101;
+            top: 130px;
+            left: 180px;
+        }
     }
     @media screen and (max-width: 780px){
         .tupleimg-one img, .tupleimg-two img{

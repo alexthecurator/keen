@@ -1,6 +1,6 @@
 <template>
     <div class="d-flex justify-content-center container">
-        <div class="card py-md-3 py-3 my-md-3 my-2">
+        <div class="card py-lg-4 py-md-3 py-3 my-md-3 my-2">
             <div class="card-icon mb-md-4 m-0">
                 <div class="icon d-flex justify-content-center">
                     <i class="fi-rr-network-cloud"></i>
@@ -30,8 +30,8 @@ export default {
         padding: 8px;
         box-shadow: 0px 8px 16px rgba(0,0,0,0.06);
         border-radius: 12px;
-        width: 220px;
-        height: 200px;
+        width: 100%;
+        height: 270px;
         position: relative;
     }
     .card-icon {
@@ -39,38 +39,42 @@ export default {
         justify-content: center;
     }
     .icon {
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         border-radius: 12px;
     }
     .icon i {
-        font-size: 12vw;
+        font-size: 3.6vw;
     }
     .card-title h5 {
         font-weight: 700;
-        font-size: 17px;
+        font-size: 24px;
     }
     .card-details p {
         font-weight: 300;
-        line-height: 18px;
+        line-height: 24px;
+        font-size: 18px;
     }
     @media screen and (max-width: 1024px){
         .card {
-            width: 280px;
-            height: 260px;
+            width: 480px;
+            height: 340px;
         }
         .icon {
-            width: 74px;
-            height: 74px;
+            width: 64px;
+            height: 64px;
+        }
+        .icon i {
+            font-size: 9vw;
         }
         .card-title h5 {
             font-weight: 700;
-            font-size: 24px;
+            font-size: 42px;
         }
         .card-details p {
             font-weight: 300;
-            line-height: 26px;
-            font-size: 20px;
+            line-height: 46px;
+            font-size: 36px;
         }
     }
     @media screen and (max-width: 780px){
@@ -112,25 +116,26 @@ export default {
         }
         .card-details p {
             font-weight: 300;
+            line-height: 22px;
             font-size: 4vw;
         }
     }
     @media screen and (max-width: 380px){
         .card {
-            width: 468px;
-            height: 236px;
+            width: 268px;
+            height: 168px;
         }
         .icon {
-            width: 76px;
-            height: 76px;
+            width: 36px;
+            height: 36px;
         }
         .card-title h5 {
             font-weight: 700;
-            font-size: 5.6vw;
+            font-size: 5vw;
         }
         .card-details p {
             font-weight: 300;
-            font-size: 4.8vw;
+            font-size: 4.6vw;
         }
     }
     @media screen and (max-width: 320px){

@@ -14,11 +14,18 @@ export default {
 
 <style scoped>
     .roundedbox {
-        width: 100px;
-        height: 100px;
+        width: 160px;
+        height: 160px;
         position: relative;
         background-color: aliceblue;
         border-radius: 50%;
+    }
+    @media screen and (max-width: 1024px){
+        .roundedbox {
+            width: 200px;
+            height: 200px;
+            margin: 20px 0;
+        }
     }
     @media screen and (max-width: 780px){
         .roundedbox {

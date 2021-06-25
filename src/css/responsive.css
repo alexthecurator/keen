@@ -1,6 +1,34 @@
-@media screen and (max-width:1080px) {}
+@media screen and (max-width:1920px) {
+    .section {
+        width: 100%;
+        height: 100%;
+    }
+    .section-v {
+        width: 100vw;
+        height: 100vh;
+    }
+}
 
-@media screen and (max-width:1024px) {}
+@media screen and (max-width:1200px) {
+    .section {
+        width: 100%;
+        height: 100%;
+    }
+    .section-v {
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .card-icon {
+        font-size: 3.8em;
+    }
+    .section-v {
+        width: 100vw;
+        height: 100vh;
+    }
+}
 
 @media screen and (max-width:780px) {
     p {
@@ -25,7 +53,12 @@
         margin: 0;
         padding: 0 0 18px 0;
     }
-    .card-icon {
-        font-size: 1.4em;
+}
+
+@media screen and (max-width: 320px) and (max-width: 480px) and (max-width: 780px) and (max-width: 1024px) {
+    .section,
+    .section-v {
+        width: 100vw;
+        height: 100vh;
     }
 }

@@ -139,5 +139,9 @@ export default {
     z-index: 9999999;
 }
 
-
+@media screen and (max-height: 1366px){
+  .scroll-cards { 
+    max-height: 1150px;
+  }
+}
 </style>

@@ -6,7 +6,7 @@
       <headerMob></headerMob>
     </div>
   
-    <div class="section">
+    <div class="section-v">
       <div class="centercomp">
         <getstarted subcaption="Are you stuck and cant find a solution?" maincaption="We are here for you" submaincaption="Problem Solving is our prime" btntext="Get started"></getstarted>
       </div>
@@ -389,11 +389,40 @@ export default {
     height: 60px;
     border-radius: 50%;
 }
-
+@media screen and (max-width: 1024px){
+  .card-icon-circle {
+    width: 120px;
+    height: 120px;
+  }
+  .card-icon {
+      font-size: 3.8em;
+  }
+}
+@media screen and (max-width: 780px){
+  .card-icon-circle {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 480px){
+  .card-icon-circle {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 380px){
+  .card-icon-circle {
+    width: 50px;
+    height: 50px;
+  }
+}
 @media screen and (max-width: 320px){
   .card-icon-circle {
     width: 50px;
     height: 50px;
+  }
+  .card-icon {
+      font-size: 1.4em;
   }
 }
 

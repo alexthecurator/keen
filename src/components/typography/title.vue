@@ -19,6 +19,11 @@ export default {
     .thetitle {
         font-weight: 700;
     }
+    @media screen and (max-width: 1024px){
+        .thetitle {
+            font-size: 8.2vw;
+        }
+    }
     @media screen and (max-width: 780px){
         .thetitle {
             font-size: 8.2vw;
