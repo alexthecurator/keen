@@ -17,7 +17,7 @@ export default {
 
 <style scoped>
     .cardtitle {
-        font-size: 54px;
+        font-size: 24px;
         font-weight: 500;
     }
     @media screen and (max-width: 1024px){

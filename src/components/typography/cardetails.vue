@@ -14,7 +14,7 @@ export default {
 <style scoped>
     .carddetails {
         font-weight: 300;
-        font-size: 13px;
+        font-size: 18px;
     }
     @media screen and (max-width: 1024px){
         .carddetails {

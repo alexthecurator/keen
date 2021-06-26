@@ -18,6 +18,7 @@ export default {
 <style scoped>
     .tupleimg {
         margin: 0 20px;
+        padding: 20px 0;
         position: relative;
         display: flex;
     }
@@ -25,18 +26,18 @@ export default {
         border-radius: 12px;
     }
     .tupleimg-one img {
-        width: 172.75px;
-        height: 141.34px;
+        width: 480px;
+        height: 400px;
         position: relative;
         z-index: 100;
     }
     .tupleimg-two, .tupleimg-two img {
-        width: 141.34px;
-        height: 94.22px;
+        width: 300px;
+        height: 220px;
         position: absolute;
         z-index: 101;
-        top: 38px;
-        left: 32px;
+        top: 140px;
+        left: 150px;
     }
     @media screen and (max-width: 1024px){
         .tupleimg-one img, .tupleimg-two img{
