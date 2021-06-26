@@ -18,7 +18,7 @@ export default {
 <style scoped>
     .tupleimg {
         margin: 0 20px;
-        padding: 20px 0;
+        padding: 0 0 20px 0;
         position: relative;
         display: flex;
     }
@@ -92,7 +92,7 @@ export default {
             height: 120px;
             position: absolute;
             z-index: 101;
-            top: 55px;
+            top: 70px;
             left: 70px;
         }
     }

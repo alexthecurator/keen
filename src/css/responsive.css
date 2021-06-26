@@ -3,20 +3,12 @@
         width: 100%;
         height: 100%;
     }
-    .section-v {
-        width: 100vw;
-        height: 100vh;
-    }
 }
 
 @media screen and (max-width:1200px) {
     .section {
         width: 100%;
         height: 100%;
-    }
-    .section-v {
-        width: 100vw;
-        height: 100vh;
     }
 }
 
@@ -37,9 +29,19 @@
     }
 }
 
-@media screen and (max-width:480px) {}
+@media screen and (max-width:480px) {
+    p {
+        margin: 0;
+        padding: 0 0 20px 0;
+    }
+}
 
-@media screen and (max-width:420px) {}
+@media screen and (max-width:420px) {
+    p {
+        margin: 0;
+        padding: 0 0 10px 0;
+    }
+}
 
 @media screen and (max-width:380px) {
     p {

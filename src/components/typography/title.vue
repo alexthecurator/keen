@@ -18,6 +18,7 @@ export default {
 <style scoped>
     .thetitle {
         font-weight: 700;
+        font-size: 48px;
     }
     @media screen and (max-width: 1024px){
         .thetitle {

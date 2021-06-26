@@ -80,11 +80,11 @@
       </b-container>
 
       <b-container class="p-md-0">
-        <div class="row">
-            <div class="col-md-7 col-7">
+        <div class="row container-xl">
+            <div class="col-xl-7 col-md-7 col-7">
                <tupleimgsmall></tupleimgsmall> 
             </div>
-            <div class="col-md-5 col-5">
+            <div class="col-xl-5 col-lg-5 col-md-5 col-5">
                 <thetitle thetitle="24/7"></thetitle>
                 <detailing class="px-4" detailing="Support from our specialized technicians"></detailing>
             </div>
@@ -98,7 +98,6 @@
             </div>  
           </div>
       </b-container>
-      
     </div>
 
     <div class="section black-bg">

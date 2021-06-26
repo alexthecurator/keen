@@ -24,12 +24,12 @@ export default {
         position: relative;
         z-index: 8;
     }
-    .main-caption {
-        font-size: 24px;
-        font-weight: 300;
+    .main-caption h5 {
+        font-size: 36px;
+        font-weight: 500;
     }
     .btntext {
-        font-size: 18px;
+        font-size: 28px;
         
         font-family: 'Roboto', sans-serif;
     }

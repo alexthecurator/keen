@@ -6,7 +6,7 @@
             </div>
             
             <div class="start-btn py-md-4 py-2" id="startBtn">
-                <b-button class="px-md-4 py-md-2 yellow-bg"><small class="btntext black">{{ thebtntexxt }}</small></b-button>
+                <b-button class="px-lg-5 px-md-4 py-md-2 yellow-bg"><small class="btntext black">{{ thebtntexxt }}</small></b-button>
             </div>
         </div>      
     </div>
@@ -24,12 +24,12 @@ export default {
         position: relative;
         z-index: 8;
     }
-    .main-caption {
-        font-size: 24px;
-        font-weight: 300;
+    .main-caption h4{
+        font-size: 36px;
+        font-weight: 500;
     }
     .btntext {
-        font-size: 18px;
+        font-size: 24px;
         font-family: 'Roboto', sans-serif;
     }
     @media screen and (max-width: 1024px){
@@ -64,5 +64,4 @@ export default {
             font-size: 3.6vw;
         }
     }
-
 </style>

@@ -2,8 +2,8 @@
     <div class="horcards">
         <div class="horcard">
             <div class="horcard-img">
-                <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Profile image">
-            </div>  
+                <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Profile image" />
+            </div>
             <div class="horcard-text">
                 <div class="horcard-title">
                     <h5>{{ cardTitle }}</h5>
@@ -39,14 +39,16 @@ export default {
     }
     .horcard-title h5{
         font-weight: 400;
+        font-size: 28px;
     }
     .horcard-details p {
         font-weight: 300;
         line-height: 20px;
+        font-size: 21px;
     }
     .horcard-img img {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         border-radius: 12px;
     }
     @media screen and (max-width: 1024px){

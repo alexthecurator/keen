@@ -33,7 +33,7 @@
       </b-container>
     </div>
 
-    <div class="section white-bg py-md-3">
+    <div class="section white-bg py-xl-5 py-md-3">
       <b-container>
         <div class="pt-3">
           <b-container>
@@ -76,7 +76,7 @@
       </b-container>
     </div>
 
-    <div class="section black-bg py-md-3">
+    <div class="section-v black-bg py-md-3">
       <div class="pt-3">
         <b-container>
           <subtitle class="white" subtitle="Meet our friends"></subtitle>
@@ -121,7 +121,7 @@
         </detailing>
       </b-container>
 
-      <b-container fluid>
+      <b-container>
         <b-container class="pb-md-5">
           <joinus class="white" thequestion="Do you want to join us?" thebtntext="Tap here"></joinus>
         </b-container>
@@ -150,16 +150,16 @@
         <div class="mx-md-0 mx-4">
           <div class="row d-flex justify-content-center py-1 mx-md-4">
             <div class="col-md-12 col-12">
-              <horcards cardTitle="Carlos, John" cardDetails="Very quick and easy! Great serivce thanks!"></horcards>
+              <horcards cardTitle="Carlos, John" cardDetails="Very quick and easy! Great service thanks!"></horcards>
             </div>
             <div class="col-md-12 col-12">
-              <horcards cardTitle="Nguyane, Shane" cardDetails="Very quick and easy! Great serivce thanks!"></horcards>
+              <horcards cardTitle="Nguyane, Shane" cardDetails="Very quick and easy! Great service thanks!"></horcards>
             </div>
             <div class="col-md-12 col-12">
-              <horcards cardTitle="Miles, Esther" cardDetails="Very quick and easy! Great serivce thanks!"></horcards>
+              <horcards cardTitle="Miles, Esther" cardDetails="Very quick and easy! Great service thanks!"></horcards>
             </div>
             <div class="col-md-12 col-12">
-              <horcards cardTitle="Flores, Juanita" cardDetails="Very quick and easy! Great serivce thanks!"></horcards>
+              <horcards cardTitle="Flores, Juanita" cardDetails="Very quick and easy! Great service thanks!"></horcards>
             </div>
           </div>
         </div>
