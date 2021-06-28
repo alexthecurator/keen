@@ -39,6 +39,38 @@ export default {
         top: 100px;
         left: 100px;
     }
+    @media screen and (max-width: 1400px){
+        .tupleimg-one img, .tupleimg-two img{
+            border-radius: 18px;
+            margin: 8px 0 20px 0;
+        }
+        .tupleimg-one img {
+            width: 430px;
+            height: 380px;
+        }
+        .tupleimg-two, .tupleimg-two img {
+            width: 300px;
+            height: 200px;
+            top: 118px;
+            left: 100px;
+        }
+    }
+    @media screen and (max-width: 1280px){
+        .tupleimg-one img, .tupleimg-two img{
+            border-radius: 18px;
+            margin: 8px 0 20px 0;
+        }
+        .tupleimg-one img {
+            width: 430px;
+            height: 380px;
+        }
+        .tupleimg-two, .tupleimg-two img {
+            width: 300px;
+            height: 200px;
+            top: 118px;
+            left: 100px;
+        }
+    }
     @media screen and (max-width: 1024px){
         .tupleimg-one img, .tupleimg-two img{
             border-radius: 18px;

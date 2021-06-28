@@ -80,7 +80,7 @@
       </b-container>
 
       <b-container class="p-md-0">
-        <div class="row container-xl">
+        <div class="row container-xl p-0">
             <div class="col-xl-6 col-md-7 col-7">
                <tupleimgsmall></tupleimgsmall> 
             </div>
@@ -102,7 +102,7 @@
       </b-container>
     </div>
 
-    <div class="section black-bg">
+    <div class="section black-bg py-xl-5">
       <div class="pt-3">
         <b-container>
           <subtitle class="white" subtitle="Hardware & Software"></subtitle>
@@ -168,13 +168,13 @@
 
       <b-container class="py-md-3 py-0">
         <div class="row">
-            <div class="col-4">
-                <div class="mt-xl-5">
-                  <thetitle class="white" thetitle="24/7"></thetitle>
+            <div class="col-md-4 col-4 m-0 p-0">
+                <div class="mt-xl-5 m-0">
+                  <thetitle class="white text-center" thetitle="24/7"></thetitle>
                   <detailing class="white px-4" detailing="Support from our specialized technicians"></detailing>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-md-4 col-8">
                <tupleimgsmall></tupleimgsmall> 
             </div>
         </div>
@@ -395,6 +395,27 @@ export default {
     height: 60px;
     border-radius: 50%;
 }
+.card-icon {
+      font-size: 1.5vw;
+  }
+@media screen and (max-width: 1400px){
+  .card-icon-circle {
+    width: 80px;
+    height: 80px;
+  }
+  .card-icon {
+      font-size: 3.2vw;
+  }
+}
+@media screen and (max-width: 1200px){
+  .card-icon-circle {
+    width: 80px;
+    height: 80px;
+  }
+  .card-icon {
+      font-size: 3.2vw;
+  }
+}
 @media screen and (max-width: 1024px){
   .card-icon-circle {
     width: 120px;
@@ -409,17 +430,26 @@ export default {
     width: 50px;
     height: 50px;
   }
+  .card-icon {
+      font-size: 3vw;
+  }
 }
 @media screen and (max-width: 480px){
   .card-icon-circle {
     width: 50px;
     height: 50px;
   }
+  .card-icon {
+      font-size: 1.4em;
+  }
 }
 @media screen and (max-width: 380px){
   .card-icon-circle {
     width: 50px;
     height: 50px;
+  }
+  .card-icon {
+      font-size: 1.4em;
   }
 }
 @media screen and (max-width: 320px){

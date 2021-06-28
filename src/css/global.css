@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;700;900&display=swap');
 * {
     border: none;
     font-family: 'lato', sans-serif;
@@ -45,10 +46,6 @@ p {
 
 .nav-icon {
     font-size: 1.3em;
-}
-
-.card-icon {
-    font-size: 1.8em;
 }
 
 .btn-secondary {

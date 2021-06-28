@@ -75,7 +75,7 @@
       </b-container>
     </div>
 
-    <div class="section-v black-bg py-md-3">
+    <div class="section black-bg py-md-3">
       <div class="pt-3">
         <b-container>
           <subtitle class="white" subtitle="Meet our friends"></subtitle>

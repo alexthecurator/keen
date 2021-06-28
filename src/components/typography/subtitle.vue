@@ -19,6 +19,16 @@ export default {
         font-weight: 500;
         font-size: 2.4vw;
     }
+    @media screen and (max-width: 1400px){
+        .subtitle {
+            font-size: 2.8vw
+        }
+    }
+    @media screen and (max-width: 1200px){
+        .subtitle {
+            font-size: 3vw
+        }
+    }
     @media screen and (max-width: 1024px){
         .subtitle {
             font-size: 6vw
