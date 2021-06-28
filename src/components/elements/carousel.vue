@@ -24,7 +24,7 @@
                     <img src="https://via.placeholder.com/200x200" alt="project highlights">
                 </div>
                 <div class="carousel-title">
-                    <subtitle class="yellow" subtitle="GPSA Networking installation"></subtitle>
+                    <subtitle class="yellow" subtitle="Local Area Network (LAN) Installation"></subtitle>
                 </div>
                 <div class="carousel-details">
                     <detailing class="py-3 px-4 white" detailing="Goverment Procurement Service Agency contacted us to install and maintain their network platform. It was a successful achievement."></detailing>

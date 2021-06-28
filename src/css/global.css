@@ -146,3 +146,13 @@ p {
     z-index: 1200;
     position: relative;
 }
+
+
+/* live Chat */
+
+.live-chat {
+    position: fixed;
+    padding: 20em;
+    margin: 20em;
+    z-index: 999999;
+}

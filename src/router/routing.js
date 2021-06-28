@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import nav from '../views/nav';
+import fullmenu from '../views/fullmenu';
 import home from '../views/home';
 import services from '../views/services';
 import accomplishments from '../views/accomplishments';
@@ -13,8 +13,8 @@ const router = new VueRouter({
             component: home,
         },
         {
-            path: '/nav',
-            component: nav,
+            path: '/fullmenu',
+            component: fullmenu,
         },
         {
             path: '/services',

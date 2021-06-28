@@ -10,7 +10,7 @@ export default {
     name: 'toogleMob',
     methods: {
         getNav() {
-            this.$router.push('/nav');
+            this.$router.push('/fullmenu');
         }
     }
 }
@@ -20,7 +20,7 @@ export default {
     .toggle {
         position: fixed;
         z-index: 999999;
-        bottom: 22px;
+        bottom: 72px;
         right: 20px;
         padding: 20px;
     }   

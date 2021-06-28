@@ -171,6 +171,11 @@
 
     <getstartedModal></getstartedModal>
 
+    <div class="live-chat">
+      <livechat></livechat>
+    </div>
+    
+
     <div class="section">
       <thefooter></thefooter>
     </div>
@@ -192,6 +197,7 @@ import joinus from '../components/landing/joinus.vue'
 import horcards from '../components/cards/horizontalcards.vue'
 import thefooter from '../components/elements/footer.vue'
 import getstartedModal from '../components/elements/getstarted.vue'
+import livechat from '../components/elements/liveChat.vue'
 
 export default {
   name: 'home',
@@ -209,7 +215,8 @@ export default {
     joinus,
     horcards,
     thefooter,
-    getstartedModal
+    getstartedModal,
+    livechat,
   }
 }
 </script>
@@ -217,5 +224,11 @@ export default {
 <style>
 .centercomp {
     transform: translateY(36vh);
+}
+.live-chat {
+    position: fixed;
+    padding: 20em;
+    margin: 20em;
+    z-index: 999999;
 }
 </style>

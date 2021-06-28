@@ -36,7 +36,7 @@
         <div class="container">
           <div class="row">
               <div class="col-4 p-0">
-                  <center>
+                  <center>  
                       <div class="card-icon-circle black-bg">
                           <div style="padding: 12px 0 0 0;">
                              <i class="card-icon fi-rr-cloud-download white"></i> 
@@ -79,16 +79,14 @@
           
       </b-container>
 
-      <b-container class="p-md-0">
-        <div class="row container-xl p-0">
-            <div class="col-xl-6 col-md-7 col-7">
+      <b-container class="pb-3">
+        <div class="row">
+            <div class="col-7">
                <tupleimgsmall></tupleimgsmall> 
             </div>
-            <div class="col-xl-4 col-lg-5 col-md-5 col-5">
-              <div class="mt-xl-5">
+            <div class="col-5">
                 <thetitle thetitle="24/7"></thetitle>
-                <detailing class="px-4" detailing="Support from our specialized technicians"></detailing>
-              </div>
+                <detailing detailing="Support from our specialized technicians"></detailing>
             </div>
         </div>
       </b-container>
@@ -145,7 +143,7 @@
             <center>
                 <div class="card-icon-circle yellow-bg">
                     <div style="padding: 12px 0 0 0;">
-                        <i class="card-icon fi-rr-broom black"></i> 
+                        <i class="card-icon fi-rr-settings black"></i> 
                     </div>
                 </div>
                 <div class="card-title">
@@ -216,11 +214,11 @@
                   <center>
                       <div class="card-icon-circle black-bg">
                           <div style="padding: 12px 0 0 0;">
-                             <i class="card-icon fi-rr-cloud-download white"></i> 
+                             <i class="card-icon fi-rr-apps white"></i> 
                           </div>
                       </div>
                       <div class="card-title">
-                          <cardtitle cardtitle="Installation"></cardtitle>
+                          <cardtitle cardtitle="Native apps"></cardtitle>
                       </div>
                       <cardetails carddetails="We provide from the ground up, Network platform installation with the best quality devices."></cardetails>
                   </center>
@@ -229,11 +227,11 @@
                   <center>
                       <div class="card-icon-circle white-bg theshadow">
                           <div style="padding: 12px 0 0 0;">
-                             <i class="card-icon fi-rr-rocket black"></i> 
+                             <i class="card-icon fi-rr-browser black"></i> 
                           </div>
                       </div>
                       <div class="card-title">
-                          <cardtitle cardtitle="Upgrading"></cardtitle>
+                          <cardtitle cardtitle="Web based apps"></cardtitle>
                       </div>
                       <cardetails carddetails="To the latest tools and network architecture which provide efficient performance"></cardetails>
                   </center>
@@ -242,11 +240,11 @@
                   <center>
                       <div class="card-icon-circle black-bg">
                           <div style="padding: 12px 0 0 0;">
-                             <i class="card-icon fi-rr-broom white"></i> 
+                             <i class="card-icon fi-rr-globe white"></i> 
                           </div>
                       </div>
                       <div class="card-title">
-                          <cardtitle cardtitle="Maintainance"></cardtitle>
+                          <cardtitle cardtitle="Websites"></cardtitle>
                       </div>
                       <cardetails carddetails="Of your network infrastructure and operational nodes with full support"></cardetails>
                   </center>

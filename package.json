@@ -12,6 +12,7 @@
     "core-js": "^3.6.5",
     "flaticon": "^0.1.0",
     "vue": "^2.6.11",
+    "vue-beautiful-chat": "^2.5.0",
     "vue-carousel-3d": "^1.0.1",
     "vue-router": "^3.5.1"
   },
