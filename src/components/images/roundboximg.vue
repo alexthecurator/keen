@@ -14,8 +14,8 @@ export default {
 
 <style scoped>
     .roundedbox {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         position: relative;
         background-color: aliceblue;
         border-radius: 12px;

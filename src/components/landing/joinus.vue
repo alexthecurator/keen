@@ -6,7 +6,7 @@
             </div>
             
             <div class="start-btn py-2" >
-                <b-button id="startBtn" class="px-lg-5 px-md-4 py-md-2 yellow-bg"><small class="btntext black">{{ thebtntext }}</small></b-button>
+                <b-button id="startBtn" class="px-lg-5 px-md-4 py-md-2 yellow-bg" v-b-modal.getstarted><small class="btntext black">{{ thebtntext }}</small></b-button>
             </div>
         </div>      
     </div>

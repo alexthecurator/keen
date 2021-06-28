@@ -16,7 +16,6 @@ export default {
         font-weight: lighter;
         font-size: 28px;
         line-height: 35px;
-        margin: 10px 0;
     }
     @media screen and (max-width: 1024px){
         .detailing {

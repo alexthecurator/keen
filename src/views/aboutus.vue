@@ -30,7 +30,7 @@
       </b-container>
 
       <b-container fluid>
-        <div class="scroll-cards">
+        <div class="scroll-cards container-xl">
           <teamcards teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
           <teamcards teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
           <teamcards teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
@@ -50,7 +50,7 @@
       </b-container> 
     </div>
 
-    <div class="section white-bg">
+    <div class="section white-bg pb-xl-5">
       <div class="pt-3">
         <b-container>
           <subtitle subtitle="About Us"></subtitle>
@@ -69,24 +69,31 @@
       </b-container>
       
       <b-container>
-        <tupleimg></tupleimg>
-      </b-container>
-      
-      <b-container>
-        <div class="mt-5">
-          <subtitle subtitle="Why choose us?"></subtitle>
+        <div class="row d-flex justify-content-center pb-lg-5">
+          <div class="col-xl-7 col-lg-12 col-md-12 col-12 p-0 m-0">
+            <tupleimg></tupleimg>
+          </div>
+          <div class="col-xl-5 col-lg-12 col-md-12 col-12">
+            <b-container>
+              <div class="mt-5">
+                <subtitle subtitle="Why choose us?"></subtitle>
+              </div>
+            </b-container>
+            
+            <b-container>
+              <detailing class="px-4 py-0 my-0 text-left" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
+              </detailing>
+            </b-container>
+          </div>
         </div>
-      </b-container>
-       
-      <b-container>
-        <detailing class="px-4 py-0 my-0 text-left" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
-        </detailing>
       </b-container>
     </div>
 
     <div class="theToggle">
        <toogle></toogle>
     </div>
+
+    <getstartedModal></getstartedModal>
 
     <div class="section">
       <thefooter></thefooter>
@@ -106,7 +113,7 @@ import detailing from '../components/typography/detailing.vue'
 import separator from '../components/typography/separator.vue'
 import tupleimg from '../components/images/tupleimg.vue'
 import thefooter from '../components/elements/footer.vue'
-
+import getstartedModal from '../components/elements/getstarted.vue'
 
 export default {
   name: 'home',
@@ -121,13 +128,14 @@ export default {
     tupleimg,
     teamcards,
     thefooter,
+    getstartedModal,
   }
 }
 </script>
 
 <style scoped>
 .scroll-cards {
-    max-height: 572px;
+    max-height: 100px;
     height: 100%;
     width: 100%s;
     overflow-y: scroll;

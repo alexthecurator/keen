@@ -44,21 +44,23 @@ export default {
     .team-title h5{
         font-weight: 700;
         margin: 4px 0;
+        font-size: 2vw;
     }
     .team-name h6{
         font-weight: 700;
         margin: 4px 0;
+        font-size: 1vw;
     }
     .team-details p {
         font-weight: 300;
         line-height: 16px;
-        font-size: 14px;
+        font-size: 1vw;
         padding: 0;
         margin: 0;
     }
     .team-img img {
-        width: 100px;
-        height: 100px;
+        width: 140px;
+        height: 140px;
         border-radius: 50%;
         border: 2px solid yellow;
     }

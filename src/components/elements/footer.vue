@@ -1,65 +1,67 @@
 <template>
     <footer class="black-bg">
-        <div class="white-bg-circle">
-          <b-container fluid>
-            <b-container>
+      <div class="white-bg-circle">
+        <b-container fluid>
+          <b-container>
+            <div class="p-xl-5 m-xl-5">
               <reachout class="black pb-5 mb-5" thequestionaire="Ready to get started?" thebtntexxt="Tap here"></reachout>
-            </b-container>
+            </div>
           </b-container>
-        </div>
+        </b-container>
+      </div>
 
-        <b-container>
-          <div class="p-0 mr-4">
-            <div class="row">
-              <div class="col-xl-12 col-lg-12 col-md-12 col-12">
-                <ul class="footer-menu">
-                  <li class="footer-item"><a class="footer-link" href="#">Home</a></li>
+      <b-container>
+        <div class="p-0 mr-4">
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+              <ul class="footer-menu">
+                <li class="footer-item"><a class="footer-link" href="#">Home</a></li>
 
-                  <div class="d-flex justify-content-center py-3">
-                    <grayseparator></grayseparator>
-                  </div>
+                <div class="d-flex justify-content-center py-3">
+                  <grayseparator></grayseparator>
+                </div>
 
-                  <li class="footer-item" ><a class="footer-link" href="">Services</a></li>
+                <li class="footer-item" ><a class="footer-link" href="">Services</a></li>
 
-                  <div class="d-flex justify-content-center pt-1 py-3">
-                    <grayseparator></grayseparator>
-                  </div>
+                <div class="d-flex justify-content-center pt-1 py-3">
+                  <grayseparator></grayseparator>
+                </div>
 
-                  <li class="footer-item"><a class="footer-link" href="">Projects</a></li>
+                <li class="footer-item"><a class="footer-link" href="">Projects</a></li>
 
-                  <div class="d-flex justify-content-center pt-1 py-3">
-                    <grayseparator></grayseparator>
-                  </div>
+                <div class="d-flex justify-content-center pt-1 py-3">
+                  <grayseparator></grayseparator>
+                </div>
 
-                  <li class="footer-item"><a class="footer-link" href="">About Us</a></li>
-                </ul>
-              </div>
+                <li class="footer-item"><a class="footer-link" href="">About Us</a></li>
+              </ul>
             </div>
           </div>
-        </b-container>
+        </div>
+      </b-container>
 
-        <b-container class="py-2 my-2">
-          <div class="p-0">
-            <div class="row">
-              <div class="col-4">
-                <img width="80px" src="../../assets/logos/kc-full-dark.png" alt="">
-              </div>
-              <div class="col-4">
-                <div class="p-2"></div>
-              </div>
-              <div class="col-4">
-                <div class="p-2"></div>
-              </div>
+      <b-container class="py-2 my-2">
+        <div class="p-0">
+          <div class="row">
+            <div class="col-4">
+              <img width="80px" src="../../assets/logos/kc-full-dark.png" alt="">
+            </div>
+            <div class="col-4">
+              <div class="p-2"></div>
+            </div>
+            <div class="col-4">
+              <div class="p-2"></div>
             </div>
           </div>
-        </b-container>
-
-        <div class="btm-footer">
-          <!-- change this later ^^ -->
-            <div class="footer-cont yellow-bg py-3">
-              <small>Copyright &amp; 2020: keencommunications.com</small>
-            </div>
         </div>
+      </b-container>
+
+      <div class="btm-footer">
+        <!-- change this later ^^ -->
+          <div class="footer-cont yellow-bg py-3">
+            <small>Copyright &amp; 2020: keencommunications.com</small>
+          </div>
+      </div>
     </footer>
 </template>
 
@@ -76,7 +78,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .btm-footer {
   bottom: .001%;
   position: relative;
@@ -86,6 +88,9 @@ export default {
 .btm-footer .footer-cont {
   top: 5.6vh;
   position: relative;
+}
+.footer-menu .footer-item .footer-link {
+    font-size: 1.4vw;
 }
 @media screen and (max-width: 780px) and (max-width: 1024px){
   .footer-menu > .footer-item > .footer-link {

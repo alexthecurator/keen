@@ -2,7 +2,7 @@
     <div class="header">
         <div class="col-12 p-0 m-0">
             <b-navbar variant="faded" type="light">
-                <b-navbar-brand href="#/home">
+                <b-navbar-brand href="#/">
                     <img src="../../assets/logos/kc-full-dark.png" class="d-inline-block align-top" alt="keen communication logo" />
                 </b-navbar-brand>
             </b-navbar>  

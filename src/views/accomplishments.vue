@@ -67,7 +67,7 @@
     </b-container>
   </div>
 
-  <div class="section white-bg">
+  <div class="section white-bg py-xl-5">
     <div class="pt-3">
       <b-container>
         <subtitle subtitle="Teamwork"></subtitle>
@@ -84,21 +84,25 @@
       we extend our capability by partnering with organizations with similar values to our own but with complementary skills and abilities.">
       </detailing>
     </b-container>
-    
-    <b-container>
-      <tupleimg></tupleimg>
-    </b-container>
-    
-    <b-container>
-      
-    </b-container>
-      
-    <b-container>
-      <div class="mt-5">
-        <subtitle subtitle="Why?"></subtitle>
+
+    <b-container class="pb-xl-5"> 
+      <div class="row pb-xl-5 d-flex justify-content-center">
+        <div class="col-xl-8 col-lg-12 col-md-12 col-12 p-0 m-0">
+          <tupleimg></tupleimg>
+        </div>
+        <div class="col-xl-4 col-lg-12 col-md-12 col-12">
+          <b-container>
+            <div class="mt-5">
+              <subtitle subtitle="Why?"></subtitle>
+            </div>
+          </b-container>
+          
+          <b-container>
+            <detailing class="px-4 py-0 my-0 text-left" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
+            </detailing>
+          </b-container>
+        </div>
       </div>
-      <detailing class="px-4 pb-2 m-0 text-left" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
-      </detailing>
     </b-container>
   </div>
 
@@ -114,7 +118,7 @@
     </div>
 
     <b-container>
-      <detailing class="py-3 px-4 white" detailing="Our aim is to leave a lasting impression with a excellent performance">
+      <detailing class="p-xl-0 m-xl-0 py-3 px-4 white" detailing="Our aim is to leave a lasting impression with a excellent performance">
       </detailing>
     </b-container>
 
@@ -126,6 +130,8 @@
   <div class="section">
     <thefooter></thefooter>
   </div>
+
+  <getstartedModal></getstartedModal>
 
   <div class="theToggle">
       <toogle></toogle>
@@ -147,6 +153,7 @@ import tupleimg from '../components/images/tupleimg.vue'
 import thefooter from '../components/elements/footer-dark.vue'
 import roundrecimg from '../components/images/roundrecimg.vue'
 import thecarousel from '../components/elements/carousel.vue'
+import getstartedModal from '../components/elements/getstarted.vue'
 
 export default {
   name: 'home',
@@ -163,6 +170,7 @@ export default {
     thefooter,
     roundrecimg,
     thecarousel,
+    getstartedModal,
   }
 }
 </script>

@@ -81,12 +81,14 @@
 
       <b-container class="p-md-0">
         <div class="row container-xl">
-            <div class="col-xl-7 col-md-7 col-7">
+            <div class="col-xl-6 col-md-7 col-7">
                <tupleimgsmall></tupleimgsmall> 
             </div>
-            <div class="col-xl-5 col-lg-5 col-md-5 col-5">
+            <div class="col-xl-4 col-lg-5 col-md-5 col-5">
+              <div class="mt-xl-5">
                 <thetitle thetitle="24/7"></thetitle>
                 <detailing class="px-4" detailing="Support from our specialized technicians"></detailing>
+              </div>
             </div>
         </div>
       </b-container>
@@ -167,10 +169,12 @@
       <b-container class="py-md-3 py-0">
         <div class="row">
             <div class="col-4">
-                <thetitle class="white" thetitle="24/7"></thetitle>
-                <detailing class="white" detailing="Support from specialized technicians"></detailing>
+                <div class="mt-xl-5">
+                  <thetitle class="white" thetitle="24/7"></thetitle>
+                  <detailing class="white px-4" detailing="Support from our specialized technicians"></detailing>
+                </div>
             </div>
-            <div class="col-7">
+            <div class="col-4">
                <tupleimgsmall></tupleimgsmall> 
             </div>
         </div>
@@ -335,6 +339,7 @@
       <thefooter></thefooter>
     </div>
     
+    <getstartedModal></getstartedModal>
 
     <div class="theToggle">
        <toogle></toogle>
@@ -359,6 +364,7 @@ import roundboximg from '../components/images/roundboximg.vue'
 import cardtitle from '../components/typography/cardtitle.vue'
 import cardetails from '../components/typography/cardetails.vue'
 import thefooter from '../components/elements/footer-dark.vue'
+import getstartedModal from '../components/elements/getstarted.vue'
 
 export default {
   name: 'home',
@@ -378,6 +384,7 @@ export default {
     cardtitle,
     cardetails,
     thefooter,
+    getstartedModal,
   }
 }
 </script>

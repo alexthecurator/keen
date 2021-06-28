@@ -71,8 +71,7 @@
             </div>
           </div>
         </b-container>
-        
-        
+
       </b-container>
     </div>
 
@@ -170,6 +169,8 @@
        <toogle></toogle>
     </div>
 
+    <getstartedModal></getstartedModal>
+
     <div class="section">
       <thefooter></thefooter>
     </div>
@@ -190,7 +191,7 @@ import roundedimg from '../components/images/roundimg.vue'
 import joinus from '../components/landing/joinus.vue'
 import horcards from '../components/cards/horizontalcards.vue'
 import thefooter from '../components/elements/footer.vue'
-
+import getstartedModal from '../components/elements/getstarted.vue'
 
 export default {
   name: 'home',
@@ -208,6 +209,7 @@ export default {
     joinus,
     horcards,
     thefooter,
+    getstartedModal
   }
 }
 </script>
