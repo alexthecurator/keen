@@ -2,15 +2,15 @@
     <div class="getstarted px-4 mx-4">
         <div class="obj-center text-left">
             <div class="sub-caption white mb-2">
-                <small>{{ subcaption }}</small>
+                <h5>{{ subcaption }}</h5>
             </div>
 
             <div class="main-caption white mb-2">
-                <h3>{{ maincaption }}</h3>
+                <h1>{{ maincaption }}</h1>
             </div>
 
             <div class="sub-maincaption white">
-                <h5>{{ submaincaption }}</h5>
+                <h3>{{ submaincaption }}</h3>
             </div>
             <div class="start-btn py-2" id="startBtn">
                 <b-button class="yellow-bg" v-b-modal.getstarted><small class="btntext black">{{ btntext }}</small></b-button>
@@ -30,14 +30,14 @@ export default {
         position: relative;
         z-index: 8;
     }
-    .sub-caption small{
+    .sub-caption h5{
         font-size: 18px;
     }
-    .sub-maincaption h5{
-        font-size: 24spx;
-        font-weight: lighter;
+    .sub-maincaption h3{
+        font-size: 24px;
+        font-weight: 300;
     }
-    .main-caption h3{
+    .main-caption h1{
         font-size: 56px;
     }
     .btntext {
@@ -83,11 +83,8 @@ export default {
 
     @media screen and (max-width:420px) {}
 
-    @media screen and (max-width:380px) {
+    @media screen and (max-width:380px) {}
 
-    }
-
-    @media screen and (max-width:320px) {
-
-    }
+    @media screen and (max-width:320px) {}
+    
 </style>

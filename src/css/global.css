@@ -125,6 +125,23 @@ p {
 
 /* Elements */
 
+.brand-logo {
+    position: relative;
+    z-index: 9999;
+    width: 53.35px;
+    height: 32px;
+}
+
+.brand-logo-m {
+    width: 53.35px;
+    height: 35px;
+}
+
+.footer-logo {
+    width: 120px;
+    height: 120px;
+}
+
 .white-bg-circle {
     background-image: url('../assets/svg/reachout.svg');
     width: 100%;

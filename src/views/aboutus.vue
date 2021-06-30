@@ -2,7 +2,7 @@
 <div>
     <hero></hero>
     <div class="fixed-top">
-      <headerMob></headerMob>
+      <theheader></theheader>
     </div>
   
     <div class="section-v">
@@ -95,7 +95,11 @@
 
     <getstartedModal></getstartedModal>
 
-    <div class="section">
+    <div class="live-chat">
+      <livechat></livechat>
+    </div>
+
+    <div class="section"> 
       <thefooter></thefooter>
     </div>
 
@@ -104,7 +108,7 @@
 
 <script>
 import hero from '../components/landing/hero.vue'
-import headerMob from '../components/elements/headerMob.vue'
+import theheader from '../components/elements/theheader.vue'
 import getstarted from '../components/landing/getstarted.vue'
 import teamcards from '../components/cards/teamcards.vue'
 import toogle from '../components/elements/toggleMob.vue'
@@ -114,12 +118,13 @@ import separator from '../components/typography/separator.vue'
 import tupleimg from '../components/images/tupleimg.vue'
 import thefooter from '../components/elements/footer.vue'
 import getstartedModal from '../components/elements/getstarted.vue'
+import livechat from '../components/elements/liveChat.vue'
 
 export default {
   name: 'home',
   components: {
     hero,
-    headerMob,
+    theheader,
     getstarted,
     toogle,
     subtitle,
@@ -129,6 +134,7 @@ export default {
     teamcards,
     thefooter,
     getstartedModal,
+    livechat,
   }
 }
 </script>

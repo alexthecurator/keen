@@ -26,7 +26,7 @@ export default {
         border-radius: 12px;
     }
     .tupleimg-one img {
-        width: 480px;
+        width: 420px;
         height: 400px;
         position: relative;
         z-index: 100;
@@ -38,6 +38,44 @@ export default {
         z-index: 101;
         top: 140px;
         left: 150px;
+    }
+    @media screen and (max-width: 1400px) {
+        .tupleimg-one img, .tupleimg-two img{
+            border-radius: 22px;
+        }
+        .tupleimg-one img {
+            width: 380px;
+            height: 340px;
+            position: relative;
+            z-index: 100;
+        }
+        .tupleimg-two, .tupleimg-two img {
+            width: 260px;
+            height: 200px;
+            position: absolute;
+            z-index: 101;
+            top: 100px;
+            left: 100px;
+        }
+    }
+    @media screen and (max-width: 1280px) {
+        .tupleimg-one img, .tupleimg-two img{
+            border-radius: 22px;
+        }
+        .tupleimg-one img {
+            width: 560px;
+            height: 460px;
+            position: relative;
+            z-index: 100;
+        }
+        .tupleimg-two, .tupleimg-two img {
+            width: 380px;
+            height: 280px;
+            position: absolute;
+            z-index: 101;
+            top: 130px;
+            left: 180px;
+        }
     }
     @media screen and (max-width: 1024px){
         .tupleimg-one img, .tupleimg-two img{

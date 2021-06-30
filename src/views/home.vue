@@ -2,7 +2,7 @@
 <div>
     <hero></hero>
     <div class="fixed-top">
-      <headerMob></headerMob>
+      <theheader></theheader>
     </div>
   
     <div class="section-v">
@@ -21,19 +21,19 @@
       <b-container>
         <div class="row p-md-4">
           <div class="col-xl-4 col-lg-12 col-md-12 col-12">
-            <card cardTitle="Network" cardDetails="Installation, Upgrade and Maintainance"></card>
+            <card cardIcon="fi-rr-network-cloud" cardTitle="Network" cardDetails="Installation, Upgrade and Maintainance"></card>
           </div>
           <div class="col-xl-4 col-lg-12 col-md-12 col-12">
-            <card cardTitle="Hardware & Software" cardDetails="Installation, Upgrade and Troubleshooting"></card>
+            <card cardIcon="fi-rr-physics" cardTitle="Hardware & Software" cardDetails="Installation, Upgrade and Troubleshooting"></card>
           </div>
           <div class="col-xl-4 col-lg-12 col-md-12 col-12">
-            <card cardTitle="Development" cardDetails="Web based and Native Softwares with Support"></card>
+            <card cardIcon="fi-rr-expand" cardTitle="Development" cardDetails="Web based and Native Softwares with Support"></card>
           </div>
         </div>
       </b-container>
     </div>
 
-    <div class="section white-bg py-xl-5 py-md-3">
+    <div class="section white-bg py-xl-4 py-md-3">
       <b-container>
         <div class="pt-3">
           <b-container>
@@ -46,7 +46,7 @@
         </div>
     
         <b-container>
-          <detailing class="m-lg-2 px-md-0 pt-3 px-4 text-lg-justify text-left" detailing="We know that to add great value to clients, we have to work together. We provide the
+          <detailing class="mx-xl-5 py-xl-2 m-lg-2 px-md-0 pt-3 px-4 text-lg-justify text-left" detailing="We know that to add great value to clients, we have to work together. We provide the
           best people and bring them together in teams to deliver our services. Our teams are diverse in their disciplines, ideas, perspectives and cultures. When necessary
           we extend our capability by partnering with organizations with similar values to our own but with complementary skills and abilities.">
           </detailing>
@@ -54,20 +54,22 @@
         
         <b-container>
           <div class="row d-flex justify-content-center mb-lg-5 pb-lg-5">
-            <div class="col-xl-8 col-lg-12 col-md-12 col-12 p-0 m-0">
+            <div class="col-xl-6 col-lg-12 col-md-12 col-12 p-0 m-0">
               <tupleimg></tupleimg>
             </div>
-            <div class="col-xl-4 col-lg-12 col-md-12 col-12">
-              <b-container>
-                <div class="mt-5">
-                  <subtitle subtitle="Why?"></subtitle>
-                </div>
-              </b-container>
-              
-              <b-container>
-                <detailing class="px-4 py-0 my-0 text-left" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
-                </detailing>
-              </b-container>
+            <div class="col-xl-5 col-lg-12 col-md-12 col-12">
+              <div class="mt-xl-5">
+                <b-container>
+                  <div class="p-0 m-0">
+                    <subtitle class="text-left" subtitle="Why?"></subtitle>
+                  </div>
+                </b-container>
+                
+                <b-container>
+                  <detailing class="px-4 py-0 my-0 text-left" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
+                  </detailing>
+                </b-container>
+              </div>
             </div>
           </div>
         </b-container>
@@ -82,7 +84,7 @@
         </b-container>
       </div>
 
-      <div class="d-flex justify-content-center py-md-3">
+      <div class="d-flex justify-content-center py-xl-1 py-md-3">
         <separator></separator>
       </div>
 
@@ -92,23 +94,21 @@
       </b-container>
 
       <b-container>
-        <div class="container py-md-2 ml-xl-5 pl-xl-5">
+        <div class="container py-md-2">
           <div class="row d-flex justify-content-center">
-            <div class="col-xl-4 col-lg-4 col-md-4 col-4">
+            <div class="col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
+              <roundedimg theLogo="../assets/images/DarCityCouncil.jpg"></roundedimg>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
               <roundedimg></roundedimg>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-4">
+            <div class="col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
+              <roundedimg></roundedimg>
+            </div>          
+            <div class="col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
               <roundedimg></roundedimg>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-4">
-              <roundedimg></roundedimg>
-            </div>
-          </div>
-          <div class="row py-4 d-flex justify-content-center">
-            <div class="col-xl-4 col-lg-4 col-md-4 col-4">
-              <roundedimg></roundedimg>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-4">
+            <div class="col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
               <roundedimg></roundedimg>
             </div>
           </div>
@@ -175,7 +175,6 @@
       <livechat></livechat>
     </div>
     
-
     <div class="section">
       <thefooter></thefooter>
     </div>
@@ -184,7 +183,7 @@
 
 <script>
 import hero from '../components/landing/hero.vue'
-import headerMob from '../components/elements/headerMob.vue'
+import theheader from '../components/elements/theheader.vue'
 import getstarted from '../components/landing/getstarted.vue'
 import toogle from '../components/elements/toggleMob.vue'
 import card from '../components/cards/portraitcards.vue'
@@ -203,7 +202,7 @@ export default {
   name: 'home',
   components: {
     hero,
-    headerMob,
+    theheader,
     getstarted,
     toogle,
     card,

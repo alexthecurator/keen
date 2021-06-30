@@ -7,7 +7,7 @@
 
 @media screen and (max-width:1400px) {
     .section {
-        width: 100%;
+        width: 100%v;
         height: 100%;
     }
 }
@@ -69,5 +69,9 @@
     .section-v {
         width: 100vw;
         height: 100vh;
+    }
+    .brand-logo-m {
+        width: 53.35px;
+        height: 35px;
     }
 }

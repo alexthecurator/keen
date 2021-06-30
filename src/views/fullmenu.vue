@@ -1,11 +1,11 @@
 <template>
     <div class="section-v black-bg">
-        <headerMob class="position-relative"></headerMob>
+        <theheader class="position-relative"></theheader>
         <theTitle class="white" thetitle="Keen Communications"></theTitle>
         <b-container>
             <div>
                 <div class="nav-link">
-                   <a href="/#/">
+                   <a href="#/">
                         <div class="nav-item">
                             <div class="d-flex flex-row">
                                 <div class="px-2">
@@ -19,7 +19,7 @@
                     </a> 
                 </div>
                 <div class="nav-link">
-                   <a href="/#/services">
+                   <a href="#/services">
                         <div class="nav-item">
                             <div class="d-flex flex-row">
                                 <div class="px-2">
@@ -33,7 +33,7 @@
                     </a> 
                 </div>
                 <div class="nav-link">
-                   <a href="/#/accomplishments">
+                   <a href="#/accomplishments">
                         <div class="nav-item">
                             <div class="d-flex flex-row">
                                 <div class="px-2">
@@ -47,7 +47,7 @@
                     </a> 
                 </div>
                 <div class="nav-link">
-                   <a href="/#/aboutus">
+                   <a href="#/aboutus">
                         <div class="nav-item">
                             <div class="d-flex flex-row">
                                 <div class="px-2">
@@ -88,14 +88,14 @@
 </template>
 
 <script>
-import headerMob from '../components/elements/headerMob.vue'
+import theheader from '../components/elements/theheader.vue'
 import theTitle from '../components/typography/title.vue'
 import toogle from '../components/elements/toggleMob.vue'
 
 export default {
     name: 'nav',
     components: {
-        headerMob,
+        theheader,
         theTitle,
         toogle,
     }

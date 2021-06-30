@@ -1,23 +1,23 @@
 <template>
     <div class="roundedbox">
         <div class="rounded-image">
-            <img src="" alt="">
+            <img :src="theLogo" alt="">
         </div>
     </div>
 </template>
 
 <script>
 export default {
-    name: "roundimage"
+    name: "roundimage",
+    props: ['theLogo']
 }
 </script>
 
 <style scoped>
-    .roundedbox {
+    .roundedbox .rounded-image{
         width: 160px;
         height: 160px;
         position: relative;
-        background-color: aliceblue;
         border-radius: 50%;
     }
     @media screen and (max-width: 1400px){

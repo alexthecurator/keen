@@ -3,7 +3,7 @@
         <div class="card py-lg-4 py-md-3 py-3 my-md-3 my-2">
             <div class="card-icon mb-md-4 m-0">
                 <div class="icon d-flex justify-content-center">
-                    <i class="fi-rr-network-cloud"></i>
+                    <i :class="cardIcon"></i>
                 </div>
             </div>
             <div class="card-body m-md-2">
@@ -21,7 +21,7 @@
 <script>
 export default {
     name: "card",
-    props: ['cardTitle', 'cardDetails']
+    props: ['cardIcon','cardTitle', 'cardDetails']
 }
 </script>
 

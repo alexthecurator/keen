@@ -1,5 +1,5 @@
 <template> 
-    <div class="toggle">
+    <div class="toggle d-block d-lg-none">
         <b-button @click="getNav()" class="toogle-brd" id="getBtn">
         </b-button>
     </div>

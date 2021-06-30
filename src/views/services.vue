@@ -3,7 +3,7 @@
     
     <hero></hero>
     <div class="fixed-top">
-      <headerMob></headerMob>
+      <theheader></theheader>
     </div>
   
     <div class="section-v">
@@ -337,6 +337,10 @@
       <thefooter></thefooter>
     </div>
     
+    <div class="live-chat">
+      <livechat></livechat>
+    </div>
+
     <getstartedModal></getstartedModal>
 
     <div class="theToggle">
@@ -348,7 +352,7 @@
 
 <script>
 import hero from '../components/landing/hero.vue'
-import headerMob from '../components/elements/headerMob.vue'
+import theheader from '../components/elements/theheader.vue'
 import getstarted from '../components/landing/getstarted.vue'
 import joinus from '../components/landing/joinus.vue'
 import toogle from '../components/elements/toggleMob.vue'
@@ -363,12 +367,13 @@ import cardtitle from '../components/typography/cardtitle.vue'
 import cardetails from '../components/typography/cardetails.vue'
 import thefooter from '../components/elements/footer-dark.vue'
 import getstartedModal from '../components/elements/getstarted.vue'
+import livechat from '../components/elements/liveChat.vue'
 
 export default {
   name: 'home',
   components: {
     hero,
-    headerMob,
+    theheader,
     getstarted,
     joinus,
     toogle,
@@ -383,6 +388,7 @@ export default {
     cardetails,
     thefooter,
     getstartedModal,
+    livechat,
   }
 }
 </script>

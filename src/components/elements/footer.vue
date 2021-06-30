@@ -15,25 +15,25 @@
           <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-12">
               <ul class="footer-menu">
-                <li class="footer-item"><a class="footer-link" href="#">Home</a></li>
+                <li class="footer-item"><a class="footer-link" href="#/">Home</a></li>
 
                 <div class="d-flex justify-content-center py-3">
                   <grayseparator></grayseparator>
                 </div>
 
-                <li class="footer-item" ><a class="footer-link" href="">Services</a></li>
+                <li class="footer-item" ><a class="footer-link" href="#/services">Services</a></li>
 
                 <div class="d-flex justify-content-center pt-1 py-3">
                   <grayseparator></grayseparator>
                 </div>
 
-                <li class="footer-item"><a class="footer-link" href="">Projects</a></li>
+                <li class="footer-item"><a class="footer-link" href="#/accomplishments">Projects</a></li>
 
                 <div class="d-flex justify-content-center pt-1 py-3">
                   <grayseparator></grayseparator>
                 </div>
 
-                <li class="footer-item"><a class="footer-link" href="">About Us</a></li>
+                <li class="footer-item"><a class="footer-link" href="#/aboutus">About Us</a></li>
               </ul>
             </div>
           </div>
@@ -44,7 +44,7 @@
         <div class="p-0">
           <div class="row">
             <div class="col-4">
-              <img width="80px" src="../../assets/logos/kc-full-dark.png" alt="">
+              <img class="footer-logo" src="../../assets/logos/kc-logo-full-light.svg" alt="keen communications">
             </div>
             <div class="col-4">
               <div class="p-2"></div>
