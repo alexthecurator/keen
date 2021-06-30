@@ -1,9 +1,9 @@
 <template>
     <footer class="black-bg">
-      <div class="white-bg-circle">
+      <div class="white-bg">
         <b-container fluid>
           <b-container>
-            <div class="p-xl-5 m-xl-5">
+            <div class="p-xl-5">
               <reachout class="black pb-5 mb-5" thequestionaire="Ready to get started?" thebtntexxt="Tap here"></reachout>
             </div>
           </b-container>
@@ -11,9 +11,12 @@
       </div>
 
       <b-container>
-        <div class="p-0 mr-4">
+        <div class="pt-5 d-flex justify-content-center">
           <div class="row">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+            <div class="col-xl-4 col-lg-12 col-md-12 col-12">
+              
+            </div>
+            <div class="col-xl-4 col-lg-12 col-md-12 col-12">
               <ul class="footer-menu">
                 <li class="footer-item"><a class="footer-link" href="#/">Home</a></li>
 
@@ -36,23 +39,40 @@
                 <li class="footer-item"><a class="footer-link" href="#/aboutus">About Us</a></li>
               </ul>
             </div>
+            <div class="col-xl-4 col-lg-12 col-md-12 col-12">
+
+            </div>
           </div>
         </div>
       </b-container>
 
-      <b-container class="py-2 my-2">
-        <div class="p-0">
-          <div class="row">
-            <div class="col-4">
-              <img class="footer-logo" src="../../assets/logos/kc-logo-full-light.svg" alt="keen communications">
-            </div>
-            <div class="col-4">
-              <div class="p-2"></div>
-            </div>
-            <div class="col-4">
-              <div class="p-2"></div>
+      <b-container fluid>
+        <div class="">
+          <div class="">
+            <div class="p-2">
+                <img class="brand-logo" src="../../assets/logos/kc-logo-full-light.svg" alt="keen communications">
             </div>
           </div>
+          <b-container>
+            <div class="row d-lg-flex justify-content-center">
+              <div class="col-4">
+                <div class="p-2">
+                  <img class="footer-logo" src="../../assets/svg/instagram.svg" alt="keen communications">
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="p-2">
+                  <img class="footer-logo" src="../../assets/svg/youtube.svg" alt="keen communications">
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="p-2">
+                  <img class="footer-logo" src="../../assets/svg/linkedin.svg" alt="keen communications">
+                </div>
+              </div>
+            </div>
+          </b-container>
+          
         </div>
       </b-container>
 

@@ -1,9 +1,9 @@
 <template>
     <footer class="white-bg">
-      <div class="black-bg-circle">
+      <div class="black-bg">
         <b-container fluid>
           <b-container>
-            <div class="p-xl-5 m-xl-5">
+            <div class="p-xl-5">
               <reachout class="pb-5 mb-5 white" thequestionaire="Ready to get started?" thebtntexxt="Tap here"></reachout>
             </div>
           </b-container>

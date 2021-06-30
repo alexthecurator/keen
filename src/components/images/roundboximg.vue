@@ -16,7 +16,7 @@ export default {
     .roundedbox {
         width: 150px;
         height: 150px;
-        position: relative;
+        position: relative; 
         background-color: aliceblue;
         border-radius: 12px;
     }
