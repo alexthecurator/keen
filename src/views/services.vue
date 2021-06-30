@@ -12,7 +12,7 @@
       </div>
     </div>
 
-    <div class="section white-bg">
+    <div class="section white-bg py-xl-5">
       <div class="pt-3">
         <b-container>
           <subtitle subtitle="Network"></subtitle>
@@ -79,7 +79,7 @@
           
       </b-container>
 
-      <b-container class="pb-3">
+      <b-container class="py-xl-4 py-2">
         <div class="row">
             <div class="col-7">
                <tupleimgsmall></tupleimgsmall> 
@@ -87,11 +87,19 @@
             <div class="col-5">
                 <thetitle thetitle="24/7"></thetitle>
                 <detailing detailing="Support from our specialized technicians"></detailing>
+
+                <b-container class="d-none d-lg-block py-xl-3 py-0" fluid>
+                  <div class="container d-flex justify-content-center">
+                    <div class="text-left">
+                      <joinus thequestion="Call us today" thebtntext="Tap here"></joinus>
+                    </div> 
+                  </div>
+                </b-container>
             </div>
         </div>
       </b-container>
       
-      <b-container class="py-5" fluid>
+      <b-container class="d-block d-lg-none py-xl-4 py-0" fluid>
           <div class="container">
             <div class="text-left">
               <joinus thequestion="Call us today" thebtntext="Tap here"></joinus>
@@ -111,7 +119,7 @@
         <separatormedium></separatormedium>
       </div>
 
-      <b-container class="pt-3 pb-2">
+      <b-container class="py-xl-4 py-2">
         <div class="row">
           <div class="col-4 p-0">
             <center>
@@ -155,7 +163,7 @@
         </div>
       </b-container>
     
-      <div class="d-flex justify-content-center pb-3">
+      <div class="d-flex justify-content-center pb-xl-3 pb-2">
         <separatorsmall></separatorsmall>
       </div>
       
@@ -164,21 +172,27 @@
         </detailing>
       </b-container>
 
-      <b-container class="py-md-3 py-0">
+      <b-container class="py-xl-4 py-2">
         <div class="row">
-            <div class="col-md-4 col-4 m-0 p-0">
-                <div class="mt-xl-5 m-0">
-                  <thetitle class="white text-center" thetitle="24/7"></thetitle>
-                  <detailing class="white px-4" detailing="Support from our specialized technicians"></detailing>
-                </div>
+            <div class="col-4">
+                <thetitle class="white" thetitle="24/7"></thetitle>
+                <detailing class="white" detailing="Support from our specialized technicians"></detailing>
+
+                <b-container class="d-none d-lg-block py-xl-3 py-0" fluid>
+                  <div class="container d-flex justify-content-center">
+                    <div class="text-left">
+                      <joinus class="white" thequestion="Call us today" thebtntext="Tap here"></joinus>
+                    </div> 
+                  </div>
+                </b-container>
             </div>
-            <div class="col-md-4 col-8">
+            <div class="col-7">
                <tupleimgsmall></tupleimgsmall> 
             </div>
         </div>
       </b-container>
-
-      <b-container class="py-md-0 py-5" fluid>
+      
+      <b-container class="d-block d-lg-none py-xl-4 py-0" fluid>
           <div class="container">
             <div class="text-left">
               <joinus class="white" thequestion="Call us today" thebtntext="Tap here"></joinus>
@@ -188,7 +202,7 @@
       
     </div>
 
-    <div class="section white-bg">
+    <div class="section white-bg py-xl-5">
       <div class="pt-3">
         <b-container>
           <subtitle subtitle="Development"></subtitle>
@@ -252,7 +266,7 @@
           </div>
       </b-container>
 
-      <b-container class="py-3">
+      <b-container class="py-xl-4 py-2">
         <div class="row">
             <div class="col-7">
                <tupleimgsmall></tupleimgsmall> 
@@ -260,11 +274,19 @@
             <div class="col-5">
                 <thetitle thetitle="24/7"></thetitle>
                 <detailing detailing="Support from our specialized technicians"></detailing>
+
+                <b-container class="d-none d-lg-block py-xl-3 py-0" fluid>
+                  <div class="container d-flex justify-content-center">
+                    <div class="text-left">
+                      <joinus thequestion="Call us today" thebtntext="Tap here"></joinus>
+                    </div> 
+                  </div>
+                </b-container>
             </div>
         </div>
       </b-container>
       
-      <b-container class="py-5" fluid>
+      <b-container class="d-block d-lg-none py-xl-4 py-0" fluid>
           <div class="container">
             <div class="text-left">
               <joinus thequestion="Call us today" thebtntext="Tap here"></joinus>
@@ -274,7 +296,7 @@
       
     </div>
 
-    <div class="section black-bg">
+    <div class="section black-bg py-xl-3">
       <div class="pt-md-4 pt-3">
         <b-container>
           <subtitle class="white" subtitle="Why do we innovate?"></subtitle>
@@ -286,25 +308,25 @@
       </div>
 
       <b-container>
-        <div class="d-flex flex-row px-2">
+        <div class="d-flex flex-row my-xl-2 px-2">
           <div class="mx-md-3 px-2">
             <roundboximg></roundboximg>
           </div>
-          <div class="mx-md-3 px-2">
+          <div class="mr-xl-5 mx-md-3 px-2">
             <detailing class="white text-left" detailing="They guide our decision making, our interactions with the morden economy and our relationships with each other. People adopt, own and apply our values in their work."></detailing>
           </div>
         </div>
       </b-container>
 
       <b-container>
-        <detailing class="pt-2 px-4 text-center white bold" detailing="They guide our decision making, our interactions with the morden economy and our relationships with each other. People adopt, own and apply our values in their work.">
+        <detailing class="my-xl-2 mr-xl-5 pt-2 px-4 text-center white bold" detailing="They guide our decision making, our interactions with the morden economy and our relationships with each other. People adopt, own and apply our values in their work.">
         </detailing>
       </b-container>
 
       <b-container>
-        <div class="d-flex flex-row px-2">
+        <div class="d-flex flex-row px-2 my-xl-3">
           <div class="mx-md-3 px-2">
-            <detailing class="white text-left" detailing="They guide our decision making, our interactions with the morden economy and our relationships with each other. People adopt, own and apply our values in their work."></detailing>
+            <detailing class="mr-xl-5 white text-left" detailing="They guide our decision making, our interactions with the morden economy and our relationships with each other. People adopt, own and apply our values in their work."></detailing>
           </div>
           <div class="mx-md-3 px-2">
             <roundboximg></roundboximg>

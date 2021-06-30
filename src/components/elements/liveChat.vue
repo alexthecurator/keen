@@ -42,7 +42,7 @@ export default {
         {
           id: 'Support',  
           name: 'Support',
-          imageUrl: 'keen/src/assets/logos/kc-light.png'
+          imageUrl: '../../assets/logos/Keen Communications.jpg'
         }
       ], // the list of all the participant of the conversation. `name` is the user name, `id` is used to establish the author of a message, `imageUrl` is supposed to be the user avatar.
       titleImageUrl: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0001-34.png',

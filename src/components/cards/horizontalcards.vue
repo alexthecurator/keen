@@ -2,7 +2,7 @@
     <div class="horcards">
         <div class="horcard">
             <div class="horcard-img">
-                <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Profile image" />
+                <img :src="cardImgUrl" />
             </div>
             <div class="horcard-text">
                 <div class="horcard-title">
@@ -20,7 +20,7 @@
 <script>
 export default {
     name:"horizontalcards",
-    props: ['cardTitle','cardDetails']
+    props: ['cardImgUrl','cardTitle','cardDetails']
 }
 </script>
 

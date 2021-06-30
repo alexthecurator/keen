@@ -1,13 +1,13 @@
 <template>
-    <div class="header white-bg">
-        <div class="d-block d-lg-none col-12 p-0 m-0">
+    <div class="">
+        <div class="header-sm d-block d-lg-none col-12 p-0 m-0">
             <b-navbar variant="faded" type="light">
                 <b-navbar-brand href="#/">
-                    <img src="../../assets/logos/kc-logo-dark.svg" class="brand-logo-m d-inline-block align-top" alt="keen communication logo" />
+                    <img src="../../assets/logos/kc-logo-full-light.svg" class="brand-logo-m d-inline-block align-top" alt="keen communication logo" />
                 </b-navbar-brand>
             </b-navbar>  
         </div>
-        <div class="d-none d-lg-block col-12 p-0 m-0">
+        <div class="header white-bg fixed-top d-none d-lg-block col-12 p-0 m-0">
             <b-navbar variant="faded" type="light">
                 <b-navbar-brand href="#/">
                     <img src="../../assets/logos/kc-logo-dark.svg" class="brand-logo d-inline-block align-top" alt="keen communication logo" />
@@ -54,14 +54,53 @@
 </script>
 
 <style scoped>
-    .header {
-        padding: 10px 0;
+    .header , .header-sm {
         margin: 0;
-        position: absolute;
-        width: 100%;
+        width: 100vw;
         z-index: 999;
     }
+    .header {
+        position: absolute;
+    }
+    .header-sm {
+        position: relative;
+    }
     .nav-link {
-        font-size: .86vw;
+        font-size: .82vw;
+    }
+    @media screen and (max-width: 1400px){
+        .header {
+            padding: 10px 0;
+        }
+    }
+    @media screen and (max-width: 1280px){
+        .header {
+            padding: 5px 0;
+        }
+    }
+    @media screen and (max-width: 1024px){
+        .header-sm {
+            padding: 5px 0;
+        }
+    }
+    @media screen and (max-width: 780px){
+        .header-sm {
+            padding: 5px 0;
+        }
+    }
+    @media screen and (max-width: 480px){
+        .header-sm {
+            padding: 5px 0;
+        }
+    }
+    @media screen and (max-width: 420px){
+        .header-sm {
+            padding: 5px 0;
+        }
+    }
+    @media screen and (max-width: 320px){
+        .header-sm {
+            padding: 5px 0;
+        }
     }
 </style>

@@ -20,9 +20,9 @@ export default {
     .toggle {
         position: fixed;
         z-index: 999999;
-        bottom: 72px;
-        right: 20px;
-        padding: 20px;
+        bottom: 100px;
+        right: 36px;
+        padding: 0px;
     }   
     .toogle-brd {
         border-radius: 50%;

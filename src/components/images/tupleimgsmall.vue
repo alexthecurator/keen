@@ -26,14 +26,14 @@ export default {
         border-radius: 12px;
     }
     .tupleimg-one img {
-        width: 360px;
+        width: 320px;
         height: 280px;
         position: relative;
         z-index: 100;
     }
     .tupleimg-two, .tupleimg-two img {
-        width: 260px;
-        height: 180px;
+        width: 180px;
+        height: 140px;
         position: absolute;
         z-index: 101;
         top: 100px;
@@ -45,14 +45,14 @@ export default {
             margin: 8px 0 20px 0;
         }
         .tupleimg-one img {
-            width: 430px;
-            height: 380px;
+            width: 280px;
+            height: 240px;
         }
         .tupleimg-two, .tupleimg-two img {
-            width: 300px;
-            height: 200px;
-            top: 118px;
-            left: 100px;
+            width: 160px;
+            height: 120px;
+            top: 85px;
+            left: 85px;
         }
     }
     @media screen and (max-width: 1280px){

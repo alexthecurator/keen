@@ -1,8 +1,8 @@
 <template>
     <div class="teams">
-        <div class="team">
+        <div class="team d-md-flex">
             <div class="team-img">
-                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Profile image">
+                <img :src="teamImg" alt="Profile image">
             </div>  
             <div class="team-text">
                 <div class="team-title">
@@ -23,12 +23,12 @@
 <script>
 export default {
     name:"teamCards",
-    props: ['teamTitle','teamName','teamDetails']
+    props: ['teamImg','teamTitle','teamName','teamDetails']
 }
 </script>
 
 <style scoped>
-    .team {
+    .teams {
         box-shadow: 0px 12px 12px rgba(0,0,0,0.04);
         padding: 16px;
         margin: 12px 0;
@@ -86,6 +86,54 @@ export default {
         .team-details p{
             font-size: 20px;
             line-height: 26px;
+        }
+    }
+    @media screen and (max-width: 480px){
+        .team-title h5{
+            font-size: 30px;
+        }
+        .team-name h6 {
+            font-size: 22px;
+        }
+        .team-details p{
+            font-size: 20px;
+            line-height: 26px;
+        }
+    }
+    @media screen and (max-width: 420px){
+        .team-title h5{
+            font-size: 30px;
+        }
+        .team-name h6 {
+            font-size: 22px;
+        }
+        .team-details p{
+            font-size: 20px;
+            line-height: 26px;
+        }
+    }
+    @media screen and (max-width: 380px){
+        .team-title h5{
+            font-size: 30px;
+        }
+        .team-name h6 {
+            font-size: 22px;
+        }
+        .team-details p{
+            font-size: 20px;
+            line-height: 26px;
+        }
+    }
+    @media screen and (max-width: 320px){
+        .team-title h5{
+            font-size: 30px;
+        }
+        .team-name h6 {
+            font-size: 22px;
+        }
+        .team-details p{
+            font-size: 16px;
+            line-height: 18px;
         }
     }
 </style>

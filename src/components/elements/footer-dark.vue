@@ -59,7 +59,7 @@
       <div class="btm-footer">
         <!-- change this later ^^ -->
           <div class="footer-cont yellow-bg py-3">
-            <small>Copyright &amp; 2020: keencommunications.com</small>
+            <small>Copyright &amp; 2021: keencommunications.com</small>
           </div>
       </div>
     </footer>

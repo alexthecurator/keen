@@ -14,8 +14,9 @@ export default {
 <style scoped>
     .detailing {
         font-weight: 300;
-        font-size: 28px;
+        font-size: 24px;
         line-height: 35px;
+        letter-spacing: .6px;
     }
     @media screen and (max-width: 1400px){
         .detailing {

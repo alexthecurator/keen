@@ -1,7 +1,7 @@
 <template>
     <div class="roundedbox">
         <div class="rounded-image">
-            <img :src="theLogo" alt="">
+            <img :src="require('../../assets/images/' + theLogo)" alt="">
         </div>
     </div>
 </template>
@@ -14,53 +14,60 @@ export default {
 </script>
 
 <style scoped>
-    .roundedbox .rounded-image{
+    .rounded-image img {
         width: 160px;
         height: 160px;
         position: relative;
         border-radius: 50%;
     }
+    @media screen and (max-width: 1920px){
+        .rounded-image img  {
+            width: 140px;
+            height: 140px;
+            margin: 20px 0;
+        }
+    }
     @media screen and (max-width: 1400px){
-        .roundedbox {
+        .rounded-image img  {
             width: 140px;
             height: 140px;
             margin: 20px 0;
         }
     }
     @media screen and (max-width: 1200px){
-        .roundedbox {
+        .rounded-image img  {
             width: 200px;
             height: 200px;
             margin: 20px 0;
         }
     }
     @media screen and (max-width: 1024px){
-        .roundedbox {
+        .rounded-image img  {
             width: 200px;
             height: 200px;
             margin: 20px 0;
         }
     }
     @media screen and (max-width: 780px){
-        .roundedbox {
+        .rounded-image img  {
             width: 120px;
             height: 120px;
         }
     }
     @media screen and (max-width: 480px){
-        .roundedbox {
+        .rounded-image img  {
             width: 100px;
             height: 100px;
         }
     }
     @media screen and (max-width: 380px){
-        .roundedbox {
+        .rounded-image img  {
             width: 72px;
             height: 72px;
         }
     }
     @media screen and (max-width: 320px){
-        .roundedbox {
+        .rounded-image img  {
             width: 72px;
             height: 72px;
         }

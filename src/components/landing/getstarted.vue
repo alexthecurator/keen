@@ -38,7 +38,7 @@ export default {
         font-weight: 300;
     }
     .main-caption h1{
-        font-size: 56px;
+        font-size: 48px;
     }
     .btntext {
         font-size: 18px;
@@ -77,14 +77,31 @@ export default {
             font-size: 5vw;
         }
         .main-caption h3{
-            font-size: 7vw;
+            font-size: 6vw;
+        }
+    }
+    @media screen and (max-width:380px) {
+        .sub-caption small {
+            font-size: 4vw;
+        }
+        .submaincaption h5 {
+            font-size: 5vw;
+        }
+        .main-caption h3{
+            font-size: 6vw;
         }
     }
 
-    @media screen and (max-width:420px) {}
-
-    @media screen and (max-width:380px) {}
-
-    @media screen and (max-width:320px) {}
+    @media screen and (max-width:320px) {
+        .sub-caption small {
+            font-size: 4vw;
+        }
+        .submaincaption h5 {
+            font-size: 5vw;
+        }
+        .main-caption h3{
+            font-size: 6vw;
+        }
+    }
     
 </style>

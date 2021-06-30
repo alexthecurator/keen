@@ -32,12 +32,12 @@ export default {
         z-index: 100;
     }
     .tupleimg-two, .tupleimg-two img {
-        width: 300px;
-        height: 220px;
+        width: 240px;
+        height: 180px;
         position: absolute;
         z-index: 101;
         top: 140px;
-        left: 150px;
+        left: 140px;
     }
     @media screen and (max-width: 1400px) {
         .tupleimg-one img, .tupleimg-two img{

@@ -53,12 +53,12 @@
         </b-container>
         
         <b-container>
-          <div class="row d-flex justify-content-center mb-lg-5 pb-lg-5">
-            <div class="col-xl-6 col-lg-12 col-md-12 col-12 p-0 m-0">
+          <div class="row d-flex justify-content-center mb-lg-5 pb-lg-5 py-2">
+            <div class="col-xl-6 col-lg-12 col-md-12 col-12 py-2 m-0">
               <tupleimg></tupleimg>
             </div>
             <div class="col-xl-5 col-lg-12 col-md-12 col-12">
-              <div class="mt-xl-5">
+              <div class="mt-xl-5 mt-2">
                 <b-container>
                   <div class="p-0 m-0">
                     <subtitle class="text-left" subtitle="Why?"></subtitle>
@@ -77,8 +77,8 @@
       </b-container>
     </div>
 
-    <div class="section black-bg py-md-3">
-      <div class="pt-3">
+    <div class="section black-bg py-xl-5 py-md-3">
+      <div class="py-xl-3 pt-3">
         <b-container>
           <subtitle class="white" subtitle="Meet our friends"></subtitle>
         </b-container>
@@ -97,19 +97,19 @@
         <div class="container py-md-2">
           <div class="row d-flex justify-content-center">
             <div class="col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
-              <roundedimg theLogo="../assets/images/DarCityCouncil.jpg"></roundedimg>
+              <roundedimg theLogo="TCAA.jpg"></roundedimg>
             </div>
             <div class="col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
-              <roundedimg></roundedimg>
+              <roundedimg theLogo="TPA.jpg"></roundedimg>
             </div>
             <div class="col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
-              <roundedimg></roundedimg>
+              <roundedimg theLogo="DarCityCouncil.jpg"></roundedimg>
             </div>          
             <div class="col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
-              <roundedimg></roundedimg>
+              <roundedimg theLogo="tanroads.jpg"></roundedimg>
             </div>
             <div class="col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
-              <roundedimg></roundedimg>
+              <roundedimg theLogo="Gpsa.png"></roundedimg>
             </div>
           </div>
         </div>
@@ -149,16 +149,16 @@
         <div class="mx-md-0 mx-4">
           <div class="row d-flex justify-content-center py-1 mx-md-4">
             <div class="col-md-12 col-12">
-              <horcards cardTitle="Carlos, John" cardDetails="Very quick and easy! Great service thanks!"></horcards>
+              <horcards cardImgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" cardTitle="Carlos, John" cardDetails="Very quick and easy! Great service thanks!"></horcards>
             </div>
             <div class="col-md-12 col-12">
-              <horcards cardTitle="Nguyane, Shane" cardDetails="Very quick and easy! Great service thanks!"></horcards>
+              <horcards cardImgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" cardTitle="Nguyane, Shane" cardDetails="Very quick and easy! Great service thanks!"></horcards>
             </div>
             <div class="col-md-12 col-12">
-              <horcards cardTitle="Miles, Esther" cardDetails="Very quick and easy! Great service thanks!"></horcards>
+              <horcards cardImgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" cardTitle="Miles, Esther" cardDetails="Very quick and easy! Great service thanks!"></horcards>
             </div>
             <div class="col-md-12 col-12">
-              <horcards cardTitle="Flores, Juanita" cardDetails="Very quick and easy! Great service thanks!"></horcards>
+              <horcards cardImgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" cardTitle="Flores, Juanita" cardDetails="Very quick and easy! Great service thanks!"></horcards>
             </div>
           </div>
         </div>
@@ -226,8 +226,6 @@ export default {
 }
 .live-chat {
     position: fixed;
-    padding: 20em;
-    margin: 20em;
     z-index: 999999;
 }
 </style>

@@ -31,20 +31,13 @@
 
       <b-container fluid>
         <div class="scroll-cards container-xl">
-          <teamcards teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
-          <teamcards teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
-          <teamcards teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
-          <teamcards teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
-          <teamcards teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
-          <teamcards teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
-          <teamcards teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
-          <teamcards teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
-          <teamcards teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
-          <teamcards teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
-          <teamcards teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
-          <teamcards teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
-          <teamcards teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
-          <teamcards teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
+          <teamcards teamImg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
+          <teamcards teamImg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
+          <teamcards teamImg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
+          <teamcards teamImg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
+          <teamcards teamImg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
+          <teamcards teamImg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
+          <teamcards teamImg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
           <div class="white-fade"></div>
         </div>
       </b-container> 
@@ -70,7 +63,7 @@
       
       <b-container>
         <div class="row d-flex justify-content-center pb-lg-5">
-          <div class="col-xl-7 col-lg-12 col-md-12 col-12 p-0 m-0">
+          <div class="col-xl-7 col-lg-12 col-md-12 col-12 py-2 m-0">
             <tupleimg></tupleimg>
           </div>
           <div class="col-xl-5 col-lg-12 col-md-12 col-12">
@@ -152,8 +145,42 @@ export default {
     width: 100%;
     z-index: 9999999;
 }
-
-@media screen and (max-height: 1366px){
+@media screen and (max-height: 1400px){
+  .scroll-cards { 
+    max-height: 1150px;
+  }
+}
+@media screen and (max-height: 1280px){
+  .scroll-cards { 
+    max-height: 1150px;
+  }
+}
+@media screen and (max-height: 1024px){
+  .scroll-cards { 
+    max-height: 1150px;
+  }
+}
+@media screen and (max-height: 780px){
+  .scroll-cards { 
+    max-height: 1150px;
+  }
+}
+@media screen and (max-height: 480px){
+  .scroll-cards { 
+    max-height: 1150px;
+  }
+}
+@media screen and (max-height: 420px){
+  .scroll-cards { 
+    max-height: 1150px;
+  }
+}
+@media screen and (max-height: 389px){
+  .scroll-cards { 
+    max-height: 1150px;
+  }
+}
+@media screen and (max-height: 320px){
   .scroll-cards { 
     max-height: 1150px;
   }

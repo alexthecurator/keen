@@ -1,14 +1,14 @@
 <template>
     <div class="d-flex justify-content-center container">
-        <div class="card py-lg-4 py-md-3 py-3 my-md-3 my-2">
+        <div class="card white-bg py-lg-4 py-md-3 py-3 my-md-3 my-2">
             <div class="card-icon mb-md-4 m-0">
                 <div class="icon d-flex justify-content-center">
-                    <i :class="cardIcon"></i>
+                    <i :class="cardIcon" style="color: #F1B428;"></i>
                 </div>
             </div>
             <div class="card-body m-md-2">
                 <div class="card-title m-0">
-                    <center><h5>{{ cardTitle }}</h5></center>
+                    <center><h5 st>{{ cardTitle }}</h5></center>
                 </div>
                 <div class="card-details">
                     <center><p>{{ cardDetails }}</p></center>
@@ -55,26 +55,26 @@ export default {
         line-height: 24px;
         font-size: 18px;
     }
-    @media screen and (max-width: 1024px){
-        .card {
-            width: 480px;
-            height: 340px;
+    @media screen and (max-width: 1400px){
+        .icon {
+            width: 34px;
+            height: 34px;
         }
+        .card {
+            width: 100%;
+            height: 256px;
+        }
+    }
+    @media screen and (max-width: 1280px){
         .icon {
             width: 64px;
             height: 64px;
         }
-        .icon i {
-            font-size: 9vw;
-        }
-        .card-title h5 {
-            font-weight: 700;
-            font-size: 42px;
-        }
-        .card-details p {
-            font-weight: 300;
-            line-height: 46px;
-            font-size: 36px;
+    }
+    @media screen and (max-width: 1024px){
+        .icon {
+            width: 64px;
+            height: 64px;
         }
     }
     @media screen and (max-width: 780px){

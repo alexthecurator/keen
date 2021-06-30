@@ -85,22 +85,24 @@
       </detailing>
     </b-container>
 
-    <b-container class="pb-xl-5"> 
-      <div class="row pb-xl-5 d-flex justify-content-center">
-        <div class="col-xl-8 col-lg-12 col-md-12 col-12 p-0 m-0">
+    <b-container>
+      <div class="row d-flex justify-content-center mb-lg-5 pb-lg-5 py-2">
+        <div class="col-xl-6 col-lg-12 col-md-12 col-12 pb-2 m-0">
           <tupleimg></tupleimg>
         </div>
-        <div class="col-xl-4 col-lg-12 col-md-12 col-12">
-          <b-container>
-            <div class="mt-5">
-              <subtitle subtitle="Why?"></subtitle>
-            </div>
-          </b-container>
-          
-          <b-container>
-            <detailing class="px-4 py-0 my-0 text-left" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
-            </detailing>
-          </b-container>
+        <div class="col-xl-5 col-lg-12 col-md-12 col-12">
+          <div class="mt-xl-5 mt-2">
+            <b-container>
+              <div class="p-0 m-0">
+                <subtitle class="text-left" subtitle="Why?"></subtitle>
+              </div>
+            </b-container>
+            
+            <b-container>
+              <detailing class="px-4 py-0 my-0 text-left" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
+              </detailing>
+            </b-container>
+          </div>
         </div>
       </div>
     </b-container>
