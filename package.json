@@ -11,6 +11,7 @@
     "@coreui/icons": "^2.0.1",
     "bootstrap-vue": "^2.17.3",
     "core-js": "^3.6.5",
+    "firebase": "^8.6.8",
     "flaticon": "^0.1.0",
     "vue": "^2.6.11",
     "vue-beautiful-chat": "^2.5.0",
