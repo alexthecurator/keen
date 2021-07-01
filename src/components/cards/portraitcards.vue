@@ -39,12 +39,12 @@ export default {
         justify-content: center;
     }
     .icon {
-        width: 50px;
-        height: 50px;
+        width: 44px;
+        height: 44px;
         border-radius: 12px;
     }
     .icon i {
-        font-size: 3.6vw;
+        font-size: 3.2vw;
     }
     .card-title h5 {
         font-weight: 700;
