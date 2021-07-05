@@ -19,9 +19,12 @@
                   <img class="footer-logo" src="../../assets/logos/kc-logo-full-light.svg" alt="keen communications">
                 </div>
                 <div class="p-2">
-                  <h5 class="white">Address</h5>
+                  <h5 class="white">Location address</h5>
+                    <div class="py-2">
+                      <grayseparator></grayseparator>
+                    </div>
                     <div class="py-0">
-                      <p class="white">P. O .Box 80329 Dar es Salaam <br>Tanzania. Survey Road (Opposite Mlimani City)</p>
+                      <p class="gray">P. O .Box 80329 Dar es Salaam <br>Tanzania. Survey Road ( Opposite Mlimani City )</p>
                     </div>
                 </div>
               </div>
