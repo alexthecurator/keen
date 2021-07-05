@@ -26,6 +26,8 @@
 </template>
 
 <script>
+//import db from '../../firebase/init';
+// import { refs } from 'vue';
 import Chat from 'vue-beautiful-chat';
 import Vue from 'vue';
 Vue.use(Chat)
