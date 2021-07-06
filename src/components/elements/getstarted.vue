@@ -1,54 +1,71 @@
 <template>
     <b-modal id="getstarted" title="Register today">
-        <b-form @click="submit">
+        <b-form>
             <div class="my-2">
             <label class="black" for="inline-form-input-name">Name</label>
               <b-form-input
             id="inline-form-input-name"
             class="mb-2 mr-sm-2 mb-sm-0"
             placeholder="Eg:  `Ronald Jones`"
-            v-model="username"></b-form-input>  
+            ></b-form-input>  
             </div>
             <div class="my-2">
                 <label class="black" for="inline-form-input-email">Email</label>
                 <b-input-group class="mb-2 mr-sm-2 mb-sm-0">
                 <b-form-input id="inline-form-input-email" placeholder="Email"
-                v-model="email"></b-form-input>
+                ></b-form-input>
                 </b-input-group>  
             </div>
 
-            <b-button class="my-2" variant="primary yellow-bg" type="submit">Subscribe</b-button>
+            <b-button 
+            class="my-2" 
+            variant="primary yellow-bg" 
+            type="submit"
+            v-if="authenticated"
+            @click="subscribe">Subscribe</b-button>
         </b-form>
     </b-modal>
 </template>
 
 <script>
-import { reactive, refs } from 'vue';
-// import db from '../../firebase/init';
+import AuthService from '../../auth/AuthService'
+import axios from 'axios'
+
+const API_URL = 'http://localhost:8000'
+const auth = new AuthService()
 
 export default {
     name: 'getstarted',
-    setup(){
-        const username = refs("");
-        const email = refs("");
-        const subscribeBTN = refs("");
+    data () {
+        this.handleAuthentication()
+        this.authenticated = false
 
-        const state = reactive({
-            username = "",
-            email = ""
-        });
+        auth.authNotifier.on('authChange', authState => {
+        this.authenticated = authState.authenticated
+    })
 
-        const subscribing = () => {
-           if(username.value !== "" || username.value === null && email.value !== "" || email.value === null){
-               state.username = username.value;
-               state.email = email.value;
-           }
-        }
     return {
-        username,
-        email,
-        subscribing
-        }
+        authenticated: false,
+        message: ''
     }
+  },
+  methods: {
+    login() {
+        auth.login()
+    },
+    handleAuthentication() {
+        auth.handleAuthentication()
+    },
+    logout() {
+        auth.logout()
+    },
+    privateMessage() {
+        const url = `${API_URL}/api/private/`
+        return axios.get(url, {headers: {Authorization: `Bearer ${auth.getAuthToken()}`}}).then((response) => {
+        console.log(response.data)
+        this.message = response.data || ''
+        })
+    }
+  }
 }
 </script>

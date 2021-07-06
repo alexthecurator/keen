@@ -9,8 +9,11 @@
     },
     "dependencies": {
         "@coreui/icons": "^2.0.1",
+        "auth0-js": "^9.16.2",
+        "axios": "^0.21.1",
         "bootstrap-vue": "^2.17.3",
         "core-js": "^3.6.5",
+        "eventemitter3": "^4.0.7",
         "firebase": "^8.6.8",
         "flaticon": "^0.1.0",
         "vue": "^2.6.11",

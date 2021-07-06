@@ -7,13 +7,10 @@
 </template>
 
 <script>
-// import navigation from './components/navigation/navigation.vue'
 
 export default {
   name: "App",
-  components: {
-    // navigation,
-  },
+
 }
 </script>
 
