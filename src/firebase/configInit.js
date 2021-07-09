@@ -1,6 +1,5 @@
-import firebase from 'firebase/app';
-import 'firebase/database'
-// import firestore from 'firebase/firestore';
+import app from 'firebase/app';
+import 'firebase/database';
 
 // Initialize Firebase
 var config = {
@@ -13,7 +12,11 @@ var config = {
     measurementId: "G-L1XJRVQEVV"
 };
 
-const firebaseApp = firebase.initializeApp(config);
-firebaseApp.firestore().settings({ timestampsInSnapshots: true });
-export default firebaseApp.firestore();
-export default firebase.database();
+const firebase = app.initializeApp(config);
+
+var db = firebase.database();
+
+export default {
+    firebase,
+    db
+}

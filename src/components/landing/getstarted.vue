@@ -13,7 +13,7 @@
                 <h3>{{ submaincaption }}</h3>
             </div>
             <div class="start-btn py-2" id="startBtn">
-                <b-button class="yellow-bg" v-b-modal.getstarted><small class="btntext black">{{ btntext }}</small></b-button>
+                <b-button class="lightblue-bg px-lg-5 px-md-4 py-md-2" v-b-modal.getstarted><small class="btntext deepblue">{{ btntext }}</small></b-button>
             </div>
         </div>
     </div>
@@ -42,7 +42,6 @@ export default {
     }
     .btntext {
         font-size: 18px;
-        font-weight: bold;
         font-family: 'Roboto', sans-serif;
     }
     @media screen and (max-width:1024px) {

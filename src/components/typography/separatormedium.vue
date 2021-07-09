@@ -1,5 +1,5 @@
 <template>
-    <div class="separator-line yellow-bg"></div>
+    <div class="separator-line lightblue-bg"></div>
 </template>
 <script>
 export default {

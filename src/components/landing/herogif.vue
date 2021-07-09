@@ -1,44 +1,46 @@
 <template>
-     <video-background 
-    src="../../assets/gif/network-bg.mp4.mp4"
-    style="max-height: 400px; height: 100vh;">
- </video-background>
+<!--Video container-->
+<div class="d-none d-lg-block">
+    <div class="video-bg" data-aos="fade-zoom-in">
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" id="video-cont">
+            <source src="../../assets/gif/network-bg.mp4" type="video/mp4" codecs="avc1.42E01E, mp4a.40.2">
+        </video>
+        <div class="overlay img-responsive" data-aos="fade-zoom-in"></div>
+    </div>
+</div>
+
 </template>
-
-<script>
-import VideoBackground from 'vue-responsive-video-background-player';
-Vue.component('video-background', VideoBackground);
-
-export default {
-    name: 'hero'
-}
-</script>
-
-<style scoped>
-/* hero */
-.hero {
-    background-image: url('../../assets/images/home.webp');
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    padding: 0;
-    margin: 0;
+<style type="text/css">
+.video-bg {
+    z-index: 0;
     position: fixed;
-    z-index: 2;
+    min-height: 100%;
+    min-width: 100%;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: 0px;
+    padding: 0px;
 }
-
+#video-cont {
+    object-fit: initial;
+    width: 100%;
+    height: 960px;
+}
 .overlay {
-    background-color: rgba(0, 0, 0, 0.6);
-    background-attachment: fixed;
+    background-image: linear-gradient(80deg, #041E42, transparent, transparent);
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    z-index: 3;
-}
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    top: 0px;
+    bottom: 0px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 0;
+} 
 </style>

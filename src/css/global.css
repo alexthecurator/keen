@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;700;900&display=swap'); */
+
+@import url('http://fonts.cdnfonts.com/css/gotham');
 * {
     border: none;
-    font-family: 'lato', sans-serif;
+    font-family: 'gotham', sans-serif;
     overflow-x: none;
     scroll-behavior: smooth;
     scrollbar-width: none;
@@ -61,15 +63,23 @@ p {
 }
 
 .gray {
-    color: #515758;
+    color: #a6a6a6;
 }
 
-.black {
-    color: #252122;
+.lightblue {
+    color: #00B5E2;
+}
+
+.deepblue {
+    color: #041E42;
 }
 
 .yellow {
     color: #F1B428;
+}
+
+.bluegrad-bg {
+    background-image: linear-gradient(38deg, #041E42, #00B5E2);
 }
 
 .white-bg {
@@ -77,11 +87,15 @@ p {
 }
 
 .gray-bg {
-    background-color: #515758;
+    background-color: #a6a6a6;
 }
 
-.black-bg {
-    background-color: #252122;
+.lightblue-bg {
+    background-color: #00B5E2;
+}
+
+.deepblue-bg {
+    background-color: #041E42;
 }
 
 .yellow-bg {

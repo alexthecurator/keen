@@ -1,6 +1,6 @@
 <template>
 <div>
-  <hero></hero>
+  <herogif></herogif>
   <div class="fixed-top">
     <theheader></theheader>
   </div>
@@ -14,7 +14,7 @@
   <div class="section white-bg">
     <div class="pt-3">
       <b-container>
-        <subtitle subtitle="Accomplishments"></subtitle>
+        <subtitle class="deepblue" subtitle="Accomplishments"></subtitle>
       </b-container>
     </div>
 
@@ -23,7 +23,7 @@
     </div>
 
     <b-container>
-      <detailing class="pt-3 px-4 text-center" detailing="That shaped our organization into what it is today. Through our values and team work.">
+      <detailing class="pt-3 px-4 text-center deepblue" detailing="That shaped our organization into what it is today. Through our values and team work.">
       </detailing>
     </b-container>
   
@@ -31,28 +31,28 @@
       <div class="p-2 m-2">
         <div class="row">
           <div class="col-5">
-            <roundrecimg class="p-5 yellow-bg"></roundrecimg>
+            <roundrecimg class="p-5 lightblue-bg"></roundrecimg>
           </div>
           <div class="col-7">
-            <roundrecimg class="p-5 yellow-bg"></roundrecimg>
+            <roundrecimg class="p-5 lightblue-bg"></roundrecimg>
           </div>
         </div>
 
         <div class="row py-3 my-2">
           <div class="col-7">
-            <roundrecimg class="p-5 yellow-bg" ></roundrecimg>
+            <roundrecimg class="p-5 lightblue-bg" ></roundrecimg>
           </div>
           <div class="col-5">
-            <roundrecimg class="p-5 yellow-bg"></roundrecimg>
+            <roundrecimg class="p-5 lightblue-bg"></roundrecimg>
           </div>
         </div>
 
         <div class="row py-2 my-2">
           <div class="col-6">
-            <roundrecimg class="p-5 yellow-bg"></roundrecimg>
+            <roundrecimg class="p-5 lightblue-bg"></roundrecimg>
           </div>
           <div class="col-6">
-            <roundrecimg class="p-5 yellow-bg"></roundrecimg>
+            <roundrecimg class="p-5 lightblue-bg"></roundrecimg>
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@
     <b-container class="py-2" fluid>
         <div class="container">
           <div class="text-left">
-            <joinus thequestion="Reach out today" thebtntext="Tap here"></joinus>
+            <joinus class="deepblue" thequestion="Reach out today" thebtntext="Tap here"></joinus>
           </div>  
         </div>
     </b-container>
@@ -70,7 +70,7 @@
   <div class="section white-bg py-xl-5">
     <div class="pt-3">
       <b-container>
-        <subtitle subtitle="Teamwork"></subtitle>
+        <subtitle class="deepblue" subtitle="Teamwork"></subtitle>
       </b-container>
     </div>
 
@@ -79,7 +79,7 @@
     </div>
 
     <b-container>
-      <detailing class="py-3 px-4 text-justify" detailing="We know that to add great value to clients, we have to work together. We provide the
+      <detailing class="py-3 px-4 text-justify deepblue" detailing="We know that to add great value to clients, we have to work together. We provide the
       best people and bring them together in teams to deliver our services. Our teams are diverse in their disciplines, ideas, perspectives and cultures. When necessary
       we extend our capability by partnering with organizations with similar values to our own but with complementary skills and abilities.">
       </detailing>
@@ -94,12 +94,12 @@
           <div class="mt-xl-5 mt-2">
             <b-container>
               <div class="p-0 m-0">
-                <subtitle class="text-left" subtitle="Why?"></subtitle>
+                <subtitle class="text-left deepblue" subtitle="Why?"></subtitle>
               </div>
             </b-container>
             
             <b-container>
-              <detailing class="px-4 py-0 my-0 text-left" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
+              <detailing class="px-4 py-0 my-0 text-left blue" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
               </detailing>
             </b-container>
           </div>
@@ -108,8 +108,8 @@
     </b-container>
   </div>
 
-  <div class="section black-bg">
-    <div class="pt-3">
+  <div class="section deepblue-bg pt-xl-  5">
+    <div class="py-3">
       <b-container>
         <subtitle class="white" subtitle="Project highlights"></subtitle>
       </b-container>
@@ -120,7 +120,7 @@
     </div>
 
     <b-container>
-      <detailing class="p-xl-0 m-xl-0 py-3 px-4 white" detailing="Our aim is to leave a lasting impression with a excellent performance">
+      <detailing class="py-xl-4 m-xl-0 py-3 px-4 white" detailing="Our aim is to leave a lasting impression with a excellent performance">
       </detailing>
     </b-container>
 
@@ -147,7 +147,7 @@
 </template>
 
 <script>
-import hero from '../components/landing/hero.vue'
+import herogif from '../components/landing/herogif.vue'
 import theheader from '../components/elements/theheader.vue'
 import getstarted from '../components/landing/getstarted.vue'
 import joinus from '../components/landing/joinus.vue'
@@ -165,7 +165,7 @@ import livechat from '../components/elements/liveChat.vue'
 export default {
   name: 'home',
   components: {
-    hero,
+    herogif,
     theheader,
     getstarted,
     joinus,

@@ -1,6 +1,6 @@
 <template>
 <div>
-    <hero></hero>
+    <herogif></herogif>
     <div class="fixed-top">
       <theheader></theheader>
     </div>
@@ -14,7 +14,7 @@
     <div class="section white-bg py-xl-5 py-md-3 py-2">
       <div class="pt-2">
         <b-container>
-          <subtitle subtitle="Our Services"></subtitle>
+          <subtitle class="deepblue" subtitle="Our Services"></subtitle>
         </b-container>
       </div>
 
@@ -41,7 +41,7 @@
       <b-container>
         <div class="pt-3">
           <b-container>
-            <subtitle subtitle="Our Values"></subtitle>
+            <subtitle class="deepblue" subtitle="Our Values"></subtitle>
           </b-container>
         </div>
 
@@ -50,7 +50,7 @@
         </div>
     
         <b-container>
-          <detailing class="mx-xl-5 py-xl-2 m-lg-2 px-md-0 pt-3 px-4 text-lg-justify text-left" detailing="We know that to add great value to clients, we have to work together. We provide the
+          <detailing class="mx-xl-5 py-xl-2 m-lg-2 px-md-0 pt-3 px-4 text-lg-justify text-left deepblue" detailing="We know that to add great value to clients, we have to work together. We provide the
           best people and bring them together in teams to deliver our services. Our teams are diverse in their disciplines, ideas, perspectives and cultures. When necessary
           we extend our capability by partnering with organizations with similar values to our own but with complementary skills and abilities.">
           </detailing>
@@ -65,12 +65,12 @@
               <div class="mt-xl-5 mt-2">
                 <b-container>
                   <div class="p-0 m-0">
-                    <subtitle class="text-left" subtitle="Why?"></subtitle>
+                    <subtitle class="text-left deepblue" subtitle="Why?"></subtitle>
                   </div>
                 </b-container>
                 
                 <b-container>
-                  <detailing class="px-4 py-0 my-0 text-left" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
+                  <detailing class="px-4 py-0 my-0 text-left deepblue" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
                   </detailing>
                 </b-container>
               </div>
@@ -81,7 +81,7 @@
       </b-container>
     </div>
 
-    <div class="section black-bg py-xl-5 py-md-3">
+    <div class="section bluegrad-bg py-xl-5 py-md-3">
       <div class="pt-xl-0 pb-xl-3 pt-3">
         <b-container>
           <subtitle class="white" subtitle="Meet our friends"></subtitle>
@@ -93,8 +93,10 @@
       </div>
 
       <b-container>
-        <detailing class="py-3 px-4 text-center white" detailing="Join us on the long journey to Innovate Tanzania and develop Africa">
-        </detailing>
+        <div class="px-xl-5 mx-xl-5 my-xl-2">
+          <detailing class="px-xl-5 mx-xl-5 py-3 px-4 text-center white" detailing="Join us on the long journey to Innovate Tanzania and develop Africa">
+          </detailing>
+        </div>
       </b-container>
 
       <b-container>
@@ -120,8 +122,10 @@
       </b-container>
 
       <b-container>
-        <detailing class="py-3 px-4 text-center white" detailing="For more information about our clients, tap the logos above to visit their page">
-        </detailing>
+        <div class="px-xl-5 mx-xl-5 my-xl-2">
+          <detailing class="px-xl-5 mx-xl-5 py-3 px-4 text-center white" detailing="For more information about our clients, tap the logos above to visit their page">
+          </detailing>
+        </div>
       </b-container>
 
       <b-container>
@@ -135,7 +139,7 @@
       <div class="pt-3">
         <b-container>
           <div class="mx-4">
-            <subtitle class="black" subtitle="Lets hear what our friends say.."></subtitle>
+            <subtitle class="deepblue" subtitle="Lets hear what our friends say.."></subtitle>
           </div>
         </b-container>
       </div>
@@ -145,7 +149,7 @@
       </div>
 
       <b-container>
-        <detailing class="pt-2 px-4 mx-4 text-center black" detailing="We value your feedback as much as we value your satisfaction">
+        <detailing class="pt-2 px-4 mx-4 text-center deepblue" detailing="We value your feedback as much as we value your satisfaction">
         </detailing>
       </b-container>
 
@@ -186,7 +190,7 @@
 </template>
 
 <script>
-import hero from '../components/landing/hero.vue'
+import herogif from '../components/landing/herogif.vue'
 import theheader from '../components/elements/theheader.vue'
 import getstarted from '../components/landing/getstarted.vue'
 import toogle from '../components/elements/toggleMob.vue'
@@ -205,7 +209,7 @@ import livechat from '../components/elements/liveChat.vue'
 export default {
   name: 'home',
   components: {
-    hero,
+    herogif,
     theheader,
     getstarted,
     toogle,

@@ -1,13 +1,13 @@
 <template>
     <b-modal id="getstarted" title="Register today">
-        <b-form>
+        <b-form @submit.prevent="Subscribing">
             <div class="my-2">
             <label class="black" for="inline-form-input-name">Name</label>
               <b-form-input
                 id="inline-form-input-name"
                 class="mb-2 mr-sm-2 mb-sm-0"
                 placeholder="Eg:  `Ronald Jones`"
-                v-model="sub.name"
+                v-model="inputName"
             ></b-form-input>  
             </div>
             <div class="my-2">
@@ -16,23 +16,80 @@
                 <b-form-input 
                     id="inline-form-input-email"
                     placeholder="Email"
-                    v-model="sub.email"
+                    v-model="inputEmail"
                 ></b-form-input>
                 </b-input-group>  
             </div>
 
             <b-button 
             class="my-2" 
-            variant="primary yellow-bg" 
-            type="submit"
-            @click="login()">Subscribe</b-button>
+            variant="lightblue-bg" 
+            type="submit">Subscribe</b-button>
         </b-form>
     </b-modal>
 </template>
 
 <script>
-import subscribing from '../../firebase/service';
+import db from '../../firebase/configInit';
+import { reactive, onMounted, ref } from 'vue';
 
+export default {
+    name: 'getstarted',
+    setup () { 
+        const inputName = ref("");
+        const inputEmail = ref("");
+
+        const state = reactive({
+            names: "",
+            emails: ""
+        });
+
+        const Subscribing = () => {
+            const subscriberRef = db.database().ref("names", "emails");
+
+            if(inputName.value !== "" || inputName.value === "" && inputEmail.value !== "" || inputEmail.value === ""){
+                return;
+            }
+
+            const subscriber = {
+                subname: state.names,
+                subemail: state.emails
+            }
+            
+            subscriberRef.push(subscriber);
+            inputName.value = "";
+            inputEmail.value = "";
+        }
+
+        onMounted(() => {
+            const subscriberRef = db.database().ref("names", "emails");
+
+            subscriberRef.on('value', snapshot => {
+            const data = snapshot.val();
+            let subscribers = [];
+
+            Object.keys(data).forEach(key => {
+            subscribers.push({
+                id: key,
+                name: data[key].subname,
+                email: data[key].subemail
+                });
+            });
+
+            // state.name = inputName;
+            // state.email = inputEmail;
+
+            });
+        });
+
+        return {
+            inputName,
+            inputEmail,
+            Subscribing,
+            state
+        }
+    }
+}
 // import refs from 'vue'
 // import AuthService from '../../apiauth/authservice'
 // import axios from 'axios'
@@ -44,7 +101,7 @@ import subscribing from '../../firebase/service';
 //     name: 'getstarted',
 //     // setup(){
 //     //     const name = refs("");
-//     //     const email = ref("");
+//     //     const email = refs("");
 //     // },
 //     data () {
 //         this.handleAuthentication()

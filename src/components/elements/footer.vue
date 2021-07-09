@@ -1,5 +1,5 @@
 <template>
-    <footer class="black-bg">
+    <footer class="deepblue-bg">
       <div class="white-bg">
         <b-container fluid>
           <b-container>
@@ -142,7 +142,7 @@
       <div class="btm-footer">
         <!-- change this later ^^ -->
           <div class="footer-cont yellow-bg py-3">
-            <small class="f">Copyright &copy; 2021: keencommunications.com</small>
+            <small class="deepblue">Copyright &copy; 2021: keencommunications.com</small>
           </div>
       </div>
     </footer>

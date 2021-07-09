@@ -3,12 +3,12 @@
         <div class="card white-bg py-lg-4 py-md-3 py-3 my-md-3 my-2">
             <div class="card-icon mb-md-4 m-0">
                 <div class="icon d-flex justify-content-center">
-                    <i :class="cardIcon" style="color: #F1B428;"></i>
+                    <i :class="cardIcon" style="color: #00B5E2;"></i>
                 </div>
             </div>
             <div class="card-body m-md-2">
                 <div class="card-title m-0">
-                    <center><h5 st>{{ cardTitle }}</h5></center>
+                    <center><h5>{{ cardTitle }}</h5></center>
                 </div>
                 <div class="card-details">
                     <center><p>{{ cardDetails }}</p></center>
@@ -47,13 +47,16 @@ export default {
         font-size: 3.2vw;
     }
     .card-title h5 {
-        font-weight: 700;
+        font-weight: 400;
         font-size: 24px;
     }
     .card-details p {
         font-weight: 300;
         line-height: 24px;
         font-size: 18px;
+    }
+    .card-title, .card-details {
+        color: #041E42;
     }
     @media screen and (max-width: 1400px){
         .icon {

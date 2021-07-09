@@ -28,7 +28,7 @@ export default {
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.2);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;

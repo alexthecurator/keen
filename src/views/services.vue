@@ -1,7 +1,7 @@
 <template>
 <div>
     
-    <hero></hero>
+    <herogif></herogif>
     <div class="fixed-top">
       <theheader></theheader>
     </div>
@@ -13,9 +13,9 @@
     </div>
 
     <div class="section white-bg py-xl-5">
-      <div class="pt-3">
+      <div class="p-xl-0 pt-3">
         <b-container>
-          <subtitle subtitle="Network"></subtitle>
+          <subtitle class="deepblue" subtitle="Network"></subtitle>
         </b-container>
       </div>
 
@@ -24,7 +24,7 @@
       </div>
 
       <b-container>
-        <detailing class="pt-3 px-4 text-center" detailing="We strive to achieve the best network architecture for quality communication, that drive the morden economy.">
+        <detailing class="pt-3 px-4 text-center deepblue" detailing="We strive to achieve the best network architecture for quality communication, that drive the morden economy.">
         </detailing>
       </b-container>
     
@@ -37,41 +37,41 @@
           <div class="row">
               <div class="col-4 p-0">
                   <center>  
-                      <div class="card-icon-circle black-bg">
+                      <div class="card-icon-circle white-bg theshadow">
                           <div style="padding: 12px 0 0 0;">
-                             <i class="card-icon fi-rr-cloud-download white"></i> 
+                             <i class="card-icon fi-rr-cloud-download deepblue"></i> 
                           </div>
                       </div>
                       <div class="card-title">
-                          <cardtitle cardtitle="Installation"></cardtitle>
+                          <cardtitle class="deepblue" cardtitle="Installation"></cardtitle>
                       </div>
-                      <cardetails carddetails="We provide from the ground up, Network platform installation with the best quality devices."></cardetails>
+                      <cardetails class="deepblue" carddetails="We provide from the ground up, Network platform installation with the best quality devices."></cardetails>
                   </center>
               </div>
               <div class="col-4 p-0">
                   <center>
                       <div class="card-icon-circle white-bg theshadow">
                           <div style="padding: 12px 0 0 0;">
-                             <i class="card-icon fi-rr-rocket black"></i> 
+                             <i class="card-icon fi-rr-rocket deepblue"></i> 
                           </div>
                       </div>
                       <div class="card-title">
-                          <cardtitle cardtitle="Upgrading"></cardtitle>
+                          <cardtitle class="deepblue" cardtitle="Upgrading"></cardtitle>
                       </div>
-                      <cardetails carddetails="To the latest tools and network architecture which provide efficient performance"></cardetails>
+                      <cardetails class="deepblue" carddetails="To the latest tools and network architecture which provide efficient performance"></cardetails>
                   </center>
               </div>
               <div class="col-4 p-0">
                   <center>
-                      <div class="card-icon-circle black-bg">
+                      <div class="card-icon-circle white-bg theshadow">
                           <div style="padding: 12px 0 0 0;">
-                             <i class="card-icon fi-rr-broom white"></i> 
+                             <i class="card-icon fi-rr-broom deepblue"></i> 
                           </div>
                       </div>
                       <div class="card-title">
-                          <cardtitle cardtitle="Maintainance"></cardtitle>
+                          <cardtitle class="deepblue" cardtitle="Maintainance"></cardtitle>
                       </div>
-                      <cardetails carddetails="Of your network infrastructure and operational nodes with full support"></cardetails>
+                      <cardetails class="deepblue" carddetails="Of your network infrastructure and operational nodes with full support"></cardetails>
                   </center>
               </div>
           </div>
@@ -80,22 +80,22 @@
       </b-container>
 
       <b-container class="py-xl-4 py-2">
-        <div class="row">
-            <div class="col-7">
-               <tupleimgsmall></tupleimgsmall> 
-            </div>
-            <div class="col-5">
-                <thetitle thetitle="24/7"></thetitle>
-                <detailing detailing="Support from our specialized technicians"></detailing>
+        <div class="row d-xl-flex justify-content-center">
+          <div class="col-xl-5 col-7">
+              <tupleimgsmall></tupleimgsmall> 
+          </div>
+          <div class="col-xl-4 col-5">
+            <thetitle class="deepblue" thetitle="24/7"></thetitle>
+            <detailing class="deepblue mx-xl-2" detailing="Support from our specialized technicians"></detailing>
 
-                <b-container class="d-none d-lg-block py-xl-3 py-0" fluid>
-                  <div class="container d-flex justify-content-center">
-                    <div class="text-left">
-                      <joinus thequestion="Call us today" thebtntext="Tap here"></joinus>
-                    </div> 
-                  </div>
-                </b-container>
-            </div>
+            <b-container class="d-none d-lg-block py-xl-3 py-0" fluid>
+              <div class="container d-flex justify-content-center">
+                <div class="text-left">
+                  <joinus class="deepblue" thequestion="Call us today" thebtntext="Tap here"></joinus>
+                </div> 
+              </div>
+            </b-container>
+          </div>
         </div>
       </b-container>
       
@@ -108,10 +108,10 @@
       </b-container>
     </div>
 
-    <div class="section black-bg py-xl-5">
-      <div class="pt-3">
+    <div class="section white-bg py-xl-5">
+      <div class="p-xl-0 pt-3">
         <b-container>
-          <subtitle class="white" subtitle="Hardware & Software"></subtitle>
+          <subtitle class="deepblue" subtitle="Hardware & Software"></subtitle>
         </b-container>
       </div>
 
@@ -123,41 +123,41 @@
         <div class="row">
           <div class="col-4 p-0">
             <center>
-                <div class="card-icon-circle yellow-bg">
+                <div class="card-icon-circle white-bg theshadow">
                     <div style="padding: 12px 0 0 0;">
-                        <i class="card-icon fi-rr-download black"></i> 
+                        <i class="card-icon fi-rr-download deepblue"></i> 
                     </div>
                 </div>
                 <div class="card-title">
-                    <cardtitle class="white" cardtitle="Installation"></cardtitle>
+                    <cardtitle class="deepblue" cardtitle="Installation"></cardtitle>
                 </div>
-                <cardetails class="white" carddetails="We provide from the ground up, Network platform installation with the best quality devices."></cardetails>
+                <cardetails class="deepblue" carddetails="We provide from the ground up, Network platform installation with the best quality devices."></cardetails>
             </center>
           </div>
           <div class="col-4 p-0">
             <center>
-                <div class="card-icon-circle yellow-bg theshadow">
+                <div class="card-icon-circle white-bg theshadow">
                     <div style="padding: 12px 0 0 0;">
-                        <i class="card-icon fi-rr-rocket black"></i> 
+                        <i class="card-icon fi-rr-rocket deepblue"></i> 
                     </div>
                 </div>
                 <div class="card-title">
-                    <cardtitle class="white" cardtitle="Upgrading"></cardtitle>
+                    <cardtitle class="deepblue" cardtitle="Upgrading"></cardtitle>
                 </div>
-                <cardetails class="white" carddetails="To the latest tools and network architecture which provide efficient performance"></cardetails>
+                <cardetails class="deepblue" carddetails="To the latest tools and network architecture which provide efficient performance"></cardetails>
             </center>
           </div>
           <div class="col-4 p-0">
             <center>
-                <div class="card-icon-circle yellow-bg">
+                <div class="card-icon-circle white-bg theshadow">
                     <div style="padding: 12px 0 0 0;">
-                        <i class="card-icon fi-rr-settings black"></i> 
+                        <i class="card-icon fi-rr-settings deepblue"></i> 
                     </div>
                 </div>
                 <div class="card-title">
-                    <cardtitle class="white" cardtitle="Troubleshooting"></cardtitle>
+                    <cardtitle class="deepblue" cardtitle="Troubleshooting"></cardtitle>
                 </div>
-                <cardetails class="white" carddetails="Of your network infrastructure and operational nodes with full support"></cardetails>
+                <cardetails class="deepblue" carddetails="Of your network infrastructure and operational nodes with full support"></cardetails>
             </center>
           </div>
         </div>
@@ -168,25 +168,25 @@
       </div>
       
       <b-container>
-        <detailing class="pt-2 px-4 text-center white bold" detailing="Where we provide solutions for organizations and individuals that ensure maximum productivity and effeciency.">
+        <detailing class="pt-2 px-4 text-center deepblue bold" detailing="Where we provide solutions for organizations and individuals that ensure maximum productivity and effeciency.">
         </detailing>
       </b-container>
 
       <b-container class="py-xl-4 py-2">
-        <div class="row">
-            <div class="col-4">
-                <thetitle class="white" thetitle="24/7"></thetitle>
-                <detailing class="white" detailing="Support from our specialized technicians"></detailing>
+        <div class="row d-xl-flex justify-content-center">
+            <div class="col-xl-4 col-5">
+                <thetitle class="deepblue" thetitle="24/7"></thetitle>
+                <detailing class="deepblue mx-xl-2" detailing="Support from our specialized technicians"></detailing>
 
                 <b-container class="d-none d-lg-block py-xl-3 py-0" fluid>
                   <div class="container d-flex justify-content-center">
                     <div class="text-left">
-                      <joinus class="white" thequestion="Call us today" thebtntext="Tap here"></joinus>
+                      <joinus class="deepblue" thequestion="Call us today" thebtntext="Tap here"></joinus>
                     </div> 
                   </div>
                 </b-container>
             </div>
-            <div class="col-7">
+            <div class="col-xl-5 col-7">
                <tupleimgsmall></tupleimgsmall> 
             </div>
         </div>
@@ -195,7 +195,7 @@
       <b-container class="d-block d-lg-none py-xl-4 py-0" fluid>
           <div class="container">
             <div class="text-left">
-              <joinus class="white" thequestion="Call us today" thebtntext="Tap here"></joinus>
+              <joinus class="deepblue" thequestion="Call us today" thebtntext="Tap here"></joinus>
             </div>  
           </div>
       </b-container>
@@ -203,9 +203,9 @@
     </div>
 
     <div class="section white-bg py-xl-5">
-      <div class="pt-3">
+      <div class="p-xl-0 pt-3">
         <b-container>
-          <subtitle subtitle="Development"></subtitle>
+          <subtitle class="deepblue" subtitle="Development"></subtitle>
         </b-container>
       </div>
 
@@ -214,7 +214,7 @@
       </div>
 
       <b-container>
-        <detailing class="pt-3 px-4 text-center" detailing="We strive to achieve the best network architecture for quality communication, that drive the morden economy.">
+        <detailing class="pt-3 px-4 text-center deepblue" detailing="We strive to achieve the best network architecture for quality communication, that drive the morden economy.">
         </detailing>
       </b-container>
     
@@ -226,63 +226,63 @@
           <div class="row">
               <div class="col-4 p-0">
                   <center>
-                      <div class="card-icon-circle black-bg">
+                      <div class="card-icon-circle white-bg theshadow">
                           <div style="padding: 12px 0 0 0;">
-                             <i class="card-icon fi-rr-apps white"></i> 
+                             <i class="card-icon fi-rr-apps deepblue"></i> 
                           </div>
                       </div>
                       <div class="card-title">
-                          <cardtitle cardtitle="Native apps"></cardtitle>
+                          <cardtitle class="deepblue" cardtitle="Native apps"></cardtitle>
                       </div>
-                      <cardetails carddetails="We provide from the ground up, Network platform installation with the best quality devices."></cardetails>
+                      <cardetails class="deepblue" carddetails="We provide from the ground up, Network platform installation with the best quality devices."></cardetails>
                   </center>
               </div>
               <div class="col-4 p-0">
                   <center>
                       <div class="card-icon-circle white-bg theshadow">
                           <div style="padding: 12px 0 0 0;">
-                             <i class="card-icon fi-rr-browser black"></i> 
+                             <i class="card-icon fi-rr-browser deepblue"></i> 
                           </div>
                       </div>
                       <div class="card-title">
-                          <cardtitle cardtitle="Web based apps"></cardtitle>
+                          <cardtitle class="deepblue" cardtitle="Web based apps"></cardtitle>
                       </div>
-                      <cardetails carddetails="To the latest tools and network architecture which provide efficient performance"></cardetails>
+                      <cardetails class="deepblue" carddetails="To the latest tools and network architecture which provide efficient performance"></cardetails>
                   </center>
               </div>
               <div class="col-4 p-0">
                   <center>
-                      <div class="card-icon-circle black-bg">
+                      <div class="card-icon-circle white-bg theshadow">
                           <div style="padding: 12px 0 0 0;">
-                             <i class="card-icon fi-rr-globe white"></i> 
+                             <i class="card-icon fi-rr-globe deepblue"></i> 
                           </div>
                       </div>
                       <div class="card-title">
-                          <cardtitle cardtitle="Websites"></cardtitle>
+                          <cardtitle class="deepblue" cardtitle="Websites"></cardtitle>
                       </div>
-                      <cardetails carddetails="Of your network infrastructure and operational nodes with full support"></cardetails>
+                      <cardetails class="deepblue" carddetails="Of your network infrastructure and operational nodes with full support"></cardetails>
                   </center>
               </div>
           </div>
       </b-container>
 
       <b-container class="py-xl-4 py-2">
-        <div class="row">
-            <div class="col-7">
-               <tupleimgsmall></tupleimgsmall> 
-            </div>
-            <div class="col-5">
-                <thetitle thetitle="24/7"></thetitle>
-                <detailing detailing="Support from our specialized technicians"></detailing>
+        <div class="row d-xl-flex justify-content-center">
+          <div class="col-xl-5 col-7">
+              <tupleimgsmall></tupleimgsmall> 
+          </div>
+          <div class="col-xl-4 col-5">
+            <thetitle class="deepblue" thetitle="24/7"></thetitle>
+            <detailing class="deepblue mx-xl-2" detailing="Support from our specialized technicians"></detailing>
 
-                <b-container class="d-none d-lg-block py-xl-3 py-0" fluid>
-                  <div class="container d-flex justify-content-center">
-                    <div class="text-left">
-                      <joinus thequestion="Call us today" thebtntext="Tap here"></joinus>
-                    </div> 
-                  </div>
-                </b-container>
-            </div>
+            <b-container class="d-none d-lg-block py-xl-3 py-0" fluid>
+              <div class="container d-flex justify-content-center">
+                <div class="text-left">
+                  <joinus class="deepblue" thequestion="Call us today" thebtntext="Tap here"></joinus>
+                </div> 
+              </div>
+            </b-container>
+          </div>
         </div>
       </b-container>
       
@@ -296,7 +296,7 @@
       
     </div>
 
-    <div class="section black-bg py-xl-3">
+    <div class="section deepblue-bg py-xl-5">
       <div class="pt-md-4 pt-3">
         <b-container>
           <subtitle class="white" subtitle="Why do we innovate?"></subtitle>
@@ -373,7 +373,7 @@
 </template>
 
 <script>
-import hero from '../components/landing/hero.vue'
+import herogif from '../components/landing/herogif.vue'
 import theheader from '../components/elements/theheader.vue'
 import getstarted from '../components/landing/getstarted.vue'
 import joinus from '../components/landing/joinus.vue'
@@ -394,7 +394,7 @@ import livechat from '../components/elements/liveChat.vue'
 export default {
   name: 'home',
   components: {
-    hero,
+    herogif,
     theheader,
     getstarted,
     joinus,

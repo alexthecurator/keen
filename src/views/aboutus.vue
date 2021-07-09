@@ -1,6 +1,6 @@
 <template>
 <div>
-    <hero></hero>
+    <herogif></herogif>
     <div class="fixed-top">
       <theheader></theheader>
     </div>
@@ -100,7 +100,7 @@
 </template>
 
 <script>
-import hero from '../components/landing/hero.vue'
+import herogif from '../components/landing/herogif.vue'
 import theheader from '../components/elements/theheader.vue'
 import getstarted from '../components/landing/getstarted.vue'
 import teamcards from '../components/cards/teamcards.vue'
@@ -116,7 +116,7 @@ import livechat from '../components/elements/liveChat.vue'
 export default {
   name: 'home',
   components: {
-    hero,
+    herogif,
     theheader,
     getstarted,
     toogle,

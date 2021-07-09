@@ -26,11 +26,11 @@ export default {
     }   
     .toogle-brd {
         border-radius: 50%;
-        background-color: #252122;
+        background-color: #041E42;
         position: relative;
         width: 82px;
         height: 82px;
-        border: 17px solid #F1B428;
+        border: 17px solid #00B5E2;
     }
     @media screen and (max-width: 320px){
         .toogle-brd {
