@@ -1,6 +1,7 @@
 <template> 
     <div class="toggle d-block d-lg-none">
         <b-button @click="getNav()" class="toogle-brd" id="getBtn">
+            <img class="toggle-logo" src="../../assets/logos/KeenComms.png" alt="">
         </b-button>
     </div>
 </template>
@@ -20,17 +21,16 @@ export default {
     .toggle {
         position: fixed;
         z-index: 999999;
-        bottom: 100px;
-        right: 36px;
+        bottom: 90px;
+        right: 24px;
         padding: 0px;
     }   
     .toogle-brd {
-        border-radius: 50%;
-        background-color: #041E42;
-        position: relative;
-        width: 82px;
-        height: 82px;
-        border: 17px solid #00B5E2;
+        background-color: transparent;
+    }
+    .toggle .toggle-logo {
+        width: 92px;
+        height: 92px;
     }
     @media screen and (max-width: 320px){
         .toogle-brd {

@@ -32,12 +32,12 @@ export default {
     }
     @media screen and (max-width: 480px) {
         .cardtitle {
-            font-size: 17px;
+            font-size: 14px;
         }
     }
     @media screen and (max-width: 320px){
         .cardtitle {
-            font-size: 14px;
+            font-size: 12px;
         }
     }
 </style>

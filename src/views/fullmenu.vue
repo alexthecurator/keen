@@ -1,5 +1,5 @@
 <template>
-    <div class="section-v black-bg">
+    <div class="section-v deepblue-bg">
         <theheader class="position-relative"></theheader>
         <theTitle class="white" thetitle="Keen Communications"></theTitle>
         <b-container>

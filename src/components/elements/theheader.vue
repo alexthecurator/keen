@@ -1,16 +1,9 @@
 <template>
     <div class="">
-        <div class="header-sm d-block d-lg-none col-12 p-0 m-0">
-            <b-navbar variant="faded" type="light">
-                <b-navbar-brand href="#/">
-                    <img src="../../assets/logos/kc-logo-full-light.svg" class="brand-logo-m d-inline-block align-top" alt="keen communication logo" />
-                </b-navbar-brand>
-            </b-navbar>  
-        </div>
         <div class="header white-bg fixed-top d-none d-lg-block col-12 p-0 m-0">
             <b-navbar variant="faded" type="light">
                 <b-navbar-brand href="#/">
-                    <img src="../../assets/logos/kc-logo-dark.svg" class="brand-logo d-inline-block align-top" alt="keen communication logo" />
+                    <img src="../../assets/logos/KeenComms-official.png" class="brand-logo d-inline-block align-top" alt="keen communication logo" />
                 </b-navbar-brand>
                 <b-collapse id="nav-collapse" is-nav>
                     <b-navbar-nav>

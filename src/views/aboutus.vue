@@ -11,10 +11,10 @@
       </div>
     </div>
 
-    <div class="section white-bg">
+    <div class="section white-bg py-xl-5">
       <div class="pt-3">
         <b-container>
-          <subtitle subtitle="Meet the team"></subtitle>
+          <subtitle class="deepblue" subtitle="Meet the team"></subtitle>
         </b-container>
       </div>
       
@@ -25,19 +25,19 @@
       </b-container>
 
       <b-container>
-         <detailing class="py-3 px-4 black" detailing="We are dedicated to serve you with excellence">
+         <detailing class="py-3 px-4 deepblue" detailing="We are dedicated to serve you with excellence">
         </detailing>
       </b-container>
 
       <b-container fluid>
         <div class="scroll-cards container-xl">
           <teamcards teamImg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
-          <teamcards teamImg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
-          <teamcards teamImg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
-          <teamcards teamImg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
-          <teamcards teamImg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
-          <teamcards teamImg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
-          <teamcards teamImg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" teamTitle="CEO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
+          <teamcards teamImg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" teamTitle="CFO" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
+          <teamcards teamImg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" teamTitle="Director" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
+          <teamcards teamImg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" teamTitle="Managing Director" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
+          <teamcards teamImg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" teamTitle="Engineer" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
+          <teamcards teamImg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" teamTitle="Technician" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
+          <teamcards teamImg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" teamTitle="Technician" teamName="David Cosmas" teamDetails="Internet guru. Organizer. Pop culture aficionado. Coffee geek. Problem solver. Social media buff."></teamcards>
           <div class="white-fade"></div>
         </div>
       </b-container> 
@@ -46,7 +46,7 @@
     <div class="section white-bg pb-xl-5">
       <div class="pt-3">
         <b-container>
-          <subtitle subtitle="About Us"></subtitle>
+          <subtitle class="deepblue" subtitle="About Us"></subtitle>
         </b-container>
       </div>
 
@@ -55,7 +55,7 @@
       </div>
 
       <b-container>
-        <detailing class="py-3 px-4 text-justify" detailing="We know that to add great value to clients, we have to work together. We provide the
+        <detailing class="py-3 px-4 text-justify deepblue" detailing="We know that to add great value to clients, we have to work together. We provide the
         best people and bring them together in teams to deliver our services. Our teams are diverse in their disciplines, ideas, perspectives and cultures. When necessary
         we extend our capability by partnering with organizations with similar values to our own but with complementary skills and abilities.">
         </detailing>
@@ -69,12 +69,12 @@
           <div class="col-xl-5 col-lg-12 col-md-12 col-12">
             <b-container>
               <div class="mt-5">
-                <subtitle subtitle="Why choose us?"></subtitle>
+                <subtitle class="deepblue" subtitle="Why choose us?"></subtitle>
               </div>
             </b-container>
             
             <b-container>
-              <detailing class="px-4 py-0 my-0 text-left" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
+              <detailing class="px-4 py-0 my-0 text-left deepblue" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
               </detailing>
             </b-container>
           </div>
@@ -134,9 +134,8 @@ export default {
 
 <style scoped>
 .scroll-cards {
-    max-height: 100px;
-    height: 100%;
-    width: 100%s;
+    height: 68vh;
+    width: 100%;
     overflow-y: scroll;
     z-index: 999999;
 }

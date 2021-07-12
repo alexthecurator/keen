@@ -44,13 +44,13 @@ export default {
     }
     @media screen and (max-width: 480px) and (max-height: 823px){
         .detailing {
-            font-size: 4.2vw;
+            font-size: 3.8vw;
             line-height: 5.8vw;
         }
     }
     @media screen and (max-width: 480px) and (max-height: 731px){
         .detailing {
-            font-size: 4.2vw;
+            font-size: 3.8vw;
             line-height: 5vw;
         }
     }

@@ -3,7 +3,7 @@
         <div class="card white-bg py-lg-4 py-md-3 py-3 my-md-3 my-2">
             <div class="card-icon mb-md-4 m-0">
                 <div class="icon d-flex justify-content-center">
-                    <i :class="cardIcon" style="color: #00B5E2;"></i>
+                    <i :class="cardIcon" style="color: #0A79FF;"></i>
                 </div>
             </div>
             <div class="card-body m-md-2">

@@ -16,7 +16,7 @@
             <div class="col-xl-4 col-lg-12 col-md-12 col-12">
               <div class="text-left">
                 <div class="p-2 pb-0">
-                  <img class="footer-logo" src="../../assets/logos/kc-logo-full-dark.svg" alt="keen communications">
+                  <img class="footer-logo" src="../../assets/logos/KeenComms-b.png" alt="keen communications">
                 </div>
                 <div class="p-2">
                   <h5 class="black">Address</h5>

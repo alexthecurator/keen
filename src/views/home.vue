@@ -18,7 +18,7 @@
         </b-container>
       </div>
 
-      <div class="d-flex justify-content-center p-xl-0 py-3">
+      <div class="d-flex justify-content-center p-xl-0 pb-2">
           <separator></separator>
       </div>
 
@@ -58,8 +58,8 @@
         
         <b-container>
           <div class="row d-flex justify-content-center mb-lg-5 pb-lg-5 py-2">
-            <div class="col-xl-6 col-lg-12 col-md-12 col-12 py-2 m-0">
-              <tupleimg></tupleimg>
+            <div class="col-xl-6 col-lg-12 col-md-12 col-12 py-0 m-0">
+              <tupleimg imageOne="support.jpg" imageTwo="technician.jpg"></tupleimg>
             </div>
             <div class="col-xl-5 col-lg-12 col-md-12 col-12">
               <div class="mt-xl-5 mt-2">

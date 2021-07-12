@@ -1,23 +1,25 @@
 <template>
-    <div class="teams">
-        <div class="team d-md-flex">
-            <div class="team-img">
-                <img :src="teamImg" alt="Profile image">
-            </div>  
-            <div class="team-text">
-                <div class="team-title">
-                    <h5>{{ teamTitle }}</h5>
+    <b-container>
+        <div class="teams mx-xl-5">
+            <div class="team d-md-flex">
+                <div class="team-img">
+                    <img :src="teamImg" alt="Profile image">
+                </div>  
+                <div class="team-text">
+                    <div class="team-title deepblue">
+                        <h5>{{ teamTitle }}</h5>
+                    </div>
+                    <div class="team-name deepblue">
+                        <h6>{{ teamName }}</h6>
+                    </div>
+                    <div class="team-details deepblue">
+                        <p>{{ teamDetails }}</p>
+                    </div>
                 </div>
-                <div class="team-name">
-                    <h6>{{ teamName }}</h6>
-                </div>
-                <div class="team-details">
-                    <p>{{ teamDetails }}</p>
-                </div>
-            </div>
 
+            </div>
         </div>
-    </div>
+    </b-container>
 </template>
 
 <script>
@@ -35,7 +37,7 @@ export default {
         border-radius: 12px;
         display: flex;
         align-content: center;
-        border: 2px solid #000;
+        border: 2px solid #041E42;
     }
     .team-text {
         text-align: left;
@@ -44,16 +46,15 @@ export default {
     .team-title h5{
         font-weight: 700;
         margin: 4px 0;
-        font-size: 2vw;
+        font-size: 1.4vw;
     }
     .team-name h6{
-        font-weight: 700;
+        font-weight: 500;
         margin: 4px 0;
         font-size: 1vw;
     }
     .team-details p {
         font-weight: 300;
-        line-height: 16px;
         font-size: 1vw;
         padding: 0;
         margin: 0;

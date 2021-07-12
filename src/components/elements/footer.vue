@@ -15,8 +15,8 @@
           <div class="row">
             <div class="col-xl-4 col-lg-12 col-md-12 col-12">
               <div class="text-left">
-                <div class="p-2 pb-0">
-                  <img class="footer-logo" src="../../assets/logos/kc-logo-full-light.svg" alt="keen communications">
+                <div class="py-2 pb-0">
+                  <img class="footer-logo" src="../../assets/logos/KeenComms-w.png" alt="keen communications">
                 </div>
                 <div class="p-2">
                   <h5 class="white">Location address</h5>
@@ -182,7 +182,7 @@ export default {
 }
 @media screen and (max-width: 320px) and (max-width: 380px) and (max-width: 480px){
   .footer-menu > .footer-item > .footer-link {
-    font-size: 5vw;
+    font-size: 3vw;
   }
 }
 </style>

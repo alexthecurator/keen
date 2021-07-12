@@ -1,6 +1,6 @@
 <template>
     <b-modal id="getstarted" title="Register today">
-        <b-form @submit.prevent="Subscribing">
+        <b-form>
             <div class="my-2">
             <label class="black" for="inline-form-input-name">Name</label>
               <b-form-input
@@ -24,14 +24,17 @@
             <b-button 
             class="my-2" 
             variant="lightblue-bg" 
-            type="submit">Subscribe</b-button>
+            type="submit"
+            @click="Subscribing()">Subscribe</b-button>
         </b-form>
     </b-modal>
 </template>
 
 <script>
+import reactive  from 'vue';
+import onMounted  from 'vue';
+import ref  from 'vue';
 import db from '../../firebase/configInit';
-import { reactive, onMounted, ref } from 'vue';
 
 export default {
     name: 'getstarted',

@@ -30,6 +30,21 @@ export default {
             font-size: 8.2vw;
         }
     }
+    @media screen and (max-width: 480px){
+        .thetitle {
+            font-size: 7vw;
+        }
+    }
+    @media screen and (max-width: 420px){
+        .thetitle {
+            font-size: 7vw;
+        }
+    }
+    @media screen and (max-width: 380px){
+        .thetitle {
+            font-size: 7vw;
+        }
+    }
     @media screen and (max-width: 320px){
         .thetitle {
             font-size: 7vw;

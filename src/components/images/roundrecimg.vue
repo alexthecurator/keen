@@ -1,14 +1,15 @@
 <template>
     <div class="roundedbox">
         <div class="rounded-image">
-            <img src="" alt="">
+            <img :src="image" alt="">
         </div>
     </div>
 </template>
 
 <script>
 export default {
-    name: "roundimage"
+    name: "roundimage",
+    props: ['image']
 }
 </script>
 

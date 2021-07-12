@@ -1,17 +1,18 @@
 <template>
     <div class="tupleimg">
         <div class="tupleimg-one">
-            <img src="../../assets/images/tuple1.webp" alt="">
+            <img :src="require('../../assets/images/' + largeImg)" alt="">
         </div>
         <div class="tupleimg-two">
-            <img src="../../assets/images/tuple2.webp" alt="">
+            <img :src="require('../../assets/images/' + smallImg)" alt="">
         </div>
     </div>
 </template>
 
 <script>
 export default {
-    name: "tupleimgsmall"
+    name: "tupleimgsmall",
+    props: ['largeImg', 'smallImg']
 }
 </script>
 
@@ -113,7 +114,7 @@ export default {
         .tupleimg-two, .tupleimg-two img {
             width: 140px;
             height: 100px;
-            top: 50px;
+            top: 58px;
             left: 38px;
         }
     }

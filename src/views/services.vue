@@ -82,7 +82,7 @@
       <b-container class="py-xl-4 py-2">
         <div class="row d-xl-flex justify-content-center">
           <div class="col-xl-5 col-7">
-              <tupleimgsmall></tupleimgsmall> 
+              <tupleimgsmall largeImg="support.jpg" smallImg="technician.jpg"></tupleimgsmall> 
           </div>
           <div class="col-xl-4 col-5">
             <thetitle class="deepblue" thetitle="24/7"></thetitle>
@@ -115,11 +115,11 @@
         </b-container>
       </div>
 
-      <div class="d-flex justify-content-center py-3">
+      <div class="d-flex justify-content-center pb-2">
         <separatormedium></separatormedium>
       </div>
 
-      <b-container class="py-xl-4 py-2">
+      <b-container class="py-xl-4 pb-2">
         <div class="row">
           <div class="col-4 p-0">
             <center>
@@ -174,7 +174,7 @@
 
       <b-container class="py-xl-4 py-2">
         <div class="row d-xl-flex justify-content-center">
-            <div class="col-xl-4 col-5">
+            <div class="col-xl-4 col-5 p-0 m-0">
                 <thetitle class="deepblue" thetitle="24/7"></thetitle>
                 <detailing class="deepblue mx-xl-2" detailing="Support from our specialized technicians"></detailing>
 
@@ -186,8 +186,8 @@
                   </div>
                 </b-container>
             </div>
-            <div class="col-xl-5 col-7">
-               <tupleimgsmall></tupleimgsmall> 
+            <div class="col-xl-5 col-7 p-0 m-0">
+               <tupleimgsmall largeImg="support.jpg" smallImg="technician.jpg"></tupleimgsmall> 
             </div>
         </div>
       </b-container>
@@ -218,7 +218,7 @@
         </detailing>
       </b-container>
     
-      <div class="d-flex justify-content-center pb-3">
+      <div class="d-flex justify-content-center pb-1">
         <separatorsmall></separatorsmall>
       </div>
 
@@ -269,7 +269,7 @@
       <b-container class="py-xl-4 py-2">
         <div class="row d-xl-flex justify-content-center">
           <div class="col-xl-5 col-7">
-              <tupleimgsmall></tupleimgsmall> 
+              <tupleimgsmall largeImg="support.jpg" smallImg="technician.jpg"></tupleimgsmall> 
           </div>
           <div class="col-xl-4 col-5">
             <thetitle class="deepblue" thetitle="24/7"></thetitle>
@@ -303,7 +303,7 @@
         </b-container>
       </div>  
 
-      <div class="d-flex justify-content-center py-3">
+      <div class="d-flex justify-content-center pb-2">
         <separatormedium></separatormedium>
       </div>
 

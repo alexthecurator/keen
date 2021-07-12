@@ -9,11 +9,11 @@
                 <h1>{{ maincaption }}</h1>
             </div>
 
-            <div class="sub-maincaption white">
+            <div class="submaincaption white">
                 <h3>{{ submaincaption }}</h3>
             </div>
             <div class="start-btn py-2" id="startBtn">
-                <b-button class="lightblue-bg px-lg-5 px-md-4 py-md-2" v-b-modal.getstarted><small class="btntext deepblue">{{ btntext }}</small></b-button>
+                <b-button class="yellow-bg px-lg-5 px-md-4 py-md-2" v-b-modal.getstarted><small class="btntext deepblue">{{ btntext }}</small></b-button>
             </div>
         </div>
     </div>
@@ -33,7 +33,7 @@ export default {
     .sub-caption h5{
         font-size: 18px;
     }
-    .sub-maincaption h3{
+    .submaincaption h3{
         font-size: 24px;
         font-weight: 300;
     }
@@ -45,61 +45,61 @@ export default {
         font-family: 'Roboto', sans-serif;
     }
     @media screen and (max-width:1024px) {
-        .sub-caption small {
+        .sub-caption h5 {
             font-size: 3vw;
         }
-        .submaincaption h5 {
+        .submaincaption h3 {
             font-size: 5vw;
         }
-        .main-caption h3{
+        .main-caption h1{
             font-size: 6vw;
         }
     }
 
     @media screen and (max-width:780px) {
-        .sub-caption small {
+        .sub-caption h5 {
             font-size: 3vw;
         }
-        .submaincaption h5 {
+        .submaincaption h3 {
             font-size: 4vw;
         }
-        .main-caption h3{
+        .main-caption h1{
             font-size: 5vw;
         }
     }
 
     @media screen and (max-width:480px) {
-        .sub-caption small {
+        .sub-caption h5 {
             font-size: 4vw;
         }
-        .submaincaption h5 {
+        .submaincaption h3 {
             font-size: 5vw;
         }
-        .main-caption h3{
+        .main-caption h1{
             font-size: 6vw;
         }
     }
     @media screen and (max-width:380px) {
-        .sub-caption small {
+        .sub-caption h5 {
             font-size: 4vw;
         }
-        .submaincaption h5 {
+        .submaincaption h3 {
             font-size: 5vw;
         }
-        .main-caption h3{
+        .main-caption h1{
             font-size: 6vw;
         }
     }
 
     @media screen and (max-width:320px) {
-        .sub-caption small {
+        .sub-caption h5 {
             font-size: 4vw;
         }
-        .submaincaption h5 {
+        .submaincaption h3 {
             font-size: 5vw;
         }
-        .main-caption h3{
-            font-size: 6vw;
+        .main-caption h1{
+            font-size: 9vw;
         }
     }
     

@@ -41,7 +41,7 @@ export default {
     }
     @media screen and (max-width: 480px){
         .subtitle {
-            font-size: 7vw
+            font-size: 6vw
         }
     }
     @media screen and (max-width: 380px){
@@ -51,7 +51,7 @@ export default {
     }
     @media screen and (max-width: 320px){
         .subtitle {
-            font-size: 22px;
+            font-size: 18px;
         }
     }
 </style>
