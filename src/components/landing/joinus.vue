@@ -6,7 +6,7 @@
             </div>
             
             <div class="start-btn py-2" >
-                <b-button id="startBtn" class="blue-bg px-lg-5 px-md-4 py-md-2" v-b-modal.getstarted><small class="btntext black">{{ thebtntext }}</small></b-button>
+                <b-button id="startBtn" class="blue-bg px-lg-5 px-md-4 py-md-2" v-b-modal.getstarted><small class="btntext">{{ thebtntext }}</small></b-button>
             </div>
         </div>      
     </div>
@@ -30,7 +30,6 @@ export default {
     }
     .btntext {
         font-size: 28px;
-        
         font-family: 'Roboto', sans-serif;
     }
     @media screen and (max-width: 1024px){

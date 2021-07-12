@@ -1,8 +1,8 @@
 <template>
-    <b-modal id="getstarted" title="Register today">
+    <b-modal class="getstarted" id="getstarted" title="Register today" content-class="shadow" centered hide-header hide-footer >
         <b-form>
             <div class="my-2">
-            <label class="black" for="inline-form-input-name">Name</label>
+            <label class="deepblue" for="inline-form-input-name">Name</label>
               <b-form-input
                 id="inline-form-input-name"
                 class="mb-2 mr-sm-2 mb-sm-0"
@@ -11,7 +11,7 @@
             ></b-form-input>  
             </div>
             <div class="my-2">
-                <label class="black" for="inline-form-input-email">Email</label>
+                <label class="deepblue" for="inline-form-input-email">Email</label>
                 <b-input-group class="mb-2 mr-sm-2 mb-sm-0">
                 <b-form-input 
                     id="inline-form-input-email"
@@ -22,8 +22,8 @@
             </div>
 
             <b-button 
-            class="my-2" 
-            variant="lightblue-bg" 
+            class="my-2 blue-bg" 
+            variant="" 
             type="submit"
             @click="Subscribing()">Subscribe</b-button>
         </b-form>
@@ -79,8 +79,8 @@ export default {
                 });
             });
 
-            // state.name = inputName;
-            // state.email = inputEmail;
+            state.names = inputName;
+            state.emails = inputEmail;
 
             });
         });

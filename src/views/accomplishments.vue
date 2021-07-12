@@ -99,7 +99,7 @@
             </b-container>
             
             <b-container>
-              <detailing class="px-4 py-0 my-0 text-left blue" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
+              <detailing class="px-4 py-0 my-0 text-left deepblue" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
               </detailing>
             </b-container>
           </div>
@@ -108,7 +108,7 @@
     </b-container>
   </div>
 
-  <div class="section deepblue-bg pt-xl-  5">
+  <div class="section deepblue-bg pt-xl-5">
     <div class="py-3">
       <b-container>
         <subtitle class="white" subtitle="Project highlights"></subtitle>
@@ -142,7 +142,6 @@
   <div class="theToggle">
       <toogle></toogle>
   </div>
-
 </div>
 </template>
 

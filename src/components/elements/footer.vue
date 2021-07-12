@@ -4,7 +4,7 @@
         <b-container fluid>
           <b-container>
             <div class="p-xl-5">
-              <reachout class="black pt-5 mb-5" thequestionaire="Ready to get started?" thebtntexxt="Tap here"></reachout>
+              <reachout class="pt-5 mb-5 deepblue" thequestionaire="Ready to get started?" thebtntexxt="Tap here"></reachout>
             </div>
           </b-container>
         </b-container>
