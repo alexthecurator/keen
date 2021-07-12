@@ -11,5 +11,5 @@ git init previewkeen
 git add -A
 git commit -m 'deploying keen'
 git remote add previewkeen https://github.com/alexthecurator/previewkeen.git
-git push -f git@github.com:alexthecurator/previewkeen.git master:gh-pages
+git push -f previewkeen master:gh-pages
 cd -
