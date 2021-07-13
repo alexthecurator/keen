@@ -1,4 +1,4 @@
 module.exports = {
     assetsDir: 'assets',
-    publicPath: process.env.NODE_ENV === 'production' ? '/index' : '/'
+    publicPath: process.env.NODE_ENV === 'production' ? '/keen' : '/index.html'
 }
