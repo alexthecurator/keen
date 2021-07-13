@@ -11,7 +11,7 @@
     </div>
   </div>
 
-  <div class="section white-bg">
+  <div class="section white-bg py-xl-5">
     <div class="pt-3">
       <b-container>
         <subtitle class="deepblue" subtitle="Accomplishments"></subtitle>
@@ -88,7 +88,7 @@
     <b-container>
       <div class="row d-flex justify-content-center mb-lg-5 pb-lg-5 py-2">
         <div class="col-xl-6 col-lg-12 col-md-12 col-12 pb-2 m-0">
-          <tupleimg></tupleimg>
+          <tupleimg imageOne="support.jpg" imageTwo="technician.jpg"></tupleimg>
         </div>
         <div class="col-xl-5 col-lg-12 col-md-12 col-12">
           <div class="mt-xl-5 mt-2">
@@ -135,10 +135,6 @@
 
   <getstartedModal></getstartedModal>
 
-  <div class="live-chat">
-      <livechat></livechat>
-  </div>
-
   <div class="theToggle">
       <toogle></toogle>
   </div>
@@ -159,7 +155,6 @@ import thefooter from '../components/elements/footer-dark.vue'
 import roundrecimg from '../components/images/roundrecimg.vue'
 import thecarousel from '../components/elements/carousel.vue'
 import getstartedModal from '../components/elements/getstarted.vue'
-import livechat from '../components/elements/liveChat.vue'
 
 export default {
   name: 'home',
@@ -177,7 +172,6 @@ export default {
     roundrecimg,
     thecarousel,
     getstartedModal,
-    livechat
   }
 }
 </script>

@@ -88,10 +88,6 @@
 
     <getstartedModal></getstartedModal>
 
-    <div class="live-chat">
-      <livechat></livechat>
-    </div>
-
     <div class="section"> 
       <thefooter></thefooter>
     </div>
@@ -111,7 +107,6 @@ import separator from '../components/typography/separator.vue'
 import tupleimg from '../components/images/tupleimg.vue'
 import thefooter from '../components/elements/footer.vue'
 import getstartedModal from '../components/elements/getstarted.vue'
-import livechat from '../components/elements/liveChat.vue'
 
 export default {
   name: 'home',
@@ -127,7 +122,6 @@ export default {
     teamcards,
     thefooter,
     getstartedModal,
-    livechat,
   }
 }
 </script>

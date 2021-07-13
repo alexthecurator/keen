@@ -21,7 +21,7 @@ export default {
     .toggle {
         position: fixed;
         z-index: 999999;
-        bottom: 90px;
+        bottom: 28px;
         right: 24px;
         padding: 0px;
     }   

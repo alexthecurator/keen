@@ -168,7 +168,7 @@
       </div>
       
       <b-container>
-        <detailing class="pt-2 px-4 text-center deepblue bold" detailing="Where we provide solutions for organizations and individuals that ensure maximum productivity and effeciency.">
+        <detailing class="pt-2 px-4 text-center deepblue" detailing="Where we provide solutions for organizations and individuals that ensure maximum productivity and effeciency.">
         </detailing>
       </b-container>
 
@@ -358,10 +358,6 @@
     <div class="section white-bg">
       <thefooter></thefooter>
     </div>
-    
-    <div class="live-chat">
-      <livechat></livechat>
-    </div>
 
     <getstartedModal></getstartedModal>
 
@@ -389,7 +385,6 @@ import cardtitle from '../components/typography/cardtitle.vue'
 import cardetails from '../components/typography/cardetails.vue'
 import thefooter from '../components/elements/footer-dark.vue'
 import getstartedModal from '../components/elements/getstarted.vue'
-import livechat from '../components/elements/liveChat.vue'
 
 export default {
   name: 'home',
@@ -410,7 +405,6 @@ export default {
     cardetails,
     thefooter,
     getstartedModal,
-    livechat,
   }
 }
 </script>

@@ -56,22 +56,22 @@ export default {
       showTypingIndicator: '', // when set to a value matching the participant.id it shows the typing indicator for the specific user
       colors: {
         header: {
-          bg: '#252122',
+          bg: '#0A79FF',
           text: '#ffffff'
         },
         launcher: {
-          bg: '#252122'
+          bg: '#0A79FF'
         },
         messageList: {
           bg: '#ffffff'
         },
         sentMessage: {
-          bg: '#252122',
+          bg: '#0A79FF',
           text: '#ffffff'
         },
         receivedMessage: {
-          bg: '#F1B428',
-          text: '#222222'
+          bg: '#00B5E2',
+          text: '#ffffff'
         },
         userInput: {
           bg: '#f4f7f9',

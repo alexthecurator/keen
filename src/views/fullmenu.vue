@@ -1,7 +1,8 @@
 <template>
     <div class="section-v deepblue-bg">
-        <theheader class="position-relative"></theheader>
-        <theTitle class="white" thetitle="Keen Communications"></theTitle>
+        <div class="pt-4">
+          <theTitle class="white" thetitle="Keen Comms"></theTitle>  
+        </div>
         <b-container>
             <div id="nav">
                 <div class="nav-link">
@@ -84,20 +85,24 @@
         <div class="theToggle">
             <toogle></toogle>
         </div>
+
+        <div class="live-chat">
+            <livechat></livechat>
+        </div>
     </div>
 </template>
 
 <script>
-import theheader from '../components/elements/theheader.vue'
 import theTitle from '../components/typography/title.vue'
 import toogle from '../components/elements/toggleMob.vue'
+import livechat from '../components/elements/liveChat.vue'
 
 export default {
     name: 'nav',
     components: {
-        theheader,
         theTitle,
         toogle,
+        livechat,
     }
 }
 </script>
