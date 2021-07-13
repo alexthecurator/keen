@@ -1,11 +1,11 @@
 <template>
 <div>
     <div class="d-none d-xl-block">
-        <div class="video-bg" data-aos="fade-zoom-in">
+        <div class="video-bg">
             <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" id="video-cont">
-                <source src="../../assets/gif/network-bg.mp4" type="video/mp4" codecs="avc1.42E01E, mp4a.40.2">
+                <source :src="require('../../assets/gif/' + videoSrc)" type="video/mp4" codecs="avc1.42E01E, mp4a.40.2">
             </video>
-            <div class="overlay img-responsive" data-aos="fade-zoom-in"></div>
+            <div class="overlay img-responsive"></div>
         </div>
     </div>
     <div class="d-block d-xl-none">
@@ -15,6 +15,12 @@
     </div>
 </div>
 </template>
+<script>
+export default {
+    name: 'herogif',
+    props: ['videoSrc']
+}
+</script>
 <style type="text/css">
 .video-bg {
     z-index: 0;

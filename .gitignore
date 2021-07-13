@@ -21,6 +21,7 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+.github
 
 # Backend
 control
@@ -31,3 +32,9 @@ underconstruction
 # Un-used API Services
 API
 apiauth
+
+# firebase
+.firebase
+firebase-debug.log
+firebase.json
+.firebaserc

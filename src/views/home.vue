@@ -1,6 +1,6 @@
 <template>
 <div>
-    <herogif></herogif>
+    <herogif videoSrc="network-bg.mp4"></herogif>
     <div class="fixed-top">
       <theheader></theheader>
     </div>
