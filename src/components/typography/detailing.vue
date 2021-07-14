@@ -13,7 +13,7 @@ export default {
 
 <style scoped>
     .detailing {
-        font-size: 22px;
+        font-size: 24px;
         line-height: 35px;
         letter-spacing: .6px;
     }
