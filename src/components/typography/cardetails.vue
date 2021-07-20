@@ -13,6 +13,7 @@ export default {
 
 <style scoped>
     .carddetails {
+        font-family: 'Raleway', sans-serif;
         font-weight: 300;
         font-size: 18px;
     }

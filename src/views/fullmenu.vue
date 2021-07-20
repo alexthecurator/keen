@@ -1,7 +1,7 @@
 <template>
     <div class="section-v deepblue-bg">
-        <div class="pt-4">
-          <theTitle class="white" thetitle="Keen Comms"></theTitle>  
+        <div class="pt-5 pb-3">
+          <img src="../assets/logos/KEENComms-white.svg" class="nav-logo d-inline-block align-top" alt="keen communication logo" />
         </div>
         <b-container>
             <div id="nav">
@@ -93,14 +93,12 @@
 </template>
 
 <script>
-import theTitle from '../components/typography/title.vue'
 import toogle from '../components/elements/toggleMob.vue'
 import livechat from '../components/elements/liveChat.vue'
 
 export default {
     name: 'nav',
     components: {
-        theTitle,
         toogle,
         livechat,
     }

@@ -1,20 +1,21 @@
 <template>
     <div class="roundedbox">
         <div class="rounded-image">
-            <img src="" alt="">
+            <img :src="srcImg" alt="">
         </div>
     </div>
 </template>
 
 <script>
 export default {
-    name: "roundimage"
+    name: "roundimage",
+    props: ['srcImg']
 }
 </script>
 
 <style scoped>
-    .roundedbox {
-        width: 150px;
+    .roundedbox img {
+        width: 200px;
         height: 150px;
         position: relative; 
         background-color: aliceblue;

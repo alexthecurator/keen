@@ -13,7 +13,9 @@ export default {
 
 <style scoped>
     .detailing {
-        font-size: 24px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        font-size: 22px;
         line-height: 35px;
         letter-spacing: .6px;
     }

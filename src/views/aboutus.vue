@@ -43,8 +43,9 @@
       </b-container> 
     </div>
 
-    <div class="section white-bg pb-xl-5">
-      <div class="pt-3">
+    <div class="section white-bg py-xl-5 py-md-3">
+    <b-container>
+      <div class="py-xl-2">
         <b-container>
           <subtitle class="deepblue" subtitle="About Us"></subtitle>
         </b-container>
@@ -55,31 +56,34 @@
       </div>
 
       <b-container>
-        <detailing class="py-3 px-4 text-justify deepblue" detailing="We know that to add great value to clients, we have to work together. We provide the
-        best people and bring them together in teams to deliver our services. Our teams are diverse in their disciplines, ideas, perspectives and cultures. When necessary
+        <detailing class="mx-xl-5 py-xl-4 m-lg-2 px-md-0 pt-3 px-4 text-lg-justify text-left deepblue" detailing="We know that to add great value to clients, we have to work together. We provide the best people and bring them together in teams to deliver our services. Our teams are diverse in their disciplines, ideas, perspectives and cultures. When necessary
         we extend our capability by partnering with organizations with similar values to our own but with complementary skills and abilities.">
         </detailing>
       </b-container>
       
-      <b-container>
-        <div class="row d-flex justify-content-center pb-lg-5">
-          <div class="col-xl-7 col-lg-12 col-md-12 col-12 py-2 m-0">
-            <tupleimg></tupleimg>
+      <b-container class="mx-xl-4 pb-xl-5">
+        <div class="row d-flex justify-content-center mb-lg-5 pb-lg-5 py-2">
+          <div class="col-xl-6 col-lg-12 col-md-12 col-12 py-0 m-0">
+            <tupleimg imageOne="support.jpg" imageTwo="technician.jpg"></tupleimg>
           </div>
-          <div class="col-xl-5 col-lg-12 col-md-12 col-12">
-            <b-container>
-              <div class="mt-5">
-                <subtitle class="deepblue" subtitle="Why choose us?"></subtitle>
-              </div>
-            </b-container>
-            
-            <b-container>
-              <detailing class="px-4 py-0 my-0 text-left deepblue" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
-              </detailing>
-            </b-container>
+          <div class="col-xl-6 col-lg-12 col-md-12 col-12">
+            <div class="mt-2">
+              <b-container class="p-0 m-0">
+                <div class="p-0 m-0">
+                  <subtitle class="text-left deepblue" subtitle="Why?"></subtitle>
+                </div>
+              </b-container>
+              
+              <b-container>
+                <detailing class="px-4 py-0 my-0 text-left deepblue" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
+                </detailing>
+              </b-container>
+            </div>
           </div>
         </div>
       </b-container>
+
+    </b-container>
     </div>
 
     <div class="theToggle">

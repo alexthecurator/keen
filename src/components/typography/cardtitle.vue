@@ -17,8 +17,9 @@ export default {
 
 <style scoped>
     .cardtitle {
+        font-family: 'Gotham', sans-serif;
         font-size: 24px;
-        font-weight: 500;
+        font-weight: 400;
     }
     @media screen and (max-width: 1024px){
         .cardtitle {

@@ -1,7 +1,7 @@
 <template> 
-    <div class="toggle d-block d-lg-none">
+    <div class="toggle d-block d-lg-none" id="toggleBtn">
         <b-button @click="getNav()" class="toogle-brd" id="getBtn">
-            <img class="toggle-logo" src="../../assets/logos/KeenComms.png" alt="">
+            <img class="toggle-logo" src="../../assets/logos/KEENComms.svg" alt="">
         </b-button>
     </div>
 </template>
@@ -24,13 +24,16 @@ export default {
         bottom: 28px;
         right: 24px;
         padding: 0px;
+        
     }   
     .toogle-brd {
         background-color: transparent;
+        
     }
     .toggle .toggle-logo {
         width: 92px;
         height: 92px;
+        
     }
     @media screen and (max-width: 320px){
         .toogle-brd {

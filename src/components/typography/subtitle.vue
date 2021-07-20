@@ -16,6 +16,7 @@ export default {
 
 <style scoped>
     .subtitle {
+        font-family: 'Gotham', sans-serif;
         font-weight: 500;
         font-size: 2.4vw;
     }

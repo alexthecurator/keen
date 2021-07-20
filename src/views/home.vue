@@ -18,7 +18,7 @@
         </b-container>
       </div>
 
-      <div class="d-flex justify-content-center p-xl-0 pb-2">
+      <div class="d-flex justify-content-center py-xl-2 pb-2">
           <separator></separator>
       </div>
       
@@ -42,9 +42,9 @@
       </b-container>
     </div>
 
-    <div class="section white-bg py-xl-4 py-md-3">
+    <div class="section white-bg py-xl-5 py-md-3">
       <b-container>
-        <div class="pt-3">
+        <div class="py-xl-2">
           <b-container>
             <subtitle class="deepblue" subtitle="Our Values"></subtitle>
           </b-container>
@@ -55,20 +55,19 @@
         </div>
     
         <b-container>
-          <detailing class="mx-xl-5 py-xl-2 m-lg-2 px-md-0 pt-3 px-4 text-lg-justify text-left deepblue" detailing="We know that to add great value to clients, we have to work together. We provide the
-          best people and bring them together in teams to deliver our services. Our teams are diverse in their disciplines, ideas, perspectives and cultures. When necessary
+          <detailing class="mx-xl-5 py-xl-4 m-lg-2 px-md-0 pt-3 px-4 text-lg-justify text-left deepblue" detailing="We know that to add great value to clients, we have to work together. We provide the best people and bring them together in teams to deliver our services. Our teams are diverse in their disciplines, ideas, perspectives and cultures. When necessary
           we extend our capability by partnering with organizations with similar values to our own but with complementary skills and abilities.">
           </detailing>
         </b-container>
         
-        <b-container>
+        <b-container class="mx-xl-4 pb-xl-5">
           <div class="row d-flex justify-content-center mb-lg-5 pb-lg-5 py-2">
             <div class="col-xl-6 col-lg-12 col-md-12 col-12 py-0 m-0">
               <tupleimg imageOne="support.jpg" imageTwo="technician.jpg"></tupleimg>
             </div>
-            <div class="col-xl-5 col-lg-12 col-md-12 col-12">
-              <div class="mt-xl-5 mt-2">
-                <b-container>
+            <div class="col-xl-6 col-lg-12 col-md-12 col-12">
+              <div class="mt-2">
+                <b-container class="p-0 m-0">
                   <div class="p-0 m-0">
                     <subtitle class="text-left deepblue" subtitle="Why?"></subtitle>
                   </div>
@@ -97,7 +96,7 @@
         <separator></separator>
       </div>
 
-      <b-container>
+      <b-container class="px-xl-5">
         <div class="px-xl-5 mx-xl-5 my-xl-2">
           <detailing class="px-xl-5 mx-xl-5 py-3 px-4 text-center white" detailing="Join us on the long journey to Innovate Tanzania and develop Africa">
           </detailing>
@@ -127,14 +126,14 @@
       </b-container>
 
       <b-container>
-        <div class="px-xl-5 mx-xl-5 my-xl-2">
+        <div class="px-xl-5 mx-xl-5 my-xl-3">
           <detailing class="px-xl-5 mx-xl-5 py-3 px-4 text-center white" detailing="For more information about our clients, tap the logos above to visit their page">
           </detailing>
         </div>
       </b-container>
 
       <b-container>
-        <b-container class="pb-md-5">
+        <b-container class="py-md-4">
           <joinus class="white" thequestion="Do you want to join us?" thebtntext="Tap here"></joinus>
         </b-container>
       </b-container>

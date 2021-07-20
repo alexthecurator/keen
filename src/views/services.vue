@@ -99,8 +99,8 @@
       </b-container>
       
       <b-container class="d-block d-lg-none py-xl-4 py-0" fluid>
-          <div class="container">
-            <div class="text-left">
+          <div class="container d-flex justify-content-center">
+            <div class="">
               <joinus thequestion="Call us today" thebtntext="Tap here"></joinus>
             </div>  
           </div>
@@ -192,8 +192,8 @@
       </b-container>
       
       <b-container class="d-block d-lg-none py-xl-4 py-0" fluid>
-          <div class="container">
-            <div class="text-left">
+          <div class="container d-flex justify-content-center">
+            <div class="">
               <joinus class="deepblue" thequestion="Call us today" thebtntext="Tap here"></joinus>
             </div>  
           </div>
@@ -276,7 +276,7 @@
 
             <b-container class="d-none d-lg-block py-xl-3 py-0" fluid>
               <div class="container d-flex justify-content-center">
-                <div class="text-left">
+                <div class="">
                   <joinus class="deepblue" thequestion="Call us today" thebtntext="Tap here"></joinus>
                 </div> 
               </div>
@@ -296,39 +296,34 @@
     </div>
 
     <div class="section deepblue-bg py-xl-5">
-      <div class="pt-md-4 pt-3">
+      <div class="py-md-4 pt-3">
         <b-container>
           <subtitle class="white" subtitle="Why do we innovate?"></subtitle>
         </b-container>
       </div>  
 
-      <div class="d-flex justify-content-center pb-2">
+      <div class="d-flex justify-content-center pb-xl-4 pb-2">
         <separatormedium></separatormedium>
       </div>
 
       <b-container>
-        <div class="d-flex flex-row my-xl-2 px-2">
+        <div class="d-flex flex-row m-xl-2 px-2">
           <div class="mx-md-3 px-2">
-            <roundboximg></roundboximg>
+            <roundboximg srcImg="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"></roundboximg>
           </div>
           <div class="mr-xl-5 mx-md-3 px-2">
-            <detailing class="white text-left" detailing="They guide our decision making, our interactions with the morden economy and our relationships with each other. People adopt, own and apply our values in their work."></detailing>
+            <detailing class="white text-left" detailing="They guide our decision making, our interactions with the morden economy and our relationships with each other. People adopt, own and apply our values in their work People adopt, own and apply our values in their work.."></detailing>
           </div>
         </div>
       </b-container>
 
       <b-container>
-        <detailing class="my-xl-2 mr-xl-5 pt-2 px-4 text-center white bold" detailing="They guide our decision making, our interactions with the morden economy and our relationships with each other. People adopt, own and apply our values in their work.">
-        </detailing>
-      </b-container>
-
-      <b-container>
-        <div class="d-flex flex-row px-2 my-xl-3">
+        <div class="container d-flex justify-content-center flex-row px-2 my-xl-5">
           <div class="mx-md-3 px-2">
-            <detailing class="mr-xl-5 white text-left" detailing="They guide our decision making, our interactions with the morden economy and our relationships with each other. People adopt, own and apply our values in their work."></detailing>
+            <detailing class="mr-xl-5 white text-left" detailing="They guide our decision making, our interactions with the morden economy and our relationships with each other. People adopt, own and apply our values in their work People adopt, own and apply our values in their work.."></detailing>
           </div>
           <div class="mx-md-3 px-2">
-            <roundboximg></roundboximg>
+            <roundboximg srcImg="https://images.unsplash.com/photo-1526666923127-b2970f64b422?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80"></roundboximg>
           </div>
         </div>
       </b-container>
@@ -342,13 +337,13 @@
       <b-container>
         <div class="d-flex flex-row justify-content-center py-2">
           <div class="mx-md-3 mx-2">
-            <roundboximg></roundboximg>
+            <roundboximg srcImg="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"></roundboximg>
           </div>
           <div class="mx-md-3 mx-2">
-            <roundboximg></roundboximg>
+            <roundboximg srcImg="https://images.unsplash.com/photo-1581092919535-7146ff1a590b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"></roundboximg>
           </div>
           <div class="mx-md-3 mx-2">
-            <roundboximg></roundboximg>
+            <roundboximg srcImg="https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80"></roundboximg>
           </div>
         </div>
       </b-container>
