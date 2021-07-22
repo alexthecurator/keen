@@ -199,3 +199,13 @@ p {
     margin: 20em;
     z-index: 999999;
 }
+
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: .4s all ease-in-out;
+}

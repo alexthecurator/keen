@@ -5,7 +5,7 @@ import './plugins/bootstrap-vue'
 import './css/global.css'
 import './css/responsive.css'
 // import '../src/firebase/init'
-import './js/global'
+import './js/global.js'
 import App from './App.vue'
 import router from './router/routing.js'
 

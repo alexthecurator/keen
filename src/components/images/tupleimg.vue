@@ -1,15 +1,16 @@
 <template>
     <div class="tupleimg">
         <div class="tupleimg-one">
-            <img :src="require('../../assets/images/' + imageOne)" alt="">
+            <img data-aos="fade-up" class="rellax" data-rellax-speed="-0.1" :src="require('../../assets/images/' + imageOne)" alt="">
         </div>
         <div class="tupleimg-two">
-            <img :src="require('../../assets/images/' + imageTwo)" alt="">
+            <img data-aos="fade-up" class="rellax" data-rellax-speed="0.2" :src="require('../../assets/images/' + imageTwo)" alt="">
         </div>
     </div>
 </template>
 
 <script>
+
 export default {
     name: "tupleimg",
     props: ['imageOne', 'imageTwo']

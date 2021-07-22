@@ -2,15 +2,14 @@
     <div class="">
         <div class="header white-bg fixed-top d-none d-lg-block col-12 p-0 m-0">
             <b-navbar variant="faded" type="light">
-                <b-navbar-brand href="#/">
-                    <img src="../../assets/logos/KeenComms-official.svg" class="brand-logo d-inline-block align-top" alt="keen communication logo" />
-                </b-navbar-brand>
+                <router-link to="/">
+                    <img src="../../assets/logos/KeenComms-official.svg" class="brand-logo d-inline-block align-top" alt="keen comms logo" />
+                </router-link>
                 <b-collapse id="nav-collapse" is-nav>
                     <b-navbar-nav>
-                        <b-nav-item class="nav-link mx-3" href="#/">Home</b-nav-item>
-                        <b-nav-item class="nav-link mr-4" href="#/services">Services</b-nav-item>
-                        <b-nav-item class="nav-link mr-4" href="#/accomplishments">Achievements</b-nav-item>
-                        <b-nav-item class="nav-link" href="#/aboutus">About us</b-nav-item>
+                        <router-link class="nav-link mx-4" to="/services">Services</router-link>
+                        <router-link class="nav-link mr-4" to="/accomplishments">Achievements</router-link>
+                        <router-link class="nav-link ml-3" to="/aboutus">About us</router-link>
                     </b-navbar-nav>
 
                     <!-- Right aligned nav items -->
@@ -44,6 +43,7 @@
     }
     .nav-link {
         font-size: .82vw;
+        font-weight: 500;
     }
     @media screen and (max-width: 1400px){
         .header {

@@ -7,19 +7,19 @@
   
     <div class="section-v">
       <div class="centercomp">
-        <getstarted subcaption="we innovate" maincaption="For smarter Tanzania" submaincaption="and a better Africa" btntext="Get started"></getstarted>
+        <getstarted class="rellax" data-rellax-speed="2" subcaption="we innovate" maincaption="For smarter Tanzania" submaincaption="and a better Africa" btntext="Get started"></getstarted>
       </div>
     </div>
 
     <div class="section white-bg py-xl-5 py-md-3 py-2">
       <div class="pt-2">
         <b-container>
-          <subtitle class="deepblue" subtitle="Our Services"></subtitle>
+          <subtitle data-aos="fade-up" class="deepblue" subtitle="Our Services"></subtitle>
         </b-container>
       </div>
 
       <div class="d-flex justify-content-center py-xl-2 pb-2">
-          <separator></separator>
+          <separator data-aos="fade-left"></separator>
       </div>
       
       <b-container>
@@ -30,13 +30,13 @@
       <b-container>
         <div class="row p-md-4 py-2">
           <div class="col-xl-4 col-lg-12 col-md-12 col-12">
-            <card cardIcon="fi-rr-network-cloud" cardTitle="Network" cardDetails="Installation, Upgrade and Maintainance"></card>
+            <card data-aos="fade-up" cardIcon="fi-rr-network-cloud" cardTitle="Network" cardDetails="Installation, Upgrade and Maintainance"></card>
           </div>
           <div class="col-xl-4 col-lg-12 col-md-12 col-12">
-            <card cardIcon="fi-rr-physics" cardTitle="Hardware & Software" cardDetails="Installation, Upgrade and Troubleshooting"></card>
+            <card data-aos="fade-down" cardIcon="fi-rr-physics" cardTitle="Hardware & Software" cardDetails="Installation, Upgrade and Troubleshooting"></card>
           </div>
           <div class="col-xl-4 col-lg-12 col-md-12 col-12">
-            <card cardIcon="fi-rr-expand" cardTitle="Development" cardDetails="Web based and Native Softwares with Support"></card>
+            <card data-aos="fade-right" cardIcon="fi-rr-expand" cardTitle="Development" cardDetails="Web based and Native Softwares with Support"></card>
           </div>
         </div>
       </b-container>
@@ -46,16 +46,16 @@
       <b-container>
         <div class="py-xl-2">
           <b-container>
-            <subtitle class="deepblue" subtitle="Our Values"></subtitle>
+            <subtitle data-aos="fade-up" class="deepblue" subtitle="Our Values"></subtitle>
           </b-container>
         </div>
   
         <div class="d-flex justify-content-center">
-          <separator></separator>
+          <separator data-aos="fade-right"></separator>
         </div>
     
         <b-container>
-          <detailing class="mx-xl-5 py-xl-4 m-lg-2 px-md-0 pt-3 px-4 text-lg-justify text-left deepblue" detailing="We know that to add great value to clients, we have to work together. We provide the best people and bring them together in teams to deliver our services. Our teams are diverse in their disciplines, ideas, perspectives and cultures. When necessary
+          <detailing data-aos="fade-up" class="mx-xl-5 py-xl-4 m-lg-2 px-md-0 pt-3 px-4 text-lg-justify text-left deepblue" detailing="We know that to add great value to clients, we have to work together. We provide the best people and bring them together in teams to deliver our services. Our teams are diverse in their disciplines, ideas, perspectives and cultures. When necessary
           we extend our capability by partnering with organizations with similar values to our own but with complementary skills and abilities.">
           </detailing>
         </b-container>
@@ -69,12 +69,12 @@
               <div class="mt-2">
                 <b-container class="p-0 m-0">
                   <div class="p-0 m-0">
-                    <subtitle class="text-left deepblue" subtitle="Why?"></subtitle>
+                    <subtitle data-aos="fade-right" class="text-left deepblue" subtitle="Why?"></subtitle>
                   </div>
                 </b-container>
                 
                 <b-container>
-                  <detailing class="px-4 py-0 my-0 text-left deepblue" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
+                  <detailing data-aos="fade-left" class="px-4 py-0 my-0 text-left deepblue" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
                   </detailing>
                 </b-container>
               </div>
@@ -107,19 +107,19 @@
         <div class="container py-md-2">
           <div class="row d-flex justify-content-center">
             <div class="col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
-              <roundedimg theLogo="TCAA.jpg"></roundedimg>
+              <roundedimg data-aos="fade-right" theLogo="TCAA.jpg"></roundedimg>
             </div>
             <div class="col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
-              <roundedimg theLogo="TPA.jpg"></roundedimg>
+              <roundedimg data-aos="fade-right" theLogo="TPA.jpg"></roundedimg>
             </div>
             <div class="col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
-              <roundedimg theLogo="DarCityCouncil.jpg"></roundedimg>
+              <roundedimg data-aos="fade-up" theLogo="DarCityCouncil.jpg"></roundedimg>
             </div>          
             <div class="col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
-              <roundedimg theLogo="tanroads.jpg"></roundedimg>
+              <roundedimg data-aos="fade-left" theLogo="tanroads.jpg"></roundedimg>
             </div>
             <div class="col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
-              <roundedimg theLogo="Gpsa.png"></roundedimg>
+              <roundedimg data-aos="fade-left" theLogo="Gpsa.png"></roundedimg>
             </div>
           </div>
         </div>
