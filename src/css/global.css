@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap');
 * {
     border: none;
-    font-family: 'Gotham', sans-serif;
     overflow-x: none;
     scroll-behavior: smooth;
     scrollbar-width: none;
