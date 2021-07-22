@@ -105,17 +105,17 @@ export default {
     }
     @media screen and (max-width: 480px) {
         .tupleimg-one img, .tupleimg-two img{
-            border-radius: 12px;
+            border-radius: 8px;
         }
         .tupleimg-one img {
             width: 180px;
-            height: 160px;
+            height: 140px;
         }
         .tupleimg-two, .tupleimg-two img {
-            width: 140px;
-            height: 100px;
+            width: 120px;
+            height: 80px;
             top: 58px;
-            left: 38px;
+            left: 50px;
         }
     }
     @media screen and (max-width: 320px) {
@@ -128,6 +128,9 @@ export default {
             height: 70px;
             top: 40px;
             left: 40px;
+        }
+        .tupleimg-one img, .tupleimg-two img{
+            border-radius: 8px;
         }
     }
 </style>

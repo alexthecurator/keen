@@ -23,7 +23,7 @@
       </div>
 
       <b-container>
-        <detailing class="pt-3 px-4 text-center deepblue" detailing="We strive to achieve the best network architecture for quality communication, that drive the morden economy.">
+        <detailing class="mx-xl-5 pt-3 px-4 text-center deepblue" detailing="We strive to achieve the best network architecture for quality communication, that drives the morden economy.">
         </detailing>
       </b-container>
     
@@ -99,200 +99,12 @@
       </b-container>
       
       <b-container class="d-block d-lg-none py-xl-4 py-0" fluid>
-          <div class="container d-flex justify-content-center">
-            <div class="">
+          <div class="container d-flex justify-content-md-center">
+            <div class="text-left text-md-center">
               <joinus thequestion="Call us today" thebtntext="Tap here"></joinus>
             </div>  
           </div>
       </b-container>
-    </div>
-
-    <div class="section white-bg py-xl-5">
-      <div class="p-xl-0 pt-3">
-        <b-container>
-          <subtitle class="deepblue" subtitle="Hardware & Software"></subtitle>
-        </b-container>
-      </div>
-
-      <div class="d-flex justify-content-center pb-2">
-        <separatormedium></separatormedium>
-      </div>
-
-      <b-container class="py-xl-4 pb-2">
-        <div class="row">
-          <div class="col-4 p-0">
-            <center>
-                <div class="card-icon-circle white-bg theshadow">
-                    <div style="padding: 12px 0 0 0;">
-                        <i class="card-icon fi-rr-download deepblue"></i> 
-                    </div>
-                </div>
-                <div class="card-title">
-                    <cardtitle class="deepblue" cardtitle="Installation"></cardtitle>
-                </div>
-                <cardetails class="deepblue" carddetails="We provide from the ground up, Network platform installation with the best quality devices."></cardetails>
-            </center>
-          </div>
-          <div class="col-4 p-0">
-            <center>
-                <div class="card-icon-circle white-bg theshadow">
-                    <div style="padding: 12px 0 0 0;">
-                        <i class="card-icon fi-rr-rocket deepblue"></i> 
-                    </div>
-                </div>
-                <div class="card-title">
-                    <cardtitle class="deepblue" cardtitle="Upgrading"></cardtitle>
-                </div>
-                <cardetails class="deepblue" carddetails="To the latest tools and network architecture which provide efficient performance"></cardetails>
-            </center>
-          </div>
-          <div class="col-4 p-0">
-            <center>
-                <div class="card-icon-circle white-bg theshadow">
-                    <div style="padding: 12px 0 0 0;">
-                        <i class="card-icon fi-rr-settings deepblue"></i> 
-                    </div>
-                </div>
-                <div class="card-title">
-                    <cardtitle class="deepblue" cardtitle="Troubleshooting"></cardtitle>
-                </div>
-                <cardetails class="deepblue" carddetails="Of your network infrastructure and operational nodes with full support"></cardetails>
-            </center>
-          </div>
-        </div>
-      </b-container>
-    
-      <div class="d-flex justify-content-center pb-xl-3 pb-2">
-        <separatorsmall></separatorsmall>
-      </div>
-      
-      <b-container>
-        <detailing class="pt-2 px-4 text-center deepblue" detailing="Where we provide solutions for organizations and individuals that ensure maximum productivity and effeciency.">
-        </detailing>
-      </b-container>
-
-      <b-container class="py-xl-4 py-2">
-        <div class="row d-xl-flex justify-content-center">
-            <div class="col-xl-4 col-5 p-0 m-0">
-                <thetitle class="deepblue" thetitle="24/7"></thetitle>
-                <detailing class="deepblue mx-xl-2" detailing="Support from our specialized technicians"></detailing>
-
-                <b-container class="d-none d-lg-block py-xl-3 py-0" fluid>
-                  <div class="container d-flex justify-content-center">
-                    <div class="text-left">
-                      <joinus class="deepblue" thequestion="Call us today" thebtntext="Tap here"></joinus>
-                    </div> 
-                  </div>
-                </b-container>
-            </div>
-            <div class="col-xl-5 col-7 p-0 m-0">
-               <tupleimgsmall largeImg="support.jpg" smallImg="technician.jpg"></tupleimgsmall> 
-            </div>
-        </div>
-      </b-container>
-      
-      <b-container class="d-block d-lg-none py-xl-4 py-0" fluid>
-          <div class="container d-flex justify-content-center">
-            <div class="">
-              <joinus class="deepblue" thequestion="Call us today" thebtntext="Tap here"></joinus>
-            </div>  
-          </div>
-      </b-container>
-      
-    </div>
-
-    <div class="section white-bg py-xl-5">
-      <div class="p-xl-0 pt-3">
-        <b-container>
-          <subtitle class="deepblue" subtitle="Development"></subtitle>
-        </b-container>
-      </div>
-
-      <div class="d-flex justify-content-center">
-        <separatormedium></separatormedium>
-      </div>
-
-      <b-container>
-        <detailing class="pt-3 px-4 text-center deepblue" detailing="We strive to achieve the best network architecture for quality communication, that drive the morden economy.">
-        </detailing>
-      </b-container>
-    
-      <div class="d-flex justify-content-center pb-1">
-        <separatorsmall></separatorsmall>
-      </div>
-
-      <b-container class="py-2">
-          <div class="row">
-              <div class="col-4 p-0">
-                  <center>
-                      <div class="card-icon-circle white-bg theshadow">
-                          <div style="padding: 12px 0 0 0;">
-                             <i class="card-icon fi-rr-apps deepblue"></i> 
-                          </div>
-                      </div>
-                      <div class="card-title">
-                          <cardtitle class="deepblue" cardtitle="Native apps"></cardtitle>
-                      </div>
-                      <cardetails class="deepblue" carddetails="We provide from the ground up, Network platform installation with the best quality devices."></cardetails>
-                  </center>
-              </div>
-              <div class="col-4 p-0">
-                  <center>
-                      <div class="card-icon-circle white-bg theshadow">
-                          <div style="padding: 12px 0 0 0;">
-                             <i class="card-icon fi-rr-browser deepblue"></i> 
-                          </div>
-                      </div>
-                      <div class="card-title">
-                          <cardtitle class="deepblue" cardtitle="Web based apps"></cardtitle>
-                      </div>
-                      <cardetails class="deepblue" carddetails="To the latest tools and network architecture which provide efficient performance"></cardetails>
-                  </center>
-              </div>
-              <div class="col-4 p-0">
-                  <center>
-                      <div class="card-icon-circle white-bg theshadow">
-                          <div style="padding: 12px 0 0 0;">
-                             <i class="card-icon fi-rr-globe deepblue"></i> 
-                          </div>
-                      </div>
-                      <div class="card-title">
-                          <cardtitle class="deepblue" cardtitle="Websites"></cardtitle>
-                      </div>
-                      <cardetails class="deepblue" carddetails="Of your network infrastructure and operational nodes with full support"></cardetails>
-                  </center>
-              </div>
-          </div>
-      </b-container>
-
-      <b-container class="py-xl-4 py-2">
-        <div class="row d-xl-flex justify-content-center">
-          <div class="col-xl-5 col-7">
-              <tupleimgsmall largeImg="support.jpg" smallImg="technician.jpg"></tupleimgsmall> 
-          </div>
-          <div class="col-xl-4 col-5">
-            <thetitle class="deepblue" thetitle="24/7"></thetitle>
-            <detailing class="deepblue mx-xl-2" detailing="Support from our specialized technicians"></detailing>
-
-            <b-container class="d-none d-lg-block py-xl-3 py-0" fluid>
-              <div class="container d-flex justify-content-center">
-                <div class="">
-                  <joinus class="deepblue" thequestion="Call us today" thebtntext="Tap here"></joinus>
-                </div> 
-              </div>
-            </b-container>
-          </div>
-        </div>
-      </b-container>
-      
-      <b-container class="d-block d-lg-none py-xl-4 py-0" fluid>
-          <div class="container">
-            <div class="text-left">
-              <joinus thequestion="Call us today" thebtntext="Tap here"></joinus>
-            </div> 
-          </div>
-      </b-container>
-      
     </div>
 
     <div class="section deepblue-bg py-xl-5">
@@ -307,7 +119,7 @@
       </div>
 
       <b-container>
-        <div class="d-flex flex-row m-xl-2 px-2">
+        <div class="d-flex flex-column flex-md-row m-xl-2 px-2">
           <div class="mx-md-3 px-2">
             <roundboximg srcImg="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"></roundboximg>
           </div>
@@ -318,7 +130,7 @@
       </b-container>
 
       <b-container>
-        <div class="container d-flex justify-content-center flex-row px-2 my-xl-5">
+        <div class="container d-flex justify-content-center flex-column-reverse flex-md-row px-2 my-xl-5">
           <div class="mx-md-3 px-2">
             <detailing class="mr-xl-5 white text-left" detailing="They guide our decision making, our interactions with the morden economy and our relationships with each other. People adopt, own and apply our values in their work People adopt, own and apply our values in their work.."></detailing>
           </div>
@@ -328,14 +140,14 @@
         </div>
       </b-container>
 
-      <div class="my-md-3 pt-2">
+      <div class="my-md-3 pt-2 d-none d-md-block">
         <b-container>
           <subtitle class="white" subtitle="Highlights"></subtitle>
         </b-container>
       </div>
 
-      <b-container>
-        <div class="d-flex flex-row justify-content-center py-2">
+      <b-container class="d-none d-md-block">
+        <div class="d-flex flex-md-row justify-content-center py-2">
           <div class="mx-md-3 mx-2">
             <roundboximg srcImg="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"></roundboximg>
           </div>
