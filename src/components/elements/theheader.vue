@@ -1,7 +1,7 @@
 <template>
     <div class="">
         <div class="header white-bg fixed-top d-none d-lg-block col-12 p-0 m-0">
-            <b-navbar variant="faded" type="light">
+            <b-navbar>
                 <router-link to="/">
                     <img src="../../assets/logos/KeenComms-official.svg" class="brand-logo d-inline-block align-top" alt="keen comms logo" />
                 </router-link>
@@ -15,8 +15,7 @@
                     <!-- Right aligned nav items -->
                     <b-navbar-nav class="ml-auto">
                         <b-nav-form>
-                        <b-form-input size="sm" class="mr-sm-2" placeholder="Search"></b-form-input>
-                        <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
+                            <input size="sm" class="search-bar mr-sm-2 p-xl-1" placeholder="Search" />
                         </b-nav-form>
                     </b-navbar-nav>
                 </b-collapse>
@@ -44,6 +43,15 @@
     .nav-link {
         font-size: .82vw;
         font-weight: 500;
+    }
+    .search-bar {
+        border: none;
+        border-radius: none;
+        background-color: transparent;
+        border-bottom: 2px solid #0A79FF;
+    }
+    input:focus {
+        border: 2px solid #0A79FF;;
     }
     @media screen and (max-width: 1400px){
         .header {

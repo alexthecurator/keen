@@ -1,6 +1,6 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for style
-import Rellax from 'rellax';
+
 
 AOS.init({
     // Global settings:
@@ -16,11 +16,8 @@ AOS.init({
     offset: 120,
     delay: 0,
     duration: 800,
-    easing: 'ease-in-out',
+    easing: 'ease',
     once: false,
     mirror: false,
     anchorPlacement: 'top-bottom',
 });
-
-var rellax = new Rellax('.rellax');
-console.log(rellax);

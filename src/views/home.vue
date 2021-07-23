@@ -30,13 +30,19 @@
       <b-container>
         <div class="row p-md-4 py-2">
           <div class="col-xl-4 col-lg-12 col-md-12 col-12">
-            <card data-aos="fade-up" cardIcon="fi-rr-network-cloud" cardTitle="Network" cardDetails="Installation, Upgrade and Maintainance"></card>
+            <router-link to="/services" class="hvr-grow">
+              <card data-aos="fade-up" cardIcon="fi-rr-network-cloud" cardTitle="Network" cardDetails="Installation, Upgrade and Maintainance"></card>
+            </router-link>
           </div>
           <div class="col-xl-4 col-lg-12 col-md-12 col-12">
-            <card data-aos="fade-down" cardIcon="fi-rr-physics" cardTitle="Hardware & Software" cardDetails="Installation, Upgrade and Troubleshooting"></card>
+            <router-link to="/services" class="hvr-grow">
+              <card data-aos="fade-up" cardIcon="fi-rr-network-cloud" cardTitle="Hardware & Software" cardDetails="Installation, Upgrade and Maintainance"></card>
+            </router-link>
           </div>
           <div class="col-xl-4 col-lg-12 col-md-12 col-12">
-            <card data-aos="fade-right" cardIcon="fi-rr-expand" cardTitle="Development" cardDetails="Web based and Native Softwares with Support"></card>
+            <router-link to="/services" class="hvr-grow">
+              <card data-aos="fade-up" cardIcon="fi-rr-network-cloud" cardTitle="Development" cardDetails="Installation, Upgrade and Maintainance"></card>
+            </router-link>
           </div>
         </div>
       </b-container>
@@ -88,12 +94,12 @@
     <div class="section bluegrad-bg py-xl-5 py-md-3">
       <div class="pb-xl-3 pt-3">
         <b-container>
-          <subtitle class="white" subtitle="Meet our friends"></subtitle>
+          <subtitle class="white" data-aos="fade-up" subtitle="Meet our friends"></subtitle>
         </b-container>
       </div>
 
       <div class="d-flex justify-content-center py-xl-2 py-md-3">
-        <separator></separator>
+        <separator data-aos="fade-right"></separator>
       </div>
 
       <b-container class="px-xl-5">
@@ -106,20 +112,30 @@
       <b-container>
         <div class="container py-md-2">
           <div class="row d-flex justify-content-center">
-            <div class="col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
-              <roundedimg data-aos="fade-right" theLogo="TCAA.jpg"></roundedimg>
+            <div class="hvr-grow col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
+              <a href="https://www.tcaa.go.tz/" target="new">
+                <roundedimg data-aos="fade-right" data-aos-delay="600" theLogo="TCAA.jpg"></roundedimg>
+              </a>
             </div>
-            <div class="col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
-              <roundedimg data-aos="fade-right" theLogo="TPA.jpg"></roundedimg>
+            <div class="hvr-grow col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
+              <a href="https://www.ports.go.tz/index.php/en/" target="new">
+                <roundedimg data-aos="fade-right" data-aos-delay="500" theLogo="TPA.jpg"></roundedimg>
+              </a>
             </div>
-            <div class="col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
-              <roundedimg data-aos="fade-up" theLogo="DarCityCouncil.jpg"></roundedimg>
+            <div class="hvr-grow col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
+              <a href="http://www.dcc.go.tz/" target="new">
+                <roundedimg data-aos="fade-right" data-aos-delay="400" theLogo="DarCityCouncil.jpg"></roundedimg>
+                </a>
             </div>          
-            <div class="col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
-              <roundedimg data-aos="fade-left" theLogo="tanroads.jpg"></roundedimg>
+            <div class="hvr-grow col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
+              <a href="https://www.tanroads.go.tz/" target="new">
+                <roundedimg data-aos="fade-right" data-aos-delay="300" theLogo="tanroads.jpg"></roundedimg>
+              </a>
             </div>
-            <div class="col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
-              <roundedimg data-aos="fade-left" theLogo="Gpsa.png"></roundedimg>
+            <div class="hvr-grow col-xl-2 col-lg-4 col-md-4 col-4 d-flex justify-content-center">
+              <a href="https://www.gpsa.go.tz/">
+                <roundedimg data-aos="fade-right" data-aos-delay="200" theLogo="Gpsa.png"></roundedimg>
+              </a>
             </div>
           </div>
         </div>
@@ -134,7 +150,7 @@
 
       <b-container>
         <b-container class="py-md-4">
-          <joinus class="white" thequestion="Do you want to join us?" thebtntext="Tap here"></joinus>
+          <joinus class="white" data-aos="fade-up" data-aos-delay="400" thequestion="Do you want to join us?" thebtntext="Tap here"></joinus>
         </b-container>
       </b-container>
     </div>
@@ -143,13 +159,13 @@
       <div class="pt-3">
         <b-container>
           <div class="mx-4">
-            <subtitle class="deepblue" subtitle="Lets hear what our friends say.."></subtitle>
+            <subtitle class="deepblue" data-aos="fade-up" subtitle="Lets hear what our friends say.."></subtitle>
           </div>
         </b-container>
       </div>
 
       <div class="d-flex justify-content-center py-md-3 pt-1 pb-2">
-        <separator></separator>
+        <separator data-aos="fade-right"></separator>
       </div>
 
       <b-container>
@@ -161,16 +177,16 @@
         <div class="m-md-0 mx-4">
           <div class="row d-flex justify-content-center py-1 mx-md-4 m-lg-0 m-xl-0">
             <div class="col-xl-6 col-lg-6 col-md-12 col-12">
-              <horcards cardImgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" cardTitle="Carlos, John" cardDetails="Very quick and easy! Great service thanks!"></horcards>
+              <horcards data-aos="fade-up" data-aos-delay="300" cardImgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" cardTitle="Carlos, John" cardDetails="Very quick and easy! Great service thanks!"></horcards>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-12 col-12">
-              <horcards cardImgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" cardTitle="Nguyane, Shane" cardDetails="Very quick and easy! Great service thanks!"></horcards>
+              <horcards data-aos="fade-up" data-aos-delay="324" cardImgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" cardTitle="Nguyane, Shane" cardDetails="Very quick and easy! Great service thanks!"></horcards>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-12 col-12">
-              <horcards cardImgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" cardTitle="Miles, Esther" cardDetails="Very quick and easy! Great service thanks!"></horcards>
+              <horcards data-aos="fade-up" data-aos-delay="346" cardImgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" cardTitle="Miles, Esther" cardDetails="Very quick and easy! Great service thanks!"></horcards>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-12 col-12">
-              <horcards cardImgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" cardTitle="Flores, Juanita" cardDetails="Very quick and easy! Great service thanks!"></horcards>
+              <horcards data-aos="fade-up" data-aos-delay="368" cardImgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF20pptDh4kncPkEk2Dser-3m2LKhKLylKenVyKCLjd7481eXWFq-L9RoOOoF5YI4rWM&usqp=CAU" cardTitle="Flores, Juanita" cardDetails="Very quick and easy! Great service thanks!"></horcards>
             </div>
           </div>
         </div>

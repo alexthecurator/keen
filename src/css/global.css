@@ -36,6 +36,10 @@ ul li a:hover {
     transition: .2s all ease-in-out;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 p {
     margin: 0;
     padding: 0 0 10px 0;

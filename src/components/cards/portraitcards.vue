@@ -1,17 +1,17 @@
 <template>
     <div class="d-flex justify-content-center container">
-        <div class="card white-bg py-lg-4 py-md-3 py-3 my-md-3 my-2">
+        <div class="card white-bg py-lg-4 py-md-3 py-3 my-md-3 my-2" id="card">
             <div class="card-icon mb-md-4 m-0">
                 <div class="icon d-flex justify-content-center">
-                    <i :class="cardIcon" style="color: #0A79FF;"></i>
+                    <i :class="cardIcon" id="icon"></i>
                 </div>
             </div>
             <div class="card-body m-md-2">
                 <div class="card-title m-0">
-                    <center><h5>{{ cardTitle }}</h5></center>
+                    <center><h5 id="title">{{ cardTitle }}</h5></center>
                 </div>
                 <div class="card-details">
-                    <center><p>{{ cardDetails }}</p></center>
+                    <center><p id="details">{{ cardDetails }}</p></center>
                 </div>
             </div>
         </div>
@@ -21,7 +21,27 @@
 <script>
 export default {
     name: "card",
-    props: ['cardIcon','cardTitle', 'cardDetails']
+    props: ['cardIcon','cardTitle', 'cardDetails'],
+    mounted(){
+        var card = document.getElementById('card');
+        var icon = document.getElementById('icon');
+        var title = document.getElementById('title');
+        var details = document.getElementById('details');
+
+        card.addEventListener("mouseover", function(){
+            card.classList.add('card-hvr');
+            icon.style.color = "#fbfbfb";
+            title.style.color = "#fbfbfb";
+            details.style.color = "#fbfbfb";
+        });
+
+        card.addEventListener("mouseleave", function(){
+            card.classList.remove('card-hvr');
+            icon.style.color = "#0A79FF";
+            title.style.color = "#000";
+            details.style.color = "#000";
+        });
+    }
 }
 </script>
 
@@ -33,6 +53,13 @@ export default {
         width: 100%;
         height: 270px;
         position: relative;
+    }
+    .card-hvr {
+        background-color: #0A79FF;
+        transition: .5s all ease-in-out;
+    }
+    .card-icon .icon i {
+        color: #0A79FF;
     }
     .card-icon {
         display: flex;
