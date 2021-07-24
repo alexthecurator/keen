@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="canonical" href="https://www.keencommunications.co.tz">
 	<link rel="canonical HTTP header" href="https://www.keencommunications.co.tz">
+	<meta property="image" content="https://github.com/alexthecurator/keen/blob/seo-meta-assets/Keen%20Communication%20Thumbnail.png">
 	<meta name="description" content="We are a Tech company based in Tanzania, with visions of innovating Africa. Our app is currently under construction.. stay tuned to find out more.">
 	<meta name="keywords" content="technology, science, tanzania tech, tech news, website, website design, innovation, dli innovation challenge, global innovation fund, innovation in entrepreneurship, technological innovation, web app, africa, the lean startup, startup company, techhub, hub, computer service, network, network service, development, developer">
 	<meta name="author" content="Alexander Cuthbert">
