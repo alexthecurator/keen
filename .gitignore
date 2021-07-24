@@ -26,9 +26,6 @@ pnpm-debug.log*
 # Backend
 control
 
-# under construction
-underconstruction
-
 # Un-used API Services
 API
 apiauth
