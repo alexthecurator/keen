@@ -59,14 +59,14 @@
                   </div>
                 </div>
                 <div class="col-2">
-                  <div class="p-2">
+                  <div class="hvr-grow p-2">
                     <a href="mailto:kc@keencommunications.co.tz?subject = Feedback&body = Message">
                       <img class="social-link" src="../../assets/icons/email.svg" alt="keen communications">
                     </a>
                   </div>
                 </div>
                 <div class="col-2">
-                  <div class="p-2">
+                  <div class="hvr-grow p-2">
                     <a href="https://wa.me/+255765542573">
                       <img class="social-link" src="../../assets/icons/whatsapp.svg" alt="keen communications">
                     </a>
@@ -80,35 +80,35 @@
                   </div>
                 </div>
                 <div class="col-2">
-                  <div class="p-2">
+                  <div class="hvr-grow p-2">
                     <a href="https://web.facebook.com/keencomms/">
                       <img class="social-link" src="../../assets/icons/facebook.svg" alt="keen communications">
                     </a>
                   </div>
                 </div>
                 <div class="col-2">
-                  <div class="p-2">
+                  <div class="hvr-grow p-2">
                     <a href="https://twitter.com/keencomms">
                       <img class="social-link" src="../../assets/icons/twitter.svg" alt="keen communications">
                     </a>
                   </div>
                 </div>
                 <div class="col-2">
-                  <div class="p-2">
+                  <div class="hvr-grow p-2">
                     <a href="https://www.instagram.com/keencomms/">
                       <img class="social-link" src="../../assets/icons/instagram.svg" alt="keen communications">
                     </a>
                   </div>
                 </div>
                 <div class="col-2">
-                  <div class="p-2">
+                  <div class="hvr-grow p-2">
                     <a href="https://www.youtube.com/channel/UCUIvNIqncLEsJnB9P-TZQ9w">
                       <img class="social-link" src="../../assets/icons/youtube.svg" alt="keen communications">
                     </a>
                   </div>
                 </div>
                 <div class="col-2">
-                  <div class="p-2">
+                  <div class="hvr-grow p-2">
                     <a href="https://www.linkedin.com/company/keen-comms">
                       <img class="social-link" src="../../assets/icons/linkedin.svg" alt="keen communications">
                     </a>
