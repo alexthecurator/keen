@@ -171,30 +171,6 @@ p {
     height: 40px;
 }
 
-
-/* .white-bg-circle {
-    background-image: url('../assets/svg/reachout.svg');
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    padding: 20em 0;
-    z-index: 1200;
-    position: relative;
-}
-
-.black-bg-circle {
-    background-image: url('../assets/svg/reachout-black.svg');
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    padding: 20em 0;
-    z-index: 1200;
-    position: relative;
-} */
-
-
 /* live Chat */
 
 .live-chat {

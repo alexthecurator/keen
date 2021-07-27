@@ -36,12 +36,12 @@
           </div>
           <div class="col-xl-4 col-lg-12 col-md-12 col-12">
             <router-link to="/services" class="hvr-grow">
-              <card data-aos="fade-up" cardIcon="fi-rr-network-cloud" cardTitle="Hardware & Software" cardDetails="Installation, Upgrade and Maintainance"></card>
+              <card data-aos="fade-up" cardIcon="fi-rr-laptop" cardTitle="Hardware & Software" cardDetails="Installation, Upgrade and Maintainance"></card>
             </router-link>
           </div>
           <div class="col-xl-4 col-lg-12 col-md-12 col-12">
             <router-link to="/services" class="hvr-grow">
-              <card data-aos="fade-up" cardIcon="fi-rr-network-cloud" cardTitle="Development" cardDetails="Installation, Upgrade and Maintainance"></card>
+              <card data-aos="fade-up" cardIcon="fi-rr-apps" cardTitle="Development" cardDetails="Installation, Upgrade and Maintainance"></card>
             </router-link>
           </div>
         </div>
