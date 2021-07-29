@@ -10,6 +10,7 @@
     },
     "dependencies": {
         "@coreui/icons": "^2.0.1",
+        "@vue/composition-api": "^1.0.4",
         "aos": "^2.3.4",
         "auth0-js": "^9.16.2",
         "axios": "^0.21.1",

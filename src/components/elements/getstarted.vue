@@ -1,13 +1,13 @@
 <template>
     <b-modal class="getstarted" id="getstarted" title="Register today" content-class="shadow" centered hide-header hide-footer >
-        <b-form>
+        <b-form @submit.prevent="subscribe">
             <div class="my-2">
             <label class="deepblue" for="inline-form-input-name">Name</label>
               <b-form-input
                 id="inline-form-input-name"
                 class="mb-2 mr-sm-2 mb-sm-0"
                 placeholder="Eg:  `Ronald Jones`"
-                v-model="inputName"
+                ref="inputName"
             ></b-form-input>  
             </div>
             <div class="my-2">
@@ -16,24 +16,21 @@
                 <b-form-input 
                     id="inline-form-input-email"
                     placeholder="Email"
-                    v-model="inputEmail"
+                    ref="inputEmail"
                 ></b-form-input>
                 </b-input-group>  
             </div>
 
             <b-button 
-            class="my-2 blue-bg" 
-            variant="" 
-            type="submit"
-            @click="Subscribing()">Subscribe</b-button>
+            class="my-2 blue-bg"  
+            type="submit">Subscribe</b-button>
         </b-form>
     </b-modal>
 </template>
 
 <script>
-import reactive  from 'vue';
 import onMounted  from 'vue';
-import ref  from 'vue';
+import { reactive, ref } from '@vue/composition-api';
 import db from '../../firebase/configInit';
 
 export default {
@@ -47,7 +44,7 @@ export default {
             emails: ""
         });
 
-        const Subscribing = () => {
+        const subscribe = () => {
             const subscriberRef = db.database().ref("names", "emails");
 
             if(inputName.value !== "" || inputName.value === "" && inputEmail.value !== "" || inputEmail.value === ""){
@@ -88,57 +85,9 @@ export default {
         return {
             inputName,
             inputEmail,
-            Subscribing,
+            subscribe,
             state
         }
     }
 }
-// import refs from 'vue'
-// import AuthService from '../../apiauth/authservice'
-// import axios from 'axios'
-
-// const API_URL = 'http://localhost:8000'
-// const auth = new AuthService()
-
-// export default {
-//     name: 'getstarted',
-//     // setup(){
-//     //     const name = refs("");
-//     //     const email = refs("");
-//     // },
-//     data () {
-//         this.handleAuthentication()
-//         this.authenticated = false
-
-//         auth.authNotifier.on('authChange', authState => {
-//         this.authenticated = authState.authenticated
-//     })
-
-//     return {
-//         authenticated: false,
-//         message: ''
-//     }
-//   },
-//   methods: {
-//     // subscribe(){
-//     //     const push = auth
-//     // },
-//     login() {
-//         auth.login()
-//     },
-//     handleAuthentication() {
-//         auth.handleAuthentication()
-//     },
-//     logout() {
-//         auth.logout()
-//     },
-//     privateMessage() {
-//         const url = `${API_URL}/api/private/`
-//         return axios.get(url, {headers: {Authorization: `Bearer ${auth.getAuthToken()}`}}).then((response) => {
-//         console.log(response.data)
-//         this.message = response.data || ''
-//         })
-//     }
-//   }
-// }
 </script>
