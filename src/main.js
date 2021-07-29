@@ -12,6 +12,7 @@ import router from './router/routing.js'
 Vue.config.productionTip = false
 
 new Vue({
+    data: { loading: false },
     router,
     render: h => h(App),
 }).$mount('#app')
