@@ -1,22 +1,18 @@
 import app from 'firebase/app';
-import 'firebase/database';
+import firebase from 'firebase';
 
 // Initialize Firebase
 var config = {
-    apiKey: "AIzaSyDj2LVW8x4Lwt99Zz0pyK5GH-Ag8S1kmB8",
-    authDomain: "keen-communications.firebaseapp.com",
-    projectId: "keen-communications",
-    storageBucket: "keen-communications.appspot.com",
-    messagingSenderId: "1018941183074",
-    appId: "1:1018941183074:web:09eae0baaad73b1d16ed3b",
-    measurementId: "G-L1XJRVQEVV"
+    apiKey: "AIzaSyDPhnOyCUo_SeRngvoj6nojVXKexMnNWFo",
+    authDomain: "keen-comm.firebaseapp.com",
+    databaseURL: "https://keen-comm-default-rtdb.firebaseio.com",
+    projectId: "keen-comm",
+    storageBucket: "keen-comm.appspot.com",
+    messagingSenderId: "263366845035",
+    appId: "1:263366845035:web:e67fce3621eaf6edffc72e",
+    measurementId: "G-MHTK3H8M3R"
 };
 
-const firebase = app.initializeApp(config);
+app.initializeApp(config);
 
-var db = firebase.database();
-
-export default {
-    firebase,
-    db
-}
+export const db = firebase.database(app);

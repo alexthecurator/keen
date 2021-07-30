@@ -29,8 +29,8 @@
 </template>
 
 <script>
-import db from '../../firebase/configInit';
-import 'firebase/database';
+import {db} from '../../firebase/configInit';
+import 'firebase';
 
 export default {
     name: 'getstarted',
@@ -42,8 +42,8 @@ export default {
     },
     methods: {
         subscribe(){
-            function writeUserData(userId, name, email) {
-                db.database().ref('users/' + userId).set({
+            function writeUserData(name, email) {
+                db.ref().push({
                     username: name,
                     email: email,
                 });
