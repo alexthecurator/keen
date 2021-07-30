@@ -48,9 +48,14 @@ export default {
                     email: email,
                 });
             }
+            function resetModal(){
+                this.inputName = '';
+                this.inputEmail = '';
+            }
 
             if(this.inputName !== "" || this.inputName === "" && this.inputEmail !== "" || this.inputEmail === ""){
                 writeUserData(this.inputName,this.inputEmail);
+                resetModal();
                 console.log('success');
             } else {
                 console.log('failed');

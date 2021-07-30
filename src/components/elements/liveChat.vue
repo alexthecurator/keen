@@ -30,6 +30,8 @@
 // import { refs } from 'vue';
 import Chat from 'vue-beautiful-chat';
 import Vue from 'vue';
+//import {db} from '../../firebase/configInit'
+
 Vue.use(Chat)
 export default {
   name: 'app',
@@ -87,6 +89,7 @@ export default {
       if (text.length > 0) {
         this.newMessagesCount = this.isChatOpen ? this.newMessagesCount : this.newMessagesCount + 1
         this.onMessageWasSent({ author: 'support', type: 'text', data: { text } })
+        //db.ref().push({});
       }
     },
     onMessageWasSent (message) {
