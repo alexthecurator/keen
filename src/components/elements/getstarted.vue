@@ -42,11 +42,14 @@ export default {
     },
     methods: {
         subscribe(){
+            var state = false;
             function writeUserData(name, email) {
                 db.ref().push({
                     username: name,
                     email: email,
                 });
+                state = true;
+                return state;
             }
             function resetModal(){
                 this.inputName = '';
@@ -55,12 +58,10 @@ export default {
 
             if(this.inputName !== "" || this.inputName === "" && this.inputEmail !== "" || this.inputEmail === ""){
                 writeUserData(this.inputName,this.inputEmail);
-                resetModal();
-                console.log('success');
-            } else {
-                console.log('failed');
+                if(state === true) {
+                    resetModal();
+                }
             }
-
         }
     }
     // setup () { 
