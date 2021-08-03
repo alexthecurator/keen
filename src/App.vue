@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <vue-page-transition>
+      <router-view></router-view>
+    </vue-page-transition>
   </div>
 </template>
 
 <script>
-//import splash from '../src/components/landing/splash.vue';
-
 export default {
   name: "App",
 }

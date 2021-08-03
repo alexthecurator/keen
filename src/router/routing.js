@@ -10,23 +10,29 @@ Vue.use(VueRouter);
 const router = new VueRouter({
     routes: [{
             path: '/',
+            name: 'home',
             component: home,
+            meta: { transition: 'fade' },
         },
         {
             path: '/fullmenu',
             component: fullmenu,
+            meta: { transition: 'fade-in-down' },
         },
         {
             path: '/services',
             component: services,
+            meta: { transition: 'fade' },
         },
         {
             path: '/accomplishments',
             component: accomplishments,
+            meta: { transition: 'fade' },
         },
         {
             path: '/aboutus',
             component: aboutus,
+            meta: { transition: 'fade' },
         },
     ]
 })
