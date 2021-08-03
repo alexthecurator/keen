@@ -127,6 +127,13 @@ p {
 }
 
 
+/* Fixes */
+
+.modal-body {
+    padding: 0 !important;
+}
+
+
 /* Body layout */
 
 .section,
@@ -170,6 +177,7 @@ p {
     width: 40px;
     height: 40px;
 }
+
 
 /* live Chat */
 

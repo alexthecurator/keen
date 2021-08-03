@@ -1,35 +1,51 @@
 <template>
-    <b-modal class="getstarted" id="getstarted" title="Register today" content-class="shadow" centered hide-header hide-footer >
-        <b-form @submit.prevent="subscribe">
-            <div class="my-2">
-            <label class="deepblue" for="inline-form-input-name">Name</label>
-              <b-form-input
-                id="inline-form-input-name"
-                class="mb-2 mr-sm-2 mb-sm-0"
-                placeholder="Eg:  `Ronald Jones`"
-                v-model="inputName"
-            ></b-form-input>  
+    <b-modal class="getstarted" id="getstarted" title="Register today" content-class="shadow" size="lg" centered hide-header hide-footer >
+        <div class="row">
+            <div class="col-xl-6">
+                <div class="subimg-cont">
+                    <img class="sub-img" src="https://images.unsplash.com/photo-1547658718-1cdaa0852790" alt="">
+                </div>
             </div>
-            <div class="my-2">
-                <label class="deepblue" for="inline-form-input-email">Email</label>
-                <b-input-group class="mb-2 mr-sm-2 mb-sm-0">
-                <b-form-input 
-                    id="inline-form-input-email"
-                    placeholder="Email"
-                    v-model="inputEmail"
-                ></b-form-input>
-                </b-input-group>  
+            <div class="col-xl-6">
+                <b-form class="ml-xl-3 mr-xl-5" @submit.prevent="subscribe">
+                    <div class="py-5 mb-4">
+                        <div class="py-2">
+                            <h2 class="deepblue">Join us today</h2>
+                        </div>
+                        <div class="my-xl-2 my-2">
+                            <label class="deepblue" for="inline-form-input-name">Name</label>
+                            <b-form-input
+                                id="inline-form-input-name"
+                                class="mb-2 mr-sm-2 mb-sm-0"
+                                placeholder="Eg:  `Ronald jones`"
+                                v-model="inputName">
+                            </b-form-input>  
+                        </div>
+                        <div class="my-xl-2 my-2">
+                            <label class="deepblue" for="inline-form-input-email">Email</label>
+                            <b-input-group class="mb-2 mr-sm-2 mb-sm-0">
+                                <b-form-input 
+                                    id="inline-form-input-email"
+                                    placeholder="yourmail@domain.com"
+                                    v-model="inputEmail">
+                                </b-form-input>
+                            </b-input-group>  
+                        </div>
+                        <div class="mt-xl-4">
+                            <b-button 
+                            class="my-2 xblue-bg px-4 py-2"
+                            type="submit">Subscribe</b-button>
+                        </div>
+                    </div>
+                </b-form>
             </div>
-
-            <b-button 
-            class="my-2 blue-bg"  
-            type="submit">Subscribe</b-button>
-        </b-form>
+        </div>
     </b-modal>
 </template>
 
 <script>
 import {db} from '../../firebase/configInit';
+import Swal from 'sweetalert2'
 import 'firebase';
 
 export default {
@@ -37,7 +53,7 @@ export default {
     data() {
         return {
             inputName: '',
-            inputEmail: ''
+            inputEmail: '',
         }
     },
     methods: {
@@ -49,74 +65,44 @@ export default {
                     email: email,
                 });
                 state = true;
-                return state;
             }
-            function resetModal(){
-                this.inputName = '';
-                this.inputEmail = '';
-            }
-
-            if(this.inputName !== "" || this.inputName === "" && this.inputEmail !== "" || this.inputEmail === ""){
+            if(this.inputName !== "" && this.inputEmail !== ""){
                 writeUserData(this.inputName,this.inputEmail);
-                if(state === true) {
-                    resetModal();
-                }
+                if(state === true){
+                    this.inputName = '';
+                    this.inputEmail = '';
+                    this.$bvModal.hide('getstarted');
+                    Swal.fire({
+                        title: 'Thank you for joining us!',
+                        text: 'We send weekly updates on products and services.. stay tuned to find out more!',
+                        timer: 4200,
+                        icon: 'success',
+                        showConfirmButton: false
+                    });
+                    state = false;
+                } 
+            } else {
+                Swal.fire({
+                    position: 'top-end',
+                    toast: true,
+                    title: 'Please fill in your name and email',
+                    icon: 'warning',
+                    timer: 2200,
+                    showConfirmButton: false
+                });
             }
         }
     }
-    // setup () { 
-    //     const inputName = ref("");
-    //     const inputEmail = ref("");
-
-    //     const state = reactive({
-    //         names: "",
-    //         emails: ""
-    //     });
-
-    //     const subscribe = () => {
-    //         const subscriberRef = db.database().ref("names", "emails");
-
-    //         if(inputName.value !== "" || inputName.value === "" && inputEmail.value !== "" || inputEmail.value === ""){
-    //             return;
-    //         }
-
-    //         const subscriber = {
-    //             subname: state.names,
-    //             subemail: state.emails
-    //         }
-            
-    //         subscriberRef.push(subscriber);
-    //         inputName.value = "";
-    //         inputEmail.value = "";
-    //     }
-
-    //     onMounted(() => {
-    //         const subscriberRef = db.database().ref("names", "emails");
-
-    //         subscriberRef.on('value', snapshot => {
-    //         const data = snapshot.val();
-    //         let subscribers = [];
-
-    //         Object.keys(data).forEach(key => {
-    //         subscribers.push({
-    //             id: key,
-    //             name: data[key].subname,
-    //             email: data[key].subemail
-    //             });
-    //         });
-
-    //         state.names = inputName;
-    //         state.emails = inputEmail;
-
-    //         });
-    //     });
-
-    //     return {
-    //         inputName,
-    //         inputEmail,
-    //         subscribe,
-    //         state
-    //     }
-    // }
 }
 </script>
+<style scoped>
+.subimg-cont {
+    position: relative;
+}
+.subimg-cont .sub-img {
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 420px;
+}
+</style>
