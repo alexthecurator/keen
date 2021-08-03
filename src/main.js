@@ -8,8 +8,13 @@ import VueSweetalert2 from 'vue-sweetalert2'
 import './js/global.js'
 import App from './App.vue'
 import router from './router/routing.js'
+import VuePageTransition from 'vue-page-transition'
+import Carousel3d from 'vue-carousel-3d';
 
+Vue.use(Carousel3d);
+Vue.use(VuePageTransition);
 Vue.use(VueSweetalert2);
+
 Vue.config.productionTip = false
 
 new Vue({

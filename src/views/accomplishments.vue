@@ -110,7 +110,7 @@
         </b-container>
   </div>
 
-  <div class="section deepblue-bg pt-xl-5">
+  <div class="section deepblue-bg py-xl-5">
     <div class="py-3">
       <b-container>
         <subtitle class="white" subtitle="Project highlights"></subtitle>
@@ -126,7 +126,7 @@
       </detailing>
     </b-container>
 
-    <b-container>
+    <b-container fluid>
       <thecarousel></thecarousel>
     </b-container>
   </div>
