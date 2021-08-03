@@ -1,7 +1,5 @@
 .DS_Store
 node_modules
-/dist
-
 
 # local env files
 .env.local
@@ -27,11 +25,12 @@ pnpm-debug.log*
 control
 
 # Un-used API Services
-API
-apiauth
+src/API
+src/apiauth
 
 # firebase
 .firebase
 firebase-debug.log
 firebase.json
 .firebaserc
+src/firebase
