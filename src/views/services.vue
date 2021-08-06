@@ -168,6 +168,7 @@
     </div>
 
     <getstartedModal></getstartedModal>
+    <callustodayModal></callustodayModal>
 
     <div class="theToggle">
        <toogle></toogle>
@@ -193,6 +194,7 @@ import cardtitle from '../components/typography/cardtitle.vue'
 import cardetails from '../components/typography/cardetails.vue'
 import thefooter from '../components/elements/footer-dark.vue'
 import getstartedModal from '../components/elements/getstarted.vue'
+import callustodayModal from '../components/elements/callus.vue'
 
 export default {
   name: 'home',
@@ -213,6 +215,7 @@ export default {
     cardetails,
     thefooter,
     getstartedModal,
+    callustodayModal
   }
 }
 </script>

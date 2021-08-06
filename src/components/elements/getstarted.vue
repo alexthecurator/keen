@@ -104,5 +104,6 @@ export default {
     height: 100%;
     max-width: 400px;
     max-height: 420px;
+    border-radius: 2px;
 }
 </style>

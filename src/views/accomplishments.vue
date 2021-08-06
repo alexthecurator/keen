@@ -119,7 +119,7 @@
 
     <div class="d-flex justify-content-center">
       <separator></separator>
-    </div>
+    </div> 
 
     <b-container>
       <detailing class="py-xl-4 m-xl-0 py-3 px-4 white" detailing="Our aim is to leave a lasting impression with a excellent performance">
