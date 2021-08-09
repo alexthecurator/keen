@@ -21,27 +21,7 @@
 <script>
 export default {
     name: "card",
-    props: ['cardIcon','cardTitle', 'cardDetails'],
-    mounted(){
-        var card = document.getElementById('card');
-        var icon = document.getElementById('icon');
-        var title = document.getElementById('title');
-        var details = document.getElementById('details');
-
-        card.addEventListener("mouseover", function(){
-            card.classList.add('card-hvr');
-            icon.style.color = "#fbfbfb";
-            title.style.color = "#fbfbfb";
-            details.style.color = "#fbfbfb";
-        });
-
-        card.addEventListener("mouseleave", function(){
-            card.classList.remove('card-hvr');
-            icon.style.color = "#0A79FF";
-            title.style.color = "#000";
-            details.style.color = "#000";
-        });
-    }
+    props: ['cardIcon','cardTitle', 'cardDetails']
 }
 </script>
 
@@ -54,9 +34,13 @@ export default {
         height: 270px;
         position: relative;
     }
-    .card-hvr {
+    #card:hover {
         background-color: #0A79FF;
-        transition: .5s all ease-in-out;
+        transition: .16s all ease-in-out;
+    }
+    #card:hover #icon, #card:hover #title, #card:hover #details {
+        transition: .2s all ease-in-out;
+        color: #fbfbfb;
     }
     .card-icon .icon i {
         color: #0A79FF;
