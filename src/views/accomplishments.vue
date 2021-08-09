@@ -156,7 +156,7 @@ import tupleimg from '../components/images/tupleimg.vue'
 import thefooter from '../components/elements/footer-dark.vue'
 import roundrecimg from '../components/images/roundrecimg.vue'
 import thecarousel from '../components/elements/carousel.vue'
-import getstartedModal from '../components/elements/getstarted.vue'
+import getstartedModal from '../components/elements/subscribe.vue'
 
 export default {
   name: 'home',

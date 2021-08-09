@@ -193,7 +193,7 @@ import roundboximg from '../components/images/roundboximg.vue'
 import cardtitle from '../components/typography/cardtitle.vue'
 import cardetails from '../components/typography/cardetails.vue'
 import thefooter from '../components/elements/footer-dark.vue'
-import getstartedModal from '../components/elements/getstarted.vue'
+import getstartedModal from '../components/elements/subscribe.vue'
 import callustodayModal from '../components/elements/callus.vue'
 
 export default {

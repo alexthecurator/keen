@@ -219,7 +219,7 @@ import roundedimg from '../components/images/roundimg.vue'
 import joinus from '../components/landing/joinus.vue'
 import horcards from '../components/cards/horizontalcards.vue'
 import thefooter from '../components/elements/footer.vue'
-import getstartedModal from '../components/elements/getstarted.vue'
+import getstartedModal from '../components/elements/subscribe.vue'
 
 export default {
   name: 'home',

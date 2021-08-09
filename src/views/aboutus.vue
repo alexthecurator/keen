@@ -110,7 +110,7 @@ import detailing from '../components/typography/detailing.vue'
 import separator from '../components/typography/separator.vue'
 import tupleimg from '../components/images/tupleimg.vue'
 import thefooter from '../components/elements/footer.vue'
-import getstartedModal from '../components/elements/getstarted.vue'
+import getstartedModal from '../components/elements/subscribe.vue'
 
 export default {
   name: 'home',
