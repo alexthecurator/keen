@@ -1,7 +1,7 @@
 <template>
     <b-modal class="getstarted" id="callustoday" title="Register today" content-class="shadow" size="lg" centered hide-header hide-footer >
         <div class="row">
-            <div class="col-xl-6 col-12 white-bg modal-content">
+            <div class="col-xl-7 col-12 white-bg modal-content">
                 <div class="mx-xl-5">
                     <div class="py-5 mb-4">
                         <div class="py-2">
@@ -29,7 +29,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-6 col-12">
+            <div class="col-xl-5 col-12 p-0 m-0">
                 <div class="subimg-cont">
                     <img class="sub-img" src="https://images.unsplash.com/photo-1547658718-1cdaa0852790" alt="">
                 </div>
@@ -50,7 +50,7 @@ export default {
 .subimg-cont .sub-img {
     width: 100%;
     height: 100%;
-    max-width: 400px;
+    max-width: 100%;
     max-height: 420px;
     border-radius: 2px;
 }
