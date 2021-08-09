@@ -18,6 +18,7 @@ Vue.use(VueGoogleMap, {
         apiKey: 'AIzaSyDYydumzn3BOSOHnxonBYrnC5sF4zm7FYo',
     }
 });
+
 Vue.use(Carousel3d);
 Vue.use(VuePageTransition);
 Vue.use(VueSweetalert2);
