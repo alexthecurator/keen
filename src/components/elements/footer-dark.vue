@@ -28,34 +28,16 @@
             </div>
 
             <div class="col-xl-4 col-lg-12 col-md-12 col-12">
-              <ul class="footer-menu p-2">
-                <li class="footer-item"><a class="footer-link deepblue" href="#/">Home</a></li>
-
-                <div class="d-flex justify-content-center py-3">
-                  <grayseparator></grayseparator>
-                </div>
-                
-                <li class="footer-item" ><a class="footer-link deepblue" href="#/services">Services</a></li>
-
-                <div class="d-flex justify-content-center pt-1 py-3">
-                  <grayseparator></grayseparator>
-                </div>
-
-                <li class="footer-item"><a class="footer-link deepblue" href="#/accomplishments">Projects</a></li>
-
-                <div class="d-flex justify-content-center pt-1 py-3">
-                  <grayseparator></grayseparator>
-                </div>
-
-                <li class="footer-item"><a class="footer-link deepblue" href="#/aboutus">About Us</a></li>
-              </ul>
+              <div class="maps">
+                <google-map></google-map>
+              </div>
             </div>
             
             <div class="col-xl-4 col-lg-12 col-md-12 col-12">
               <div class="row d-flex justify-content-center">
                 <div class="col-12">
                   <div class="px-xl-2 py-xl-4">
-                    <h3 class="black">Let's talk tech</h3>
+                    <h3 class="gray">Let's talk tech</h3>
                   </div>
                 </div>
                 <div class="col-2">
@@ -76,7 +58,7 @@
               <div class="row d-flex justify-content-center">
                 <div class="col-12">
                   <div class="px-xl-2 py-xl-4">
-                    <h3 class="black">Connect with us</h3>
+                    <h3 class="gray">Connect with us</h3>
                   </div>
                 </div>
                 <div class="col-2">
@@ -124,7 +106,32 @@
       <b-container fluid>
         <div class="">
           <div class="">
-            
+            <div class="col-12">
+              <div class="p-xl-2">
+                <h4 class="gray">Links</h4>
+              </div>
+            </div>
+            <ul class="d-flex justify-content-center footer-menu p-2">
+                <li class="footer-item"><a class="footer-link deepblue" href="#/">Home</a></li>
+
+                <div class="d-flex justify-content-center py-3">
+                  <grayseparator></grayseparator>
+                </div>
+                
+                <li class="footer-item" ><a class="footer-link deepblue" href="#/services">Services</a></li>
+
+                <div class="d-flex justify-content-center pt-1 py-3">
+                  <grayseparator></grayseparator>
+                </div>
+
+                <li class="footer-item"><a class="footer-link deepblue" href="#/accomplishments">Projects</a></li>
+
+                <div class="d-flex justify-content-center pt-1 py-3">
+                  <grayseparator></grayseparator>
+                </div>
+
+                <li class="footer-item"><a class="footer-link deepblue" href="#/aboutus">About Us</a></li>
+              </ul>
           </div>
           <b-container>
             

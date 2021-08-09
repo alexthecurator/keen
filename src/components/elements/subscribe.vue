@@ -46,7 +46,7 @@
 <script>
 import {db} from '../../firebase/configInit';
 import Swal from 'sweetalert2'
-import 'firebase';
+import 'firebase/database';
 
 export default {
     name: 'getstarted',

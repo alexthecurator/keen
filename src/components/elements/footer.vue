@@ -34,7 +34,90 @@
             </div>
 
             <div class="col-xl-4 col-lg-12 col-md-12 col-12">
-              <ul class="footer-menu p-2">
+              <div class="maps">
+                <google-map></google-map>
+              </div>
+            </div>
+            
+            <div class="col-xl-4 col-lg-12 col-md-12 col-12">
+              <div class="row d-flex justify-content-center">
+                <div class="col-12">
+                  <div class="px-xl-2 py-xl-4">
+                    <h3 class="white">Let's talk tech</h3>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="hvr-grow p-2">
+                    <a href="mailto:kc@keencommunications.co.tz?subject = Feedback&body = Message">
+                      <img class="social-link" src="../../assets/icons/email.svg" alt="keen communications">
+                    </a>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="hvr-grow p-2">
+                    <a href="https://wa.me/+255765542573">
+                      <img class="social-link" src="../../assets/icons/whatsapp.svg" alt="keen communications">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-12">
+                  <div class="px-xl-2 py-xl-4">
+                    <h3 class="white">Connect with us</h3>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="hvr-grow p-2">
+                    <a href="https://web.facebook.com/keencomms/">
+                      <img class="social-link" src="../../assets/icons/facebook.svg" alt="keen communications">
+                    </a>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="hvr-grow p-2">
+                    <a href="https://twitter.com/keencomms">
+                      <img class="social-link" src="../../assets/icons/twitter.svg" alt="keen communications">
+                    </a>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="hvr-grow p-2">
+                    <a href="https://www.instagram.com/keencomms/">
+                      <img class="social-link" src="../../assets/icons/instagram.svg" alt="keen communications">
+                    </a>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="hvr-grow p-2">
+                    <a href="https://www.youtube.com/channel/UCUIvNIqncLEsJnB9P-TZQ9w">
+                      <img class="social-link" src="../../assets/icons/youtube.svg" alt="keen communications">
+                    </a>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="hvr-grow p-2">
+                    <a href="https://www.linkedin.com/company/keen-comms">
+                      <img class="social-link" src="../../assets/icons/linkedin.svg" alt="keen communications">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </b-container>
+
+      <b-container fluid>
+        <div class="">
+          <div class="">
+            <div class="col-12">
+              <div class="p-xl-2">
+                <h4 class="gray">Links</h4>
+              </div>
+            </div>
+            <ul class="d-flex justify-content-center footer-menu p-2">
                 <li class="footer-item"><a class="footer-link" href="#/">Home</a></li>
 
                 <div class="d-flex justify-content-center py-3">
@@ -55,82 +138,6 @@
 
                 <li class="footer-item"><a class="footer-link" href="#/aboutus">About Us</a></li>
               </ul>
-            </div>
-            
-            <div class="col-xl-4 col-lg-12 col-md-12 col-12">
-              <div class="row d-flex justify-content-center">
-                <div class="col-12">
-                  <div class="px-xl-2 py-xl-4">
-                    <h3 class="white">Let's talk tech</h3>
-                  </div>
-                </div>
-                <div class="col-2">
-                  <div class="p-2">
-                    <a href="">
-                      <img class="social-link" src="../../assets/icons/email.svg" alt="keen communications">
-                    </a>
-                  </div>
-                </div>
-                <div class="col-2">
-                  <div class="p-2">
-                    <a href="">
-                      <img class="social-link" src="../../assets/icons/whatsapp.svg" alt="keen communications">
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="row d-flex justify-content-center">
-                <div class="col-12">
-                  <div class="px-xl-2 py-xl-4">
-                    <h3 class="white">Connect with us</h3>
-                  </div>
-                </div>
-                <div class="col-2">
-                  <div class="p-2">
-                    <a href="">
-                      <img class="social-link" src="../../assets/icons/facebook.svg" alt="keen communications">
-                    </a>
-                  </div>
-                </div>
-                <div class="col-2">
-                  <div class="p-2">
-                    <a href="">
-                      <img class="social-link" src="../../assets/icons/twitter.svg" alt="keen communications">
-                    </a>
-                  </div>
-                </div>
-                <div class="col-2">
-                  <div class="p-2">
-                    <a href="">
-                      <img class="social-link" src="../../assets/icons/instagram.svg" alt="keen communications">
-                    </a>
-                  </div>
-                </div>
-                <div class="col-2">
-                  <div class="p-2">
-                    <a href="">
-                      <img class="social-link" src="../../assets/icons/youtube.svg" alt="keen communications">
-                    </a>
-                  </div>
-                </div>
-                <div class="col-2">
-                  <div class="p-2">
-                    <a href="">
-                      <img class="social-link" src="../../assets/icons/linkedin.svg" alt="keen communications">
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </b-container>
-
-      <b-container fluid>
-        <div class="">
-          <div class="">
-            
           </div>
           <b-container>
             
@@ -155,8 +162,8 @@ import grayseparator from '../../components/typography/grayseparator.vue'
 export default {
     name: 'light-footer',
     components: {
-        grayseparator,
-        reachout,
+      grayseparator,
+      reachout,
     }
 }
 </script>
