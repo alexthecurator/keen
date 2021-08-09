@@ -58,7 +58,11 @@ export default {
     },
     methods: {
         subscribe(){
+            var name = this.inputName;
+            var email = this.inputEmail;
+            var modal = this.$bvModal;
             var state = false;
+            
             function writeUserData(name, email) {
                 db.ref().push({
                     username: name,
@@ -66,12 +70,15 @@ export default {
                 });
                 state = true;
             }
-            if(this.inputName !== "" && this.inputEmail !== ""){
-                writeUserData(this.inputName,this.inputEmail);
+            function resetModal(){
+                name = '';
+                email = '';
+                modal.hide('getstarted');
+            }
+            if(name !== "" && email !== ""){
+                writeUserData(name,email);
                 if(state === true){
-                    this.inputName = '';
-                    this.inputEmail = '';
-                    this.$bvModal.hide('getstarted');
+                    resetModal();
                     Swal.fire({
                         title: 'Thank you for joining us!',
                         text: 'We send weekly updates on products and services.. stay tuned to find out more!',
@@ -80,7 +87,17 @@ export default {
                         showConfirmButton: false
                     });
                     state = false;
-                } 
+                } else {
+                    resetModal();
+                    Swal.fire({
+                        title: "Sorry, we could'nt subscribe you",
+                        text: 'Please check your internet connection, or refresh your browser and try again',
+                        timer: 4200,
+                        icon: 'error',
+                        showConfirmButton: false
+                    });
+                    state = false;
+                }
             } else {
                 Swal.fire({
                     position: 'top-end',
