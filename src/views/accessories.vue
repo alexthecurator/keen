@@ -109,26 +109,26 @@
         </b-container>
   </div>
 
-  <div class="section deepblue-bg py-xl-5">
-    <div class="py-3">
-      <b-container>
-        <subtitle class="white" subtitle="Project highlights"></subtitle>
-      </b-container>
+  <div class="section white-bg py-xl-5">
+      <div class="p-xl-0 pt-2">
+        <b-container>
+          <subtitle class="deepblue" subtitle="Why choose us"></subtitle>
+        </b-container>
+      </div>
+
+      <div class="d-flex justify-content-center py-xl-2">
+        <separatormedium></separatormedium>
+      </div>
+      
+      <thesectionrev thetitle="To Achieve Seamless Performance" thedetails="Reliable connectivity is an art that is yet to be perfected here in Tanzania, hence we aim to provide fluent, efficient and quality network infrustrucutures able to scale without repucations, and handle vigorous conditions affecting the network" theillustration="server.svg"></thesectionrev>
     </div>
-
-    <div class="d-flex justify-content-center">
-      <separator></separator>
-    </div> 
-
-    <b-container>
-      <detailing class="py-xl-4 m-xl-0 py-3 px-4 white" detailing="Our aim is to leave a lasting impression with a excellent performance">
-      </detailing>
-    </b-container>
-
-    <b-container fluid>
-      <thecarousel></thecarousel>
-    </b-container>
-  </div>
+    
+    <div class="section white-bg py-xl-5">
+      <div class="d-flex justify-content-center py-xl-2">
+        <separatormedium></separatormedium>
+      </div>
+      <thesection head="To Achieve Seamless Performance" detail="Reliable connectivity is an art that is yet to be perfected here in Tanzania, hence we aim to provide fluent, efficient and quality network infrustrucutures able to scale without repucations, and handle vigorous conditions affecting the network" theIllustration="seamless.svg"></thesection>
+    </div>
 
   <div class="section">
     <thefooter></thefooter>
@@ -151,10 +151,11 @@ import subtitle from '../components/typography/subtitle.vue'
 import detailing from '../components/typography/detailing.vue'
 import separator from '../components/typography/separator.vue'
 import tupleimg from '../components/images/tupleimg.vue'
-import thefooter from '../components/elements/footer-dark.vue'
+import thefooter from '../components/elements/footer.vue'
 import roundrecimg from '../components/images/roundrecimg.vue'
-import thecarousel from '../components/elements/carousel.vue'
 import getstartedModal from '../components/elements/subscribe.vue'
+import thesectionrev from '../components/elements/sectionrev.vue'
+import thesection from '../components/elements/section.vue'
 
 export default {
   name: 'home',
@@ -169,8 +170,9 @@ export default {
     separator,
     thefooter,
     roundrecimg,
-    thecarousel,
     getstartedModal,
+    thesectionrev,
+    thesection,
   }
 }
 </script>
