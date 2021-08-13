@@ -1,18 +1,15 @@
 <template>
-    <div class="px-4 mx-4">
+    <div class="px-5 mx-5">
         <div class="d-flex justify-content-center">
             <b-row align-v="center">
                 <b-col>
-                    <div class="px-xl-5 mx-xl-5 pt-4 mt-4">
+                    <div class="px-xl-5 mx-xl-5">
                         <div class="text-left">
                             <div class="main-caption deepblue mb-3">
-                                <h1 class="deepblue" data-aos="fade-up">{{ maincap1 }} <span class="blue">{{maincap2}}</span> {{maincap3}}</h1>
+                                <h2 class="deepblue" data-aos="fade-up">{{ thetitle }}</h2>
                             </div>
                             <div class="subcaption deepblue my-3">
-                                <h3 class="deepblue" data-aos="fade-up" data-aos-delay="200">{{ subcaption }}</h3>
-                            </div>
-                            <div class="start-btn" id="startBtn">
-                                <b-button class="deepblue-bg px-lg-5 px-md-4 py-md-2" v-b-modal.getstarted data-aos="fade-up" data-aos-delay="300"><small class="btntext white">{{ btntext }}</small></b-button>
+                                <h3 class="deepblue" data-aos="fade-up" data-aos-delay="200">{{ thedetails }}</h3>
                             </div>
                         </div>  
                     </div> 
@@ -20,19 +17,18 @@
                 <b-col>
                     <div class="px-xl-5 mx-xl-5">
                         <div class="illustration" data-aos="fade-up" data-aos-delay="400">
-                            <img data-rellax-speed="-0.1" :src="require('../../assets/svg/' + illustration)" alt="">
+                            <img data-rellax-speed="-0.1" :src="require('../../assets/svg/' + theillustration)" alt="">
                         </div>
                     </div>   
                 </b-col>
             </b-row>
-            
         </div>
     </div>
 </template>
 
 <script>
 export default {
-    props: ['maincap1','maincap2','maincap3','subcaption','btntext','illustration']
+    props: ['thetitle','thedetails','btntext','illustration']
 }
 </script>
 

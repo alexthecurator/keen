@@ -23,6 +23,13 @@
                 </b-collapse>
             </b-navbar>  
         </div>
+        <div class="header white-bg d-block d-lg-none col-12 p-0 m-0">
+            <b-navbar variant="faded" type="light">
+                <b-navbar-brand href="#">
+                <img src="../../assets/logos/KeenComms-official.svg" class="brand-logo d-inline-block align-top" alt="keen comms logo" />
+                </b-navbar-brand>
+            </b-navbar>
+        </div>
     </div>
 </template>
 

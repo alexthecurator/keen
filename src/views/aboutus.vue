@@ -6,10 +6,10 @@
     </div>
   
     <div class="section-v white-bg">
-      <div class="centercomp">
-        <getstarted class="rellax" data-rellax-speed="2" subcaption="we innovate" maincaption="For smarter Tanzania" submaincaption="and a better Africa, where we make it happen" btntext="Get started" illustration="team_spirit.svg"></getstarted>
-      </div>
+    <div class="centercomp">
+      <getstarted class="rellax" data-rellax-speed="2" subcaption="Get to know about us, why we do what we do, our core values, keen goals and what drives us to get out of bed every morning" maincap1="Working as a" maincap2="Team" maincap3="makes a difference"  btntext="Get started" illustration="team_spirit.svg"></getstarted>
     </div>
+  </div>
 
     <div class="section white-bg py-xl-5">
       <div class="pt-3">

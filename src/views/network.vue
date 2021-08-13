@@ -5,8 +5,8 @@
     </div>
   
     <div class="section-v white-bg">
-      <div class="centercomp">
-        <getstarted class="rellax" data-rellax-speed="2" subcaption="we innovate" maincaption="For smarter Tanzania" submaincaption="and a better Africa, where we make it happen" btntext="Get started" illustration="network.svg"></getstarted>
+      <div class="">
+        <getstarted subcaption="We are well equipped with experts and technicians ready to plug the cable for you and your team with reliabiltyof good performance" maincap1="Let's" maincap2="Connect you" maincap3="to the world"  btntext="Get started" illustration="network.svg"></getstarted>
       </div>
     </div>
 
@@ -107,60 +107,19 @@
         </b-container>
       </div>
     </div>
+  
+    <div class="section white-bg py-xl-5">
+      <div class="p-xl-0 pt-2">
+          <b-container>
+            <subtitle class="deepblue" subtitle="Why choose us"></subtitle>
+          </b-container>
+        </div>
 
-    <div class="section deepblue-bg py-xl-5">
-      <div class="py-md-4 pt-3">
-        <b-container>
-          <subtitle class="white" subtitle="Why do we innovate?"></subtitle>
-        </b-container>
-      </div>  
-
-      <div class="d-flex justify-content-center pb-xl-4 pb-2">
-        <separatormedium></separatormedium>
+        <div class="d-flex justify-content-center py-xl-2">
+          <separatormedium></separatormedium>
+        </div>
+        <thesection thetitle="To Achieve Seamless Performance" thedetails="Reliable connectivity is an art that is yet to be perfected here in Tanzania, hence we aim to provide fluent, efficient and quality network infrustrucutures able to scale without repucations, and handle vigorous conditions affecting the network" theillustration="seamless.svg"></thesection>
       </div>
-
-      <b-container>
-        <div class="d-flex flex-column flex-md-row m-xl-2 px-2">
-          <div class="mx-md-3 px-2">
-            <roundboximg srcImg="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"></roundboximg>
-          </div>
-          <div class="mr-xl-5 mx-md-3 px-2">
-            <detailing class="white text-left" detailing="They guide our decision making, our interactions with the morden economy and our relationships with each other. People adopt, own and apply our values in their work People adopt, own and apply our values in their work.."></detailing>
-          </div>
-        </div>
-      </b-container>
-
-      <b-container>
-        <div class="container d-flex justify-content-center flex-column-reverse flex-md-row px-2 my-xl-5">
-          <div class="mx-md-3 px-2">
-            <detailing class="mr-xl-5 white text-left" detailing="They guide our decision making, our interactions with the morden economy and our relationships with each other. People adopt, own and apply our values in their work People adopt, own and apply our values in their work.."></detailing>
-          </div>
-          <div class="mx-md-3 px-2">
-            <roundboximg srcImg="https://images.unsplash.com/photo-1526666923127-b2970f64b422?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80"></roundboximg>
-          </div>
-        </div>
-      </b-container>
-
-      <div class="my-md-3 pt-2 d-none d-md-block">
-        <b-container>
-          <subtitle class="white" subtitle="Highlights"></subtitle>
-        </b-container>
-      </div>
-
-      <b-container class="d-none d-md-block">
-        <div class="d-flex flex-md-row justify-content-center py-2">
-          <div class="mx-md-3 mx-2">
-            <roundboximg srcImg="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"></roundboximg>
-          </div>
-          <div class="mx-md-3 mx-2">
-            <roundboximg srcImg="https://images.unsplash.com/photo-1581092919535-7146ff1a590b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"></roundboximg>
-          </div>
-          <div class="mx-md-3 mx-2">
-            <roundboximg srcImg="https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80"></roundboximg>
-          </div>
-        </div>
-      </b-container>
-    </div>
     
     <div class="section white-bg">
       <thefooter></thefooter>
@@ -187,18 +146,19 @@ import detailing from '../components/typography/detailing.vue'
 import separatormedium from '../components/typography/separatormedium.vue'
 import separatorsmall from '../components/typography/separatorsmall.vue'
 import tupleimgsmall from '../components/images/tupleimgsmall.vue'
-import roundboximg from '../components/images/roundboximg.vue'
 import cardtitle from '../components/typography/cardtitle.vue'
 import cardetails from '../components/typography/cardetails.vue'
-import thefooter from '../components/elements/footer-dark.vue'
+import thefooter from '../components/elements/footer.vue'
 import getstartedModal from '../components/elements/subscribe.vue'
 import callustodayModal from '../components/elements/callus.vue'
+import thesection from '../components/elements/sectionrev.vue'
 
 export default {
   name: 'home',
   components: {
     theheader,
     getstarted,
+    thesection,
     joinus,
     toogle,
     thetitle,
@@ -207,7 +167,6 @@ export default {
     separatormedium,
     separatorsmall,
     tupleimgsmall,
-    roundboximg,
     cardtitle,
     cardetails,
     thefooter,

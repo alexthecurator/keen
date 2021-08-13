@@ -6,7 +6,7 @@
   
     <div class="section-v white-bg">
       <div class="centercomp">
-        <getstarted class="rellax" data-rellax-speed="2" subcaption="we innovate" maincaption="For smarter Tanzania" submaincaption="and a better Africa, where we make it happen" btntext="Get started" illustration="hardware.svg"></getstarted>
+        <getstarted class="rellax" data-rellax-speed="2" subcaption="With over five years of experience, we understand what needs to be done to solve your problem, with skill and guranteed perfomance. Get in touch today or Call us now" maincap1="We understand your" maincap2="frustration" maincap3="we'll fix it for you"  btntext="Get started" illustration="hardware.svg"></getstarted>
       </div>
     </div>
 

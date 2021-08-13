@@ -4,11 +4,11 @@
     <theheader></theheader>
   </div>
 
-  <div class="section-v white-bg">
-    <div class="centercomp">
-      <getstarted class="rellax" data-rellax-speed="2" subcaption="we innovate" maincaption="For smarter Tanzania" submaincaption="and a better Africa, where we make it happen" btntext="Get started" illustration="accessories.svg"></getstarted>
+    <div class="section-v white-bg">
+      <div class="centercomp">
+        <getstarted class="rellax" data-rellax-speed="2" subcaption="What's a good computer without accessories to simplfy it. Come over, visit us and experience the best service in Tanzania" maincap1="We also have" maincap2="Good Quality" maincap3="Gadgets and accessories"  btntext="Get started" illustration="accessories.svg"></getstarted>
+      </div>
     </div>
-  </div>
 
   <div class="section white-bg py-xl-5">
     <div class="pt-3">

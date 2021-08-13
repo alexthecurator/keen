@@ -6,7 +6,7 @@
   
     <div class="section-v white-bg">
       <div class="centercomp">
-        <getstarted class="rellax" data-rellax-speed="2" subcaption="we innovate" maincaption="For smarter Tanzania" submaincaption="and a better Africa, where we make it happen" btntext="Get started" illustration="mobile_testing.svg"></getstarted>
+        <getstarted subcaption="Innovations for a smarter Tanzania and a better Africa, where we aim at creating solutions, that boost your performance and connect you to the world" maincap1="Welcome to a place" maincap2="where we make IT" maincap3="happen"  btntext="Get started" illustration="mobile_testing.svg"></getstarted>
       </div>
     </div>
     
@@ -68,7 +68,7 @@
         <b-container class="mx-xl-4 pb-xl-5">
           <div class="row d-flex justify-content-center mb-lg-5 pb-lg-5 py-2">
             <div class="col-xl-6 col-lg-12 col-md-12 col-12 py-0 m-0">
-              <tupleimg imageOne="support.jpg" imageTwo="technician.jpg"></tupleimg>
+              <tupleimg imageOne="https://images.unsplash.com/photo-1541178735493-479c1a27ed24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" imageTwo="https://images.unsplash.com/photo-1621905251918-48416bd8575a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"></tupleimg>
             </div>
             <div class="col-xl-6 col-lg-12 col-md-12 col-12">
               <div class="mt-2">

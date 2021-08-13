@@ -6,7 +6,7 @@
   
     <div class="section-v white-bg">
       <div class="centercomp">
-        <getstarted class="rellax" data-rellax-speed="2" subcaption="we innovate" maincaption="For smarter Tanzania" submaincaption="and a better Africa, where we make it happen" btntext="Get started" illustration="software.svg"></getstarted>
+        <getstarted class="rellax" data-rellax-speed="2" subcaption="In the world of today, all major markets are run by software. In order to stand out, you need to be unique, Luckily we are here for that and we are happy to serve" maincap1="Need Creative" maincap2="Solutions?" maincap3="We have them for you"  btntext="Get started" illustration="software.svg"></getstarted>
       </div>
     </div>
 
@@ -105,6 +105,17 @@
               </div>  
             </div>
         </b-container>
+      </div>
+    </div>
+
+    <div class="section white-bg py-xl-5">
+      <div class="py-xl-0">
+        <div class="p-xl-0 pt-2">
+          <b-container>
+            <subtitle class="deepblue" subtitle="Software Services"></subtitle>
+          </b-container>
+        </div>
+
       </div>
     </div>
 
