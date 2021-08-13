@@ -1,13 +1,12 @@
 <template>
 <div>
-    <herogif videoSrc="network-bg.mp4"></herogif>
     <div class="fixed-top">
       <theheader></theheader>
     </div>
   
-    <div class="section-v">
+    <div class="section-v white-bg">
       <div class="centercomp">
-        <getstarted subcaption="Are you stuck and cant find a solution?" maincaption="We are here for you" submaincaption="Problem Solving is our prime" btntext="Get started"></getstarted>
+        <getstarted class="rellax" data-rellax-speed="2" subcaption="we innovate" maincaption="For smarter Tanzania" submaincaption="and a better Africa, where we make it happen" btntext="Get started" illustration="software.svg"></getstarted>
       </div>
     </div>
 
@@ -15,7 +14,7 @@
       <div class="py-xl-0">
         <div class="p-xl-0 pt-2">
           <b-container>
-            <subtitle class="deepblue" subtitle="Network Services"></subtitle>
+            <subtitle class="deepblue" subtitle="Software Services"></subtitle>
           </b-container>
         </div>
 
@@ -178,7 +177,6 @@
 </template>
 
 <script>
-import herogif from '../components/landing/herogif.vue'
 import theheader from '../components/elements/theheader.vue'
 import getstarted from '../components/landing/getstarted.vue'
 import joinus from '../components/landing/joinus.vue'
@@ -199,7 +197,6 @@ import callustodayModal from '../components/elements/callus.vue'
 export default {
   name: 'home',
   components: {
-    herogif,
     theheader,
     getstarted,
     joinus,

@@ -1,16 +1,15 @@
 <template>
 <div>
-    <herogif videoSrc="network-bg.mp4"></herogif>
     <div class="fixed-top">
       <theheader></theheader>
     </div>
   
-    <div class="section-v">
+    <div class="section-v white-bg">
       <div class="centercomp">
-        <getstarted class="rellax" data-rellax-speed="2" subcaption="we innovate" maincaption="For smarter Tanzania" submaincaption="and a better Africa, where we make it happen" btntext="Get started"></getstarted>
+        <getstarted class="rellax" data-rellax-speed="2" subcaption="we innovate" maincaption="For smarter Tanzania" submaincaption="and a better Africa, where we make it happen" btntext="Get started" illustration="mobile_testing.svg"></getstarted>
       </div>
     </div>
-
+    
     <div class="section white-bg py-xl-5 py-md-3 py-2">
       <div class="pt-2">
         <b-container>
@@ -206,7 +205,6 @@
 </template>
 
 <script>
-import herogif from '../components/landing/herogif.vue'
 import theheader from '../components/elements/theheader.vue'
 import getstarted from '../components/landing/getstarted.vue'
 import toogle from '../components/elements/toggleMob.vue'
@@ -224,7 +222,6 @@ import getstartedModal from '../components/elements/subscribe.vue'
 export default {
   name: 'home',
   components: {
-    herogif,
     theheader,
     getstarted,
     toogle,
@@ -243,9 +240,6 @@ export default {
 </script>
 
 <style>
-.centercomp {
-    transform: translateY(36vh);
-}
 .live-chat {
     position: fixed;
     z-index: 999999;

@@ -1,13 +1,12 @@
 <template>
 <div>
-  <herogif videoSrc="network-bg.mp4"></herogif>
   <div class="fixed-top">
     <theheader></theheader>
   </div>
 
-  <div class="section-v">
+  <div class="section-v white-bg">
     <div class="centercomp">
-      <getstarted subcaption="So far these are" maincaption="Our Achievements" submaincaption="with five years of experience" btntext="Get started"></getstarted>
+      <getstarted class="rellax" data-rellax-speed="2" subcaption="we innovate" maincaption="For smarter Tanzania" submaincaption="and a better Africa, where we make it happen" btntext="Get started" illustration="accessories.svg"></getstarted>
     </div>
   </div>
 
@@ -144,7 +143,6 @@
 </template>
 
 <script>
-import herogif from '../components/landing/herogif.vue'
 import theheader from '../components/elements/theheader.vue'
 import getstarted from '../components/landing/getstarted.vue'
 import joinus from '../components/landing/joinus.vue'
@@ -161,7 +159,6 @@ import getstartedModal from '../components/elements/subscribe.vue'
 export default {
   name: 'home',
   components: {
-    herogif,
     theheader,
     getstarted,
     joinus,
@@ -179,10 +176,6 @@ export default {
 </script>
 
 <style>
-.centercomp {
-    transform: translateY(36vh);
-}
-
 .card-icon-circle {
     width: 60px;
     height: 60px;

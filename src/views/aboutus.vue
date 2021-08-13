@@ -5,9 +5,9 @@
       <theheader></theheader>
     </div>
   
-    <div class="section-v">
+    <div class="section-v white-bg">
       <div class="centercomp">
-        <getstarted subcaption="Learn more, Connect and" maincaption="Meet the Team behind" submaincaption="the scenes" btntext="Get started"></getstarted>
+        <getstarted class="rellax" data-rellax-speed="2" subcaption="we innovate" maincaption="For smarter Tanzania" submaincaption="and a better Africa, where we make it happen" btntext="Get started" illustration="team_spirit.svg"></getstarted>
       </div>
     </div>
 

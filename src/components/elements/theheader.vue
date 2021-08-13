@@ -7,9 +7,11 @@
                 </router-link>
                 <b-collapse id="nav-collapse" is-nav>
                     <b-navbar-nav>
-                        <router-link class="nav-link mx-4" to="/services">Services</router-link>
-                        <router-link class="nav-link mr-4" to="/accomplishments">Achievements</router-link>
-                        <router-link class="nav-link ml-3" to="/aboutus">About us</router-link>
+                        <router-link class="nav-link mx-3" to="/network">Network</router-link>
+                        <router-link class="nav-link mx-3" to="/hardware">Hardware</router-link>
+                        <router-link class="nav-link mx-3" to="/software">Software</router-link>
+                        <router-link class="nav-link mx-3" to="/accessories">Accessories</router-link>
+                        <router-link class="nav-link mx-3" to="/aboutus">About us</router-link>
                     </b-navbar-nav>
 
                     <!-- Right aligned nav items -->

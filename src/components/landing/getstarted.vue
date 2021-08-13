@@ -1,27 +1,43 @@
 <template>
-    <div class="getstarted px-4 mx-4">
-        <div class="obj-center text-left">
-            <div class="sub-caption white mb-2">
-                <h5>{{ subcaption }}</h5>
-            </div>
+    <div class="px-4 mx-4">
+        <div class="d-flex justify-content-center">
+            <b-row align-v="center">
+                <b-col>
+                    <div class="px-xl-5 mx-xl-5">
+                        <div class="text-left">
+                            <div class="sub-caption deepblue mb-2">
+                                <h5>{{ subcaption }}</h5>
+                            </div>
 
-            <div class="main-caption white mb-2">
-                <h1>{{ maincaption }}</h1>
-            </div>
+                            <div class="main-caption deepblue mb-2">
+                                <h1>{{ maincaption }}</h1>
+                            </div>
 
-            <div class="submaincaption white">
-                <h3>{{ submaincaption }}</h3>
-            </div>
-            <div class="start-btn py-2" id="startBtn">
-                <b-button class="yellow-bg px-lg-5 px-md-4 py-md-2" v-b-modal.getstarted><small class="btntext deepblue">{{ btntext }}</small></b-button>
-            </div>
+                            <div class="submaincaption deepblue">
+                                <h3>{{ submaincaption }}</h3>
+                            </div>
+                            <div class="start-btn py-2" id="startBtn">
+                                <b-button class="yellow-bg px-lg-5 px-md-4 py-md-2" v-b-modal.getstarted><small class="btntext deepblue">{{ btntext }}</small></b-button>
+                            </div>
+                        </div>  
+                    </div> 
+                </b-col>
+                <b-col>
+                    <div class="px-xl-5 mx-xl-5">
+                        <div class="illustration">
+                            <img :src="require('../../assets/svg/' + illustration)" alt="">
+                        </div>
+                    </div>   
+                </b-col>
+            </b-row>
+            
         </div>
     </div>
 </template>
 
 <script>
 export default {
-    props: ['subcaption','maincaption','submaincaption','btntext']
+    props: ['subcaption','maincaption','submaincaption','btntext','illustration']
 }
 </script>
 
@@ -43,6 +59,15 @@ export default {
     .btntext {
         font-size: 18px;
         font-family: 'Roboto', sans-serif;
+    }
+    .illustration {
+        position: relative;
+    }
+    .illustration img {
+        position: relative;
+        top: 100px;
+        width: 780px;
+        height: 780px;
     }
     @media screen and (max-width:1024px) {
         .sub-caption h5 {
