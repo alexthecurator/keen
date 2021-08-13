@@ -6,10 +6,10 @@
                     <div class="px-xl-5 mx-xl-5">
                         <div class="text-left">
                             <div class="main-caption deepblue mb-3">
-                                <h2 class="deepblue" data-aos="fade-up">{{ thetitle }}</h2>
+                                <h2 class="deepblue" data-aos="fade-up">{{ head }}</h2>
                             </div>
                             <div class="subcaption deepblue my-3">
-                                <h3 class="deepblue" data-aos="fade-up" data-aos-delay="200">{{ thedetails }}</h3>
+                                <h3 class="deepblue" data-aos="fade-up" data-aos-delay="200">{{ detail }}</h3>
                             </div>
                         </div>  
                     </div> 
@@ -17,7 +17,7 @@
                 <b-col>
                     <div class="px-xl-5 mx-xl-5">
                         <div class="illustration" data-aos="fade-up" data-aos-delay="400">
-                            <img data-rellax-speed="-0.1" :src="require('../../assets/svg/' + theillustration)" alt="">
+                            <img data-rellax-speed="-0.1" :src="require('../../assets/svg/' + theIllustration)" alt="">
                         </div>
                     </div>   
                 </b-col>
@@ -28,7 +28,7 @@
 
 <script>
 export default {
-    props: ['thetitle','thedetails','btntext','illustration']
+    props: ['head','detail','theIllustration']
 }
 </script>
 
@@ -55,8 +55,8 @@ export default {
     .illustration img {
         position: relative;
         top: 100px;
-        width: 780px;
-        height: 780px;
+        width: 560px;
+        height: 560px;
     }
     @media screen and (max-width:1024px) {
         .sub-caption h5 {

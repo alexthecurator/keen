@@ -110,17 +110,24 @@
   
     <div class="section white-bg py-xl-5">
       <div class="p-xl-0 pt-2">
-          <b-container>
-            <subtitle class="deepblue" subtitle="Why choose us"></subtitle>
-          </b-container>
-        </div>
-
-        <div class="d-flex justify-content-center py-xl-2">
-          <separatormedium></separatormedium>
-        </div>
-        <thesection thetitle="To Achieve Seamless Performance" thedetails="Reliable connectivity is an art that is yet to be perfected here in Tanzania, hence we aim to provide fluent, efficient and quality network infrustrucutures able to scale without repucations, and handle vigorous conditions affecting the network" theillustration="seamless.svg"></thesection>
+        <b-container>
+          <subtitle class="deepblue" subtitle="Why choose us"></subtitle>
+        </b-container>
       </div>
+
+      <div class="d-flex justify-content-center py-xl-2">
+        <separatormedium></separatormedium>
+      </div>
+      <thesectionrev thetitle="To Achieve Seamless Performance" thedetails="Reliable connectivity is an art that is yet to be perfected here in Tanzania, hence we aim to provide fluent, efficient and quality network infrustrucutures able to scale without repucations, and handle vigorous conditions affecting the network" theillustration="server.svg"></thesectionrev>
+    </div>
     
+    <div class="section white-bg py-xl-5">
+      <div class="d-flex justify-content-center py-xl-2">
+        <separatormedium></separatormedium>
+      </div>
+      <thesection head="To Achieve Seamless Performance" detail="Reliable connectivity is an art that is yet to be perfected here in Tanzania, hence we aim to provide fluent, efficient and quality network infrustrucutures able to scale without repucations, and handle vigorous conditions affecting the network" theIllustration="seamless.svg"></thesection>
+    </div>
+
     <div class="section white-bg">
       <thefooter></thefooter>
     </div>
@@ -151,13 +158,15 @@ import cardetails from '../components/typography/cardetails.vue'
 import thefooter from '../components/elements/footer.vue'
 import getstartedModal from '../components/elements/subscribe.vue'
 import callustodayModal from '../components/elements/callus.vue'
-import thesection from '../components/elements/sectionrev.vue'
+import thesectionrev from '../components/elements/sectionrev.vue'
+import thesection from '../components/elements/section.vue'
 
 export default {
   name: 'home',
   components: {
     theheader,
     getstarted,
+    thesectionrev,
     thesection,
     joinus,
     toogle,

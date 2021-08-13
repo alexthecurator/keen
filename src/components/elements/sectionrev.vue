@@ -23,6 +23,11 @@
                                 </div> 
                             </div>
                             <div class="col-12">
+                                <div class="row">
+                                    <div class="col-4">
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div> 
@@ -61,8 +66,8 @@ export default {
     .illustration img {
         position: relative;
         top: 100px;
-        width: 580px;
-        height: 580px;
+        width: 560px;
+        height: 560px;
     }
     @media screen and (max-width:1024px) {
         .sub-caption h5 {
