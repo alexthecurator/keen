@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="b5d1da7b-a9c6-4711-8d73-fa7937ec989e"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 888 710.8"
+	 style="enable-background:new 0 0 888 710.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#CCCCCC;}
+	.st1{fill:#2F2E41;}
+	.st2{fill:#3F3D56;}
+	.st3{fill:#0A79FF;}
+	.st4{fill:#E6E6E6;}
+	.st5{fill:#FFFFFF;}
+	.st6{fill:#E2E2E2;}
+</style>
+<title>server_cluster</title>
+<path class="st0" d="M444.9,604.8c-143.6,0-260.1-116.4-260.1-260.1S301.3,84.7,444.9,84.7C588.6,84.7,705,201.1,705,344.7
+	c0,69-27.4,135.1-76.2,183.9C580.2,577.6,513.9,605,444.9,604.8z M444.9,86.7c-142.3,0-258.1,115.8-258.1,258.1
+	s115.8,258.1,258.1,258.1S703,487,703,344.7S587.2,86.7,444.9,86.7L444.9,86.7z"/>
+<rect x="346.5" y="381.8" class="st1" width="195" height="262"/>
+<rect x="313" y="373.8" class="st2" width="262" height="104"/>
+<rect x="313" y="489.8" class="st2" width="262" height="104"/>
+<rect x="313" y="605.8" class="st2" width="262" height="104"/>
+<rect x="313" y="417.9" class="st3" width="262" height="16"/>
+<rect x="313" y="533.9" class="st3" width="262" height="16"/>
+<rect x="313" y="649.9" class="st3" width="262" height="16"/>
+<circle class="st3" cx="524" cy="388.8" r="6"/>
+<circle class="st3" cx="545" cy="388.8" r="6"/>
+<circle class="st3" cx="566" cy="388.8" r="6"/>
+<circle class="st3" cx="524" cy="502.8" r="6"/>
+<circle class="st3" cx="545" cy="502.8" r="6"/>
+<circle class="st3" cx="566" cy="502.8" r="6"/>
+<circle class="st3" cx="524" cy="616.8" r="6"/>
+<circle class="st3" cx="545" cy="616.8" r="6"/>
+<circle class="st3" cx="566" cy="616.8" r="6"/>
+<path class="st4" d="M241.9,271.1v186c0,8.1-6.6,14.7-14.7,14.7h-72.3c-8.1,0-14.7-6.6-14.7-14.7v-186c0-8.1,6.6-14.7,14.7-14.7h8.8
+	c-1.5,3.6,0.3,7.6,3.8,9.1c0.8,0.3,1.7,0.5,2.6,0.5h41.2c3.9,0,7-3.1,7-7c0-0.9-0.2-1.8-0.5-2.6h9.4
+	C235.3,256.4,241.9,263,241.9,271.1z"/>
+<rect x="145.1" y="291.9" class="st5" width="92" height="128"/>
+<rect x="171.2" y="379.9" class="st4" width="36.7" height="2.1"/>
+<rect x="171.1" y="387.6" class="st3" width="56.8" height="2.1"/>
+<rect x="171.1" y="394.9" class="st4" width="44.6" height="2.1"/>
+<rect x="171.1" y="402.1" class="st4" width="26.2" height="2.1"/>
+<rect x="171.1" y="409.4" class="st4" width="39.3" height="2.1"/>
+<rect x="154.5" y="379.3" class="st4" width="4.2" height="4.2"/>
+<rect x="154.5" y="386.6" class="st3" width="4.2" height="4.2"/>
+<rect x="154.5" y="393.8" class="st4" width="4.2" height="4.2"/>
+<rect x="154.5" y="401.1" class="st4" width="4.2" height="4.2"/>
+<rect x="154.5" y="408.4" class="st4" width="4.2" height="4.2"/>
+<rect x="172.8" y="307.9" class="st4" width="37" height="37"/>
+<rect x="321.1" y="0.1" class="st4" width="245.9" height="157.5"/>
+<rect x="339.6" y="44.2" class="st5" width="203.9" height="77"/>
+<rect x="376.8" y="57.5" class="st4" width="48.9" height="2.8"/>
+<rect x="376.7" y="67.8" class="st3" width="75.7" height="2.8"/>
+<rect x="376.7" y="77.5" class="st4" width="59.4" height="2.8"/>
+<rect x="376.7" y="87.2" class="st4" width="34.9" height="2.8"/>
+<rect x="376.7" y="96.8" class="st4" width="52.4" height="2.8"/>
+<rect x="354.6" y="56.7" class="st4" width="5.6" height="5.6"/>
+<rect x="354.6" y="66.4" class="st3" width="5.6" height="5.6"/>
+<rect x="354.6" y="76.1" class="st4" width="5.6" height="5.6"/>
+<rect x="354.6" y="85.8" class="st4" width="5.6" height="5.6"/>
+<rect x="354.6" y="95.4" class="st4" width="5.6" height="5.6"/>
+<rect x="483.4" y="53.8" class="st4" width="50.1" height="50.1"/>
+<rect x="321" class="st3" width="245.9" height="10.4"/>
+<circle class="st5" cx="328.8" cy="5.3" r="2.1"/>
+<circle class="st5" cx="336.1" cy="5.3" r="2.1"/>
+<circle class="st5" cx="343.5" cy="5.3" r="2.1"/>
+<rect x="671.6" y="294.8" class="st4" width="60" height="31"/>
+<rect x="671.6" y="405.8" class="st4" width="60" height="31"/>
+<circle class="st4" cx="701.6" cy="365.8" r="50"/>
+<circle class="st5" cx="701.6" cy="365.8" r="39"/>
+<rect x="688.9" y="355.1" class="st6" width="30.2" height="1.7"/>
+<rect x="688.8" y="361.5" class="st3" width="46.8" height="1.7"/>
+<rect x="688.8" y="367.4" class="st6" width="36.7" height="1.7"/>
+<rect x="688.8" y="373.4" class="st6" width="21.6" height="1.7"/>
+<rect x="688.8" y="379.4" class="st6" width="32.4" height="1.7"/>
+<rect x="675.2" y="354.6" class="st6" width="3.5" height="3.5"/>
+<rect x="675.2" y="360.6" class="st3" width="3.5" height="3.5"/>
+<rect x="675.2" y="366.6" class="st6" width="3.5" height="3.5"/>
+<rect x="675.2" y="372.6" class="st6" width="3.5" height="3.5"/>
+<rect x="675.2" y="378.5" class="st6" width="3.5" height="3.5"/>
+</svg>
