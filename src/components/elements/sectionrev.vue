@@ -79,6 +79,12 @@ export default {
         .main-caption h1{
             font-size: 6vw;
         }
+        .illustration img {
+            position: relative;
+            top: 30px;
+            width: 280px;
+            height: 280px;
+        }
     }
 
     @media screen and (max-width:780px) {
@@ -90,6 +96,12 @@ export default {
         }
         .main-caption h1{
             font-size: 5vw;
+        }
+        .illustration img {
+            position: relative;
+            top: 30px;
+            width: 280px;
+            height: 280px;
         }
     }
 
@@ -103,6 +115,12 @@ export default {
         .main-caption h1{
             font-size: 6vw;
         }
+        .illustration img {
+            position: relative;
+            top: 30px;
+            width: 280px;
+            height: 280px;
+        }
     }
     @media screen and (max-width:380px) {
         .sub-caption h5 {
@@ -113,6 +131,12 @@ export default {
         }
         .main-caption h1{
             font-size: 6vw;
+        }
+        .illustration img {
+            position: relative;
+            top: 30px;
+            width: 280px;
+            height: 280px;
         }
     }
 

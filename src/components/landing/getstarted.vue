@@ -86,25 +86,22 @@ export default {
     }
 
     @media screen and (max-width:480px) {
-        .sub-caption h5 {
-            font-size: 4vw;
-        }
-        .submaincaption h3 {
+        .subcaption h3 {
             font-size: 5vw;
+        }
+        .main-caption h1{
+            font-size: 7vw;
         }
         .main-caption h1{
             font-size: 6vw;
         }
     }
     @media screen and (max-width:380px) {
-        .sub-caption h5 {
-            font-size: 4vw;
-        }
-        .submaincaption h3 {
-            font-size: 5vw;
+        .subcaption h3 {
+            font-size: 4.8vw;
         }
         .main-caption h1{
-            font-size: 6vw;
+            font-size: 7vw;
         }
         .illustration img {
             position: relative;
@@ -122,9 +119,9 @@ export default {
             font-size: 7vw;
         }
         .illustration img {
-            top: 30px;
-            width: 280px;
-            height: 280px;
+            top: 20px;
+            width: 240px;
+            height: 240px;
         }
     }
     

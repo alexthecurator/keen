@@ -57,14 +57,14 @@ export default {
     }
     @media screen and (max-width: 380px){
         .detailing {
-            font-size: 4.6vw;
-            line-height: 6vw;
+            font-size: 4vw;
+            line-height: 18px;
         }
     }
     @media screen and (max-width: 320px){
         .detailing {
             font-size: 12px;
-            line-height: 16px;
+            line-height: 12px;
         }
     }
 </style>

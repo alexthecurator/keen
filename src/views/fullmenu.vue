@@ -12,7 +12,7 @@
                         <div class="nav-item">
                             <div class="d-flex flex-row">
                                 <div class="px-2">
-                                    <i class="nav-icon yellow fi-rr-time-twenty-four" style="font-size: 1.3em"></i>
+                                    <i class="nav-icon yellow fi-rr-network" style="font-size: 1.3em"></i>
                                 </div>
                                 <div class="px-2">
                                     <h5 class="nav-title white">Network</h5>
@@ -26,7 +26,7 @@
                         <div class="nav-item">
                             <div class="d-flex flex-row">
                                 <div class="px-2">
-                                    <i class="nav-icon yellow fi-rr-trophy" style="font-size: 1.3em"></i>
+                                    <i class="nav-icon yellow fi-rr-computer" style="font-size: 1.3em"></i>
                                 </div>
                                 <div class="px-2">
                                     <h5 class="nav-title white">Hardware</h5>
@@ -40,7 +40,7 @@
                         <div class="nav-item">
                             <div class="d-flex flex-row">
                                 <div class="px-2">
-                                    <i class="nav-icon yellow fi-rr-info" style="font-size: 1.3em"></i>
+                                    <i class="nav-icon yellow fi-rr-apps" style="font-size: 1.3em"></i>
                                 </div>
                                 <div class="px-2">
                                     <h5 class="nav-title white">Software</h5>
@@ -54,7 +54,7 @@
                         <div class="nav-item">
                             <div class="d-flex flex-row">
                                 <div class="px-2">
-                                    <i class="nav-icon yellow fi-rr-info" style="font-size: 1.3em"></i>
+                                    <i class="nav-icon yellow fi-rr-shop" style="font-size: 1.3em"></i>
                                 </div>
                                 <div class="px-2">
                                     <h5 class="nav-title white">Accessories</h5>
@@ -84,10 +84,6 @@
 
         </b-container>
 
-        <div class="theToggle">
-            <toogle></toogle>
-        </div>
-
         <div class="live-chat">
             <livechat></livechat>
         </div>
@@ -95,13 +91,11 @@
 </template>
 
 <script>
-import toogle from '../components/elements/toggleMob.vue'
 import livechat from '../components/elements/liveChat.vue'
 
 export default {
     name: 'nav',
     components: {
-        toogle,
         livechat,
     }
 }
@@ -109,7 +103,7 @@ export default {
 
 <style scoped>
     .nav-link {
-        padding: 18px;
+        padding: 16px;
     }
     .nav-link a:hover {
         background-color: #0A79FF;

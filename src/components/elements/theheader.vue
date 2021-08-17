@@ -13,8 +13,6 @@
                         <router-link class="nav-link mx-3" to="/accessories">Accessories</router-link>
                         <router-link class="nav-link mx-3" to="/aboutus">About us</router-link>
                     </b-navbar-nav>
-
-                    <!-- Right aligned nav items -->
                     <b-navbar-nav class="ml-auto">
                         <b-nav-form>
                             <input size="sm" class="search-bar mr-sm-2 p-xl-1" placeholder="Search" />
@@ -23,11 +21,11 @@
                 </b-collapse>
             </b-navbar>  
         </div>
-        <div class="header white-bg d-block d-lg-none col-12 p-0 m-0">
-            <b-navbar variant="faded" type="light">
-                <b-navbar-brand href="#">
-                <img src="../../assets/logos/KeenComms-official.svg" class="brand-logo d-inline-block align-top" alt="keen comms logo" />
-                </b-navbar-brand>
+        <div class="header-sm white-bg fixed-top d-block d-lg-none col-12 p-0 m-0">
+            <b-navbar>
+                <router-link to="/">
+                    <img src="../../assets/logos/KeenComms-official.svg" class="brand-logo d-inline-block align-top" alt="keen comms logo" />
+                </router-link>
             </b-navbar>
         </div>
     </div>
@@ -38,16 +36,13 @@
 </script>
 
 <style scoped>
-    .header , .header-sm {
+    .header, .header-sm {
         margin: 0;
-        width: 100vw;
+        width: 100%;
         z-index: 999;
     }
     .header {
         position: absolute;
-    }
-    .header-sm {
-        position: relative;
     }
     .nav-link {
         font-size: .82vw;
@@ -98,6 +93,9 @@
     @media screen and (max-width: 320px){
         .header-sm {
             padding: 5px 0;
+            margin: 0;
+            width: 100%;
+            z-index: 999;
         }
     }
 </style>

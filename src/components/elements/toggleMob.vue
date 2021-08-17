@@ -1,8 +1,10 @@
-<template> 
-    <div class="toggle d-block d-lg-none" id="toggleBtn">
-        <b-button @click="getNav()" class="toogle-brd" id="getBtn">
-            <img class="toggle-logo" src="../../assets/logos/KEENComms.svg" alt="">
-        </b-button>
+<template>
+    <div class="">
+       <div class="toggle d-block d-lg-none fixed" id="toggleBtn">
+            <b-button @click="getNav()" class="toogle-brd" id="getBtn">
+                <img class="toggle-logo" src="../../assets/logos/KEENComms.svg" alt="">
+            </b-button>
+        </div> 
     </div>
 </template>
 
@@ -21,11 +23,10 @@ export default {
     .toggle {
         position: fixed;
         z-index: 999999;
-        bottom: 28px;
-        right: 294px;
+        bottom: 20%;
+        right: 20%;
         padding: 0px;
-        
-    }   
+    }
     .toogle-brd {
         background-color: transparent;
         

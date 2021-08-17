@@ -192,14 +192,14 @@
       </b-container>
     </div>
 
-    <div class="theToggle">
-       <toogle></toogle>
+    <div class="section">
+      <thefooter></thefooter>
     </div>
 
     <getstartedModal></getstartedModal>
-    
-    <div class="section">
-      <thefooter></thefooter>
+
+    <div class="theToggle">
+       <toogle></toogle>
     </div>
 </div>
 </template>

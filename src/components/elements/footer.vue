@@ -113,26 +113,26 @@
         <div class="">
           <div class="">
             <div class="col-12">
-              <div class="p-xl-2">
+              <div class="p-xl-2 p-2">
                 <h4 class="gray">Links</h4>
               </div>
             </div>
-            <ul class="d-flex justify-content-center footer-menu p-2">
+            <ul class="d-md-flex justify-content-center footer-menu p-2">
                 <li class="footer-item"><a class="footer-link" href="#/">Home</a></li>
 
-                <div class="d-flex justify-content-center py-3">
+                <div class="d-md-flex justify-content-center py-3">
                   <grayseparator></grayseparator>
                 </div>
                 
                 <li class="footer-item" ><a class="footer-link" href="#/services">Services</a></li>
 
-                <div class="d-flex justify-content-center pt-1 py-3">
+                <div class="d-md-flex justify-content-center pt-1 py-3">
                   <grayseparator></grayseparator>
                 </div>
 
                 <li class="footer-item"><a class="footer-link" href="#/accomplishments">Projects</a></li>
 
-                <div class="d-flex justify-content-center pt-1 py-3">
+                <div class="d-md-flex justify-content-center pt-1 py-3">
                   <grayseparator></grayseparator>
                 </div>
 
@@ -188,8 +188,8 @@ export default {
   }
 }
 @media screen and (max-width: 320px) and (max-width: 380px) and (max-width: 480px){
-  .footer-menu > .footer-item > .footer-link {
-    font-size: 3vw;
+  .footer-menu .footer-item .footer-link {
+    font-size: 11px;
   }
 }
 </style>

@@ -48,14 +48,10 @@ export default {
         .tupleimg-one img {
             width: 380px;
             height: 340px;
-            position: relative;
-            z-index: 100;
         }
         .tupleimg-two, .tupleimg-two img {
             width: 260px;
             height: 200px;
-            position: absolute;
-            z-index: 101;
             top: 100px;
             left: 100px;
         }
@@ -67,14 +63,10 @@ export default {
         .tupleimg-one img {
             width: 560px;
             height: 460px;
-            position: relative;
-            z-index: 100;
         }
         .tupleimg-two, .tupleimg-two img {
             width: 380px;
             height: 280px;
-            position: absolute;
-            z-index: 101;
             top: 130px;
             left: 180px;
         }
@@ -86,14 +78,10 @@ export default {
         .tupleimg-one img {
             width: 560px;
             height: 460px;
-            position: relative;
-            z-index: 100;
         }
         .tupleimg-two, .tupleimg-two img {
             width: 380px;
             height: 280px;
-            position: absolute;
-            z-index: 101;
             top: 130px;
             left: 180px;
         }
@@ -105,14 +93,10 @@ export default {
         .tupleimg-one img {
             width: 460px;
             height: 360px;
-            position: relative;
-            z-index: 100;
         }
         .tupleimg-two, .tupleimg-two img {
             width: 280px;
             height: 200px;
-            position: absolute;
-            z-index: 101;
             top: 100px;
             left: 160px;
         }
@@ -124,14 +108,10 @@ export default {
         .tupleimg-one img {
             width: 240px;
             height: 200px;
-            position: relative;
-            z-index: 100;
         }
         .tupleimg-two, .tupleimg-two img {
             width: 160px;
             height: 120px;
-            position: absolute;
-            z-index: 101;
             top: 70px;
             left: 70px;
         }
@@ -142,15 +122,11 @@ export default {
         }
         .tupleimg-one img {
             width: 240px;
-            height: 200px;
-            position: relative;
-            z-index: 100;
+            height: 180px;
         }
         .tupleimg-two, .tupleimg-two img {
-            width: 160px;
-            height: 120px;
-            position: absolute;
-            z-index: 101;
+            width: 140px;
+            height: 100px;
             top: 55px;
             left: 70px;
         }
@@ -159,14 +135,11 @@ export default {
         .tupleimg-one img {
             width: 158px;
             height: 120px;
-            position: relative;
-            z-index: 100;
+
         }
         .tupleimg-two, .tupleimg-two img {
             width: 100px;
             height: 80px;
-            position: absolute;
-            z-index: 101;
             top: 30px;
             left: 50px;
         }
