@@ -62,6 +62,9 @@
     input:focus {
         border: 2px solid #0A79FF;;
     }
+    .nav-link a:hover {
+        background-color: #0A79FF;
+    }
     @media screen and (max-width: 1400px){
         .header {
             padding: 10px 0;

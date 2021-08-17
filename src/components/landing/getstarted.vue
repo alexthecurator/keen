@@ -3,7 +3,7 @@
         <div class="d-flex justify-content-center">
             <b-row align-v="center">
                 <b-col>
-                    <div class="px-xl-5 mx-xl-5 pt-4 mt-4">
+                    <div class="px-xl-5 mx-xl-5 pt-5 mt-5">
                         <div class="text-left">
                             <div class="main-caption deepblue mb-3">
                                 <h1 class="deepblue" data-aos="fade-up">{{ maincap1 }} <span class="blue">{{maincap2}}</span> {{maincap3}}</h1>
@@ -25,7 +25,6 @@
                     </div>   
                 </b-col>
             </b-row>
-            
         </div>
     </div>
 </template>
@@ -107,6 +106,12 @@ export default {
         .main-caption h1{
             font-size: 6vw;
         }
+        .illustration img {
+            position: relative;
+            top: 20px;
+            width: 320px;
+            height: 320px;
+        }
     }
 
     @media screen and (max-width:320px) {
@@ -117,7 +122,6 @@ export default {
             font-size: 7vw;
         }
         .illustration img {
-            position: relative;
             top: 30px;
             width: 280px;
             height: 280px;

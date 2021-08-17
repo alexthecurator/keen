@@ -1,80 +1,82 @@
 <template>
     <div class="section-v deepblue-bg">
-        <div class="pt-5 pb-3">
-          <img src="../assets/logos/KEENComms-white.svg" class="nav-logo d-inline-block align-top" alt="keen communication logo" />
+        <div class="p-0 m-0">
+            <router-link to="/">
+                <img src="../assets/logos/KEENComms-white.svg" class="nav-logo d-inline-block align-top" alt="keen communication logo" />
+            </router-link>
         </div>
         <b-container>
             <div id="nav">
                 <div class="nav-link">
-                   <a href="#/">
-                        <div class="nav-item">
-                            <div class="d-flex flex-row">
-                                <div class="px-2">
-                                    <i class="nav-icon yellow fi-rr-home" style="font-size: 1.3em"></i>
-                                </div>
-                                <div class="px-2">
-                                    <h5 class="nav-title white">Home</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </a> 
-                </div>
-                <div class="nav-link">
-                   <a href="#/services">
+                   <router-link to="/network">
                         <div class="nav-item">
                             <div class="d-flex flex-row">
                                 <div class="px-2">
                                     <i class="nav-icon yellow fi-rr-time-twenty-four" style="font-size: 1.3em"></i>
                                 </div>
                                 <div class="px-2">
-                                    <h5 class="nav-title white">Services</h5>
+                                    <h5 class="nav-title white">Network</h5>
                                 </div>
                             </div>
                         </div>
-                    </a> 
+                    </router-link> 
                 </div>
                 <div class="nav-link">
-                   <a href="#/accomplishments">
+                   <router-link to="/hardware">
                         <div class="nav-item">
                             <div class="d-flex flex-row">
                                 <div class="px-2">
                                     <i class="nav-icon yellow fi-rr-trophy" style="font-size: 1.3em"></i>
                                 </div>
                                 <div class="px-2">
-                                    <h5 class="nav-title white">Accomplishments</h5>
+                                    <h5 class="nav-title white">Hardware</h5>
                                 </div>
                             </div>
                         </div>
-                    </a> 
+                    </router-link> 
                 </div>
                 <div class="nav-link">
-                   <a href="#/aboutus">
+                   <router-link to="/software">
                         <div class="nav-item">
                             <div class="d-flex flex-row">
                                 <div class="px-2">
                                     <i class="nav-icon yellow fi-rr-info" style="font-size: 1.3em"></i>
                                 </div>
                                 <div class="px-2">
-                                    <h5 class="nav-title white">About us</h5>
+                                    <h5 class="nav-title white">Software</h5>
                                 </div>
                             </div>
                         </div>
-                    </a> 
+                    </router-link> 
                 </div>
-                <!-- <div class="nav-link">
-                   <a href="/#/settings">
+                <div class="nav-link">
+                   <router-link to="/accessories">
                         <div class="nav-item">
                             <div class="d-flex flex-row">
                                 <div class="px-2">
-                                    <i class="nav-icon yellow fi-rr-settings" style="font-size: 1.3em"></i>
+                                    <i class="nav-icon yellow fi-rr-info" style="font-size: 1.3em"></i>
                                 </div>
                                 <div class="px-2">
-                                    <h5 class="nav-title white">Settings</h5>
+                                    <h5 class="nav-title white">Accessories</h5>
                                 </div>
                             </div>
                         </div>
-                    </a> 
-                </div> -->
+                    </router-link> 
+                </div>
+                <div class="nav-link">
+                   <router-link to="/aboutus">
+                        <div class="nav-item">
+                            <div class="d-flex flex-row">
+                                <div class="px-2">
+                                    <i class="nav-icon yellow fi-rr-info" style="font-size: 1.3em"></i>
+                                </div>
+                                <div class="px-2">
+                                    <h5 class="nav-title white">About Us</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </router-link> 
+                </div>
             </div>
         </b-container>
 
@@ -110,10 +112,14 @@ export default {
         padding: 18px;
     }
     .nav-link a:hover {
-        background-color: rgba(0, 0, 0, .3);
+        background-color: #0A79FF;
     }
     .nav-title {
         font-weight: 300;
         font-size: 22px;
+    }
+    .nav-logo {
+        width: 200px;
+        height: 200px;
     }
 </style>

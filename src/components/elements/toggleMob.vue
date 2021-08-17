@@ -22,7 +22,7 @@ export default {
         position: fixed;
         z-index: 999999;
         bottom: 28px;
-        right: 24px;
+        right: 294px;
         padding: 0px;
         
     }   
@@ -34,6 +34,30 @@ export default {
         width: 92px;
         height: 92px;
         
+    }
+    @media screen and (max-width: 1024px){
+        .toogle-brd {
+            width: 62px;
+            height: 62px;
+        }
+    }
+    @media screen and (max-width: 780px){
+        .toogle-brd {
+            width: 62px;
+            height: 62px;
+        }
+    }
+    @media screen and (max-width: 420px){
+        .toogle-brd {
+            width: 62px;
+            height: 62px;
+        }
+    }
+    @media screen and (max-width: 380px){
+        .toogle-brd {
+            width: 62px;
+            height: 62px;
+        }
     }
     @media screen and (max-width: 320px){
         .toogle-brd {
