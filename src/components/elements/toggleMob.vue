@@ -1,6 +1,6 @@
 <template>
     <div class="">
-       <div class="toggle d-block d-lg-none fixed" id="toggleBtn">
+       <div class="toggle d-lg-none fixed" id="toggleBtn">
             <b-button @click="getNav()" class="toogle-brd" id="getBtn">
                 <img class="toggle-logo" src="../../assets/logos/KEENComms.svg" alt="">
             </b-button>
@@ -14,7 +14,21 @@ export default {
     methods: {
         getNav() {
             this.$router.push('/fullmenu');
-        }
+        },
+    },
+    mounted(){
+        const toggle = document.getElementById('toggleBtn');
+        var firstScrollPos = 0;
+
+        document.addEventListener('scroll', function(){
+            firstScrollPos = window.scrollY;
+
+            if(firstScrollPos > 512){
+              toggle.classList.add('showToggle');  
+            } else if(firstScrollPos < 512){
+                toggle.classList.remove('showToggle');
+            } 
+        });
     }
 }
 </script>
@@ -26,6 +40,12 @@ export default {
         bottom: 20%;
         right: 20%;
         padding: 0px;
+        display: block;
+        opacity: 0%;
+    }
+    .showToggle {
+        opacity: 100%;
+        transition: .6s all ease;
     }
     .toogle-brd {
         background-color: transparent;

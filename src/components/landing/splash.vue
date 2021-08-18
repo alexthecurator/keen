@@ -11,23 +11,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="kc-text py-4">
-                        <div class="text-center">
-                            <h4 class="h4 white">our <span class="yellow">web</span> app</h4>
-                        </div>
-                        <div class="text-center">
-                            <h3 class="h3 white" style="font-weight: lighter;">is under construction</h3>
-                        </div>
-                    </div>
-
                     <div class="d-flex justify-content-center">
                         <i class="loader four"></i>
-                    </div>
-
-                    <div class="v-bottom">
-                        <div class="text-center">
-                            <h4 class="h4 white">See you soon...</h4>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -53,7 +38,7 @@ export default {
 .backdrop {
 	background-image: linear-gradient(45deg, #041E42, #0A79FF);
 	position: absolute;
-	z-index: 1;
+	z-index: 999;
 	width: 100vw;
 	height: 100vh;
 }

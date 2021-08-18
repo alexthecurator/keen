@@ -3,12 +3,27 @@
     <vue-page-transition>
       <router-view></router-view>
     </vue-page-transition>
+
+    <!-- <splash></splash> -->
   </div>
 </template>
 
 <script>
+// import splash from './components/landing/splash.vue'
+
 export default {
   name: "App",
+  // components: {
+  //   splash
+  // },
+  data(){
+    return {
+      // splash,
+    }
+  },
+  methods: {
+
+  }
 }
 </script>
 
