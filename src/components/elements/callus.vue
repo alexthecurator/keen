@@ -29,7 +29,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-5 col-12 p-0 m-0">
+            <div class="col-xl-5 col-12 p-0 m-0 d-none d-lg-block">
                 <div class="subimg-cont">
                     <img class="sub-img" src="https://images.unsplash.com/photo-1547658718-1cdaa0852790" alt="">
                 </div>
