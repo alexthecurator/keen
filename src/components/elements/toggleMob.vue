@@ -31,17 +31,17 @@ export default {
             } 
         });
 
-        function removeToggleWhenIdle(){
-            for(var timer = 0; timer <=5; timer++){
-                if(timer <= 5){
-                    toggle.classList.remove('showToggle');
-                }  
-                console.log(timer);
-            }
+        // function removeToggleWhenIdle(){
+        //     for(var timer = 0; timer <=5; timer++){
+        //         if(timer <= 5){
+        //             toggle.classList.remove('showToggle');
+        //         }  
+        //         console.log(timer);
+        //     }
             
           
-        }
-        removeToggleWhenIdle();
+        // }
+        // removeToggleWhenIdle();
     }
 }
 </script>
