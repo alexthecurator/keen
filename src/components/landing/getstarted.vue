@@ -12,7 +12,7 @@
                                 <h3 class="deepblue" data-aos="fade-up" data-aos-delay="200">{{ subcaption }}</h3>
                             </div>
                             <div class="start-btn" id="startBtn">
-                                <b-button class="deepblue-bg px-lg-5 px-md-4 py-md-2" v-b-modal.getstarted data-aos="fade-up" data-aos-delay="300"><small class="btntext white">{{ btntext }}</small></b-button>
+                                <b-button class="bluegrad-bg px-lg-5 px-md-4 py-md-2" v-b-modal.getstarted data-aos="fade-up" data-aos-delay="300"><small class="btntext white">{{ btntext }}</small></b-button>
                             </div>
                         </div>  
                     </div> 

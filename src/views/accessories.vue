@@ -137,8 +137,9 @@
   <getstartedModal></getstartedModal>
 
   <div class="theToggle">
-      <toogle id="toggleBtn"></toogle>
+      <toogle></toogle>
   </div>
+  
 </div>
 </template>
 

@@ -122,7 +122,7 @@
     </div>
     
     <div class="section white-bg py-xl-5">
-      <div class="d-flex justify-content-center py-xl-2">
+      <div class="d-flex justify-content-center py-xl-2 pb-4">
         <separatormedium></separatormedium>
       </div>
       <thesection head="To Achieve Seamless Performance" detail="Reliable connectivity is an art that is yet to be perfected here in Tanzania, hence we aim to provide fluent, efficient and quality network infrustrucutures able to scale without repucations, and handle vigorous conditions affecting the network" theIllustration="seamless.svg"></thesection>

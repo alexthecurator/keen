@@ -1,13 +1,13 @@
 <template>
     <b-modal class="getstarted" id="getstarted" title="Register today" content-class="shadow" size="lg" centered hide-header hide-footer >
         <div class="row">
-            <div class="col-xl-6 col-12">
+            <div class="col-xl-6 d-none d-xl-block">
                 <div class="subimg-cont">
                     <img class="sub-img" src="https://images.unsplash.com/photo-1547658718-1cdaa0852790" alt="">
                 </div>
             </div>
             <div class="col-xl-6 col-12">
-                <b-form class="ml-xl-3 mr-xl-5" @submit.prevent="subscribe">
+                <b-form class="ml-xl-3 mr-xl-5 px-2 mx-4" @submit.prevent="subscribe">
                     <div class="py-5 mb-4">
                         <div class="py-2">
                             <h2 class="deepblue">Join us today</h2>
@@ -33,7 +33,10 @@
                         </div>
                         <div class="mt-xl-4">
                             <b-button 
-                            class="my-2 blue-bg px-4 py-2"
+                            class="my-2 gray-bg px-4 py-2 mr-2" @click="$bvModal.hide('getstarted')"
+                            >Cancel</b-button>
+                            <b-button 
+                            class="my-2 bluegrad-bg px-4 py-2 ml-2"
                             type="submit">Subscribe</b-button>
                         </div>
                     </div>

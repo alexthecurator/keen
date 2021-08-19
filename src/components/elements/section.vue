@@ -3,9 +3,9 @@
         <div class="d-flex justify-content-center">
             <b-row align-v="center">
                 <b-col>
-                    <div class="px-xl-5 mx-xl-5">
+                    <div class="px-xl-5 mx-xl-5 pt-2 mt-3">
                         <div class="text-left">
-                            <div class="main-caption deepblue mb-3">
+                            <div class="maincaption deepblue mb-3">
                                 <h2 class="deepblue" data-aos="fade-up">{{ head }}</h2>
                             </div>
                             <div class="subcaption deepblue my-3">
@@ -15,7 +15,7 @@
                     </div> 
                 </b-col>
                 <b-col>
-                    <div class="px-xl-5 mx-xl-5">
+                    <div class="px-xl-5 mx-xl-5 py-0">
                         <div class="illustration" data-aos="fade-up" data-aos-delay="400">
                             <img data-rellax-speed="-0.1" :src="require('../../assets/svg/' + theIllustration)" alt="">
                         </div>
@@ -41,9 +41,8 @@ export default {
         font-size: 22px;
         font-weight: 300;
     }
-    .main-caption h1{
+    .maincaption h2{
         font-size: 48px;
-        font-weight: 800;
     }
     .btntext {
         font-size: 18px;
@@ -59,13 +58,13 @@ export default {
         height: 560px;
     }
     @media screen and (max-width:1024px) {
-        .sub-caption h5 {
+        .subcaption h3 {
             font-size: 3vw;
         }
         .submaincaption h3 {
             font-size: 5vw;
         }
-        .main-caption h1{
+        .maincaption h2{
             font-size: 6vw;
         }
         .illustration img {
@@ -77,13 +76,13 @@ export default {
     }
 
     @media screen and (max-width:780px) {
-        .sub-caption h5 {
+        .subcaption h3 {
             font-size: 3vw;
         }
         .submaincaption h3 {
             font-size: 4vw;
         }
-        .main-caption h1{
+        .maincaption h2{
             font-size: 5vw;
         }
         .illustration img {
@@ -95,13 +94,13 @@ export default {
     }
 
     @media screen and (max-width:480px) {
-        .sub-caption h5 {
+        .subcaption h3 {
             font-size: 4vw;
         }
         .submaincaption h3 {
             font-size: 5vw;
         }
-        .main-caption h1{
+        .maincaption h2{
             font-size: 6vw;
         }
         .illustration img {
@@ -112,13 +111,13 @@ export default {
         }
     }
     @media screen and (max-width:380px) {
-        .sub-caption h5 {
+        .subcaption h3 {
             font-size: 4vw;
         }
         .submaincaption h3 {
             font-size: 5vw;
         }
-        .main-caption h1{
+        .maincaption h2{
             font-size: 6vw;
         }
         .illustration img {
@@ -133,7 +132,7 @@ export default {
         .subcaption h3 {
             font-size: 5vw;
         }
-        .main-caption h1{
+        .maincaption h2{
             font-size: 7vw;
         }
         .illustration img {

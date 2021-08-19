@@ -102,6 +102,10 @@ export default {
 </script>
 
 <style scoped>
+    .live-chat {
+        position: fixed;
+        z-index: 999999;
+    }
     .nav-link {
         padding: 16px;
     }

@@ -32,15 +32,14 @@ export default {
         });
 
         function removeToggleWhenIdle(){
-            var timer = 0;
-            while(timer <=5){
-                timer++;
+            for(var timer = 0; timer <=5; timer++){
+                if(timer <= 5){
+                    toggle.classList.remove('showToggle');
+                }  
                 console.log(timer);
-            }  
-            
-            if(timer === 5){
-              toggle.classList.remove('showToggle');  
             }
+            
+          
         }
         removeToggleWhenIdle();
     }
