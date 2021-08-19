@@ -91,7 +91,7 @@
     </div>
 
     <div class="section bluegrad-bg py-xl-5 py-md-3">
-      <div class="pb-xl-3 pt-3">
+      <div class="pb-xl-3 pt-5">
         <b-container>
           <subtitle class="white" data-aos="fade-up" subtitle="Meet our friends"></subtitle>
         </b-container>
@@ -154,7 +154,7 @@
       </b-container>
     </div>
 
-    <div class="section white-bg py-xl-5 py-md-3">
+    <div class="section white-bg py-xl-5 py-md-3 py-5">
       <div class="pt-3">
         <b-container>
           <div class="mx-4">

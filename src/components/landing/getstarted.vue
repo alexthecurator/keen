@@ -87,13 +87,16 @@ export default {
 
     @media screen and (max-width:480px) {
         .subcaption h3 {
-            font-size: 5vw;
+            font-size: 4.8vw;
         }
         .main-caption h1{
             font-size: 7vw;
         }
-        .main-caption h1{
-            font-size: 6vw;
+        .illustration img {
+            position: relative;
+            top: 20px;
+            width: 320px;
+            height: 320px;
         }
     }
     @media screen and (max-width:380px) {

@@ -121,14 +121,14 @@ export default {
             border-radius: 12px;
         }
         .tupleimg-one img {
-            width: 240px;
-            height: 180px;
+            width: 220px;
+            height: 160px;
         }
         .tupleimg-two, .tupleimg-two img {
-            width: 140px;
-            height: 100px;
+            width: 130px;
+            height: 90px;
             top: 55px;
-            left: 70px;
+            left: 60px;
         }
     }
     @media screen and (max-width: 320px) {
