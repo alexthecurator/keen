@@ -11,11 +11,11 @@
       </div>
 
       <b-container fluid>
-        <div class="pt-5">
+        <div class="pt-xl-2">
           <div class="row">
             <div class="col-xl-4 col-lg-12 col-md-12 col-12">
-              <div class="text-left">
-                <div class="py-2 pb-0">
+              <div class="text-center text-xl-left">
+                <div class="py-xl-2 pb-xl-0">
                   <img class="footer-logo" src="../../assets/logos/KEENComms-white.svg" alt="keen communications">
                 </div>
                 <div class="p-2">
@@ -43,7 +43,7 @@
               <div class="row d-flex justify-content-center">
                 <div class="col-12">
                   <div class="px-xl-2 py-xl-4">
-                    <h3 class="white">Let's talk tech</h3>
+                    <h3 class="footer-title white">Let's talk tech</h3>
                   </div>
                 </div>
                 <div class="col-2">
@@ -64,7 +64,7 @@
               <div class="row d-flex justify-content-center">
                 <div class="col-12">
                   <div class="px-xl-2 py-xl-4">
-                    <h3 class="white">Connect with us</h3>
+                    <h3 class="footer-title white">Connect with us</h3>
                   </div>
                 </div>
                 <div class="col-2">
@@ -118,25 +118,26 @@
               </div>
             </div>
             <ul class="d-md-flex justify-content-center footer-menu p-2">
-                <li class="footer-item"><a class="footer-link" href="#/">Home</a></li>
-
-                <div class="d-md-flex justify-content-center py-3">
-                  <grayseparator></grayseparator>
-                </div>
                 
-                <li class="footer-item" ><a class="footer-link" href="#/services">Services</a></li>
+                <li class="footer-item" ><a class="footer-link" href="#/network">Network Services</a></li>
 
                 <div class="d-md-flex justify-content-center pt-1 py-3">
                   <grayseparator></grayseparator>
                 </div>
 
-                <li class="footer-item"><a class="footer-link" href="#/accomplishments">Projects</a></li>
+                <li class="footer-item"><a class="footer-link" href="#/hardware">Hardware Services</a></li>
 
                 <div class="d-md-flex justify-content-center pt-1 py-3">
                   <grayseparator></grayseparator>
                 </div>
 
-                <li class="footer-item"><a class="footer-link" href="#/aboutus">About Us</a></li>
+                <li class="footer-item"><a class="footer-link" href="#/software">Software Services</a></li>
+
+                <div class="d-md-flex justify-content-center pt-1 py-3">
+                  <grayseparator></grayseparator>
+                </div>
+
+                <li class="footer-item"><a class="footer-link" href="#/accessories">Accessories</a></li>
               </ul>
           </div>
           <b-container>
@@ -180,7 +181,18 @@ export default {
   position: relative;
 }
 .footer-menu .footer-item .footer-link {
-    font-size: 1vw;
+  font-size: 1vw;
+}
+.footer-title {
+  font-size: 22px;
+}
+.footer-logo {
+  width: 278px;
+  height: 158px;
+}
+.social-link {
+    width: 40px;
+    height: 40px;
 }
 @media screen and (max-width: 780px) and (max-width: 1024px){
   .footer-menu > .footer-item > .footer-link {
@@ -189,7 +201,15 @@ export default {
 }
 @media screen and (max-width: 320px) and (max-width: 380px) and (max-width: 480px){
   .footer-menu .footer-item .footer-link {
-    font-size: 11px;
+    font-size: 16px;
+  }
+  .footer-logo {
+    width: 170px;
+    height: 90px;
+  }
+  .social-link {
+    width: 30px;
+    height: 30px;
   }
 }
 </style>

@@ -155,11 +155,11 @@ export default {
     @media screen and (max-width: 320px){
         .card {
             width: 212px;
-            height: 148px;
+            height: 140px;
         }
         .icon {
-            width: 30px;
-            height: 30px;
+            width: 22px;
+            height: 22px;
         }
         .card-title h5 {
             font-weight: 700;

@@ -29,18 +29,18 @@
       <b-container>
         <div class="row p-md-4 py-2">
           <div class="col-xl-4 col-lg-12 col-md-12 col-12">
-            <router-link to="/services" class="hvr-grow">
+            <router-link to="/network" class="hvr-grow">
               <card data-aos="fade-up" cardIcon="fi-rr-network-cloud" cardTitle="Network" cardDetails="Installation, Upgrade and Maintainance"></card>
             </router-link>
           </div>
           <div class="col-xl-4 col-lg-12 col-md-12 col-12">
-            <router-link to="/services" class="hvr-grow">
-              <card data-aos="fade-up" cardIcon="fi-rr-laptop" cardTitle="Hardware & Software" cardDetails="Installation, Upgrade and Maintainance"></card>
+            <router-link to="/Hardware" class="hvr-grow">
+              <card data-aos="fade-up" cardIcon="fi-rr-laptop" cardTitle="Hardware" cardDetails="Installation, Upgrade and Troubleshooting"></card>
             </router-link>
           </div>
           <div class="col-xl-4 col-lg-12 col-md-12 col-12">
-            <router-link to="/services" class="hvr-grow">
-              <card data-aos="fade-up" cardIcon="fi-rr-apps" cardTitle="Development" cardDetails="Installation, Upgrade and Maintainance"></card>
+            <router-link to="/Software" class="hvr-grow">
+              <card data-aos="fade-up" cardIcon="fi-rr-apps" cardTitle="Development" cardDetails="Web and Native Applications"></card>
             </router-link>
           </div>
         </div>
@@ -60,26 +60,25 @@
         </div>
     
         <b-container>
-          <detailing data-aos="fade-up" class="mx-xl-5 py-xl-4 m-lg-2 px-md-0 pt-3 px-4 text-lg-justify text-left deepblue" detailing="We know that to add great value to clients, we have to work together. We provide the best people and bring them together in teams to deliver our services. Our teams are diverse in their disciplines, ideas, perspectives and cultures. When necessary
-          we extend our capability by partnering with organizations with similar values to our own but with complementary skills and abilities.">
+          <detailing data-aos="fade-up" class="mx-xl-5 py-xl-4 m-lg-2 px-md-0 pt-3 px-4 text-lg-justify text-left deepblue" detailing="We know that to add great value to clients, we have to work together. We provide the best people and bring them together in teams to deliver our services.When necessary we extend our capability by partnering with organizations with similar values to our own but with complementary skills and abilities.">
           </detailing>
         </b-container>
         
         <b-container class="mx-xl-4 pb-xl-5">
-          <div class="row d-flex justify-content-center mb-lg-5 pb-lg-5 py-2">
-            <div class="col-xl-6 col-lg-12 col-md-12 col-12 py-0 m-0">
+          <div class="row d-flex justify-content-center mb-lg-5 pb-lg-5 py-3">
+            <div class="col-xl-6 col-lg-12 col-md-12 col-12">
               <tupleimg imageOne="https://images.unsplash.com/photo-1541178735493-479c1a27ed24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" imageTwo="https://images.unsplash.com/photo-1621905251918-48416bd8575a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"></tupleimg>
             </div>
             <div class="col-xl-6 col-lg-12 col-md-12 col-12">
               <div class="mt-2">
                 <b-container class="p-0 m-0">
                   <div class="p-0 m-0">
-                    <subtitle data-aos="fade-right" class="text-left deepblue" subtitle="Why?"></subtitle>
+                    <subtitle data-aos="fade-right" class="text-left deepblue px-1" subtitle="Why?"></subtitle>
                   </div>
                 </b-container>
                 
                 <b-container>
-                  <detailing data-aos="fade-left" class="px-4 py-0 my-0 text-left deepblue" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
+                  <detailing data-aos="fade-left" class="px-3 py-0 my-0 text-left deepblue" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
                   </detailing>
                 </b-container>
               </div>
@@ -154,8 +153,8 @@
       </b-container>
     </div>
 
-    <div class="section white-bg py-xl-5 py-md-3 py-5">
-      <div class="pt-3">
+    <div class="section white-bg py-xl-5 py-md-3 py-3">
+      <div class="">
         <b-container>
           <div class="mx-4">
             <subtitle class="deepblue" data-aos="fade-up" subtitle="Lets hear what our friends say.."></subtitle>

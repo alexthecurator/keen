@@ -24,11 +24,25 @@ export default {
             firstScrollPos = window.scrollY;
 
             if(firstScrollPos > 512){
-              toggle.classList.add('showToggle');  
+              toggle.classList.add('showToggle');
+
             } else if(firstScrollPos < 512){
                 toggle.classList.remove('showToggle');
             } 
         });
+
+        function removeToggleWhenIdle(){
+            var timer = 0;
+            while(timer <=5){
+                timer++;
+                console.log(timer);
+            }  
+            
+            if(timer === 5){
+              toggle.classList.remove('showToggle');  
+            }
+        }
+        removeToggleWhenIdle();
     }
 }
 </script>
@@ -38,7 +52,7 @@ export default {
         position: fixed;
         z-index: 999999;
         bottom: 20%;
-        right: 20%;
+        right: 5%;
         padding: 0px;
         display: block;
         opacity: 0%;
@@ -57,33 +71,22 @@ export default {
         
     }
     @media screen and (max-width: 1024px){
-        .toogle-brd {
-            width: 62px;
-            height: 62px;
-        }
+        
     }
     @media screen and (max-width: 780px){
-        .toogle-brd {
-            width: 62px;
-            height: 62px;
-        }
+        
     }
     @media screen and (max-width: 420px){
-        .toogle-brd {
-            width: 62px;
-            height: 62px;
-        }
+        
     }
     @media screen and (max-width: 380px){
-        .toogle-brd {
-            width: 62px;
-            height: 62px;
-        }
+        
     }
     @media screen and (max-width: 320px){
-        .toogle-brd {
-            width: 62px;
-            height: 62px;
+        .toggle .toggle-logo {
+            width: 72px;
+            height: 72px;
+            
         }
     }
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div class="detailing">
-        <p> {{ detailing }} </p>
+        <p class="pb-1"> {{ detailing }} </p>
     </div>
 </template>
 
@@ -58,13 +58,13 @@ export default {
     @media screen and (max-width: 380px){
         .detailing {
             font-size: 4vw;
-            line-height: 18px;
+            line-height: 19px;
         }
     }
     @media screen and (max-width: 320px){
         .detailing {
-            font-size: 12px;
-            line-height: 12px;
+            font-size: 13px;
+            line-height: 16px;
         }
     }
 </style>

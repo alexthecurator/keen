@@ -113,7 +113,7 @@ export default {
             width: 160px;
             height: 120px;
             top: 70px;
-            left: 70px;
+            left: 20%;
         }
     }
     @media screen and (max-width: 380px){
@@ -127,8 +127,8 @@ export default {
         .tupleimg-two, .tupleimg-two img {
             width: 130px;
             height: 90px;
-            top: 55px;
-            left: 60px;
+            top: 55%;
+            left: 33%;
         }
     }
     @media screen and (max-width: 320px) {
