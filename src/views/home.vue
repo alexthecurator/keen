@@ -48,7 +48,7 @@
     </div>
 
     <div class="section white-bg py-xl-5 py-md-3">
-      <b-container>
+      <b-container fluid>
         <div class="py-xl-2">
           <b-container>
             <subtitle data-aos="fade-up" class="deepblue" subtitle="Our Values"></subtitle>
@@ -239,8 +239,5 @@ export default {
 </script>
 
 <style>
-.live-chat {
-    position: fixed;
-    z-index: 999999;
-}
+
 </style>

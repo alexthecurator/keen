@@ -19,7 +19,7 @@ export default {
     mounted(){
         const toggle = document.getElementById('toggleBtn');
         var firstScrollPos = 0;
-
+        var passive = true;
         document.addEventListener('scroll', function(){
             firstScrollPos = window.scrollY;
 
@@ -29,7 +29,7 @@ export default {
             } else if(firstScrollPos < 512){
                 toggle.classList.remove('showToggle');
             } 
-        });
+        }, passive);
 
         // function removeToggleWhenIdle(){
         //     for(var timer = 0; timer <=5; timer++){

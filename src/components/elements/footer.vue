@@ -15,7 +15,7 @@
           <div class="row">
             <div class="col-xl-4 col-lg-12 col-md-12 col-12">
               <div class="text-center text-xl-left">
-                <div class="py-xl-2 pb-xl-0">
+                <div class="py-xl-2 pb-xl-0 d-none d-lg-none">
                   <img class="footer-logo" src="../../assets/logos/KEENComms-white.svg" alt="keen communications">
                 </div>
                 <div class="p-2">
@@ -119,19 +119,19 @@
             </div>
             <ul class="d-md-flex justify-content-center footer-menu p-2">
                 
-                <li class="footer-item" ><a class="footer-link" href="#/network">Network Services</a></li>
+                <li class="footer-item" ><a class="footer-link" href="#/network">Network</a></li>
 
                 <div class="d-md-flex justify-content-center pt-1 py-3">
                   <grayseparator></grayseparator>
                 </div>
 
-                <li class="footer-item"><a class="footer-link" href="#/hardware">Hardware Services</a></li>
+                <li class="footer-item"><a class="footer-link" href="#/hardware">Hardware</a></li>
 
                 <div class="d-md-flex justify-content-center pt-1 py-3">
                   <grayseparator></grayseparator>
                 </div>
 
-                <li class="footer-item"><a class="footer-link" href="#/software">Software Services</a></li>
+                <li class="footer-item"><a class="footer-link" href="#/software">Software</a></li>
 
                 <div class="d-md-flex justify-content-center pt-1 py-3">
                   <grayseparator></grayseparator>

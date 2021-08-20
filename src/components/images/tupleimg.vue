@@ -30,7 +30,7 @@ export default {
     .tupleimg-one img {
         width: 480px;
         height: 340px;
-        position: relative;
+        position: inhert;
         z-index: 100;
     }
     .tupleimg-two, .tupleimg-two img {

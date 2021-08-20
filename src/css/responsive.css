@@ -36,10 +36,6 @@
         width: 53.35px;
         height: 35px;
     }
-    .footer-logo {
-        width: 42px;
-        height: 20px;
-    }
 }
 
 @media screen and (max-width:780px) {
@@ -56,10 +52,6 @@
         width: 53.35px;
         height: 35px;
     }
-    .footer-logo {
-        width: 42px;
-        height: 20px;
-    }
 }
 
 @media screen and (max-width:480px) {
@@ -75,10 +67,6 @@
     .brand-logo-m {
         width: 53.35px;
         height: 35px;
-    }
-    .footer-logo {
-        width: 42px;
-        height: 20px;
     }
 }
 
@@ -100,10 +88,6 @@
         width: 340px;
         height: 160px;
     }
-    .footer-logo {
-        width: 42px;
-        height: 20px;
-    }
 }
 
 @media screen and (max-width:380px) {
@@ -120,10 +104,6 @@
         width: 53.35px;
         height: 35px;
     }
-    .footer-logo {
-        width: 42px;
-        height: 20px;
-    }
 }
 
 @media screen and (max-width:320px) {
@@ -139,10 +119,6 @@
     .brand-logo-m {
         width: 53.35px;
         height: 35px;
-    }
-    .footer-logo {
-        width: 42px;
-        height: 20px;
     }
 }
 

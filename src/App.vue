@@ -38,6 +38,5 @@ export default {
   margin: 0;
   top: 0;
   left: 0;
-  overflow-x: none;
 }
 </style>
