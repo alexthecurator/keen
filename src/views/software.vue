@@ -11,6 +11,19 @@
     </div>
 
     <div class="section white-bg py-xl-5">
+      <div class="p-xl-0 pt-2">
+        <b-container>
+          <subtitle class="deepblue" subtitle="Why choose us"></subtitle>
+        </b-container>
+      </div>
+
+      <div class="d-flex justify-content-center py-xl-2">
+        <separatormedium></separatormedium>
+      </div>
+      <thesectionrev thetitle="We are solutionists" thedetails="Problems are what hinder your organization to takeoff, Automated workflows synced with seamless intergrations make life so much easier where all repetative and co-relative tasks are handled effectively with accuracy and efficiency" theillustration="solutionist.svg"></thesectionrev>
+    </div>
+
+    <div class="section white-bg py-xl-5">
       <div class="py-xl-0">
         <div class="p-xl-0 pt-2">
           <b-container>
@@ -23,7 +36,7 @@
         </div>
 
         <b-container>
-          <detailing class="mx-xl-5 pt-3 px-4 text-center deepblue" detailing="We strive to achieve the best network architecture for quality communication, that drives the morden economy.">
+          <detailing class="mx-xl-5 pt-3 px-4 text-center deepblue" detailing="As of any production build maintainace and support is key to ensuring good performance, We provide these services as part of solving daily issues">
           </detailing>
         </b-container>
       
@@ -44,7 +57,7 @@
                         <div class="card-title">
                             <cardtitle class="deepblue" cardtitle="Installation"></cardtitle>
                         </div>
-                        <cardetails class="deepblue" carddetails="We provide from the ground up, Network platform installation with the best quality devices."></cardetails>
+                        <cardetails class="deepblue mx-xl-2" carddetails="We download, configure and install software packages, as per your requirements"></cardetails>
                     </center>
                 </div>
                 <div class="col-4 p-0">
@@ -57,7 +70,7 @@
                         <div class="card-title">
                             <cardtitle class="deepblue" cardtitle="Upgrading"></cardtitle>
                         </div>
-                        <cardetails class="deepblue" carddetails="To the latest tools and network architecture which provide efficient performance"></cardetails>
+                        <cardetails class="deepblue mx-xl-2" carddetails="Daily updates are required by your software package inorder to stay running with latest features"></cardetails>
                     </center>
                 </div>
                 <div class="col-4 p-0">
@@ -68,9 +81,9 @@
                             </div>
                         </div>
                         <div class="card-title">
-                            <cardtitle class="deepblue" cardtitle="Maintainance"></cardtitle>
+                            <cardtitle class="deepblue" cardtitle="Troubleshooting"></cardtitle>
                         </div>
-                        <cardetails class="deepblue" carddetails="Of your network infrastructure and operational nodes with full support"></cardetails>
+                        <cardetails class="deepblue mx-xl-2" carddetails="We solve daily software issues and bugs, also accompanied with consultation services that aid deeper understanding"></cardetails>
                     </center>
                 </div>
             </div>
@@ -81,7 +94,7 @@
         <b-container class="pb-xl-4">
           <div class="row d-xl-flex justify-content-center">
             <div class="col-xl-5 col-7">
-                <tupleimgsmall largeImg="support.jpg" smallImg="technician.jpg"></tupleimgsmall> 
+                <tupleimgsmall largeImg="code.webp" smallImg="programmer.webp"></tupleimgsmall> 
             </div>
             <div class="col-xl-4 col-5">
               <thetitle class="deepblue" thetitle="24/7"></thetitle>
@@ -111,21 +124,21 @@
     <div class="section white-bg py-xl-5">
       <div class="p-xl-0 pt-2">
         <b-container>
-          <subtitle class="deepblue" subtitle="Why choose us"></subtitle>
+          <subtitle class="deepblue" subtitle="Our solutions"></subtitle>
         </b-container>
       </div>
 
       <div class="d-flex justify-content-center py-xl-2">
         <separatormedium></separatormedium>
       </div>
-      <thesectionrev thetitle="To Achieve Seamless Performance" thedetails="Reliable connectivity is an art that is yet to be perfected here in Tanzania, hence we aim to provide fluent, efficient and quality network infrustrucutures able to scale without repucations, and handle vigorous conditions affecting the network" theillustration="server.svg"></thesectionrev>
+      <thesectionrev thetitle="Web Based Applications" thedetails="Are crossplatform, software solutions where compatibilty selection is cancelled out. From static, dynamic to prograssive web based softwares are developed, launched and maintained by our skilled developers and technicians with experience in the field." theillustration="web.svg"></thesectionrev>
     </div>
     
     <div class="section white-bg py-xl-5">
       <div class="d-flex justify-content-center py-xl-2">
         <separatormedium></separatormedium>
       </div>
-      <thesection head="To Achieve Seamless Performance" detail="Reliable connectivity is an art that is yet to be perfected here in Tanzania, hence we aim to provide fluent, efficient and quality network infrustrucutures able to scale without repucations, and handle vigorous conditions affecting the network" theIllustration="seamless.svg"></thesection>
+      <thesection head="Native Applications" detail="For verbose problems and multi-complex tasks this is the best approach as it targets a closed market of mid-high end devices, it is a compatible method depending on the approach of the stakeholders but proven most effective in the market. We develop, launch and maintain mobile and desktop applications" theIllustration="cross-platform.svg"></thesection>
     </div>
     
     <div class="section white-bg">

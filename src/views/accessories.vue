@@ -87,7 +87,7 @@
           <b-container class="mx-xl-4 pb-xl-5">
             <div class="row d-flex justify-content-center mb-lg-5 pb-lg-5 py-2">
               <div class="col-xl-6 col-lg-12 col-md-12 col-12 py-0 m-0">
-                <tupleimg imageOne="support.jpg" imageTwo="technician.jpg"></tupleimg>
+                <tupleimg imageOne="gadgtes.webp" imageTwo="accessories.webp"></tupleimg>
               </div>
               <div class="col-xl-6 col-lg-12 col-md-12 col-12">
                 <div class="mt-2">
@@ -112,7 +112,7 @@
   <div class="section white-bg py-xl-5">
       <div class="p-xl-0 pt-2">
         <b-container>
-          <subtitle class="deepblue" subtitle="Why choose us"></subtitle>
+          <subtitle class="deepblue" subtitle="Get the good stuff here"></subtitle>
         </b-container>
       </div>
 
@@ -120,14 +120,14 @@
         <separatormedium></separatormedium>
       </div>
       
-      <thesectionrev thetitle="To Achieve Seamless Performance" thedetails="Reliable connectivity is an art that is yet to be perfected here in Tanzania, hence we aim to provide fluent, efficient and quality network infrustrucutures able to scale without repucations, and handle vigorous conditions affecting the network" theillustration="server.svg"></thesectionrev>
+      <thesectionrev thetitle="To Achieve Seamless Performance" thedetails="Reliable connectivity is an art that is yet to be perfected here in Tanzania, hence we aim to provide fluent, efficient and quality network infrustrucutures able to scale without repucations, and handle vigorous conditions affecting the network" theillustration="shopping.svg"></thesectionrev>
     </div>
     
     <div class="section white-bg py-xl-5">
       <div class="d-flex justify-content-center py-xl-2">
         <separatormedium></separatormedium>
       </div>
-      <thesection head="To Achieve Seamless Performance" detail="Reliable connectivity is an art that is yet to be perfected here in Tanzania, hence we aim to provide fluent, efficient and quality network infrustrucutures able to scale without repucations, and handle vigorous conditions affecting the network" theIllustration="seamless.svg"></thesection>
+      <thesection head="To Achieve Seamless Performance" detail="Reliable connectivity is an art that is yet to be perfected here in Tanzania, hence we aim to provide fluent, efficient and quality network infrustrucutures able to scale without repucations, and handle vigorous conditions affecting the network" theIllustration="unboxing.svg"></thesection>
     </div>
 
   <div class="section">

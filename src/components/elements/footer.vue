@@ -15,7 +15,7 @@
           <div class="row">
             <div class="col-xl-4 col-lg-12 col-md-12 col-12">
               <div class="text-center text-xl-left">
-                <div class="py-xl-2 pb-xl-0 d-none d-lg-none">
+                <div class="py-xl-2 pb-xl-0 d-none d-lg-block">
                   <img class="footer-logo" src="../../assets/logos/KEENComms-white.svg" alt="keen communications">
                 </div>
                 <div class="p-2">

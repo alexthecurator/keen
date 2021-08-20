@@ -20,7 +20,7 @@ export default {
 </script>
 <style type="text/css">
 .hero {
-    background-image: url('../../assets/images/home.webp');
+    /* background-image: url('../../assets/images/home.webp'); */
     background-attachment: fixed;
     background-position: center;
     background-size: cover;

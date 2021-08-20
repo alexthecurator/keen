@@ -11,6 +11,19 @@
     </div>
 
     <div class="section white-bg py-xl-5">
+      <div class="p-xl-0 pt-2">
+        <b-container>
+          <subtitle class="deepblue" subtitle="Why choose us"></subtitle>
+        </b-container>
+      </div>
+
+      <div class="d-flex justify-content-center py-xl-2">
+        <separatormedium></separatormedium>
+      </div>
+      <thesectionrev thetitle="Experience matters greatly" thedetails="We managed to solve a range issues/problems over a duration since establishment of the organization, hence we have acquired enough knowledge about the issues that most users consider fatal. Our experience has built and equipped our team of experts to serve you at the best quality service" theillustration="circuit_guy.svg"></thesectionrev>
+    </div>
+
+    <div class="section white-bg py-xl-5">
       <div class="py-xl-0">
         <div class="p-xl-0 pt-2">
           <b-container>
@@ -81,7 +94,7 @@
         <b-container class="pb-xl-4">
           <div class="row d-xl-flex justify-content-center">
             <div class="col-xl-5 col-7">
-                <tupleimgsmall largeImg="support.jpg" smallImg="technician.jpg"></tupleimgsmall> 
+                <tupleimgsmall largeImg="soldering.webp" smallImg="Troubleshooting.webp"></tupleimgsmall> 
             </div>
             <div class="col-xl-4 col-5">
               <thetitle class="deepblue" thetitle="24/7"></thetitle>
@@ -109,23 +122,10 @@
     </div>
 
     <div class="section white-bg py-xl-5">
-      <div class="p-xl-0 pt-2">
-        <b-container>
-          <subtitle class="deepblue" subtitle="Why choose us"></subtitle>
-        </b-container>
-      </div>
-
       <div class="d-flex justify-content-center py-xl-2">
         <separatormedium></separatormedium>
       </div>
-      <thesectionrev thetitle="To Achieve Seamless Performance" thedetails="Reliable connectivity is an art that is yet to be perfected here in Tanzania, hence we aim to provide fluent, efficient and quality network infrustrucutures able to scale without repucations, and handle vigorous conditions affecting the network" theillustration="server.svg"></thesectionrev>
-    </div>
-    
-    <div class="section white-bg py-xl-5">
-      <div class="d-flex justify-content-center py-xl-2">
-        <separatormedium></separatormedium>
-      </div>
-      <thesection head="To Achieve Seamless Performance" detail="Reliable connectivity is an art that is yet to be perfected here in Tanzania, hence we aim to provide fluent, efficient and quality network infrustrucutures able to scale without repucations, and handle vigorous conditions affecting the network" theIllustration="seamless.svg"></thesection>
+      <thesection head="All devices" detail="Reliable connectivity is an art that is yet to be perfected here in Tanzania, hence we aim to provide fluent, efficient and quality network infrustrucutures able to scale without repucations, and handle vigorous conditions affecting the network" theIllustration="fixing.svg"></thesection>
     </div>
     
     <div class="section white-bg">

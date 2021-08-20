@@ -64,25 +64,28 @@
           </detailing>
         </b-container>
         
-        <b-container class="mx-xl-4 pb-xl-5">
-          <div class="row d-flex justify-content-center mb-lg-5 pb-lg-5 py-3">
-            <div class="col-xl-6 col-lg-12 col-md-12 col-12">
-              <tupleimg imageOne="https://images.unsplash.com/photo-1541178735493-479c1a27ed24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" imageTwo="https://images.unsplash.com/photo-1621905251918-48416bd8575a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"></tupleimg>
-            </div>
-            <div class="col-xl-6 col-lg-12 col-md-12 col-12">
-              <div class="mt-2">
-                <b-container class="p-0 m-0">
-                  <div class="p-0 m-0">
-                    <subtitle data-aos="fade-right" class="text-left deepblue px-1" subtitle="Why?"></subtitle>
-                  </div>
-                </b-container>
-                
-                <b-container>
-                  <detailing data-aos="fade-left" class="px-3 py-0 my-0 text-left deepblue" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
-                  </detailing>
-                </b-container>
+        <b-container>
+          <div class="d-flex justify-content-center mb-lg-5 pb-lg-5 py-3">
+            <div class="row">
+              <div class="col-xl-6 col-lg-12 col-md-12 col-12">
+                <tupleimg imageOne="Black-man-IT.webp" imageTwo="computers.webp"></tupleimg>
+              </div>
+              <div class="col-xl-6 col-lg-12 col-md-12 col-12">
+                <div class="mt-2">
+                  <b-container class="p-0 m-0">
+                    <div class="p-0 m-0">
+                      <subtitle data-aos="fade-right" class="text-left deepblue px-1" subtitle="Why?"></subtitle>
+                    </div>
+                  </b-container>
+                  
+                  <b-container>
+                    <detailing data-aos="fade-left" class="px-3 py-0 my-0 text-left deepblue" detailing="To provide long term value to our customers by having services that not only cost effective, but reliable and simple to manage.">
+                    </detailing>
+                  </b-container>
+                </div>
               </div>
             </div>
+            
           </div>
         </b-container>
 

@@ -81,7 +81,7 @@
         <b-container class="pb-xl-4">
           <div class="row d-xl-flex justify-content-center">
             <div class="col-xl-5 col-7">
-                <tupleimgsmall largeImg="support.jpg" smallImg="technician.jpg"></tupleimgsmall> 
+                <tupleimgsmall largeImg="network.webp" smallImg="hardware.webp"></tupleimgsmall> 
             </div>
             <div class="col-xl-4 col-5">
               <thetitle class="deepblue" thetitle="24/7"></thetitle>
@@ -122,10 +122,7 @@
     </div>
     
     <div class="section white-bg py-xl-5">
-      <div class="d-flex justify-content-center py-xl-2 pb-4">
-        <separatormedium></separatormedium>
-      </div>
-      <thesection head="To Achieve Seamless Performance" detail="Reliable connectivity is an art that is yet to be perfected here in Tanzania, hence we aim to provide fluent, efficient and quality network infrustrucutures able to scale without repucations, and handle vigorous conditions affecting the network" theIllustration="seamless.svg"></thesection>
+      <thesection head="To Boost Productivity Effiency" detail="Simplified communication through stable network platforms assure achievement of organization KPI's and goals on time without having to worry about delivery mediums. Never the less it natures growth" theIllustration="seamless.svg"></thesection>
     </div>
 
     <div class="section white-bg">

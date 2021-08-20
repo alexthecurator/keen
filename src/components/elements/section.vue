@@ -1,6 +1,6 @@
 <template>
     <div class="px-5 mx-5">
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center px-xl-5 mx-xl-5">
             <b-row align-v="center">
                 <b-col>
                     <div class="px-xl-5 mx-xl-5 pt-2 mt-3">
@@ -42,7 +42,7 @@ export default {
         font-weight: 300;
     }
     .maincaption h2{
-        font-size: 48px;
+        font-size: 32px;
     }
     .btntext {
         font-size: 18px;
