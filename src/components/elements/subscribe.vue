@@ -73,33 +73,64 @@ export default {
                 });
                 state = true;
             }
+
             function resetModal(){
                 name = '';
                 email = '';
                 modal.hide('getstarted');
             }
-            if(name !== "" && email !== ""){
-                writeUserData(name,email);
-                if(state === true){
-                    resetModal();
+            
+            function checkEmail(mail){
+                var mailState = false;
+                let mailFilter = new RegExp(/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/);
+                if(mail.value.match(mailFilter)){
+                    mailState = true;
                     Swal.fire({
-                        title: 'Thank you for joining us!',
-                        text: 'We send weekly updates on products and services.. stay tuned to find out more!',
-                        timer: 4200,
+                        position: 'top-end',
+                        toast: true,
+                        title: 'Email Confirmed',
                         icon: 'success',
+                        timer: 2200,
                         showConfirmButton: false
                     });
-                    state = false;
                 } else {
-                    resetModal();
+                    mailState = false;
                     Swal.fire({
-                        title: "Sorry, we could'nt subscribe you",
-                        text: 'Please check your internet connection, or refresh your browser and try again',
-                        timer: 4200,
+                        position: 'top-end',
+                        toast: true,
+                        title: 'Please, fill in the correct email',
                         icon: 'error',
+                        timer: 2200,
                         showConfirmButton: false
                     });
-                    state = false;
+                }
+                return mailState;
+            }
+
+            if(name !== "" && email !== ""){
+                if(checkEmail(email).mailState === true){
+                    writeUserData(name,email);
+                    if(state === true){
+                        resetModal();
+                        Swal.fire({
+                            title: 'Thank you for joining us!',
+                            text: 'We send weekly updates on products and services.. stay tuned to find out more!',
+                            timer: 4200,
+                            icon: 'success',
+                            showConfirmButton: false
+                        });
+                        state = false;
+                    } else {
+                        resetModal();
+                        Swal.fire({
+                            title: "Sorry, we could'nt subscribe you",
+                            text: 'Please check your internet connection, or refresh your browser and try again',
+                            timer: 4200,
+                            icon: 'error',
+                            showConfirmButton: false
+                        });
+                        state = false;
+                    }
                 }
             } else {
                 Swal.fire({
