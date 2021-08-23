@@ -21,7 +21,6 @@ AOS.init({
     mirror: false,
     anchorPlacement: 'top-bottom',
 });
-
 // data() {
 //   return{
 //     inMove: false,
