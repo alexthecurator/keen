@@ -76,8 +76,8 @@ export default {
             }
 
             function resetModal(){
-                name = '';
-                email = '';
+                name = ' ';
+                email = ' ';
                 modal.hide('getstarted');
             }
             
@@ -91,7 +91,7 @@ export default {
             }
 
             if(name !== "" && email !== ""){
-                if(checkEmail() === true){
+                if( name !== null && checkEmail() === true){
                     writeUserData(name,email);
                     if(state === true){
                         resetModal();
