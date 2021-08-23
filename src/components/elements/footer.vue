@@ -102,6 +102,7 @@
                     </a>
                   </div>
                 </div>
+                
               </div>
             </div>
 
@@ -141,7 +142,15 @@
               </ul>
           </div>
           <b-container>
-            
+            <div class="hvr-grow p-2">
+              <a href="#">
+                <div class="bluegrad-bg rounded-3">
+                  <div class="py-2 px-4">
+                    <span class="white">Back to top</span>
+                  </div>
+                </div>
+              </a>
+            </div>
           </b-container>
           
         </div>
