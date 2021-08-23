@@ -25,12 +25,8 @@ pnpm-debug.log*
 control
 
 # Un-used API Services
-src/API
-src/apiauth
+src/Api
+src/firebase
 
 # firebase
-.firebase
-firebase-debug.log
-firebase.json
-.firebaserc
-src/firebase
+
