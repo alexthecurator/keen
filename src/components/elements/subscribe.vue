@@ -49,7 +49,7 @@
 <script>
 import {db} from '../../firebase/configInit';
 import Swal from 'sweetalert2'
-import 'firebase/database';
+import 'firebase/firestore';
 
 export default {
     name: 'getstarted',
@@ -65,10 +65,11 @@ export default {
             var email = this.inputEmail;
             var modal = this.$bvModal;
             var state = false;
-            
+
             function writeUserData(name, email) {
-                db.ref().push({
-                    username: name,
+                const subscribe = db.collection('subscribers').doc('subs');
+                subscribe.set({
+                    name: name,
                     email: email,
                 });
                 state = true;
@@ -80,35 +81,17 @@ export default {
                 modal.hide('getstarted');
             }
             
-            function checkEmail(mail){
-                var mailState = false;
-                let mailFilter = new RegExp(/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/);
-                if(mail.value.match(mailFilter)){
-                    mailState = true;
-                    Swal.fire({
-                        position: 'top-end',
-                        toast: true,
-                        title: 'Email Confirmed',
-                        icon: 'success',
-                        timer: 2200,
-                        showConfirmButton: false
-                    });
+            function checkEmail(){
+                let emailFilter = new RegExp(/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/);
+                if(email.match(emailFilter)){ 
+                    return true;
                 } else {
-                    mailState = false;
-                    Swal.fire({
-                        position: 'top-end',
-                        toast: true,
-                        title: 'Please, fill in the correct email',
-                        icon: 'error',
-                        timer: 2200,
-                        showConfirmButton: false
-                    });
+                    return false;
                 }
-                return mailState;
             }
 
             if(name !== "" && email !== ""){
-                if(checkEmail(email).mailState === true){
+                if(checkEmail() === true){
                     writeUserData(name,email);
                     if(state === true){
                         resetModal();
@@ -131,12 +114,21 @@ export default {
                         });
                         state = false;
                     }
+                } else {
+                    Swal.fire({
+                        position: 'top-end',
+                        toast: true,
+                        title: 'Please, fill in the correct email',
+                        icon: 'error',
+                        timer: 2200,
+                        showConfirmButton: false
+                    });
                 }
             } else {
                 Swal.fire({
                     position: 'top-end',
                     toast: true,
-                    title: 'Please fill in your name and email',
+                    title: 'Please fill both your name and email',
                     icon: 'warning',
                     timer: 2200,
                     showConfirmButton: false
